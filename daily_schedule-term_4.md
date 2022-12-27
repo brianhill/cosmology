@@ -1,6 +1,6 @@
 ## Cosmology &mdash; Daily Schedule &mdash; Term 4
 
-Manhattan Project [home page](./)
+Course [home page](./)
 
 ### Week 1 (Jan. 8-14)
 
