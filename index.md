@@ -1,6 +1,6 @@
 ## Cosmology and Black Holes
 
-Terms 4-5, Deep Springs College, Prof. [Brian Hill](../index.html)
+Spring 2023, Deep Springs College, Prof. [Brian Hill](../index.html)
 
 ## Syllabus
 
