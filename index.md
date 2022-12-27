@@ -1,4 +1,4 @@
-## Cosmology and Black Holes
+## History and Science of the Manhattan Project
 
 Spring 2023, Deep Springs College, Prof. [Brian Hill](../index.html)
 
@@ -15,6 +15,7 @@ Spring 2023, Deep Springs College, Prof. [Brian Hill](../index.html)
 Detailed daily schedules will be kept retrospectively:
 
 * [Daily Schedule Term 4](./daily_schedule-term_4.html)
+* [Daily Schedule Term 5](./daily_schedule-term_5.html)
 
 ## Texts
 
