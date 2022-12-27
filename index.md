@@ -1,4 +1,4 @@
-## History and Science of the Manhattan Project
+## Cosmology and Black Holes
 
 Spring 2023, Deep Springs College, Prof. [Brian Hill](../index.html)
 
