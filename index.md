@@ -51,7 +51,7 @@ We will draw principally from:
 
 * John Archibald Wheeler: *Gravity and Spacetime*
 * Kip Thorne: *Black Holes and Time Warps*
-* Edwin Taylor and John Archibald Wheeler: *Spacetime Physics, 2nd Edition* &larr; great for many purposes, but too focused on Special Relativity to be our primary text
+* Edwin Taylor and John Archibald Wheeler: *Spacetime Physics, 2nd Edition* &larr; great for many purposes, but too focused on special relativity (with very little general relativity) for us
 * Selected historical papers establishing Big Bang cosmology
 * Selected modern papers containing the evidence for dark matter and dark energy
 * Selected modern papers on gravitational wave detection and black hole mergers
@@ -64,7 +64,7 @@ There may be a desire to read Einstein directly, despite Wheeler and associates 
 
 ## Grading
 
-* 45&percnt; homework, 20&percnt; for midterm (one near the end of each term), 25&percnt; for final, 10&percnt; active preparation and participation in discussions
+* 45% homework, 20% for midterm (one near the end of each term), 25% for final, 10% active preparation and participation in discussions
 
 ## Miscellaneous Policies
 
