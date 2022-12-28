@@ -8,9 +8,9 @@ Spring 2023, Deep Springs College, Prof. [Brian Hill](../index.html)
 
 ## Overview
 
-In two momentous leaps, Einstein discovered that space and time are not what we thought them to be. They are intertwined. I cannot explain how they are intertwined in this overview. If I could, there would be no need for a course. You have never experienced this intertwining, because it only becomes apparent when either (a) you are moving at near the speed of light, or (b) you are in the vicinity of an object even larger and denser than our Sun. The intertwining is highly counterintuitive. We call the intertwined fabric of space and time, &ldquo;spacetime.&rdquo;
+In two momentous leaps, Einstein discovered that space and time are not what we thought them to be. They are intertwined. I cannot explain how they are intertwined in this overview. If I could, there would be no need for a course. You have never experienced this intertwining, because it only becomes apparent when either (a) you are moving at near the speed of light, or (b) you are in the vicinity of an object even heavier and denser than our Sun. The intertwining is highly counterintuitive. We call the intertwined fabric of space and time, &ldquo;spacetime.&rdquo;
 
-More than anyone else since Einstein, John Archibald Wheeler has influenced our understanding of spacetime. He is a co-author on the best-known textbooks in the field and his students have gone on to advance the subject dramatically. Most notable, perhaps, is his student, Kip Thorne.
+More than anyone else since Einstein, John Archibald Wheeler has influenced our understanding of spacetime. He is an author or co-author on the best-known textbooks in the field and his students have gone on to advance the subject dramatically. Most notable of his students, perhaps, is Kip Thorne.
 
 We will work through Wheeler’s, Thorne’s and others' descriptions of three things: (1) special relativity, which is how space and time are related in the absence of gravity, (2) the behavior of spacetime around a black hole, and (3) the behavior of the spacetime of the entire universe, which is the subject of cosmology.
 
@@ -58,20 +58,19 @@ We will draw principally from:
 
 ## Other Resources
 
-There may be a desire to read Einstein directly, despite Wheeler and associates being the more modern and masterful pedagogues. Einstein has written a monograph that is both precise and accessible and has been reprinted many times. Therefore we could draw from:
+There may be a desire to read Einstein directly, despite Wheeler and his colleagues being the more modern and masterful pedagogues. Einstein has written a monograph that is both precise and accessible and has been reprinted many times. Therefore we could draw from:
 
 * [*Relativity: The Special and General Theory*](https://www.amazon.com/dp/048641714X) by Albert Einstein
 
 ## Grading
 
-* 45% homework, 20% for midterm (one near the end of each term), 25% for final, 10% active preparation and participation in discussions
+* 45% homework, 20% for midterm (near the end of term 4), 25% for final (near the end of term 5), 10% active preparation and participation in discussions
 
 ## Miscellaneous Policies
 
 There will be a lot of handouts. Get a three-ring binder to keep all the handouts and problem sets organized. Assignments should be on 8 1/2 x 11 paper (and not torn out from a bound notebook). Multi-page assignments should be stapled. Corrections should be erased (if done in pencil) or recopied (if done in pen).
 
-The College's general policies on absences and late work are applicable. There was an email from the Dean on this September 8, 2022. The
-policies below are consistent with that email:
+The College's general policies on absences and late work are applicable. There was an email from the Dean on this September 8, 2022. The policies below are consistent with that email:
 
 Whereas missed coursework affects both your classmates and professors by lowering the thinking and understanding you bring to a given class, and interrupts the course schedule that has been set up and is adjusted on an ongoing basis with substantial care. The same is true for absences &mdash; whereas a handful of absences might be &ldquo;normal&rdquo; at colleges with large lectures or less serious academics, at Deep Springs we expect students to miss *no classes* save for legitimate health issues or emergencies requiring also missing labor and governance obligations.
 
