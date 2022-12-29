@@ -65,7 +65,7 @@ There may be a desire to read Einstein directly, despite Wheeler and his colleag
 
 * [*Relativity: The Special and General Theory*](https://www.amazon.com/dp/048641714X), by Albert Einstein
 
-However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we need something that is much more recent.br
+However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we need something that is much more recent.
 
 ## Grading
 
