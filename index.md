@@ -52,16 +52,18 @@ I plan to draw from:
 * [*A Journey into Gravity and Spacetime*](https://www.amazon.com/dp/0716760347), by John Archibald Wheeler &larr; could be great for our class, except the presentation is almost at a for-children level &mdash; I will be reading this for insights
 * [*Black Holes and Time Warps*](https://www.amazon.com/dp/0393312763), by Kip Thorne &larr; another great survey, but again at a mathematical level a little below where we want to be
 * [*Spacetime Physics, 2nd Edition*](https://www.amazon.com/dp/0716723271), by Edwin F. Taylor and John Archibald Wheeler &larr; great for many purposes, but for what I want to cover, it is too focused on special relativity with very little general relativity
-* [*Exploring Black Holes: Introduction to General Relativity](https://www.amazon.com/dp/020138423X), by Edwin F. Taylor and John Archibald Wheeler &larr; whether it was consciously or subliminally I don't recall, this book is probably the inspiration for the course proposal &mdash; it is closest in level to the level we want to work at, and is lacking only insofar as it needs additional chapters on cosmology to get to our major topics in Term 5
+* [*Exploring Black Holes: Introduction to General Relativity*](https://www.amazon.com/dp/020138423X), by Edwin F. Taylor and John Archibald Wheeler &larr; whether it was consciously or subliminally I don't recall, this book is probably the inspiration for the course proposal &mdash; it is closest in level to the level we will be working at, and is lacking only insofar as it needs additional chapters on cosmology to get to all of our major topics
 * Selected historical papers that established Big Bang cosmology
 * Selected modern papers containing the evidence for dark matter and dark energy
 * Selected modern papers on gravitational wave detection and black hole mergers
+
+However, on the first day, we will discuss whether you would prefer to just follow Einstein. See below.
 
 ## Other Resources
 
 There may be a desire to read Einstein directly, despite Wheeler and his colleagues being the more modern and masterful pedagogues. Einstein has written a monograph that is both precise and accessible and has been reprinted many times. Therefore, for about 2/3 of our course we could draw from:
 
-* [*Relativity: The Special and General Theory*,](https://www.amazon.com/dp/048641714X) by Albert Einstein
+* [*Relativity: The Special and General Theory*](https://www.amazon.com/dp/048641714X), by Albert Einstein
 
 However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we need something that is much more recent.br
 
