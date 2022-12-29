@@ -18,15 +18,15 @@ We will work through Wheeler’s, Thorne’s and others' descriptions of three t
 
 *The following is provisional!*
 
-### Term 4 &mdash; Special Relativity and Black Holes
+### Term 4 &mdash; Galilean Relativity, Special Relativity, Black Holes
 
-I. Euclidean Space, Euclidean Metric, Euclidean Rotations
+I. Euclidean Space: Euclidean Metric, Euclidean Rotations, Galilean Relativity
 
-II. Lorentz Metric, Lorentz Transformations
+II. Minkowski Space: Lorentz Metric, Lorentz Transformations, Special Relativity
 
-III. Polar Coordinates in Flat and Curved Spacetime
+III. Polar Coordinates in Flat and Curved Spacetime in 2+1 and 3+1 Dimensions
 
-IV. The Schwarzschild Metric, Stellar-Mass Black Holes, Supermassive Black Holes
+IV. The Lifecycle of Stars, The Schwarzschild Metric, Stellar-Mass Black Holes, Supermassive Black Holes
 
 ### Term 5 &mdash; The Big Bang, The Metric for the Universe, Gravitational Waves
 
