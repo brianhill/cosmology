@@ -14,6 +14,8 @@ More than anyone else since Einstein, John Archibald Wheeler has influenced our 
 
 We will work through Wheeler’s, Thorne’s and others' descriptions of three things: (1) special relativity, which is how space and time are related in the absence of gravity, (2) the behavior of spacetime around a black hole, and (3) the behavior of the spacetime of the entire universe, which is the subject of cosmology.
 
+How can we do an honest treatment of a subject so advanced? We are not going to solve Einstein's equations. Instead, we will study the Schwarzschild solution for an uncharged, non-rotating black hole, and then Friedman-Lema&icirc;tre-Robertson-Walker solution for a spatially homogeneous and isotropic, expanding spacetime. By studying the solutions of Einstein's equations rather than the equations themsleves, we can bypass a lot of mathematics that was complex enough that even Einstein needed help (from Hilbert) to understand.
+
 ## Unit Outline
 
 *The following is provisional!*
@@ -47,17 +49,22 @@ Detailed daily schedules will be kept retrospectively:
 
 ## Texts
 
-I plan to draw from:
+Good news (added Sunday, Jan. 8): In just the last week, I learned that there is a second edition of *Exploring Black Holes: Introduction to General Relativity.* In addition to being free, the second edition has been rounded out to include much more modern cosmology.
+
+We will use:
+
+* [*Spacetime Physics, 2nd Edition*](https://www.amazon.com/dp/0716723271), by Edwin F. Taylor and John Archibald Wheeler &larr; great, but it doesn't have nearly enough general relativity. We will start our course by using [Chapters 1, 2, 3, and L](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf). This is a wonderful introduction to special relativity, and most of a semester could be spent on it alone.
+* [*Exploring Black Holes: Introduction to General Relativity*](https://www.amazon.com/dp/020138423X), by Edwin F. Taylor and John Archibald Wheeler &larr; whether it was consciously or subliminally I don't know, this book is probably the inspiration for the course proposal &mdash; it is closest in level to the level we will be working at, and is lacking only insofar as it needs additional chapters on cosmology to get to all of our major topics &mdash; but see good news above!
+
+Additionally, we will draw from:
 
 * [*A Journey into Gravity and Spacetime*](https://www.amazon.com/dp/0716760347), by John Archibald Wheeler &larr; could be great for our class, except the presentation is almost at a for-children level &mdash; I will be reading this for insights
-* [*Black Holes and Time Warps*](https://www.amazon.com/dp/0393312763), by Kip Thorne &larr; another great survey, but again at a mathematical level a little below where we want to be
-* [*Spacetime Physics, 2nd Edition*](https://www.amazon.com/dp/0716723271), by Edwin F. Taylor and John Archibald Wheeler &larr; great for many purposes, but for what I want to cover, it is too focused on special relativity with very little general relativity
-* [*Exploring Black Holes: Introduction to General Relativity*](https://www.amazon.com/dp/020138423X), by Edwin F. Taylor and John Archibald Wheeler &larr; whether it was consciously or subliminally I don't recall, this book is probably the inspiration for the course proposal &mdash; it is closest in level to the level we will be working at, and is lacking only insofar as it needs additional chapters on cosmology to get to all of our major topics
+* [*Black Holes and Time Warps*](https://www.amazon.com/dp/0393312763), by Kip Thorne &larr; another great survey, but again at a mathematical level too far below where we want to be
 * Selected historical papers that established Big Bang cosmology
 * Selected modern papers containing the evidence for dark matter and dark energy
 * Selected modern papers on gravitational wave detection and black hole mergers
 
-However, on the first day, we will discuss whether you would prefer to just follow Einstein. See below.
+However, early in the course, we can discuss whether you would rather read more of Einstein's exposition. See below.
 
 ## Other Resources
 
@@ -65,7 +72,7 @@ There may be a desire to read Einstein directly, despite Wheeler and his colleag
 
 * [*Relativity: The Special and General Theory*](https://www.amazon.com/dp/048641714X), by Albert Einstein
 
-However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we need something that is much more recent.
+However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we need something that is much more recent. No matter what, to get us going while we are making decision, we will start with 
 
 ## Grading
 
