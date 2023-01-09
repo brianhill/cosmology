@@ -2,12 +2,12 @@
 
 Course [home page](./)
 
-### Week 1 (Jan. 8-14)
+### Week 1
 
 * Preparation for Monday, Jan. 9 &mdash; pp. 1-12 of Chapter 1 of [*Spacetime Physics, 2nd Edition*](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf) (the link is to a PDF of Chapters 1, 2, 3, and L) &mdash; If pp. 1-12 seem straightforward, then you haven't yet read it carefully enough! &mdash; It took humanity from 1687 to 1905 to go from Newtonian Relativity to Special Relativity &mdash; Read pp. 1-12 until you are bewildered
 * Thursday, Jan. 12
 
-### Week 2 (Jan 15-21)
+### Week 2
 
 * Monday, Jan. 16
 * Thursday, Jan. 19
