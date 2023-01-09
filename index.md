@@ -14,7 +14,7 @@ More than anyone else since Einstein, John Archibald Wheeler has influenced our 
 
 We will work through Wheeler’s, Thorne’s and others' descriptions of three things: (1) special relativity, which is how space and time are related in the absence of gravity, (2) the behavior of spacetime around a black hole, and (3) the behavior of the spacetime of the entire universe, which is the subject of cosmology.
 
-How can we do an honest treatment of a subject so advanced? We are not going to solve Einstein's equations. Instead, we will study the Schwarzschild solution for an uncharged, non-rotating black hole, and then Friedman-Lema&icirc;tre-Robertson-Walker solution for a spatially homogeneous and isotropic, expanding spacetime. By studying the solutions of Einstein's equations rather than the equations themsleves, we can bypass a lot of mathematics that is advanced enough that even Einstein needed help (from Hilbert) to understand.
+How can we do an honest treatment of a subject so advanced? We are not going to solve Einstein's equations. Instead, we will study the Schwarzschild solution for an uncharged, non-rotating black hole, and then the Friedman-Lema&icirc;tre-Robertson-Walker solution for a spatially homogeneous and isotropic, expanding spacetime. By studying the solutions of Einstein's equations rather than the equations themselves, we can bypass a lot of advanced mathematics that even Einstein needed help (from Hilbert) to understand.
 
 ## Unit Outline
 
@@ -58,23 +58,22 @@ We will use:
 
 Additionally, we will draw from:
 
-* [*A Journey into Gravity and Spacetime*](https://www.amazon.com/dp/0716760347), by John Archibald Wheeler &larr; could be great for our class, except the presentation is almost at a for-children level &mdash; I will be reading this for insights
-* [*Black Holes and Time Warps*](https://www.amazon.com/dp/0393312763), by Kip Thorne &larr; another great survey, but again at a mathematical level too far below where we want to be &mdash; I will also be reading this for insights
+* [*Black Holes and Time Warps*](https://www.amazon.com/dp/0393312763), by Kip Thorne &larr; a great survey, but at a mathematical level that is below where we want to be &mdash; I will be reading this for insights
 * Selected historical papers that established Big Bang cosmology &mdash; Mostly by Hubble
-* Selected modern papers containing the evidence for dark matter and dark energy &mdash; Including those by the High-*z* Supernova Search Team and the Supernova Cosmology Project (whose leaders won the 2011 Nobel Prize)
-* Selected modern papers on gravitational wave detection and black hole mergers &mdash; Including those by LIGO (whose leaders won the 2017 Nobel Prize)
+* Selected modern papers containing the evidence for dark matter and dark energy &mdash; Including some by the High-*z* Supernova Search Team and the Supernova Cosmology Project (whose leaders won the 2011 Nobel Prize)
+* Selected modern papers on gravitational wave detection and black hole mergers &mdash; Including some by LIGO (whose leaders won the 2017 Nobel Prize)
 
 ## Einstein's Exposition
 
 There may be a desire to read Einstein directly, despite Wheeler and his colleagues being the more modern and masterful pedagogues. Einstein has written a monograph that is both precise and accessible and has been reprinted many times and for which there are many free editions. Therefore, for about 1/2 of our course we could draw from:
 
-* [*Relativity: The Special and the General Theory*](./resources/Einstein-Relativity-1916-ProjectGutenberg.pdf), by Albert Einstein, translated by Robert W. Lawson, Project Gutenberg edition, 2021
+* [*Relativity: The Special and the General Theory*](./resources/Einstein-Relativity-1916-ProjectGutenberg.pdf), by Albert Einstein, translated by Robert W. Lawson, Project Gutenberg edition
 
-or perhaps this edition of the same work is more nicely formatted:
+or perhaps this edition of the same work is more nicely formatted, including preserving the original translation's pagination:
 
-* [*Relativity: The Special and the General Theory*](./resources/Einstein-Relativity-1916-ElegantBooks.pdf), by Albert Einstein, translated by Robert W. Lawson, Elegant Books edition, 2021
+* [*Relativity: The Special and the General Theory*](./resources/Einstein-Relativity-1916-ElegantBooks.pdf), by Albert Einstein, translated by Robert W. Lawson, Elegant Books edition
 
-However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we definitely need something that is much more recent. No matter what, and to get us going while we are making decisions, we will start with [Chapters 1, 2, 3, and L](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf) of Taylor and Wheeler, the first book listed above.
+However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we definitely need something that is much more recent than what Einstein gave us in 1916. No matter what, and to get us going while we are making decisions, we will start with [Chapters 1, 2, 3, and L](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf) of Taylor and Wheeler, the first book listed above.
 
 ## Grading
 
@@ -82,10 +81,10 @@ However, to get into modern topics such as supermassive black holes, dark matter
 
 ## Miscellaneous Policies
 
-There will be a lot of handouts and our texts are PDFs that you will be printing out. To be organized, get a three-ring binder (or binders) to keep the texts, the handouts and problem sets organized. Assignments should be on 8 1/2 x 11 paper (and not torn out from a bound notebook). Multi-page assignments should be stapled. Corrections should be erased (if done in pencil) or recopied (if done in pen).
+There will be a lot of handouts and our texts are PDFs that you will be printing out. To be organized, get a three-ring binder (or binders) to keep the texts, the handouts and problem sets organized. Assignments should be on 8 1/2 x 11 paper (and not torn out from a bound notebook). Multi-page assignments should be stapled. Corrections should be erased (if done in pencil) or recopied (if done in pen). To make nice diagrams and graphs, you will often need a ruler.
 
 The College's general policies on absences and late work are applicable. There was an email from the Dean on this September 8, 2022. The policies below are consistent with that email:
 
 Whereas missed coursework affects both your classmates and professors by lowering the thinking and understanding you bring to a given class, and interrupts the course schedule that has been set up and is adjusted on an ongoing basis with substantial care. The same is true for absences &mdash; whereas a handful of absences might be &ldquo;normal&rdquo; at colleges with large lectures or less serious academics, at Deep Springs we expect students to miss *no classes* save for legitimate health issues or emergencies requiring also missing labor and governance obligations.
 
-For a student wishing to submit a course assignment past its required deadline, the student may request an extension on the assignment directly from the professor 48 hours in advance. Within 48 hours of the due date, the student must request an extension directly from the Dean. Exceptions will be granted by the Dean only if the student faces unforeseen and unforeseeable circumstances. A student who misses the deadline will be penalized a number of points that is roughly equivalent to a whole letter grade for each 24-hour period the assignment is late. Assignments cannot be turned in after solutions and graded assignments have been passed back, which generally happens within one week after they were turned in.
+For a student wishing to submit a course assignment past its required deadline, the student may request an extension on the assignment directly from the professor 48 hours in advance. Within 48 hours of the due date, the student must request an extension directly from the Dean. Exceptions will be granted by the Dean only if the student faces unforeseen and unforeseeable circumstances. A student who misses the deadline will be penalized an amount that is roughly equivalent to a letter grade for each day the assignment is late. Assignments cannot be turned in after solutions and graded assignments have been passed back, which generally happens one to two classes after they were turned in.
