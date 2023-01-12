@@ -11,7 +11,7 @@ Course [home page](./)
 
 ### Week 2
 
-* Preparation for Monday, Jan. 16 &mdash; Problem Set 1 due at beginning of class consisting of these six *Spacetime Physics* end-of-chapter Problems: 1-4, 1-8, 1-10, 1-12, 2-6, and 2-8 &mdash; I can help you with the small amount of calculus used in Problem 2-8(a) &mdash; Additional reading assignment from Chapter 2 - FORTHCOMING
+* Preparation for Monday, Jan. 16 &mdash; Problem Set 1 due at beginning of class consisting of these six *Spacetime Physics* end-of-chapter Problems: 1-4, 1-8 (parts a, b, and c only), 1-10, 1-12, 2-6, and 2-8 &mdash; I can help you with the small amount of calculus used in Problem 2-8(a) &mdash; Additional reading assignment from Chapter 2 - FORTHCOMING
 * Monday, Jan. 16
 * Thursday, Jan. 19
 
