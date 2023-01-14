@@ -12,7 +12,7 @@ Course [home page](./)
 ### Week 2
 
 * Preparation for Monday, Jan. 16 &mdash; Problem Set 1 due at beginning of class consisting of these six *Spacetime Physics* end-of-chapter Problems: 1-4, 1-8 (parts a, b, and c only), 1-10, 1-12, 2-6, and 2-8 &mdash; Continue reading to p. 61 (which is the end of Section 3.3 of [*Spacetime Physics, 2nd Edition*](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf))
-* Monday, Jan. 16 &mdash; We say Mary's clock is ticking too slow. What does Mary have to say about our clocks!?
+* Monday, Jan. 16 &mdash; [Falling Spherical Shell](./resources/FallingSphericalShell.pdf) Discussion &mdash; We say Mary's clock is ticking too slow. What does Mary have to say about our clocks!?
 * Preparation for Thursday, Jan. 19 &mdash; Problem Set 2 due at beginning of class - FORTHCOMING
 * Thursday, Jan. 19
 
