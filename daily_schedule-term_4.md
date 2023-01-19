@@ -18,8 +18,8 @@ Course [home page](./)
 
 ### Week 3
 
-* Preparation for Monday, Jan. 23 &mdash; Read to the end of Chapter 3 &mdash; Do Problem Set 3 - FORTHCOMING
-* Monday, Jan. 23
+* Preparation for Monday, Jan. 23 &mdash; Read to the end of Chapter 3 &mdash; Do Problem Set 3 due at beginning of class consisting of just Taylor and Wheeler Problems 3-9 and 3-10 (for my own edification, and as an option for you, consider also Problem 2-13, not required though)
+* Monday, Jan. 23 &mdash;
 * Thursday, Jan. 26
 
 ### Week 4
