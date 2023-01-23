@@ -18,8 +18,9 @@ Course [home page](./)
 
 ### Week 3 &mdash;
 
-* Preparation for Monday, Jan. 23 &mdash; Read to the end of Chapter 3 &mdash; Do Problem Set 3 due at beginning of class consisting of just Taylor and Wheeler Problems 3-9 and 3-10 (for my own edification, and as an option for you, consider also Problem 2-13, not required though)
-* Monday, Jan. 23 &mdash;
+* Preparation for Monday, Jan. 23 &mdash; Read to the end of Chapter 3 &mdash; Do Problem Set 3 due at beginning of class (see additional problem added below, and now due at beginning of Thursday's class)
+* Monday, Jan. 23 &mdash; We began with an exercise related to Problem 3-10 &mdash; The exercise was designed to convince you that no matter where you are in the exploding universe, the other pieces, numbered i going from 1 to n, of the explosion are moving away from you and obeying the formula d (from you) = v_i t &mdash; From this we derived the formula for z, the red shift &mdash; Then we discussed the spectrum of light, and the basic equations for T, &lambda;, *f*, and *c* (with the Hydrogen-&alpha; line as an example, &lambda; = 656.46nm) &mdash; By the time we were done, we understood why relativistic Doppler shift is commonly referred to as "red shift" and we knew what *z* refers to in the [latest z = 11-20 galaxy candidates](https://arxiv.org/abs/2207.11558) discovered using the James Webb Space Telescope's infrared cameras (these candidates are from Jan. 2023 and have undergone little confirmatory work, so they are candidate discoveries, not yet fully agreed-upon, and many of the 87 objects may be rejected)
+* Finish Problem Set 3 now consisting of three problems instead of two: Taylor and Wheeler 3-9, 3-10, and 3-11 (I really want to also find time to do 2-13 before we leave Chapters 2 and 3 behind) &mdash; Continue reading into Chapter L of Taylor and Wheeler up to and including page 100 (including the form of the Lorentz transformation, section L.4)
 * Thursday, Jan. 26
 
 ### Week 4
