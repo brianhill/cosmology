@@ -42,4 +42,4 @@ Course [home page](./)
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
 
 * Monday, Feb. 20 &mdash; Midterm Exam
-* Thursday, Feb. 23 &mdash; No class (due to Shakespeare week)
+* Thursday, Feb. 23 &mdash; No class (due to Shakespeare festival)
