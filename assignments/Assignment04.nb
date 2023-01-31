@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5739,        160]
-NotebookOptionsPosition[      4855,        134]
-NotebookOutlinePosition[      5307,        152]
-CellTagsIndexPosition[      5264,        149]
+NotebookDataLength[      5605,        152]
+NotebookOptionsPosition[      4721,        126]
+NotebookOutlinePosition[      5173,        144]
+CellTagsIndexPosition[      5130,        141]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -85,49 +85,41 @@ Cell[BoxData[
 Cell[TextData[{
  "A torus has two radii. Let\[CloseCurlyQuote]s call them ",
  Cell[BoxData[
-  FormBox["R", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["R", TraditionalForm]],ExpressionUUID->
   "88cd15c3-fa71-4085-a7c8-0e4233904789"],
  " and ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "12c89250-bf06-418d-ac19-985a394cc07c"],
  ". Locating a place on the surface of the torus requires two angles, \[Phi], \
 and \[Theta]. Let\[CloseCurlyQuote]s have \[Phi] be the angle that takes you \
 around the big radius, ",
  Cell[BoxData[
-  FormBox["R", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["R", TraditionalForm]],ExpressionUUID->
   "1928a11d-1a99-4e7e-98bd-2bfb9ddee885"],
  ", and \[Theta] be the angle that takes you around the little radius ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "92666e1f-3814-4fa5-b457-f1576b455ff6"],
  ".\n\n(a) It will probably be necessary to draw a cross-section of the torus \
-to figure this out, like our authors did in Chapter 2, Figure 7\n\n(b) How \
-far from the axis of the torus is a point?\n\n(c) Use your answer to (b) to \
-determine how much distance is swept out when \[Phi] changes by ",
+to figure this out, like our authors did in Chapter 2, Figure 7. Do that.\n\n\
+(b) How far from the axis of the torus is a point?\n\n(c) Use your answer to \
+(b) to determine how much distance is swept out when \[Phi] changes by ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "c7d04cd6-3a62-41f8-917d-2f407f00daf7"],
+   TraditionalForm]],ExpressionUUID->"c7d04cd6-3a62-41f8-917d-2f407f00daf7"],
  ".\n\n(d) How much distance is swept out when \[Theta] changes by ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Theta]"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "41eec0c8-2b9f-4107-8743-7dbc71f49572"],
+   TraditionalForm]],ExpressionUUID->"41eec0c8-2b9f-4107-8743-7dbc71f49572"],
  "?\n\n(e) Use your answers to (c) and (d) to write down the metric for this \
 embedding of the 2-d torus in 3-d Euclidean space."
 }], "Text",
  CellChangeTimes->{{3.884083905267084*^9, 3.884084284802*^9}, {
-  3.8840844866681633`*^9, 
-  3.884084704442135*^9}},ExpressionUUID->"2cc2f4ed-8a66-4dfd-99d2-\
+  3.8840844866681633`*^9, 3.884084704442135*^9}, {3.884115442324419*^9, 
+  3.8841154475610437`*^9}},ExpressionUUID->"2cc2f4ed-8a66-4dfd-99d2-\
 6599415ba3cd"]
 }, Open  ]]
 }, Open  ]]
@@ -159,7 +151,7 @@ Cell[CellGroupData[{
 Cell[1658, 51, 619, 15, 30, "Input",ExpressionUUID->"73e20403-7bec-49a1-b18d-98145f5cbdeb"],
 Cell[2280, 68, 539, 13, 274, "Output",ExpressionUUID->"e35a6049-9c19-4b4a-903f-f690519d8f72"]
 }, Open  ]],
-Cell[2834, 84, 1993, 46, 357, "Text",ExpressionUUID->"2cc2f4ed-8a66-4dfd-99d2-6599415ba3cd"]
+Cell[2834, 84, 1859, 38, 357, "Text",ExpressionUUID->"2cc2f4ed-8a66-4dfd-99d2-6599415ba3cd"]
 }, Open  ]]
 }, Open  ]]
 }
