@@ -34,8 +34,8 @@ Course [home page](./)
 	
 *Getting into the mindset of local geometers is what Taylor, Wheeler, and Bertschinger were trying to get you to do in Section 2.2. This way of discovering the path that a particle trying to "go straight" across a curved surface will take is the direct analog of how we discover particle paths using the Principle of Extremal Aging in General Relativity.*
 
-* Preparation for Thursday, Feb. 2 &mdash; [Problem Set 4 due at beginning of class](./assignments/Assignment04.pdf) &mdash; Finish your study of Chapter 2, which will hopefully go well now that we have spent 3 1/2 weeks studying all the prerequisite concepts
-* Thursday, Feb. 2 &mdash; Will be devoted to answering questions about all the material so far (Chapters 1-3 and L of Taylor & Wheeler, and Chapter 2 of Taylor, Wheeler, and Bertschinger), especially the last half of Chapter 2 and the last two problem sets &mdash; Only if we exhaust your questions, we can look a little ahead to Chapter 3, the metric for a black hole.
+* Preparation for Thursday, Feb. 2 &mdash; [Problem Set 4 due at beginning of class](./assignments/Assignment04.pdf) &mdash; Finish your study of Chapter 2, which will hopefully go well now that we have spent 3 1/2 weeks studying all the prerequisite concepts &mdash; Bring serious questions about all the material so far, especially the last half of Chapter 2 and the most recent two problem sets.
+* Thursday, Feb. 2 &mdash; Will be devoted to answering questions about all the material so far (Chapters 1-3 and L of Taylor & Wheeler, and Chapter 2 of Taylor, Wheeler, and Bertschinger)
 
 ### Week 5 &mdash; Black Holes (The Schwarzschild Metric)
 
