@@ -1,0 +1,863 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     29358,        855]
+NotebookOptionsPosition[     28140,        824]
+NotebookOutlinePosition[     28593,        842]
+CellTagsIndexPosition[     28550,        839]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+The Schwarzschild Metric and Stretching of Space in the Radial Direction\
+\[LongDash]Part I\
+\>", "Section",
+ CellChangeTimes->{{3.884363672858097*^9, 3.884363702218854*^9}, {
+   3.884363734134622*^9, 3.8843637408059196`*^9}, {3.884363854147574*^9, 
+   3.884363869146007*^9}, {3.8843685345056763`*^9, 3.8843685397931004`*^9}, 
+   3.8843700224017076`*^9},ExpressionUUID->"62f91626-b8a7-4d79-a8c7-\
+d1c0fa129e65"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["By the end of this handout, we will have made major \
+headway unpacking Sample Problem 1 on p. 3-16. Some unpacking is good for \
+everyone and is essential for those who have little or no calculus.",
+ FontSlant->"Italic"]], "Subtitle",
+ CellChangeTimes->{{3.8843637590534163`*^9, 3.8843637993731613`*^9}, {
+  3.8843638850249453`*^9, 3.8843639211959553`*^9}, {3.8843685233570766`*^9, 
+  3.8843685291494102`*^9}},
+ FontSize->16,ExpressionUUID->"36bb59f9-cdac-41de-9a76-e27d189a9b2e"],
+
+Cell[CellGroupData[{
+
+Cell["The Schwarzschild Metric", "Subsection",
+ CellChangeTimes->{{3.884363843113154*^9, 3.884363851533698*^9}, 
+   3.884364360162833*^9},ExpressionUUID->"1c17cecd-99c3-4af1-b9e2-\
+71433943c83c"],
+
+Cell[TextData[{
+ "On pages 3-2 and 3-3 is the Schwarzschild metric:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], ")"}], "2"],
+     
+     FontSize->16], "=", 
+    RowBox[{
+     StyleBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox[
+          RowBox[{"2", "M"}], "r"]}], ")"}], 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"]}],
+      FontSize->16], "-", 
+     StyleBox[
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+       RowBox[{"1", "-", 
+        FractionBox[
+         RowBox[{"2", "M"}], "r"]}]],
+      FontSize->24], "-", 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["r", "2"], "(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Lambda]"}], ")"}], 
+      "2"], "-", 
+     RowBox[{
+      SuperscriptBox["r", "2"], 
+      SuperscriptBox["cos", "2"], "\[Lambda]", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], ")"}], 
+       "2"]}]}]}], TraditionalForm]],ExpressionUUID->
+  "9be9fc60-222e-4329-bc39-d0386b0ffce6"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], ")"}], 
+     "2"], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       StyleBox[
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", "M"}], "r"]}], ")"}],
+        FontSize->16]}], 
+      StyleBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"],
+       FontSize->16]}], 
+     StyleBox["+",
+      FontSize->16], 
+     StyleBox[
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+       RowBox[{"1", "-", 
+        FractionBox[
+         RowBox[{"2", "M"}], "r"]}]],
+      FontSize->24], 
+     StyleBox["+",
+      FontSize->16], 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["r", "2"], "(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Lambda]"}], ")"}], 
+      "2"], "+", 
+     RowBox[{
+      SuperscriptBox["r", "2"], 
+      SuperscriptBox["cos", "2"], "\[Lambda]", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], ")"}], 
+       "2"]}]}]}], TraditionalForm]],ExpressionUUID->
+  "30b9922d-4da7-4c97-b3bd-ed8161fe1aa0"],
+ "\n\nYou usually use the first equation if you have time-like separations \
+and the second one if you have space-like separations.\n\nA comment on \
+infinitesimals (aka \[OpenCurlyDoubleQuote]differentials\
+\[CloseCurlyDoubleQuote]): Whenever possible, I will use small coordinate \
+differences instead of infinitesimals. Humanity wandered around in a fog for \
+all of the 1700s before limits put infinitesimals on a rigorous footing in \
+the 1800s, and this class is not the place to dispel that fog.  Cauchy and \
+Weierstrass were especially important in that work. The subject is called \
+real analysis.\n\nWorking with small coordinate differences sidesteps the \
+problem of defining infinitesimals. We will still have to take limits to get \
+precise answers.\n\n Our authors set ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Lambda]", "=", "0"}], TraditionalForm]],ExpressionUUID->
+  "d6468fad-ccd2-405c-8e65-18ad8579c401"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]\[Lambda]", "=", "0"}], TraditionalForm]],
+  ExpressionUUID->"1deeb2b1-e8ec-4996-ba89-bb46a16dab36"],
+ " in their equations. They warned you of that when they said \
+\[OpenCurlyDoubleQuote]think of two adjacent events that lie on our \
+equatorial ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", ",", " ", "\[Phi]"}], TraditionalForm]],ExpressionUUID->
+  "e1332cb7-66f8-4cbc-b722-9fba4dcbf3e5"],
+ ", plane.\[CloseCurlyDoubleQuote] If you start on the equator then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Lambda]", "=", "0"}], TraditionalForm]],ExpressionUUID->
+  "e7016939-30b5-428d-9da9-c6a573302b93"],
+ ". If you never leave the equator, then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]\[Lambda]", "=", "0"}], TraditionalForm]],
+  ExpressionUUID->"023af090-b1e4-43ee-8bca-a72a00aeb301"],
+ ". So put that in above and you get:\n \n ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], ")"}], "2"],
+     
+     FontSize->16], "=", 
+    RowBox[{
+     StyleBox[
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox[
+          RowBox[{"2", "M"}], "r"]}], ")"}], 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"]}],
+      FontSize->16], "-", 
+     StyleBox[
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+       RowBox[{"1", "-", 
+        FractionBox[
+         RowBox[{"2", "M"}], "r"]}]],
+      FontSize->24], "-", 
+     RowBox[{
+      SuperscriptBox["r", "2"], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], ")"}], 
+       "2"]}]}]}], TraditionalForm]],ExpressionUUID->
+  "f43162ca-4f78-4cb1-8cac-cca4e3056b35"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], ")"}], 
+     "2"], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       StyleBox[
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox[
+           RowBox[{"2", "M"}], "r"]}], ")"}],
+        FontSize->16]}], 
+      StyleBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"],
+       FontSize->16]}], 
+     StyleBox["+",
+      FontSize->16], 
+     StyleBox[
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+       RowBox[{"1", "-", 
+        FractionBox[
+         RowBox[{"2", "M"}], "r"]}]],
+      FontSize->24], "+", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], ")"}], 
+      "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "541e0ee0-5fc4-483d-beb3-eb2b1f7fa4d4"]
+}], "Text",
+ CellChangeTimes->{{3.884363940038767*^9, 3.884364150766699*^9}, {
+  3.884364217457402*^9, 3.884364509181772*^9}, {3.884364573037271*^9, 
+  3.884364979941625*^9}, {3.884366015493024*^9, 3.8843660867047663`*^9}, {
+  3.88436618407401*^9, 3.884366244059413*^9}, {3.884370046009625*^9, 
+  3.884370049034523*^9}},ExpressionUUID->"70a4d603-6343-40ef-ac68-\
+18c55fb390a4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Distances in the Radial Direction", "Subsection",
+ CellChangeTimes->{{3.884363843113154*^9, 3.884363851533698*^9}, 
+   3.884364360162833*^9, {3.8843650264479513`*^9, 
+   3.884365031083378*^9}},ExpressionUUID->"d766a7b3-0d4f-498d-9ca4-\
+32ef490f66d9"],
+
+Cell[TextData[{
+ "The next simplification is to set ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], "=", "0"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bc53a282-bc20-4c06-affd-5420fa9181fa"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], "=", "0"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8b1a2f13-7966-4da8-a7af-639bfd737af2"],
+ ". We are only going to consider separations in the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "42abadf5-b0f1-43c7-afab-10aa384bf155"],
+ " direction (for starters). We have to start somewhere! We still have two \
+equations to choose from:\n \n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], ")"}], "2"],
+     
+     FontSize->16], "=", 
+    RowBox[{"-", 
+     StyleBox[
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+       RowBox[{"1", "-", 
+        FractionBox[
+         RowBox[{"2", "M"}], "r"]}]],
+      FontSize->24]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f22dd548-4233-42e8-998b-f50bd8cfd4b5"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], ")"}], 
+     "2"], "=", 
+    StyleBox[
+     FractionBox[
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+      RowBox[{"1", "-", 
+       FractionBox[
+        RowBox[{"2", "M"}], "r"]}]],
+     FontSize->24]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b1f810aa-caac-4444-88cc-05f2cee0290a"],
+ "\n\nLet\[CloseCurlyQuote]s also imagine that we are far from the black \
+hole. How far? How about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", ">", 
+    RowBox[{"2", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1a682656-c6b1-4d55-9b0b-c37b22efd2c7"],
+ "? Then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "-", 
+    FractionBox[
+     RowBox[{"2", "M"}], "r"]}], TraditionalForm]],ExpressionUUID->
+  "afff1d46-40aa-4138-a41a-58770227face"],
+ " is a positive number. Then we see that the equation for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c62267e5-5184-4b09-a85f-32f6825cf2e4"],
+ " has  ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], ")"}], "2"],
+      "<", "0"}],
+    FontSize->16], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0ae9b35a-768a-42ab-b4d3-b2c7a2a4f8b7"],
+ ", which says that this is not a time-like separation that we are \
+investigating \[LongDash] you can\[CloseCurlyQuote]t put on a wristwatch and \
+move in the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "61a6e241-94f0-46d4-acbd-996b68483636"],
+ " direction alone. So it is more appropriate to use the second equation. I \
+am also going to take the square root of it:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox[
+          RowBox[{"2", "M"}], "r"]}], ")"}], 
+       RowBox[{"1", "/", "2"}]]],
+     FontSize->24]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "54112853-1c86-4901-aea4-b863f8e760ed"],
+ "\n\nReally I ought to have absolute values around the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "166a9037-2e94-478c-bb86-dd8c7831f11c"],
+ ", but I am only going to consider moving radially outward (to larger ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6c6ffaa1-106e-44a0-ab6a-5365ab5eb8ba"],
+ "), so my little changes  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1f0e9117-f327-4240-b6ec-9c9c588d30a7"],
+ " are going to be positive."
+}], "Text",
+ CellChangeTimes->{{3.884363940038767*^9, 3.884364150766699*^9}, {
+   3.884364217457402*^9, 3.884364509181772*^9}, {3.884364573037271*^9, 
+   3.884364979941625*^9}, {3.8843650439658957`*^9, 3.8843655212822857`*^9}, 
+   3.8843660015640163`*^9, {3.884366299444107*^9, 3.884366302525201*^9}, {
+   3.884366333632948*^9, 3.884366334172246*^9}, {3.8843675115158653`*^9, 
+   3.8843675130117693`*^9}, 3.8843675783652573`*^9, {3.8843676083688507`*^9, 
+   3.884367614139523*^9}},ExpressionUUID->"7c8e948a-4749-49a5-968c-\
+3dc69e582bd9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Summing up a Lot of Small Changes from ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b6623ecb-8857-4980-8e82-cd353f1f77b2"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "56f13afd-f1fc-4e05-80f0-14db407c7882"]
+}], "Subsection",
+ CellChangeTimes->{{3.884363843113154*^9, 3.884363851533698*^9}, 
+   3.884364360162833*^9, {3.8843650264479513`*^9, 3.884365031083378*^9}, {
+   3.8843655422517767`*^9, 3.8843655511185913`*^9}, {3.884365620152521*^9, 
+   3.884365626283936*^9}},ExpressionUUID->"e942131b-141a-4467-a2fb-\
+c708a79795b1"],
+
+Cell[TextData[{
+ "Now we are going to want to imagine stitching a lot of small patches \
+together. We go from:\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "1"], TraditionalForm]],ExpressionUUID->
+  "aac1dcd3-9986-4c49-b9b3-f49d2fb338ea"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], TraditionalForm]],
+  ExpressionUUID->"48736682-8121-48c4-84c3-70ee34a65d92"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], TraditionalForm]],
+  ExpressionUUID->"68ff9f3d-27ff-4d3a-b84f-d80abddcacee"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"2", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"3e05c57e-cf98-43ed-b41d-af54eb7614f4"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"2", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"65eeebfe-a04d-4d49-80de-2a07f51d7020"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"3", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"dfb9948e-5aa1-41cd-8e44-386f8b4488cb"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"3", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"7b193a47-bebe-4811-a908-82a6550c8e4d"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"4", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"c1c3121e-1a1f-4f83-804b-45be10a0ce24"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"4", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"763f3a0e-2ba2-411a-9ee0-88c3b8f8313e"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{"5", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"7f02baf8-2d9c-4691-8742-1079a63406d2"],
+ "\n\nall the way to:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "2"], "-", 
+    RowBox[{"2", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"666ce49e-4c26-4757-8319-6446ab171b5e"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "2"], "-", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], TraditionalForm]],
+  ExpressionUUID->"e2eb6871-ed6c-4f98-ab04-064c812837d8"],
+ "\n\nand:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "2"], "-", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], TraditionalForm]],
+  ExpressionUUID->"d758d27a-1d52-4491-af6f-76623ad3105a"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "2"], TraditionalForm]],ExpressionUUID->
+  "1c4fc1a8-57ca-4e8b-96f3-1fa1029eb394"],
+ "\n\nI am going to call the little distances traversed in each of these \
+steps:\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", "0"], TraditionalForm]],
+  ExpressionUUID->"a080402a-d34e-4e1f-bad3-53be7e8cdbf6"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", "1"], TraditionalForm]],
+  ExpressionUUID->"b14cfa16-e527-4b86-8083-596ef49a4941"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", "2"], TraditionalForm]],
+  ExpressionUUID->"3d6fbebd-81f0-4f45-bfdf-17ab40248d14"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", "3"], TraditionalForm]],
+  ExpressionUUID->"e6f9346c-2b76-450f-b25c-c3a3ee1d91ba"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", "4"], TraditionalForm]],
+  ExpressionUUID->"9d92fedc-a6b8-4fbc-bd7d-9e2c9c5fc398"],
+ "\n\nall the way to:\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", 
+    RowBox[{"n", "-", "2"}]], TraditionalForm]],ExpressionUUID->
+  "db5e1b00-ffdc-48fd-a668-cef03b103fda"],
+ "\n\nand:\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalDelta]\[Sigma]", 
+    RowBox[{"n", "-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "6d117941-eeba-4100-8ac8-ad1e1224f72f"],
+ "\n\nWhat we are looking for is the sum of the ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "eded6b49-762d-4219-8c11-6de2ce7e0b80"],
+ " little lengths:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"distance", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "0"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "1"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "2"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "3"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "4"], "+"}], " ", "..."}], " ",
+      "+", 
+     SubscriptBox["\[CapitalDelta]\[Sigma]", 
+      RowBox[{"n", "-", "2"}]], "+", 
+     SubscriptBox["\[CapitalDelta]\[Sigma]", 
+      RowBox[{"n", "-", "1"}]]}]}], TraditionalForm]],ExpressionUUID->
+  "b931b24a-c6a1-4f13-94ea-751acfe8d488"],
+ "\n\nSo, to summarize, we have ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "e0963135-b5cf-4e0b-82a3-7cbea81c2142"],
+ " little steps each going a coordinate change of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"01567cb1-d875-40d3-a2c5-a7efdc07b974"],
+ ", and those ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "322e0503-2b32-4f03-a54d-0d4b7c7e2230"],
+ " little steps are going to get us from ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "1"], TraditionalForm]],ExpressionUUID->
+  "cdfbc484-bf12-4f1f-9ea7-2596d22126de"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "2"], TraditionalForm]],ExpressionUUID->
+  "a670f007-5e2b-436b-afcb-d6a0805895fe"],
+ ". That means that we must have:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       SubscriptBox["r", "2"], "-", 
+       SubscriptBox["r", "1"]}], "n"],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "f7a7aa3c-08b8-484a-94de-5752ee5c4ddc"],
+ "\n\nFurthermore, the little length ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["\[Sigma]", "k"]}], TraditionalForm]],ExpressionUUID->
+  "6ed8f31f-d287-4c30-a302-5a842008c774"],
+ " is given by:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[CapitalDelta]\[Sigma]", "k"], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox[
+          RowBox[{"2", "M"}], "r"]}], ")"}], 
+       RowBox[{"1", "/", "2"}]]],
+     FontSize->24]}], TraditionalForm]],ExpressionUUID->
+  "bd37d884-37ec-43d9-92a7-0669e42afd4c"],
+ "\n\nThe only question remains is what to use for the variable ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "bb3b239c-4b0b-4feb-bdcf-56bf7b7df5e4"],
+ " that is down in the denominator. We want to use an ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "16379eb0-6c6f-4cef-ad28-894b0a1a026f"],
+ " that is good on the locally flat patch from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{
+    "k", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}]}], 
+   TraditionalForm]],ExpressionUUID->"ebb0e6bd-b38a-4615-b24d-03589ab1c336"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"k", "+", "1"}], ")"}], "\[CapitalDelta]", "\[VeryThinSpace]", 
+     "r"}]}], TraditionalForm]],ExpressionUUID->
+  "2889b4bc-bf58-4297-8d56-9a2139515eed"],
+ ". We could use ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{
+     SubscriptBox["r", "1"], "+", 
+     RowBox[{
+     "k", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
+      "r"}]}]}], TraditionalForm]],ExpressionUUID->
+  "61c2d493-12f6-4ed7-b3fc-1151b572d4a1"],
+ " or ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{
+     SubscriptBox["r", "1"], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"k", "\[VeryThinSpace]", "+", "1"}], ")"}], "\[CapitalDelta]", 
+      "\[VeryThinSpace]", "r"}]}]}], TraditionalForm]],ExpressionUUID->
+  "8da15420-d0cf-44d6-a516-855769a0eb77"],
+ " or actually, anything in between!\n\nThe reason it \
+doesn\[CloseCurlyQuote]t matter is that there is already a factor of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"7577120b-05f9-49e2-881e-fdb7a52a86e9"],
+ " in the numerator, and so the difference between using ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{
+     SubscriptBox["r", "1"], "+", 
+     RowBox[{
+     "k", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
+      "r"}]}]}], TraditionalForm]],ExpressionUUID->
+  "acb3827c-3d7c-4ccb-abd7-ef5eb6b05dce"],
+ " or ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{
+     SubscriptBox["r", "1"], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"k", "+", "1"}], ")"}], "\[CapitalDelta]", "\[VeryThinSpace]", 
+      "r"}]}]}], TraditionalForm]],ExpressionUUID->
+  "2df93ed7-b26e-4424-9c03-2bec1660ce56"],
+ " is only going to affect ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["\[Sigma]", "k"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c5e62941-d37c-4065-94c4-7479ea8b35e3"],
+ " by ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+   TraditionalForm]],ExpressionUUID->"b2b0f8b8-e049-49e5-8b09-928e82bbe762"],
+ ". The final answer is going to have ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "91840724-0a27-46f9-8141-ea0af4db5270"],
+ " terms in it, and ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "7fd1dc95-a759-4c41-8f52-fc087a1b1753"],
+ " terms proportional to ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+   TraditionalForm]],ExpressionUUID->"bb82f6b7-22c5-48cc-bb9a-bb358c62313b"],
+ " is something we can neglect.\n\nOn the other hand,  ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "4e6aba09-f774-4194-9cf4-34b331b6dfa2"],
+ " terms proportional to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"d422cb94-fbb0-49e5-a9d6-252b874fb7ed"],
+ " is most definitely not something we can neglect, because \
+\[VeryThinSpace]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       SubscriptBox["r", "2"], "-", 
+       SubscriptBox["r", "1"]}], "n"],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "8f4a1389-ed5a-484a-b265-d89f5bbc409a"],
+ " which means ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+    "n", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
+    "=", 
+    RowBox[{
+     SubscriptBox["r", "2"], "-", 
+     SubscriptBox["r", "1"]}]}], TraditionalForm]],ExpressionUUID->
+  "ec45194e-ef0c-4bed-8d69-ee1811a7edbd"],
+ " and that is obviously non-zero even as we take the little steps ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"d2596ab8-fd37-436e-a64a-a5d55b7ded2e"],
+ " to be tiny while simultaneously taking ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],ExpressionUUID->
+  "f3bc2bba-6a6d-4f8f-8269-5d4817a83c57"],
+ ".\n\n",
+ StyleBox["We aren\[CloseCurlyQuote]t done. That is as far as we got on \
+Thursday.\n\nThose of you who have had integrals know that I am very close to \
+deriving the integral as the Riemann sum of a bunch of little pieces, and \
+then I am going to take the width of the little pieces to zero as I take the \
+number of little pieces to \[Infinity].\n\nStay tuned for Stretching of Space \
+Part II.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBWIQPcW2UeTahzeOZzpu6IForsV65iBa5OLSaBAdbLgw
+GUSfVqybBqLnvaibB6JrODRvgeisN+vug+gLDVm814G0j4m0J4j+90kiEEQ/
+iU1MA9EZ9+ILQfQPGaUyEJ1UsqkBRF9gkmoF0Rzs7TNBdA6L+CIQvXz/r6Ug
+uuLx07Ug+pVX8AkQXcOldB5Ez8pRBtNTe5c+BpvPHMp/A0jfY/UVBtGvSgxE
+QLSkoJI6iOZQ9PID0WFHOMNB9L9AITAd5/CnAETrCCsUgmhL9d1NIPqS01Ew
+rfJmZQ+IFsmbOglEWwmWzgbRbWcPzQfRS3arbwPRhsvkjoNoAOVPyPg=
+  "],ExpressionUUID->"2dc032c8-203b-4086-b50e-afd80b0e2bd3"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 854}, {156, Automatic}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0bcbafd7-7695-4644-960b-90e83ccaa3da"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 421, 8, 105, "Section",ExpressionUUID->"62f91626-b8a7-4d79-a8c7-d1c0fa129e65"],
+Cell[CellGroupData[{
+Cell[1004, 32, 505, 7, 65, "Subtitle",ExpressionUUID->"36bb59f9-cdac-41de-9a76-e27d189a9b2e"],
+Cell[CellGroupData[{
+Cell[1534, 43, 195, 3, 54, "Subsection",ExpressionUUID->"1c17cecd-99c3-4af1-b9e2-71433943c83c"],
+Cell[1732, 48, 7049, 210, 679, "Text",ExpressionUUID->"70a4d603-6343-40ef-ac68-18c55fb390a4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8818, 263, 256, 4, 54, "Subsection",ExpressionUUID->"d766a7b3-0d4f-498d-9ca4-32ef490f66d9"],
+Cell[9077, 269, 5318, 151, 464, "Text",ExpressionUUID->"7c8e948a-4749-49a5-968c-3dc69e582bd9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14432, 425, 710, 18, 54, "Subsection",ExpressionUUID->"e942131b-141a-4467-a2fb-c708a79795b1"],
+Cell[15145, 445, 12967, 375, 1485, "Text",ExpressionUUID->"2dc032c8-203b-4086-b50e-afd80b0e2bd3"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

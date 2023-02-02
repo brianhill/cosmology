@@ -1,0 +1,207 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7227,        199]
+NotebookOptionsPosition[      6372,        175]
+NotebookOutlinePosition[      6825,        193]
+CellTagsIndexPosition[      6782,        190]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Stretching of Space in the Radial Direction\[LongDash]Part II", \
+"Section",
+ CellChangeTimes->{{3.884363672858097*^9, 3.884363702218854*^9}, {
+  3.884363734134622*^9, 3.8843637408059196`*^9}, {3.884363854147574*^9, 
+  3.884363869146007*^9}, {3.8843685345056763`*^9, 3.8843685397931004`*^9}, {
+  3.884370100086779*^9, 
+  3.8843701036969976`*^9}},ExpressionUUID->"62f91626-b8a7-4d79-a8c7-\
+d1c0fa129e65"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["We finish unpacking Sample Problem 1 on p. 3-16.",
+ FontSlant->"Italic"]], "Subtitle",
+ CellChangeTimes->{{3.8843637590534163`*^9, 3.8843637993731613`*^9}, {
+  3.8843638850249453`*^9, 3.8843639211959553`*^9}, {3.8843685233570766`*^9, 
+  3.8843685291494102`*^9}, {3.884370115656785*^9, 3.8843701317316303`*^9}},
+ FontSize->16,ExpressionUUID->"36bb59f9-cdac-41de-9a76-e27d189a9b2e"],
+
+Cell[CellGroupData[{
+
+Cell["Summarizing What we Had in Stretching of Space\[LongDash]Part I", \
+"Subsection",
+ CellChangeTimes->{{3.884363843113154*^9, 3.884363851533698*^9}, 
+   3.884364360162833*^9, {3.8843650264479513`*^9, 3.884365031083378*^9}, {
+   3.8843655422517767`*^9, 3.8843655511185913`*^9}, {3.884365620152521*^9, 
+   3.884365626283936*^9}, {3.884370251858327*^9, 
+   3.884370267101452*^9}},ExpressionUUID->"e942131b-141a-4467-a2fb-\
+c708a79795b1"],
+
+Cell[TextData[{
+ "What we are looking for is the sum of the ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "eded6b49-762d-4219-8c11-6de2ce7e0b80"],
+ " little lengths:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"distance", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "0"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "1"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "2"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "3"], "+", 
+       SubscriptBox["\[CapitalDelta]\[Sigma]", "4"], "+"}], " ", "..."}], " ",
+      "+", 
+     SubscriptBox["\[CapitalDelta]\[Sigma]", 
+      RowBox[{"n", "-", "2"}]], "+", 
+     SubscriptBox["\[CapitalDelta]\[Sigma]", 
+      RowBox[{"n", "-", "1"}]]}]}], TraditionalForm]],ExpressionUUID->
+  "b931b24a-c6a1-4f13-94ea-751acfe8d488"],
+ "\n\nIn other words, we have ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "e0963135-b5cf-4e0b-82a3-7cbea81c2142"],
+ " little steps each going a coordinate change of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"01567cb1-d875-40d3-a2c5-a7efdc07b974"],
+ ", and those ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],ExpressionUUID->
+  "322e0503-2b32-4f03-a54d-0d4b7c7e2230"],
+ " little steps are going to get us from ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "1"], TraditionalForm]],ExpressionUUID->
+  "cdfbc484-bf12-4f1f-9ea7-2596d22126de"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "2"], TraditionalForm]],ExpressionUUID->
+  "a670f007-5e2b-436b-afcb-d6a0805895fe"],
+ ". So we have:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       SubscriptBox["r", "2"], "-", 
+       SubscriptBox["r", "1"]}], "n"],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "f7a7aa3c-08b8-484a-94de-5752ee5c4ddc"],
+ "\n\nFurthermore, the little length ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["\[Sigma]", "k"]}], TraditionalForm]],ExpressionUUID->
+  "6ed8f31f-d287-4c30-a302-5a842008c774"],
+ " is given by:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[CapitalDelta]\[Sigma]", "k"], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox[
+          RowBox[{"2", "M"}], 
+          RowBox[{
+           SubscriptBox["r", "1"], "+", 
+           RowBox[{
+           "k", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
+            "r"}]}]]}], ")"}], 
+       RowBox[{"1", "/", "2"}]]],
+     FontSize->24]}], TraditionalForm]],ExpressionUUID->
+  "bd37d884-37ec-43d9-92a7-0669e42afd4c"],
+ "\n\nAnd to make things precise, we are going to take a limit where ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4b1ce861-0570-4d27-a963-36268a92e519"],
+ " is huge and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       SubscriptBox["r", "2"], "-", 
+       SubscriptBox["r", "1"]}], "n"],
+     FontSize->18]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b53a9032-c43c-4741-b982-9631835cc10c"],
+ " is tiny."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGCQAGIQPcW2UeTahzeOZzpu6IForsV65iBa5OLSaBAdbLgw
+GUSfVqybBqLnvaibB6JrODRvgeisN+vug+gLDVm814G0j4m0J4j+90kiEEQ/
+iU1MA9EZ9+ILQfQPGaUyEJ1UsqkBRF9gkmoF0Rzs7TNBdA6L+CIQvXz/r6Ug
+uuLx07Ug+pVX8AkQXcOldB5Ez8pRBtNTe5c+BpvPHMp/A0jfY/UVBtGvSgxE
+QLSkoJI6iOZQ9PID0WFHOMNB9L9AITAd5/CnAETrCCsUgmhL9d1NIPqS01Ew
+rfJmZQ+IFsmbOglEWwmWzgbRbWcPzQfRS3arbwPRhsvkjoPotbfXyd4E0lWO
+fsogWv6knTqITpNv0QDRX/5P1QHR6yw2W4NoAEJL5UQ=
+  "],ExpressionUUID->"2dc032c8-203b-4086-b50e-afd80b0e2bd3"]
+}, Open  ]],
+
+Cell["The Area Under the Curve and the Riemann Sum", "Subsection",
+ CellChangeTimes->{{3.884363843113154*^9, 3.884363851533698*^9}, 
+   3.884364360162833*^9, {3.8843650264479513`*^9, 3.884365031083378*^9}, {
+   3.8843655422517767`*^9, 3.8843655511185913`*^9}, {3.884365620152521*^9, 
+   3.884365626283936*^9}, {3.884370251858327*^9, 3.884370267101452*^9}, {
+   3.8843704350511703`*^9, 
+   3.884370442510037*^9}},ExpressionUUID->"7df71852-0e9b-408a-b27b-\
+5f1e37487216"]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 691}, {199, Automatic}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0bcbafd7-7695-4644-960b-90e83ccaa3da"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 409, 7, 67, "Section",ExpressionUUID->"62f91626-b8a7-4d79-a8c7-d1c0fa129e65"],
+Cell[CellGroupData[{
+Cell[992, 31, 404, 5, 43, "Subtitle",ExpressionUUID->"36bb59f9-cdac-41de-9a76-e27d189a9b2e"],
+Cell[CellGroupData[{
+Cell[1421, 40, 438, 7, 54, "Subsection",ExpressionUUID->"e942131b-141a-4467-a2fb-c708a79795b1"],
+Cell[1862, 49, 4010, 113, 391, "Text",ExpressionUUID->"2dc032c8-203b-4086-b50e-afd80b0e2bd3"]
+}, Open  ]],
+Cell[5887, 165, 469, 7, 54, "Subsection",ExpressionUUID->"7df71852-0e9b-408a-b27b-5f1e37487216"]
+}, Open  ]]
+}
+]
+*)
+
