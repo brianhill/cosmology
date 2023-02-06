@@ -1,0 +1,85 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2809,         77]
+NotebookOptionsPosition[      2178,         57]
+NotebookOutlinePosition[      2630,         75]
+CellTagsIndexPosition[      2587,         72]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Cosmology \[LongDash] Assignment 3 \[LongDash] \
+Aberration of Starlight, Redshift, Law of Addition of Velocities",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.884083059250205*^9, 3.8840830779491367`*^9}, {
+  3.884704150968025*^9, 3.8847041656936827`*^9}, {3.884704260091752*^9, 
+  3.8847042807908773`*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["I would also like to have assigned 2-13, which is a \
+crude calculation of the deflection of starlight, but there wasn\
+\[CloseCurlyQuote]t time.",
+ FontSize->18]], "Subtitle",
+ CellChangeTimes->{{3.8847044303513527`*^9, 
+  3.88470445050849*^9}},ExpressionUUID->"0d3c7b2e-7157-4660-af55-\
+fcaa7470f722"],
+
+Cell["\<\
+1. Taylor and Wheeler 3-9 \[LongDash] Aberration of Starlight
+
+2. Taylor and Wheeler 3-10 \[LongDash] The Expanding Universe
+
+3. Taylor and Wheeler 3-11 \[LongDash] Relativistic Addition of Velocities\
+\>", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.884083173189385*^9, 
+  3.884083186688664*^9}, {3.8840832936396008`*^9, 3.8840833695861187`*^9}, {
+  3.884083408971284*^9, 3.884083465815998*^9}, {3.8840835144933977`*^9, 
+  3.884083520478376*^9}, {3.8847041783945007`*^9, 3.884704193671836*^9}, {
+  3.884704285797454*^9, 
+  3.884704346018622*^9}},ExpressionUUID->"cb18b75f-b7de-4570-bdb9-\
+3d013725e9e2"]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{189, Automatic}, {Automatic, 63}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 542, 8, 95, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1125, 32, 327, 6, 69, "Subtitle",ExpressionUUID->"0d3c7b2e-7157-4660-af55-fcaa7470f722"],
+Cell[1455, 40, 707, 14, 162, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"]
+}, Open  ]]
+}
+]
+*)
+
