@@ -1,0 +1,404 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15605,        396]
+NotebookOptionsPosition[     14295,        364]
+NotebookOutlinePosition[     14747,        382]
+CellTagsIndexPosition[     14704,        379]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set 5 \[LongDash] \
+Exploring the Black Hole",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.884083059250205*^9, 3.8840830779491367`*^9}, {
+  3.884678992396801*^9, 3.884679013947453*^9}, {3.8846793028298492`*^9, 
+  3.884679304540304*^9}, {3.884682005707008*^9, 
+  3.884682007023931*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell["1. Taylor-Wheeler-Bertschinger (TWB) Problem 3.1 on p. 3-35", \
+"Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.884083173189385*^9, 
+   3.884083186688664*^9}, {3.8840832936396008`*^9, 3.8840833695861187`*^9}, {
+   3.884083408971284*^9, 3.884083465815998*^9}, {3.8840835144933977`*^9, 
+   3.884083520478376*^9}, {3.884679032611629*^9, 3.884679172133605*^9}, 
+   3.884679454617428*^9},
+ FontSize->18,ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
+
+Cell["2. TWB Problem 3.2 on p. 3-35", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.884083173189385*^9, 
+  3.884083186688664*^9}, {3.8840832936396008`*^9, 3.8840833695861187`*^9}, {
+  3.884083408971284*^9, 3.884083465815998*^9}, {3.8840835144933977`*^9, 
+  3.884083520478376*^9}, {3.884679032611629*^9, 3.884679172133605*^9}},
+ FontSize->18,ExpressionUUID->"01107b7a-163a-4344-b290-63d0d5cb8034"],
+
+Cell[CellGroupData[{
+
+Cell["3. Inward Falling Light \[LongDash] Outside the Event Horizon", \
+"Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.884083173189385*^9, 
+  3.884083186688664*^9}, {3.8840832936396008`*^9, 3.8840833695861187`*^9}, {
+  3.884083408971284*^9, 3.884083465815998*^9}, {3.8840835144933977`*^9, 
+  3.884083520478376*^9}, {3.884679032611629*^9, 3.884679172133605*^9}, {
+  3.884679472048944*^9, 3.884679472116643*^9}, {3.884679511884592*^9, 
+  3.884679517565625*^9}, {3.8846806516362143`*^9, 3.884680659544969*^9}},
+ FontSize->18,ExpressionUUID->"49542cfe-81b3-4b3f-a068-12de984c26b8"],
+
+Cell[TextData[{
+ "We haven\[CloseCurlyQuote]t derived Eq. 26 on p. 3-25 yet, but that doesn\
+\[CloseCurlyQuote]t stop us from becoming familiar with it.\n\n(a) In Eq.26 \
+on p. 3-25, take ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "1"], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4c225677-93a3-4fff-8934-3f753e3b0dd4"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "=", 
+    RowBox[{"3", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f5fea690-5909-453a-bac8-8727502f98ca"],
+ ". What does the equation simplify to? The interpretation of this is that at \
+global coordinate ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "270d5da9-15c7-4c50-a6e0-637934654e41"],
+ " a light flash is directed either outward or inward from a flashlight at \
+global coordinate ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{"3", 
+     RowBox[{"M", "."}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "552d0456-469e-43e2-b86c-143473608ec7"],
+ "\n(b) There is a \[PlusMinus] sign in your answer to Part (a). If the \
+flashlight is directed inward then increasing ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "29e4e94f-3020-4e65-bf8c-b20c7e8be00c"],
+ "\[LongDash]which  since we started with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "1"], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d577b2b8-51f1-4a8d-8a47-fd4d2c3e1560"],
+ " means positive ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d49a8a6e-89c3-42d9-b662-5a10ab548237"],
+ "\[LongDash]must correspond to decreasing ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "48d17f79-5d71-46f8-9012-03b7bbb7ecb1"],
+ ". So which sign is going to give you positive times for decreasing ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "68369a41-6acd-4d06-a460-ee13ff6a1178"],
+ "? Simplify the formula to have just that sign.\n(c) Double check that \
+plugging in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{"2.5", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3a179e10-d535-4a5f-b769-07642580db90"],
+ " indeed gives a positive ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a3fe75a2-ea79-45da-989e-3bba60291059"],
+ " value in your answer to Part (b). What is the ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "eec56c58-6c8e-4c1c-bed1-297fd116b35e"],
+ " value?\n(d) You will notice that the ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "75a8a129-3638-4160-9505-68f4db75d796"],
+ " value in Part (c) has a factor of ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1cf218b1-e8d3-48db-86ba-50a7d94db2a8"],
+ " in it. It is going to make it hard to graph ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6f2036f9-9ee0-4af3-a628-448c58c2ab25"],
+ " unless we give a value for ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e5184186-4e14-467a-990a-5646fa92b6ab"],
+ ". How about instead, we graph ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "/", "M"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9adad24c-ea96-4476-8527-3c105c33405c"],
+ " on the vertical axis. Also, we will graph ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "/", "M"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "77c11101-26a9-4d8f-94c5-e7f072441e39"],
+ " on the horizontal axis. If we do that, we don\[CloseCurlyQuote]t have to \
+give a value for ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4f2242d0-4cb0-40cd-b4d4-fa3ec88e2450"],
+ ". Using the function in Part (b) graph ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "/", "M"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d934c2c7-f134-45c5-84c1-ade57651d868"],
+ " as a function of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "/", "M"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f61fdc82-dafa-4ab8-b8c7-e695bd037d11"],
+ " in the region ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "<", 
+    RowBox[{"r", "/", "M"}], "<", "3"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4edab14b-94da-489a-a587-81b58d5e286f"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.884679524900465*^9, 3.8846795673459797`*^9}, {
+  3.884679598125421*^9, 3.8846795982713346`*^9}, {3.884679706751891*^9, 
+  3.884679768447115*^9}, {3.8846798712246113`*^9, 3.8846799586135397`*^9}, {
+  3.884680026955282*^9, 3.884680045123493*^9}, {3.884680078467712*^9, 
+  3.884680281931869*^9}, {3.884680330092342*^9, 3.8846803463710337`*^9}, {
+  3.884680742503336*^9, 3.884680781168579*^9}, {3.884681945265336*^9, 
+  3.884681956266118*^9}, {3.884682135229431*^9, 3.884682146580604*^9}, {
+  3.8846824920813*^9, 3.8846824922486763`*^9}},
+ FontSize->14,
+ FontWeight->"Regular",ExpressionUUID->"db4a28db-9d67-4482-ad1e-b671015a39b5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4.  Inward Falling Light \[LongDash] Inside the Event Horizon", \
+"Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.884083173189385*^9, 
+  3.884083186688664*^9}, {3.8840832936396008`*^9, 3.8840833695861187`*^9}, {
+  3.884083408971284*^9, 3.884083465815998*^9}, {3.8840835144933977`*^9, 
+  3.884083520478376*^9}, {3.884679032611629*^9, 3.884679172133605*^9}, {
+  3.88467947410773*^9, 3.884679474209055*^9}, {3.884680313419448*^9, 
+  3.884680324894458*^9}, {3.884680790674378*^9, 3.884680798425427*^9}, {
+  3.884680940578676*^9, 3.884680947654808*^9}},
+ FontSize->18,ExpressionUUID->"e1a75532-96b4-4307-bcab-3f0580c853ea"],
+
+Cell[TextData[{
+ "At ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{"2", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0637cb08-f819-416b-b624-45e7c3cf642a"],
+ " is the event horizon, and our coordinates behave poorly there. So we will \
+skip over that zone and use the same procedure again, but this time using ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "1"], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a9bc1e94-0081-443c-b657-e4ae536272ad"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "=", 
+    RowBox[{"1.5", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9d36c55e-2f17-45c2-84e6-483104cdc2d8"],
+ ".\n\n(a) Repeat Problem 3(a) but this time with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "1"], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "99725465-8f42-41b6-935f-d2a06c24adc7"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "=", 
+    RowBox[{"1.5", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "613a9dcc-bf8c-44d6-a35b-65e3fdf3eb98"],
+ ".\n(b) Same as 3(b), but in this new region.\n(c) Same as 3(c), except your \
+double-check needs to involve putting in some ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "53cd4445-2c84-40f4-907e-7df075070247"],
+ " that is ",
+ StyleBox["smaller",
+  FontSlant->"Italic"],
+ " than ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "=", 
+    RowBox[{"1.5", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8281c4bd-d6c4-402a-a41e-4efa41a42f68"],
+ ". How about we choose ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{"0.5", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3d92ef63-1c4f-4d05-b6cc-84241b7da042"],
+ " to compute the ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "11d81298-a7b1-4c63-9b02-13cc1463fc0e"],
+ " value.\n(d) Same as 3(d), except the region to make the graph in will be \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"0", "<", 
+    RowBox[{"r", "/", "M"}], "<", "1.5"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4c847c4b-1cfe-41ba-b8c6-8ccca7ccbb81"],
+ ".\n\nDISCUSSION: Problems 3 and 4 are another way of understanding what was \
+graphed in Figure 8. Although we had to divide the analysis into two parts, \
+and we were not able to cross the event horizon, and so it seems that \
+something very unusual happens to the inward falling light at the event \
+horizon, it in fact crosses the event horizon without issue. The apparent \
+inability to cross the event horizon is a problem with our global coordinates \
+at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{"2", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "517ab1e9-39a1-4e40-9909-6028426d4356"],
+ " that we will eventually be able to resolve."
+}], "Text",
+ CellChangeTimes->{{3.884679524900465*^9, 3.8846795673459797`*^9}, {
+  3.884679598125421*^9, 3.8846795982713346`*^9}, {3.884679706751891*^9, 
+  3.884679768447115*^9}, {3.8846798712246113`*^9, 3.8846799586135397`*^9}, {
+  3.884680026955282*^9, 3.884680045123493*^9}, {3.884680078467712*^9, 
+  3.884680281931869*^9}, {3.884680330092342*^9, 3.8846803463710337`*^9}, {
+  3.884680742503336*^9, 3.884680781168579*^9}, {3.8846808563310966`*^9, 
+  3.884680934134542*^9}, {3.884680965432325*^9, 3.8846814932361383`*^9}, {
+  3.884681524816626*^9, 3.8846817483423433`*^9}, {3.884681779753009*^9, 
+  3.884681848602669*^9}, {3.884681959314334*^9, 3.8846819619134903`*^9}, {
+  3.884682188880684*^9, 3.8846822595201073`*^9}},
+ FontSize->14,
+ FontWeight->"Regular",ExpressionUUID->"e577678a-968e-4a3f-8a18-e866f673dcd3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5. TWB Problem 3.5 on p. 3-37", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.884083173189385*^9, 
+  3.884083186688664*^9}, {3.8840832936396008`*^9, 3.8840833695861187`*^9}, {
+  3.884083408971284*^9, 3.884083465815998*^9}, {3.8840835144933977`*^9, 
+  3.884083520478376*^9}, {3.884679032611629*^9, 3.884679191828847*^9}},
+ FontSize->18,ExpressionUUID->"d68fb561-4258-4a46-9c8a-146956a847e1"],
+
+Cell[TextData[{
+ "HINT: Refresh your memory on how you did Problem 2-8(a) on Problem Set 1. \
+You need ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    RowBox[{"g", "/", "\[CapitalDelta]"}], "\[VeryThinSpace]", "r"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b45f418c-d72a-4294-8fda-7dbf90683292"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.884679225724305*^9, 3.8846792370638733`*^9}, {
+  3.884679290331649*^9, 3.884679317297222*^9}, {3.884679355848576*^9, 
+  3.884679413527925*^9}, {3.884682025755702*^9, 3.884682043294094*^9}},
+ FontSize->14,
+ FontWeight->"Regular",ExpressionUUID->"34b021b0-3522-408f-ab1a-6426be621cc5"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{189, Automatic}, {Automatic, 63}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 550, 9, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[1133, 33, 549, 8, 51, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
+Cell[1685, 43, 487, 6, 35, "Subsection",ExpressionUUID->"01107b7a-163a-4344-b290-63d0d5cb8034"],
+Cell[CellGroupData[{
+Cell[2197, 53, 667, 9, 35, "Subsection",ExpressionUUID->"49542cfe-81b3-4b3f-a068-12de984c26b8"],
+Cell[2867, 64, 5491, 148, 274, "Text",ExpressionUUID->"db4a28db-9d67-4482-ad1e-b671015a39b5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8395, 217, 713, 10, 51, "Subsection",ExpressionUUID->"e1a75532-96b4-4307-bcab-3f0580c853ea"],
+Cell[9111, 229, 3941, 102, 313, "Text",ExpressionUUID->"e577678a-968e-4a3f-8a18-e866f673dcd3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13089, 336, 487, 6, 51, "Subsection",ExpressionUUID->"d68fb561-4258-4a46-9c8a-146956a847e1"],
+Cell[13579, 344, 688, 16, 34, "Text",ExpressionUUID->"34b021b0-3522-408f-ab1a-6426be621cc5"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
