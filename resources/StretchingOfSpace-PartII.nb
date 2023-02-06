@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     57393,       1385]
-NotebookOptionsPosition[     55523,       1344]
-NotebookOutlinePosition[     55976,       1362]
-CellTagsIndexPosition[     55933,       1359]
+NotebookDataLength[     58319,       1396]
+NotebookOptionsPosition[     56451,       1355]
+NotebookOutlinePosition[     56902,       1373]
+CellTagsIndexPosition[     56859,       1370]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -176,7 +176,7 @@ Cell["The Riemann Sum", "Subsection",
 Cell[TextData[{
  "It is clumsy writing lots of terms and using ... to stand for omitted \
 terms. So first I want to introduce summation notation which uses a capital \
-sigma, \[CapitalSigma]. The summation has an lower limit and an upper limit \
+sigma, \[CapitalSigma]. The summation has a lower limit and an upper limit \
 and an integer (usually) that steps from the lower limit to the upper limit, \
 in this case the lower limit is 0 and the upper limit is ",
  Cell[BoxData[
@@ -357,16 +357,27 @@ count from 0 to ",
   "3bac1b6e-71cf-4708-8c98-112da9b752e8"],
  " huge, it has a name and an interpretation!"
 }], "Text",
- CellChangeTimes->CompressedData["
-1:eJwdzE0ogwEAh/E1ZFbSbIUZs01eai1K+Ypsty0UCwchk6W1hhpJa23yFZaS
-KdR8jiRLpl1WlBEaGS2G2tSotd4DcpCE97/D0+/2CFQ9DV10Go3Go4JzlWbO
-3RspvZwISCBzXVICOTf2FqgsWu2EXoFxHtoiRhs0MAoeoYZ0hKDPpEm+p6wp
-zpTD34/0evjS2qGG3cH2PvjFEw5AlX7fBH107ihkJI4vQG182hrcOvq2w8Hw
-6y6MKpTn0MAUXsNFrSim1WIPx/5xjSkBymBCLRtG9YUcmMESEpAhUNTBppOk
-ZvhbnxqzrfqnF4rZOX2wjHAPw1vZacxccnsacnTWWVjO6l+CY1fHy3DDTbhg
-0Wb2Gdx9cmQ9UA5J60SQf1FFQDV/JB9+/lnF0FHqrIArfrNy8J2U0rnOKeiR
-e2eg89myA1lLeQcwEtK54KTIfwhle14P/AdqAgwK
-  "],ExpressionUUID->"e0a0b434-1a94-41ca-9846-a6670326708d"]
+ CellChangeTimes->{{3.884363940038767*^9, 3.884364150766699*^9}, {
+   3.884364217457402*^9, 3.884364509181772*^9}, {3.884364573037271*^9, 
+   3.884364979941625*^9}, {3.8843650439658957`*^9, 3.8843655212822857`*^9}, {
+   3.884365565466359*^9, 3.884365931328224*^9}, {3.884366408850134*^9, 
+   3.884366472779662*^9}, {3.8843666430427113`*^9, 3.884366730995899*^9}, {
+   3.884366769066036*^9, 3.884366853576707*^9}, {3.8843668888128433`*^9, 
+   3.8843670522196083`*^9}, {3.88436712071929*^9, 3.884367151835895*^9}, {
+   3.884367215184017*^9, 3.884367426602895*^9}, {3.88436748106378*^9, 
+   3.884367481107007*^9}, {3.884367645173533*^9, 3.884367994656666*^9}, {
+   3.884368026406966*^9, 3.8843680335142717`*^9}, {3.884368185064587*^9, 
+   3.884368498316532*^9}, {3.884368568305217*^9, 3.884368568572509*^9}, {
+   3.8843687758828573`*^9, 3.8843687770023403`*^9}, {3.884368917848538*^9, 
+   3.884368918164407*^9}, {3.8843689973100758`*^9, 3.8843690446696873`*^9}, {
+   3.884369115658353*^9, 3.8843691500875883`*^9}, {3.8843693292416553`*^9, 
+   3.884369464957787*^9}, {3.884370157464316*^9, 3.8843702024454927`*^9}, {
+   3.884370233962051*^9, 3.884370244128833*^9}, {3.8843702766874943`*^9, 
+   3.884370397600669*^9}, {3.884696220057205*^9, 3.884696669596925*^9}, {
+   3.884696702352754*^9, 3.884696924433679*^9}, {3.884696993206429*^9, 
+   3.8846970114648323`*^9}, {3.8846970786293383`*^9, 3.884697118365266*^9}, 
+   3.8847031530515738`*^9},ExpressionUUID->"e0a0b434-1a94-41ca-9846-\
+a6670326708d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1343,7 +1354,7 @@ V7s1iOsD6T9R+Bz6jeWjBn0rnfo7edgsf5yPg1bHSWyIryzDbbgIWq0=
 }, Open  ]]
 },
 WindowSize->{808, 911},
-WindowMargins->{{774, Automatic}, {Automatic, 191}},
+WindowMargins->{{70, Automatic}, {Automatic, 30}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
@@ -1370,21 +1381,21 @@ Cell[1862, 49, 3969, 112, 391, "Text",ExpressionUUID->"2dc032c8-203b-4086-b50e-a
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[5868, 166, 486, 7, 54, "Subsection",ExpressionUUID->"7df71852-0e9b-408a-b27b-5f1e37487216"],
-Cell[6357, 175, 6577, 193, 779, "Text",ExpressionUUID->"e0a0b434-1a94-41ca-9846-a6670326708d"]
+Cell[6357, 175, 7505, 204, 779, "Text",ExpressionUUID->"e0a0b434-1a94-41ca-9846-a6670326708d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12971, 373, 608, 9, 54, "Subsection",ExpressionUUID->"d75e4436-ad5c-4ba3-a091-9c43eb22aafb"],
-Cell[13582, 384, 3287, 100, 450, "Text",ExpressionUUID->"9f47ebd0-5f4e-4f63-8408-1cdfe784826b"],
-Cell[16872, 486, 21926, 364, 241, "Input",ExpressionUUID->"6a499c2f-0169-45c6-87a7-b5537a695e45"],
-Cell[38801, 852, 2465, 72, 109, "Text",ExpressionUUID->"a10fee74-15f0-43f5-842a-bec1d2ea8cf4"]
+Cell[13899, 384, 608, 9, 54, "Subsection",ExpressionUUID->"d75e4436-ad5c-4ba3-a091-9c43eb22aafb"],
+Cell[14510, 395, 3287, 100, 450, "Text",ExpressionUUID->"9f47ebd0-5f4e-4f63-8408-1cdfe784826b"],
+Cell[17800, 497, 21926, 364, 241, "Input",ExpressionUUID->"6a499c2f-0169-45c6-87a7-b5537a695e45"],
+Cell[39729, 863, 2465, 72, 109, "Text",ExpressionUUID->"a10fee74-15f0-43f5-842a-bec1d2ea8cf4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[41303, 929, 853, 16, 54, "Subsection",ExpressionUUID->"3363d17a-69c8-4e45-a978-7cd5f1cad934"],
-Cell[42159, 947, 7523, 217, 641, "Text",ExpressionUUID->"c83f4c41-a96a-44fb-b891-4335e8592726"]
+Cell[42231, 940, 853, 16, 54, "Subsection",ExpressionUUID->"3363d17a-69c8-4e45-a978-7cd5f1cad934"],
+Cell[43087, 958, 7523, 217, 641, "Text",ExpressionUUID->"c83f4c41-a96a-44fb-b891-4335e8592726"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[49719, 1169, 683, 10, 54, "Subsection",ExpressionUUID->"ea8afd65-5573-4342-9a0b-b5392ca58329"],
-Cell[50405, 1181, 5090, 159, 461, "Text",ExpressionUUID->"50f43a8d-4c89-4b9c-b37c-5189224ff2a0"]
+Cell[50647, 1180, 683, 10, 54, "Subsection",ExpressionUUID->"ea8afd65-5573-4342-9a0b-b5392ca58329"],
+Cell[51333, 1192, 5090, 159, 461, "Text",ExpressionUUID->"50f43a8d-4c89-4b9c-b37c-5189224ff2a0"]
 }, Open  ]]
 }, Open  ]]
 }
