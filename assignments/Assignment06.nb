@@ -10,14 +10,16 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1398,         45]
-NotebookOptionsPosition[       994,         29]
-NotebookOutlinePosition[      1446,         47]
-CellTagsIndexPosition[      1403,         44]
+NotebookDataLength[      1889,         61]
+NotebookOptionsPosition[      1361,         42]
+NotebookOutlinePosition[      1813,         60]
+CellTagsIndexPosition[      1770,         57]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
 Cell[TextData[StyleBox["Cosmology \[LongDash] Assignment  6 \[LongDash] ???",
  FontSize->24]], "Section",
  CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
@@ -25,7 +27,18 @@ Cell[TextData[StyleBox["Cosmology \[LongDash] Assignment  6 \[LongDash] ???",
   3.8831843177446947`*^9}, {3.884083059250205*^9, 3.8840830779491367`*^9}, {
   3.884704110991439*^9, 
   3.8847041219759398`*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
-77e0e173d37d"]
+77e0e173d37d"],
+
+Cell["\<\
+A problem that causes people to estimate the length corresponding to 1kg?
+
+A problem that causes people to estimate the standard acceleration \
+corresponding to one inverse-second.\
+\>", "Text",
+ CellChangeTimes->{{3.884706753471058*^9, 
+  3.884706830444487*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
+8cae69d82780"]
+}, Open  ]]
 },
 WindowSize->{808, 911},
 WindowMargins->{{189, Automatic}, {Automatic, 63}},
@@ -46,7 +59,10 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 432, 7, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"]
+Cell[CellGroupData[{
+Cell[580, 22, 432, 7, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[1015, 31, 330, 8, 81, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
+}, Open  ]]
 }
 ]
 *)
