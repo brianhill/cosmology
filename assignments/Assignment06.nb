@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    110649,       2426]
-NotebookOptionsPosition[    107710,       2366]
-NotebookOutlinePosition[    108192,       2385]
-CellTagsIndexPosition[    108149,       2382]
+NotebookDataLength[    108912,       2390]
+NotebookOptionsPosition[    105974,       2330]
+NotebookOutlinePosition[    106456,       2349]
+CellTagsIndexPosition[    106413,       2346]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1102,7 +1102,7 @@ Cell[BoxData[{
         RowBox[{"0.1", "i"}]}], ",", 
        RowBox[{"-", "0.1"}], ",", " ", 
        RowBox[{"If", "[", 
-        RowBox[{"False", ",", "\"\<\>\"", ",", 
+        RowBox[{"True", ",", "\"\<\>\"", ",", 
          RowBox[{"Round", "[", 
           RowBox[{
            RowBox[{
@@ -1118,7 +1118,7 @@ Cell[BoxData[{
                  RowBox[{"0.1", "i"}]}], ")"}]}], "-", "1"}], "]"}]}], ",", 
            "0.001"}], "]"}]}], "]"}], ",", " ", 
        RowBox[{"If", "[", 
-        RowBox[{"False", ",", "\"\<\>\"", ",", 
+        RowBox[{"True", ",", "\"\<\>\"", ",", 
          RowBox[{"Round", "[", 
           RowBox[{
            RowBox[{
@@ -1197,10 +1197,11 @@ ExpressionUUID->\"c923157f-e636-47de-b6e2-4136e9f65b75\"]\) (degrees)\>\"",
    3.885155082943686*^9}, {3.8851586562708673`*^9, 3.885158770289321*^9}, 
    3.885158868969029*^9, {3.885159112072899*^9, 3.8851591517509813`*^9}, {
    3.8851592152580338`*^9, 3.8851592183509817`*^9}, 3.8851592621855183`*^9, {
-   3.8851593567744007`*^9, 3.885159361475902*^9}, 3.885159417895988*^9},
+   3.8851593567744007`*^9, 3.885159361475902*^9}, 3.885159417895988*^9, {
+   3.885159509820574*^9, 3.8851595129022503`*^9}},
  FontSize->8,
  CellLabel->
-  "In[257]:=",ExpressionUUID->"36e8c678-4809-4121-b890-f75952137464"],
+  "In[263]:=",ExpressionUUID->"36e8c678-4809-4121-b890-f75952137464"],
 
 Cell[BoxData[
  InterpretationBox[GridBox[{
@@ -1217,37 +1218,35 @@ Cell[BoxData[
 \[CapitalDelta]\[Phi]\\\", \\\"i\\\"], TraditionalForm]]]]]\\) \
 (degrees)\"\>", "\<\"Cumulative change in \[Phi]\"\>"},
     {"0", "1.5`", 
-     RowBox[{"-", "0.1`"}], "0.115`", "6.6000000000000005`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"1", "1.4`", 
-     RowBox[{"-", "0.1`"}], "0.109`", "6.300000000000001`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"2", "1.3`", 
-     RowBox[{"-", "0.1`"}], "0.105`", "6.`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"3", "1.2`", 
-     RowBox[{"-", "0.1`"}], "0.10200000000000001`", 
-     "5.800000000000001`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"4", "1.1`", 
-     RowBox[{"-", "0.1`"}], "0.101`", "5.800000000000001`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"5", "1.`", 
-     RowBox[{"-", "0.1`"}], "0.1`", "5.7`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"6", "0.8999999999999999`", 
-     RowBox[{"-", "0.1`"}], "0.101`", "5.800000000000001`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"7", "0.7999999999999999`", 
-     RowBox[{"-", "0.1`"}], "0.10200000000000001`", 
-     "5.800000000000001`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"8", "0.7`", 
-     RowBox[{"-", "0.1`"}], "0.105`", "6.`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"9", "0.6`", 
-     RowBox[{"-", "0.1`"}], "0.109`", "6.300000000000001`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"10", "0.5`", 
-     RowBox[{"-", "0.1`"}], "0.115`", "6.6000000000000005`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"11", "0.3999999999999999`", 
-     RowBox[{"-", "0.1`"}], "0.125`", "7.2`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"12", "0.2999999999999998`", 
-     RowBox[{"-", "0.1`"}], "0.14`", "8.`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"13", "0.19999999999999996`", 
-     RowBox[{"-", "0.1`"}], "0.167`", "9.5`", "\<\"\"\>"},
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
     {"14", "0.09999999999999987`", 
-     RowBox[{"-", "0.1`"}], "0.229`", "13.100000000000001`", "\<\"\"\>"}
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"}
    },
    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
    GridBoxSpacings->{"Columns" -> {
@@ -1268,25 +1267,23 @@ TraditionalForm]]]\n}]]\)",
      "\!\(\*FractionBox[\(360\), \(2  \
 \[Pi]\)]\)*\!\(\*Cell[TextData[Cell[BoxData[FormBox[\nSubscriptBox[\"\
 \[CapitalDelta]\[Phi]\", \"i\"], TraditionalForm]]]]]\) (degrees)", 
-     "Cumulative change in \[Phi]"}, {
-    0, 1.5, -0.1, 0.115, 6.6000000000000005`}, {
-    1, 1.4, -0.1, 0.109, 6.300000000000001}, {2, 1.3, -0.1, 0.105, 6.}, {
-    3, 1.2, -0.1, 0.10200000000000001`, 5.800000000000001}, {
-    4, 1.1, -0.1, 0.101, 5.800000000000001}, {5, 1., -0.1, 0.1, 5.7}, {
-    6, 0.8999999999999999, -0.1, 0.101, 5.800000000000001}, {
-    7, 0.7999999999999999, -0.1, 0.10200000000000001`, 5.800000000000001}, {
-    8, 0.7, -0.1, 0.105, 6.}, {9, 0.6, -0.1, 0.109, 6.300000000000001}, {
-    10, 0.5, -0.1, 0.115, 6.6000000000000005`}, {
-    11, 0.3999999999999999, -0.1, 0.125, 7.2}, {
-    12, 0.2999999999999998, -0.1, 0.14, 8.}, {
-    13, 0.19999999999999996`, -0.1, 0.167, 9.5}, {
-    14, 0.09999999999999987, -0.1, 0.229, 13.100000000000001`}}]]], "Output",
+     "Cumulative change in \[Phi]"}, {0, 1.5, -0.1, "", ""}, {
+    1, 1.4, -0.1, "", ""}, {2, 1.3, -0.1, "", ""}, {3, 1.2, -0.1, "", ""}, {
+    4, 1.1, -0.1, "", ""}, {5, 1., -0.1, "", ""}, {
+    6, 0.8999999999999999, -0.1, "", ""}, {
+    7, 0.7999999999999999, -0.1, "", ""}, {8, 0.7, -0.1, "", ""}, {
+    9, 0.6, -0.1, "", ""}, {10, 0.5, -0.1, "", ""}, {
+    11, 0.3999999999999999, -0.1, "", ""}, {
+    12, 0.2999999999999998, -0.1, "", ""}, {
+    13, 0.19999999999999996`, -0.1, "", ""}, {
+    14, 0.09999999999999987, -0.1, "", ""}}]]], "Output",
  CellChangeTimes->{
   3.885159220228018*^9, 3.885159262572053*^9, {3.885159310979388*^9, 
-   3.885159314759951*^9}, 3.8851593643273077`*^9, 3.885159418500306*^9},
+   3.885159314759951*^9}, 3.8851593643273077`*^9, 3.885159418500306*^9, {
+   3.885159505590825*^9, 3.885159513938325*^9}},
  CellLabel->
-  "Out[259]//TableForm=",ExpressionUUID->"808ee58a-d67b-49e4-904f-\
-2ab47e6987f1"]
+  "Out[265]//TableForm=",ExpressionUUID->"c9cf39ce-dd83-4d4e-89ae-\
+1ebf0051e651"]
 }, Open  ]],
 
 Cell["", "PageBreak",
@@ -1299,22 +1296,22 @@ Cell[TextData[{
    RowBox[{"x", "=", "1.5"}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "48bd0aae-b5c3-4b58-a0b5-d5d5e01c4d08"],
- " and ",
+ " (the 15th concentric circle) and ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[Phi]", "=", 
     RowBox[{"0", "\[Degree]"}]}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "2f885921-774d-4059-b6a0-ea41fdaa4378"],
- "."
+ " and work your way inwards 0.1 at a time."
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQBmIQfcdqxXPPT28cDWxEP4NooVMvvoHogJxkbi8gXZd7
+1:eJxTTMoPSmViYGAQAWIQfcdqxXPPT28cDWxEP4NooVMvvoHogJxkbi8gXZd7
 IcEPSC+zYksD0T+4OmeC6CWyS8H0lkdf5oJozQOFK0B0KPvvHSB62hbbA2Bx
 0dgTIPrJ4mM3QLTZ96LP/kB6m1ciawCQLmRK4QTRXAa3wfR8zwg+EP03erUk
 iO4N2hQHom8sTEsH0b8ehhwOBNLezOsvgOio4sKuICA9UbJlAoi+u/n3PRA9
 5YbwfRD941Xj3VAgLSK6/x6ITnq+dXYYyH1bt4PpVTvCT4LoBzzKp0E0d7fv
-/XCQv/Y1gul638J/IDpqlxJjBJAGAIgKriE=
+/XCQv/Y1gul638J/IDpqlxJjBJD+k7xgbRSQNlwqvxlEAwC917do
   "],ExpressionUUID->"6c8f1d25-aea2-4ecd-aa1a-1d5790b7cffc"],
 
 Cell[CellGroupData[{
@@ -1322,14 +1319,15 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"PolarPlot", "[", 
   RowBox[{
-   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", "2", "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"x", ",", " ", "0", ",", " ", "1.5"}], "}"}], ",", " ", 
+    RowBox[{"x", ",", " ", "0", ",", " ", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", " ", 
    RowBox[{"PolarGridLines", "->", 
     RowBox[{"{", 
      RowBox[{"Automatic", ",", 
       RowBox[{"Range", "[", 
-       RowBox[{"0", ",", "1.5", ",", " ", "0.1"}], "]"}]}], "}"}]}], ",", " ", 
+       RowBox[{"0", ",", "2", ",", " ", "0.1"}], "]"}]}], "}"}]}], ",", " ", 
    RowBox[{
    "PlotLabel", "->", 
     "\"\<Worldline for a Light-Like Particle on an \
@@ -1340,112 +1338,72 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"\"\<Degrees\>\"", ",", " ", "Automatic"}], "}"}]}], ",", " ", 
    RowBox[{"PlotRange", "->", "2"}], ",", 
-   RowBox[{"PlotRangePadding", "->", "0.05"}]}], "]"}]], "Input",
+   RowBox[{"PlotRangePadding", "->", "1.25"}]}], "]"}]], "Input",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQBmIQnXE4Vyrg0xtHjWWz1ED09Y5qbRAdt8/FBESHHPK1
+1:eJxTTMoPSmViYGAQBWIQnXE4Vyrg0xtHjWWz1ED09Y5qbRAdt8/FBESHHPK1
 AdFlvX8cQbQda7Q7iDb9Y+EDolf/VAwE0WKmsnEgui/iVAaIZgjekgmiDZd4
 TAoC0r33D88H0UtcP5wOA9IRLcuvgehZs4Q/g+gjd179BtEJT6YxhANpy149
 dhCts6ySB0Q/U9kgAKLXPPsmDqKn7M6TANFLOCXkwOrmnlEE0Z3v7miA6Den
 X4Dpc3PmRYHouD7HWBB9Ny88EURLbMwA05/XHM0A0WXbnoLpJNaeYrB5f0JL
-QPQ/5hmsEUD6zLKdnCAaAKfjqAg=
+QPQ/5hmsEUD6zLKdnCB61uKyiVFAWokhYhKI5sgunAaiXxaKLALRALtzuMg=
+
   "],
  FontSize->9,
  CellLabel->
-  "In[213]:=",ExpressionUUID->"e2361a97-5553-40e1-ad75-9e2892b6bd98"],
+  "In[273]:=",ExpressionUUID->"e2361a97-5553-40e1-ad75-9e2892b6bd98"],
 
 Cell[BoxData[
  GraphicsBox[{{{{
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {2^Rational[1, 2], 0}}, {{0, 0}, {
-          1.4142135623730951`, 0}}]]}, 
+       LineBox[{{0, 0}, {2.828426952600326, 0.}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 + 3^Rational[1, 2])}}, {{0, 0}, {
-          1.3660254037844386`, 0.3660254037844386}}]]}, 
+       LineBox[{{0, 0}, {2.7320506412887413`, 0.732050763014249}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}}, {{0, 0}, {
-          1.224744871391589, 0.7071067811865475}}]]}, 
-      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {1, 1}}]}, 
+       LineBox[{{0, 0}, {2.4494895937004864`, 1.414213476300163}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}}, {{0, 0}, {
-          0.7071067811865475, 1.224744871391589}}]]}, 
+       LineBox[{{0, 0}, {1.999999878274492, 1.999999878274492}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (1 + 3^Rational[1, 2])}}, {{0, 0}, {
-          0.3660254037844386, 1.3660254037844386`}}]]}, 
+       LineBox[{{0, 0}, {1.414213476300163, 2.4494895937004864`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {0, 2^Rational[1, 2]}}, {{0, 0}, {
-          0, 1.4142135623730951`}}]]}, 
+       LineBox[{{0, 0}, {0.732050763014249, 2.7320506412887413`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (1 + 3^Rational[1, 2])}}, {{0, 
-          0}, {-0.3660254037844386, 1.3660254037844386`}}]]}, 
+       LineBox[{{0, 0}, {0., 2.828426952600326}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 
-          0}, {-2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}}, {{0, 
-          0}, {-0.7071067811865475, 1.224744871391589}}]]}, 
-      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {-1, 1}}]}, 
+       LineBox[{{0, 0}, {-0.732050763014249, 2.7320506412887413`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 
-          0}, {-Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}}, {{0, 
-          0}, {-1.224744871391589, 0.7071067811865475}}]]}, 
+       LineBox[{{0, 0}, {-1.414213476300163, 2.4494895937004864`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 + 3^Rational[1, 2])}}, {{0, 
-          0}, {-1.3660254037844386`, 0.3660254037844386}}]]}, 
+       LineBox[{{0, 0}, {-1.999999878274492, 1.999999878274492}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {-2^Rational[1, 2], 0}}, {{0, 
-          0}, {-1.4142135623730951`, 0}}]]}, 
+       LineBox[{{0, 0}, {-2.4494895937004864`, 1.414213476300163}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (1 - 3^Rational[1, 2])}}, {{0, 
-          0}, {-1.3660254037844386`, -0.3660254037844386}}]]}, 
+       LineBox[{{0, 0}, {-2.7320506412887413`, 0.732050763014249}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 
-          0}, {-Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}}, {{0, 
-          0}, {-1.224744871391589, -0.7071067811865475}}]]}, 
-      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {-1, -1}}]}, 
+       LineBox[{{0, 0}, {-2.828426952600326, 0.}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 
-          0}, {-2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}}, {{0, 
-          0}, {-0.7071067811865475, -1.224744871391589}}]]}, 
+       LineBox[{{0, 0}, {-2.7320506412887413`, -0.732050763014249}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 - 3^Rational[1, 2])}}, {{0, 
-          0}, {-0.3660254037844386, -1.3660254037844386`}}]]}, 
+       LineBox[{{0, 0}, {-2.4494895937004864`, -1.414213476300163}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {0, -2^Rational[1, 2]}}, {{0, 0}, {
-          0, -1.4142135623730951`}}]]}, 
+       LineBox[{{0, 0}, {-1.999999878274492, -1.999999878274492}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 - 3^Rational[1, 2])}}, {{0, 0}, {
-          0.3660254037844386, -1.3660254037844386`}}]]}, 
+       LineBox[{{0, 0}, {-1.414213476300163, -2.4494895937004864`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}}, {{0, 0}, {
-          0.7071067811865475, -1.224744871391589}}]]}, 
-      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {1, -1}}]}, 
+       LineBox[{{0, 0}, {-0.732050763014249, -2.7320506412887413`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}}, {{0, 0}, {
-          1.224744871391589, -0.7071067811865475}}]]}, 
+       LineBox[{{0, 0}, {0., -2.828426952600326}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {
-          Rational[1, 2] (1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (1 - 3^Rational[1, 2])}}, {{0, 0}, {
-          1.3660254037844386`, -0.3660254037844386}}]]}, 
+       LineBox[{{0, 0}, {0.732050763014249, -2.7320506412887413`}}]}, 
       {GrayLevel[0.5], Opacity[0.4], 
-       LineBox[NCache[{{0, 0}, {2^Rational[1, 2], 0}}, {{0, 0}, {
-          1.4142135623730951`, 0}}]]}}, {
+       LineBox[{{0, 0}, {1.414213476300163, -2.4494895937004864`}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[{{0, 0}, {1.999999878274492, -1.999999878274492}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[{{0, 0}, {2.4494895937004864`, -1.414213476300163}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[{{0, 0}, {2.7320506412887413`, -0.732050763014249}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[{{0, 0}, {2.828426952600326, 0.}}]}}, {
       {GrayLevel[0.5], Opacity[0.4], 
        CircleBox[{0, 0}, 0., NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
       {GrayLevel[0.5], Opacity[0.4], 
@@ -1480,566 +1438,574 @@ Cell[BoxData[
        CircleBox[{0, 0}, 1.3, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
       {GrayLevel[0.5], Opacity[0.4], 
        CircleBox[{0, 0}, 1.4000000000000001, 
-        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}}}, {}, {}, {}, {{{
-       LineBox[NCache[{
-         Scaled[{0, 0}, {2^Rational[1, 2], 0}], 
-          Scaled[{0.008, 0.}, {2^Rational[1, 2], 0}]}, {
-         Scaled[{0, 0}, {1.4142135623730951`, 0}], 
-          Scaled[{0.008, 0.}, {1.4142135623730951`, 0}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
-          Scaled[{0.007727406610312546, 0.0020705523608201657`}, {
-           Rational[1, 2] (1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 + 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {1.3660254037844386`, 0.3660254037844386}], 
-          Scaled[{0.007727406610312546, 0.0020705523608201657`}, {
-           1.3660254037844386`, 0.3660254037844386}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}], 
-          Scaled[{0.006928203230275509, 0.004}, {
-           Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}]}, {
-         Scaled[{0, 0}, {1.224744871391589, 0.7071067811865475}], 
-          Scaled[{0.006928203230275509, 0.004}, {1.224744871391589, 
-           0.7071067811865475}]}]], 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.5, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.6, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.7000000000000002, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.8, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.9000000000000001, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 2., 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}}}, {}, {{}, {}, 
+     TagBox[
+      {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], 
+       LineBox[CompressedData["
+1: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
+9tbPJZjf3uiRQc6TW79/1i7mliEP30+BLZ0E7ms7bSWrXI6yHoqhju0E1nle
+PGpYVY6clVvqJVoI/OCdmpnQXoGKynY/mTUEjk2NyU8sVKHNRa2x1Ujgtvmi
+pQcidegxyXd4IJfA5x3Xjtdfq8Ppknnv9BxyvS5W9kuH1eHgtxTnY5kEZraY
+b6zcUY+1M2VKHYkEnrA4z9twoAE3C9nw2gSR/cfWa/dPpQm/6a7MyvEnkFcl
+Qn7WswlNNMtdGD4EGgxG7F2obcKVj2bu3X5P4Becfjh+tRmtlFamVr8gsO0I
+xy0v4xbcTNGsnjUj6z+zWSbqURtuZXNKHr5NoFKztFDzjzYcEX7a22hCoKTY
+3Cgx34YusaOygQbkeTJOkVWyacceeRnfAk0C/262tXQ268BsodG90YfI+Xyd
+3yxHrwu7+ENVJQ6S8+tRoNJL/y6M+spf7CND4FuBV1vONXbh3MGUSiNJcr3j
+GV7pGt2YtfE3RIgSaHSSrfzYub/I3tDnn0Fl4Q9uSynrDb1Ywyf5J4PCQouL
+BFP0SC8aSS3fT5ph4flckc7cq72Yt+LMjPsIC7dg2TuaTy+2jdoJ9bey8PhK
+iSllvj4seaj9a+8PFk7+u3dEgL0fFbcH7t5szsKs+80R54YG8Pz9k5cKbrHw
+WI6b1/DKQez4HZHynyELw0WuZ7+QHMTF5oGTjjok6w2ERN8dxEk/3UCt0yxs
+dl8REDc6iI9Cs3L1BFn49c7rA54TQygskO4znsTEDcwtE66T/7Dko1Pvsxgm
+blFN17zGN4Je/15HcUYw0S3GrlRaZgR3UasCln2Z+LSjpjzNcgQ13vfrP3/C
+xK993NvsxkfQ+qQRO+UsE2Phk2TAv1Hcyanf5FXLQObzOJlDHePIsuoqO1zO
+wDtu7is9qONYyB+X15jPwOtpGps6RCZwWEwzbymVgS6TC21GVybwQdxP6PVl
+oNKjZBSonsBDL122HdZl4K47yv3jvybR22DbG2YTHRn/7bQy9Z9Gm7cOXLHV
+dHz85G1hato0no7sr1UtJq+7Cqgt1U7jmveq556k07HZgn1CfuUMCht1cz79
+SMdzv/UIK5jBH/f2DqxRp+P9NxezeNNncP0/Sbm3v2jo2Z/0rChgFi+lxr3v
+S6Ohc1D6v4HIWVR/J/JIPp6G5WNOa9lSZ3G4mjylg2i4437Wx71Vs8g4FbY6
+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
+TbWNxJge60E3kk1ZC9S1dhHofmdbRC3Jl14JHusaDEeF9MdGa0mvebFwtsJz
+KBh/XL+9XY3kfBbvV4XhACyZaRt2JLmIWCjsGPbBWa6ypGiSv3hs1KPUvEfv
+g7selZNc55WTubfODUuZY2f7Se5PaL7w6+szfE1fu/Z/HqdyYOujA6p30T/L
+v+9/Hnd647tBBRNt8Cywz/ifx2nYcATJ6T6AxoiEt//zOC4R84Oju10hYeC0
+8TjJcse/v8+Qfgc7BA+eaCZ5hU9bSq7QRxBPdhf9SbIia2/rJiF/uHxBddGb
+5IFV53Ls130CuOnaakKyVVjQ9dK1YSD/+MSvfSTXRmh0vXnzBS5ueBkxRa7H
+55jb5nvefAWDfLN3sSQv+tTolblHgcAs8+F1kp1yy3YaukcD7ta9tYJk32Jv
+7dnXseA28vpqNLn+XBJBVRyvE0F6rF6xgdy/nGP7dZ8++w5ubHyfb5Ls8Xjo
+wsOjKTC/cVxzgNz/iw5XAttl0sDdmzu+mfS21bEh2m7S6SAZ/eaKEsmmdzLt
+9u3IgOz9MlpxZD3tM0OqxYZM8LjyROkmWX9S3jeHOIV+wjpTm+NJZH2m7ZG7
+GMCXBQL1e9woZP2q5gw/j+PIgZMLoSKWZH1bbB3e8XLiN0xnFMkSpLcpV7rI
+jgzngfAekQpBkj226tWc60N4d7gwaxPZT7LTiVOUsXyo37H+kyjZf1ihduVu
+TyEYz3nd+kH2569I28HHBkWQVO2R8pb0OKXB2Vq39iI4fWzyii7Zz2Hj86c+
+NhZDf+bqr21k/9MXemQsykohMVH21gtyPsiqpKvoKJcBR2St/Ya/BGotDdYe
+KSiDE9V63THkPOn87hQ5mVMOzyxfYDI5f/Kq30ms/V4JiWHXK00bSc/i1rhY
+uacK1vKopP+uJ+v/RsWYY0wVbC5fvyxQR6D374PSNV+q4d6XkdCwagJb70jC
+Ft8aqD+wX/u/EgKP+DMWwwVqIbMob9/TIrKeCy4e3+hZSzrNJzOvAgJP2fY9
+fHa2Dng4uTgjfxPovHFd5+4T9XBVf0ud1Q/y/ZbX3s3d2wg9n/+e+BRJ4Ps1
+K0JoVo3gObO7kDuCrLdYrsvyaY2wuL7rmnU4gcXiukzfo02wfvXd/G2fSO9N
+HD8seK4ZJnuVnot9IPDZswshAwat4M6BD00dyPk7829LwedWaHkgYKNsT+Bm
+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
+/x8UMtMe
+        "]]},
+      Annotation[#, "Charting`Private`Tag$19458#1"]& ]}, {}, {{{
        LineBox[{
-        Scaled[{0, 0}, {1, 1}], 
-         Scaled[{0.00565685424949238, 0.00565685424949238}, {1, 1}]}], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}], 
-          Scaled[{0.004, 0.006928203230275509}, {
-           2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}]}, {
-         Scaled[{0, 0}, {0.7071067811865475, 1.224744871391589}], 
-          Scaled[{0.004, 0.006928203230275509}, {0.7071067811865475, 
-           1.224744871391589}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (1 + 3^Rational[1, 2])}], 
-          Scaled[{0.0020705523608201657`, 0.007727406610312546}, {
-           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (1 + 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {0.3660254037844386, 1.3660254037844386`}], 
-          Scaled[{0.0020705523608201657`, 0.007727406610312546}, {
-           0.3660254037844386, 1.3660254037844386`}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {0, 2^Rational[1, 2]}], 
-          Scaled[{0., 0.008}, {0, 2^Rational[1, 2]}]}, {
-         Scaled[{0, 0}, {0, 1.4142135623730951`}], 
-          Scaled[{0., 0.008}, {0, 1.4142135623730951`}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (1 + 3^Rational[1, 2])}], 
-          Scaled[{-0.0020705523608201657`, 0.007727406610312546}, {
-           Rational[1, 2] (1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (1 + 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {-0.3660254037844386, 1.3660254037844386`}], 
-          Scaled[{-0.0020705523608201657`, 
-           0.007727406610312546}, {-0.3660254037844386, 
-           1.3660254037844386`}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {-2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}], 
-          Scaled[{-0.004, 
-           0.006928203230275509}, {-2^Rational[-1, 2], Rational[3, 2]^
-            Rational[1, 2]}]}, {
-         Scaled[{0, 0}, {-0.7071067811865475, 1.224744871391589}], 
-          Scaled[{-0.004, 0.006928203230275509}, {-0.7071067811865475, 
-           1.224744871391589}]}]], 
+        Scaled[{0, 0}, {2.828426952600326, 0.}], 
+         Scaled[{0.008, 0.}, {2.828426952600326, 0.}]}], 
        LineBox[{
-        Scaled[{0, 0}, {-1, 1}], 
-         Scaled[{-0.00565685424949238, 0.00565685424949238}, {-1, 1}]}], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {-Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}], 
-          Scaled[{-0.006928203230275509, 
-           0.004}, {-Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}]}, {
-         Scaled[{0, 0}, {-1.224744871391589, 0.7071067811865475}], 
-          Scaled[{-0.006928203230275509, 0.004}, {-1.224744871391589, 
-           0.7071067811865475}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
-          Scaled[{-0.007727406610312546, 0.0020705523608201657`}, {
-           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 + 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {-1.3660254037844386`, 0.3660254037844386}], 
-          Scaled[{-0.007727406610312546, 
-           0.0020705523608201657`}, {-1.3660254037844386`, 
-           0.3660254037844386}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {-2^Rational[1, 2], 0}], 
-          Scaled[{-0.008, 0.}, {-2^Rational[1, 2], 0}]}, {
-         Scaled[{0, 0}, {-1.4142135623730951`, 0}], 
-          Scaled[{-0.008, 0.}, {-1.4142135623730951`, 0}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (1 - 3^Rational[1, 2])}], 
-          Scaled[{-0.007727406610312546, -0.0020705523608201657`}, {
-           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (1 - 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {-1.3660254037844386`, -0.3660254037844386}], 
-          Scaled[{-0.007727406610312546, -0.0020705523608201657`}, \
-{-1.3660254037844386`, -0.3660254037844386}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {-Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}],
-           Scaled[{-0.006928203230275509, -0.004}, {-
-            Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}]}, {
-         Scaled[{0, 0}, {-1.224744871391589, -0.7071067811865475}], 
-          Scaled[{-0.006928203230275509, -0.004}, {-1.224744871391589, \
--0.7071067811865475}]}]], 
+        Scaled[{0, 0}, {2.7320506412887413`, 0.732050763014249}], 
+         Scaled[{0.007727406610312546, 0.0020705523608201657`}, {
+          2.7320506412887413`, 0.732050763014249}]}], 
        LineBox[{
-        Scaled[{0, 0}, {-1, -1}], 
-         Scaled[{-0.00565685424949238, -0.00565685424949238}, {-1, -1}]}], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {-2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}],
-           Scaled[{-0.004, -0.006928203230275509}, {-2^Rational[-1, 2], -
-            Rational[3, 2]^Rational[1, 2]}]}, {
-         Scaled[{0, 0}, {-0.7071067811865475, -1.224744871391589}], 
-          Scaled[{-0.004, -0.006928203230275509}, {-0.7071067811865475, \
--1.224744871391589}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
-          Scaled[{-0.0020705523608201657`, -0.007727406610312546}, {
-           Rational[1, 2] (1 - 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 - 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {-0.3660254037844386, -1.3660254037844386`}], 
-          Scaled[{-0.0020705523608201657`, -0.007727406610312546}, \
-{-0.3660254037844386, -1.3660254037844386`}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {0, -2^Rational[1, 2]}], 
-          Scaled[{0., -0.008}, {0, -2^Rational[1, 2]}]}, {
-         Scaled[{0, 0}, {0, -1.4142135623730951`}], 
-          Scaled[{0., -0.008}, {0, -1.4142135623730951`}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
-          Scaled[{0.0020705523608201657`, -0.007727406610312546}, {
-           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (-1 - 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {0.3660254037844386, -1.3660254037844386`}], 
-          Scaled[{0.0020705523608201657`, -0.007727406610312546}, {
-           0.3660254037844386, -1.3660254037844386`}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}], 
-          Scaled[{0.004, -0.006928203230275509}, {
-           2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}]}, {
-         Scaled[{0, 0}, {0.7071067811865475, -1.224744871391589}], 
-          Scaled[{0.004, -0.006928203230275509}, {
-           0.7071067811865475, -1.224744871391589}]}]], 
+        Scaled[{0, 0}, {2.4494895937004864`, 1.414213476300163}], 
+         Scaled[{0.006928203230275509, 0.004}, {2.4494895937004864`, 
+          1.414213476300163}]}], 
        LineBox[{
-        Scaled[{0, 0}, {1, -1}], 
-         Scaled[{0.00565685424949238, -0.00565685424949238}, {1, -1}]}], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}], 
-          Scaled[{0.006928203230275509, -0.004}, {
-           Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}]}, {
-         Scaled[{0, 0}, {1.224744871391589, -0.7071067811865475}], 
-          Scaled[{0.006928203230275509, -0.004}, {
-           1.224744871391589, -0.7071067811865475}]}]], 
-       LineBox[NCache[{
-         Scaled[{0, 0}, {
-           Rational[1, 2] (1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (1 - 3^Rational[1, 2])}], 
-          Scaled[{0.007727406610312546, -0.0020705523608201657`}, {
-           Rational[1, 2] (1 + 3^Rational[1, 2]), 
-            Rational[1, 2] (1 - 3^Rational[1, 2])}]}, {
-         Scaled[{0, 0}, {1.3660254037844386`, -0.3660254037844386}], 
-          Scaled[{0.007727406610312546, -0.0020705523608201657`}, {
-           1.3660254037844386`, -0.3660254037844386}]}]]}, 
-      LineBox[NCache[{{{
-          2^Rational[1, 2] Cos[Rational[1, 36] Pi], 2^Rational[1, 2] 
-           Sin[Rational[1, 36] Pi]}, 
-          Scaled[{0.003984778792366982, 0.00034862297099063266`}, {
-           2^Rational[1, 2] Cos[Rational[1, 36] Pi], 2^Rational[1, 2] 
-            Sin[Rational[1, 36] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[1, 18] Pi], 2^Rational[1, 2] 
-           Sin[Rational[1, 18] Pi]}, 
-          Scaled[{0.003939231012048832, 0.0006945927106677213}, {
-           2^Rational[1, 2] Cos[Rational[1, 18] Pi], 2^Rational[1, 2] 
-            Sin[Rational[1, 18] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[1, 9] Pi], 2^Rational[1, 2] 
-           Sin[Rational[1, 9] Pi]}, 
-          Scaled[{0.003758770483143634, 0.001368080573302675}, {
-           2^Rational[1, 2] Cos[Rational[1, 9] Pi], 2^Rational[1, 2] 
-            Sin[Rational[1, 9] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[5, 36] Pi], 2^Rational[1, 2] 
-           Sin[Rational[5, 36] Pi]}, 
-          Scaled[{0.0036252311481465996`, 0.0016904730469627979`}, {
-           2^Rational[1, 2] Cos[Rational[5, 36] Pi], 2^Rational[1, 2] 
-            Sin[Rational[5, 36] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[7, 36] Pi], 2^Rational[1, 2] 
-           Sin[Rational[7, 36] Pi]}, 
-          Scaled[{0.0032766081771559673`, 0.002294305745404184}, {
-           2^Rational[1, 2] Cos[Rational[7, 36] Pi], 2^Rational[1, 2] 
-            Sin[Rational[7, 36] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[2, 9] Pi], 2^Rational[1, 2] 
-           Sin[Rational[2, 9] Pi]}, 
-          Scaled[{0.0030641777724759126`, 0.002571150438746157}, {
-           2^Rational[1, 2] Cos[Rational[2, 9] Pi], 2^Rational[1, 2] 
-            Sin[Rational[2, 9] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[2, 9] Pi], 2^Rational[1, 2] 
-           Cos[Rational[2, 9] Pi]}, 
-          Scaled[{0.002571150438746157, 0.0030641777724759126`}, {
-           2^Rational[1, 2] Sin[Rational[2, 9] Pi], 2^Rational[1, 2] 
-            Cos[Rational[2, 9] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[7, 36] Pi], 2^Rational[1, 2] 
-           Cos[Rational[7, 36] Pi]}, 
-          Scaled[{0.002294305745404184, 0.0032766081771559673`}, {
-           2^Rational[1, 2] Sin[Rational[7, 36] Pi], 2^Rational[1, 2] 
-            Cos[Rational[7, 36] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[5, 36] Pi], 2^Rational[1, 2] 
-           Cos[Rational[5, 36] Pi]}, 
-          Scaled[{0.0016904730469627979`, 0.0036252311481465996`}, {
-           2^Rational[1, 2] Sin[Rational[5, 36] Pi], 2^Rational[1, 2] 
-            Cos[Rational[5, 36] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[1, 9] Pi], 2^Rational[1, 2] 
-           Cos[Rational[1, 9] Pi]}, 
-          Scaled[{0.001368080573302675, 0.003758770483143634}, {
-           2^Rational[1, 2] Sin[Rational[1, 9] Pi], 2^Rational[1, 2] 
-            Cos[Rational[1, 9] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[1, 18] Pi], 2^Rational[1, 2] 
-           Cos[Rational[1, 18] Pi]}, 
-          Scaled[{0.0006945927106677213, 0.003939231012048832}, {
-           2^Rational[1, 2] Sin[Rational[1, 18] Pi], 2^Rational[1, 2] 
-            Cos[Rational[1, 18] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[1, 36] Pi], 2^Rational[1, 2] 
-           Cos[Rational[1, 36] Pi]}, 
-          Scaled[{0.00034862297099063266`, 0.003984778792366982}, {
-           2^Rational[1, 2] Sin[Rational[1, 36] Pi], 2^Rational[1, 2] 
-            Cos[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[1, 36] Pi], 2^Rational[1, 2] Cos[Rational[1, 36] Pi]},
-           Scaled[{-0.00034862297099063266`, 
-           0.003984778792366982}, {-2^Rational[1, 2] Sin[Rational[1, 36] Pi], 
-            2^Rational[1, 2] Cos[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[1, 18] Pi], 2^Rational[1, 2] Cos[Rational[1, 18] Pi]},
-           Scaled[{-0.0006945927106677213, 
-           0.003939231012048832}, {-2^Rational[1, 2] Sin[Rational[1, 18] Pi], 
-            2^Rational[1, 2] Cos[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[1, 9] Pi], 2^Rational[1, 2] Cos[Rational[1, 9] Pi]}, 
-          Scaled[{-0.001368080573302675, 
-           0.003758770483143634}, {-2^Rational[1, 2] Sin[Rational[1, 9] Pi], 
-            2^Rational[1, 2] Cos[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[5, 36] Pi], 2^Rational[1, 2] Cos[Rational[5, 36] Pi]},
-           Scaled[{-0.0016904730469627979`, 
-           0.0036252311481465996`}, {-2^Rational[1, 2] 
-            Sin[Rational[5, 36] Pi], 2^Rational[1, 2] 
-            Cos[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[7, 36] Pi], 2^Rational[1, 2] Cos[Rational[7, 36] Pi]},
-           Scaled[{-0.002294305745404184, 
-           0.0032766081771559673`}, {-2^Rational[1, 2] 
-            Sin[Rational[7, 36] Pi], 2^Rational[1, 2] 
-            Cos[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[2, 9] Pi], 2^Rational[1, 2] Cos[Rational[2, 9] Pi]}, 
-          Scaled[{-0.002571150438746157, 
-           0.0030641777724759126`}, {-2^Rational[1, 2] Sin[Rational[2, 9] Pi],
-             2^Rational[1, 2] Cos[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[2, 9] Pi], 2^Rational[1, 2] Sin[Rational[2, 9] Pi]}, 
-          Scaled[{-0.0030641777724759126`, 
-           0.002571150438746157}, {-2^Rational[1, 2] Cos[Rational[2, 9] Pi], 
-            2^Rational[1, 2] Sin[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[7, 36] Pi], 2^Rational[1, 2] Sin[Rational[7, 36] Pi]},
-           Scaled[{-0.0032766081771559673`, 
-           0.002294305745404184}, {-2^Rational[1, 2] Cos[Rational[7, 36] Pi], 
-            2^Rational[1, 2] Sin[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[5, 36] Pi], 2^Rational[1, 2] Sin[Rational[5, 36] Pi]},
-           Scaled[{-0.0036252311481465996`, 
-           0.0016904730469627979`}, {-2^Rational[1, 2] 
-            Cos[Rational[5, 36] Pi], 2^Rational[1, 2] 
-            Sin[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[1, 9] Pi], 2^Rational[1, 2] Sin[Rational[1, 9] Pi]}, 
+        Scaled[{0, 0}, {1.999999878274492, 1.999999878274492}], 
+         Scaled[{0.00565685424949238, 0.00565685424949238}, {
+          1.999999878274492, 1.999999878274492}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {1.414213476300163, 2.4494895937004864`}], 
+         Scaled[{0.004, 0.006928203230275509}, {1.414213476300163, 
+          2.4494895937004864`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {0.732050763014249, 2.7320506412887413`}], 
+         Scaled[{0.0020705523608201657`, 0.007727406610312546}, {
+          0.732050763014249, 2.7320506412887413`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {0., 2.828426952600326}], 
+         Scaled[{0., 0.008}, {0., 2.828426952600326}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-0.732050763014249, 2.7320506412887413`}], 
+         Scaled[{-0.0020705523608201657`, 
+          0.007727406610312546}, {-0.732050763014249, 2.7320506412887413`}]}],
+        LineBox[{
+        Scaled[{0, 0}, {-1.414213476300163, 2.4494895937004864`}], 
+         Scaled[{-0.004, 0.006928203230275509}, {-1.414213476300163, 
+          2.4494895937004864`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-1.999999878274492, 1.999999878274492}], 
+         Scaled[{-0.00565685424949238, 
+          0.00565685424949238}, {-1.999999878274492, 1.999999878274492}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-2.4494895937004864`, 1.414213476300163}], 
+         Scaled[{-0.006928203230275509, 0.004}, {-2.4494895937004864`, 
+          1.414213476300163}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-2.7320506412887413`, 0.732050763014249}], 
+         Scaled[{-0.007727406610312546, 
+          0.0020705523608201657`}, {-2.7320506412887413`, 
+          0.732050763014249}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-2.828426952600326, 0.}], 
+         Scaled[{-0.008, 0.}, {-2.828426952600326, 0.}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-2.7320506412887413`, -0.732050763014249}], 
+         Scaled[{-0.007727406610312546, -0.0020705523608201657`}, \
+{-2.7320506412887413`, -0.732050763014249}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-2.4494895937004864`, -1.414213476300163}], 
+         Scaled[{-0.006928203230275509, -0.004}, {-2.4494895937004864`, \
+-1.414213476300163}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-1.999999878274492, -1.999999878274492}], 
+         Scaled[{-0.00565685424949238, -0.00565685424949238}, \
+{-1.999999878274492, -1.999999878274492}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-1.414213476300163, -2.4494895937004864`}], 
+         Scaled[{-0.004, -0.006928203230275509}, {-1.414213476300163, \
+-2.4494895937004864`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {-0.732050763014249, -2.7320506412887413`}], 
+         Scaled[{-0.0020705523608201657`, -0.007727406610312546}, \
+{-0.732050763014249, -2.7320506412887413`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {0., -2.828426952600326}], 
+         Scaled[{0., -0.008}, {0., -2.828426952600326}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {0.732050763014249, -2.7320506412887413`}], 
+         Scaled[{0.0020705523608201657`, -0.007727406610312546}, {
+          0.732050763014249, -2.7320506412887413`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {1.414213476300163, -2.4494895937004864`}], 
+         Scaled[{0.004, -0.006928203230275509}, {
+          1.414213476300163, -2.4494895937004864`}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {1.999999878274492, -1.999999878274492}], 
+         Scaled[{0.00565685424949238, -0.00565685424949238}, {
+          1.999999878274492, -1.999999878274492}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {2.4494895937004864`, -1.414213476300163}], 
+         Scaled[{0.006928203230275509, -0.004}, {
+          2.4494895937004864`, -1.414213476300163}]}], 
+       LineBox[{
+        Scaled[{0, 0}, {2.7320506412887413`, -0.732050763014249}], 
+         Scaled[{0.007727406610312546, -0.0020705523608201657`}, {
+          2.7320506412887413`, -0.732050763014249}]}]}, 
+      LineBox[{{{2.8176639341202376`, 0.24651365186137675`}, 
+         Scaled[{0.003984778792366982, 0.00034862297099063266`}, {
+          2.8176639341202376`, 0.24651365186137675`}]}, {{2.785456791749494, 
+         0.4911511859830758}, 
+         Scaled[{0.003939231012048832, 0.0006945927106677213}, {
+          2.785456791749494, 0.4911511859830758}]}, {{2.6578519357905006`, 
+         0.9673789917145479}, 
+         Scaled[{0.003758770483143634, 0.001368080573302675}, {
+          2.6578519357905006`, 0.9673789917145479}]}, {{2.563425372206017, 
+         1.1953448821684935`}, 
+         Scaled[{0.0036252311481465996`, 0.0016904730469627979`}, {
+          2.563425372206017, 1.1953448821684935`}]}, {{2.3169117203446405`, 
+         1.622319051951744}, 
+         Scaled[{0.0032766081771559673`, 0.002294305745404184}, {
+          2.3169117203446405`, 1.622319051951744}]}, {{2.166700749807425, 
+         1.818077800034946}, 
+         Scaled[{0.0030641777724759126`, 0.002571150438746157}, {
+          2.166700749807425, 1.818077800034946}]}, {{1.818077800034946, 
+         2.166700749807425}, 
+         Scaled[{0.002571150438746157, 0.0030641777724759126`}, {
+          1.818077800034946, 2.166700749807425}]}, {{1.622319051951744, 
+         2.3169117203446405`}, 
+         Scaled[{0.002294305745404184, 0.0032766081771559673`}, {
+          1.622319051951744, 2.3169117203446405`}]}, {{1.1953448821684935`, 
+         2.563425372206017}, 
+         Scaled[{0.0016904730469627979`, 0.0036252311481465996`}, {
+          1.1953448821684935`, 2.563425372206017}]}, {{0.9673789917145479, 
+         2.6578519357905006`}, 
+         Scaled[{0.001368080573302675, 0.003758770483143634}, {
+          0.9673789917145479, 2.6578519357905006`}]}, {{0.4911511859830758, 
+         2.785456791749494}, 
+         Scaled[{0.0006945927106677213, 0.003939231012048832}, {
+          0.4911511859830758, 2.785456791749494}]}, {{0.24651365186137675`, 
+         2.8176639341202376`}, 
+         Scaled[{0.00034862297099063266`, 0.003984778792366982}, {
+          0.24651365186137675`, 
+          2.8176639341202376`}]}, {{-0.24651365186137675`, 
+         2.8176639341202376`}, 
+         Scaled[{-0.00034862297099063266`, 
+          0.003984778792366982}, {-0.24651365186137675`, 
+          2.8176639341202376`}]}, {{-0.4911511859830758, 2.785456791749494}, 
+         Scaled[{-0.0006945927106677213, 
+          0.003939231012048832}, {-0.4911511859830758, 
+          2.785456791749494}]}, {{-0.9673789917145479, 2.6578519357905006`}, 
+         Scaled[{-0.001368080573302675, 
+          0.003758770483143634}, {-0.9673789917145479, 
+          2.6578519357905006`}]}, {{-1.1953448821684935`, 2.563425372206017}, 
+         Scaled[{-0.0016904730469627979`, 
+          0.0036252311481465996`}, {-1.1953448821684935`, 
+          2.563425372206017}]}, {{-1.622319051951744, 2.3169117203446405`}, 
+         Scaled[{-0.002294305745404184, 
+          0.0032766081771559673`}, {-1.622319051951744, 
+          2.3169117203446405`}]}, {{-1.818077800034946, 2.166700749807425}, 
+         Scaled[{-0.002571150438746157, 
+          0.0030641777724759126`}, {-1.818077800034946, 
+          2.166700749807425}]}, {{-2.166700749807425, 1.818077800034946}, 
+         Scaled[{-0.0030641777724759126`, 
+          0.002571150438746157}, {-2.166700749807425, 
+          1.818077800034946}]}, {{-2.3169117203446405`, 1.622319051951744}, 
+         Scaled[{-0.0032766081771559673`, 
+          0.002294305745404184}, {-2.3169117203446405`, 
+          1.622319051951744}]}, {{-2.563425372206017, 1.1953448821684935`}, 
+         Scaled[{-0.0036252311481465996`, 
+          0.0016904730469627979`}, {-2.563425372206017, 
+          1.1953448821684935`}]}, {{-2.6578519357905006`, 0.9673789917145479},
           Scaled[{-0.003758770483143634, 
-           0.001368080573302675}, {-2^Rational[1, 2] Cos[Rational[1, 9] Pi], 
-            2^Rational[1, 2] Sin[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[1, 18] Pi], 2^Rational[1, 2] Sin[Rational[1, 18] Pi]},
-           Scaled[{-0.003939231012048832, 
-           0.0006945927106677213}, {-2^Rational[1, 2] Cos[Rational[1, 18] Pi],
-             2^Rational[1, 2] Sin[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[1, 36] Pi], 2^Rational[1, 2] Sin[Rational[1, 36] Pi]},
-           Scaled[{-0.003984778792366982, 
-           0.00034862297099063266`}, {-2^Rational[1, 2] 
-            Cos[Rational[1, 36] Pi], 2^Rational[1, 2] 
-            Sin[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
-           Sin[Rational[1, 36] Pi]}, 
-          Scaled[{-0.003984778792366982, -0.00034862297099063266`}, {-2^
-             Rational[1, 2] Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
-            Sin[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
-           Sin[Rational[1, 18] Pi]}, 
-          Scaled[{-0.003939231012048832, -0.0006945927106677213}, {-2^
-             Rational[1, 2] Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
-            Sin[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[1, 9] Pi], -2^Rational[1, 2] Sin[Rational[1, 9] Pi]}, 
-          Scaled[{-0.003758770483143634, -0.001368080573302675}, {-2^
-             Rational[1, 2] Cos[Rational[1, 9] Pi], -2^Rational[1, 2] 
-            Sin[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
-           Sin[Rational[5, 36] Pi]}, 
-          Scaled[{-0.0036252311481465996`, -0.0016904730469627979`}, {-2^
-             Rational[1, 2] Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
-            Sin[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
-           Sin[Rational[7, 36] Pi]}, 
-          Scaled[{-0.0032766081771559673`, -0.002294305745404184}, {-2^
-             Rational[1, 2] Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
-            Sin[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Cos[Rational[2, 9] Pi], -2^Rational[1, 2] Sin[Rational[2, 9] Pi]}, 
-          Scaled[{-0.0030641777724759126`, -0.002571150438746157}, {-2^
-             Rational[1, 2] Cos[Rational[2, 9] Pi], -2^Rational[1, 2] 
-            Sin[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[2, 9] Pi], -2^Rational[1, 2] Cos[Rational[2, 9] Pi]}, 
-          Scaled[{-0.002571150438746157, -0.0030641777724759126`}, {-2^
-             Rational[1, 2] Sin[Rational[2, 9] Pi], -2^Rational[1, 2] 
-            Cos[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
-           Cos[Rational[7, 36] Pi]}, 
-          Scaled[{-0.002294305745404184, -0.0032766081771559673`}, {-2^
-             Rational[1, 2] Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
-            Cos[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
-           Cos[Rational[5, 36] Pi]}, 
-          Scaled[{-0.0016904730469627979`, -0.0036252311481465996`}, {-2^
-             Rational[1, 2] Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
-            Cos[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[1, 9] Pi], -2^Rational[1, 2] Cos[Rational[1, 9] Pi]}, 
-          Scaled[{-0.001368080573302675, -0.003758770483143634}, {-2^
-             Rational[1, 2] Sin[Rational[1, 9] Pi], -2^Rational[1, 2] 
-            Cos[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
-           Cos[Rational[1, 18] Pi]}, 
-          Scaled[{-0.0006945927106677213, -0.003939231012048832}, {-2^
-             Rational[1, 2] Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
-            Cos[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
-           Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
-           Cos[Rational[1, 36] Pi]}, 
-          Scaled[{-0.00034862297099063266`, -0.003984778792366982}, {-2^
-             Rational[1, 2] Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
-            Cos[Rational[1, 36] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
-           Cos[Rational[1, 36] Pi]}, 
-          Scaled[{0.00034862297099063266`, -0.003984778792366982}, {
-           2^Rational[1, 2] Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
-            Cos[Rational[1, 36] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
-           Cos[Rational[1, 18] Pi]}, 
-          Scaled[{0.0006945927106677213, -0.003939231012048832}, {
-           2^Rational[1, 2] Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
-            Cos[Rational[1, 18] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[1, 9] Pi], -2^Rational[1, 2] 
-           Cos[Rational[1, 9] Pi]}, 
-          Scaled[{0.001368080573302675, -0.003758770483143634}, {
-           2^Rational[1, 2] Sin[Rational[1, 9] Pi], -2^Rational[1, 2] 
-            Cos[Rational[1, 9] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
-           Cos[Rational[5, 36] Pi]}, 
-          Scaled[{0.0016904730469627979`, -0.0036252311481465996`}, {
-           2^Rational[1, 2] Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
-            Cos[Rational[5, 36] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
-           Cos[Rational[7, 36] Pi]}, 
-          Scaled[{0.002294305745404184, -0.0032766081771559673`}, {
-           2^Rational[1, 2] Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
-            Cos[Rational[7, 36] Pi]}]}, {{
-          2^Rational[1, 2] Sin[Rational[2, 9] Pi], -2^Rational[1, 2] 
-           Cos[Rational[2, 9] Pi]}, 
-          Scaled[{0.002571150438746157, -0.0030641777724759126`}, {
-           2^Rational[1, 2] Sin[Rational[2, 9] Pi], -2^Rational[1, 2] 
-            Cos[Rational[2, 9] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[2, 9] Pi], -2^Rational[1, 2] 
-           Sin[Rational[2, 9] Pi]}, 
-          Scaled[{0.0030641777724759126`, -0.002571150438746157}, {
-           2^Rational[1, 2] Cos[Rational[2, 9] Pi], -2^Rational[1, 2] 
-            Sin[Rational[2, 9] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
-           Sin[Rational[7, 36] Pi]}, 
-          Scaled[{0.0032766081771559673`, -0.002294305745404184}, {
-           2^Rational[1, 2] Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
-            Sin[Rational[7, 36] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
-           Sin[Rational[5, 36] Pi]}, 
-          Scaled[{0.0036252311481465996`, -0.0016904730469627979`}, {
-           2^Rational[1, 2] Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
-            Sin[Rational[5, 36] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[1, 9] Pi], -2^Rational[1, 2] 
-           Sin[Rational[1, 9] Pi]}, 
-          Scaled[{0.003758770483143634, -0.001368080573302675}, {
-           2^Rational[1, 2] Cos[Rational[1, 9] Pi], -2^Rational[1, 2] 
-            Sin[Rational[1, 9] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
-           Sin[Rational[1, 18] Pi]}, 
-          Scaled[{0.003939231012048832, -0.0006945927106677213}, {
-           2^Rational[1, 2] Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
-            Sin[Rational[1, 18] Pi]}]}, {{
-          2^Rational[1, 2] Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
-           Sin[Rational[1, 36] Pi]}, 
-          Scaled[{0.003984778792366982, -0.00034862297099063266`}, {
-           2^Rational[1, 2] Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
-            Sin[Rational[1, 36] Pi]}]}}, {{{1.4088320528055174`, 
-          0.1232568334324387}, 
-          Scaled[{0.003984778792366982, 0.00034862297099063266`}, {
-           1.4088320528055174`, 0.1232568334324387}]}, {{1.392728480640038, 
-          0.2455756079379457}, 
-          Scaled[{0.003939231012048832, 0.0006945927106677213}, {
-           1.392728480640038, 0.2455756079379457}]}, {{1.3289260487773495`, 
-          0.48368952529595055`}, 
-          Scaled[{0.003758770483143634, 0.001368080573302675}, {
-           1.3289260487773495`, 0.48368952529595055`}]}, {{1.281712764111577, 
-          0.5976724774602397}, 
-          Scaled[{0.0036252311481465996`, 0.0016904730469627979`}, {
-           1.281712764111577, 0.5976724774602397}]}, {{1.1584559306791384`, 
-          0.8111595753452777}, 
-          Scaled[{0.0032766081771559673`, 0.002294305745404184}, {
-           1.1584559306791384`, 0.8111595753452777}]}, {{1.083350440839404, 
-          0.9090389553440873}, 
-          Scaled[{0.0030641777724759126`, 0.002571150438746157}, {
-           1.083350440839404, 0.9090389553440873}]}, {{0.9090389553440873, 
-          1.083350440839404}, 
-          Scaled[{0.002571150438746157, 0.0030641777724759126`}, {
-           0.9090389553440873, 1.083350440839404}]}, {{0.8111595753452777, 
-          1.1584559306791384`}, 
-          Scaled[{0.002294305745404184, 0.0032766081771559673`}, {
-           0.8111595753452777, 1.1584559306791384`}]}, {{0.5976724774602397, 
-          1.281712764111577}, 
-          Scaled[{0.0016904730469627979`, 0.0036252311481465996`}, {
-           0.5976724774602397, 1.281712764111577}]}, {{0.48368952529595055`, 
-          1.3289260487773495`}, 
-          Scaled[{0.001368080573302675, 0.003758770483143634}, {
-           0.48368952529595055`, 1.3289260487773495`}]}, {{0.2455756079379457,
-           1.392728480640038}, 
-          Scaled[{0.0006945927106677213, 0.003939231012048832}, {
-           0.2455756079379457, 1.392728480640038}]}, {{0.1232568334324387, 
-          1.4088320528055174`}, 
-          Scaled[{0.00034862297099063266`, 0.003984778792366982}, {
-           0.1232568334324387, 1.4088320528055174`}]}, {{-0.1232568334324387, 
-          1.4088320528055174`}, 
-          Scaled[{-0.00034862297099063266`, 
-           0.003984778792366982}, {-0.1232568334324387, 
-           1.4088320528055174`}]}, {{-0.2455756079379457, 1.392728480640038}, 
-          Scaled[{-0.0006945927106677213, 
-           0.003939231012048832}, {-0.2455756079379457, 
-           1.392728480640038}]}, {{-0.48368952529595055`, 
-          1.3289260487773495`}, 
-          Scaled[{-0.001368080573302675, 
-           0.003758770483143634}, {-0.48368952529595055`, 
-           1.3289260487773495`}]}, {{-0.5976724774602397, 1.281712764111577}, 
-          Scaled[{-0.0016904730469627979`, 
-           0.0036252311481465996`}, {-0.5976724774602397, 
-           1.281712764111577}]}, {{-0.8111595753452777, 1.1584559306791384`}, 
-          Scaled[{-0.002294305745404184, 
-           0.0032766081771559673`}, {-0.8111595753452777, 
-           1.1584559306791384`}]}, {{-0.9090389553440873, 1.083350440839404}, 
-          Scaled[{-0.002571150438746157, 
-           0.0030641777724759126`}, {-0.9090389553440873, 
-           1.083350440839404}]}, {{-1.083350440839404, 0.9090389553440873}, 
-          Scaled[{-0.0030641777724759126`, 
-           0.002571150438746157}, {-1.083350440839404, 
-           0.9090389553440873}]}, {{-1.1584559306791384`, 0.8111595753452777},
-           Scaled[{-0.0032766081771559673`, 
-           0.002294305745404184}, {-1.1584559306791384`, 
-           0.8111595753452777}]}, {{-1.281712764111577, 0.5976724774602397}, 
-          Scaled[{-0.0036252311481465996`, 
-           0.0016904730469627979`}, {-1.281712764111577, 
-           0.5976724774602397}]}, {{-1.3289260487773495`, 
-          0.48368952529595055`}, 
-          Scaled[{-0.003758770483143634, 
-           0.001368080573302675}, {-1.3289260487773495`, 
-           0.48368952529595055`}]}, {{-1.392728480640038, 0.2455756079379457},
-           Scaled[{-0.003939231012048832, 
-           0.0006945927106677213}, {-1.392728480640038, 
-           0.2455756079379457}]}, {{-1.4088320528055174`, 0.1232568334324387},
-           Scaled[{-0.003984778792366982, 
-           0.00034862297099063266`}, {-1.4088320528055174`, 
-           0.1232568334324387}]}, {{-1.4088320528055174`, \
--0.1232568334324387}, 
-          Scaled[{-0.003984778792366982, -0.00034862297099063266`}, \
-{-1.4088320528055174`, -0.1232568334324387}]}, {{-1.392728480640038, \
--0.2455756079379457}, 
-          Scaled[{-0.003939231012048832, -0.0006945927106677213}, \
-{-1.392728480640038, -0.2455756079379457}]}, {{-1.3289260487773495`, \
--0.48368952529595055`}, 
-          Scaled[{-0.003758770483143634, -0.001368080573302675}, \
-{-1.3289260487773495`, -0.48368952529595055`}]}, {{-1.281712764111577, \
--0.5976724774602397}, 
-          Scaled[{-0.0036252311481465996`, -0.0016904730469627979`}, \
-{-1.281712764111577, -0.5976724774602397}]}, {{-1.1584559306791384`, \
--0.8111595753452777}, 
-          Scaled[{-0.0032766081771559673`, -0.002294305745404184}, \
-{-1.1584559306791384`, -0.8111595753452777}]}, {{-1.083350440839404, \
--0.9090389553440873}, 
-          Scaled[{-0.0030641777724759126`, -0.002571150438746157}, \
-{-1.083350440839404, -0.9090389553440873}]}, {{-0.9090389553440873, \
--1.083350440839404}, 
-          Scaled[{-0.002571150438746157, -0.0030641777724759126`}, \
-{-0.9090389553440873, -1.083350440839404}]}, {{-0.8111595753452777, \
--1.1584559306791384`}, 
-          Scaled[{-0.002294305745404184, -0.0032766081771559673`}, \
-{-0.8111595753452777, -1.1584559306791384`}]}, {{-0.5976724774602397, \
--1.281712764111577}, 
-          Scaled[{-0.0016904730469627979`, -0.0036252311481465996`}, \
-{-0.5976724774602397, -1.281712764111577}]}, {{-0.48368952529595055`, \
--1.3289260487773495`}, 
-          Scaled[{-0.001368080573302675, -0.003758770483143634}, \
-{-0.48368952529595055`, -1.3289260487773495`}]}, {{-0.2455756079379457, \
--1.392728480640038}, 
-          Scaled[{-0.0006945927106677213, -0.003939231012048832}, \
-{-0.2455756079379457, -1.392728480640038}]}, {{-0.1232568334324387, \
--1.4088320528055174`}, 
-          Scaled[{-0.00034862297099063266`, -0.003984778792366982}, \
-{-0.1232568334324387, -1.4088320528055174`}]}, {{
-          0.1232568334324387, -1.4088320528055174`}, 
-          Scaled[{0.00034862297099063266`, -0.003984778792366982}, {
-           0.1232568334324387, -1.4088320528055174`}]}, {{
-          0.2455756079379457, -1.392728480640038}, 
-          Scaled[{0.0006945927106677213, -0.003939231012048832}, {
-           0.2455756079379457, -1.392728480640038}]}, {{
-          0.48368952529595055`, -1.3289260487773495`}, 
-          Scaled[{0.001368080573302675, -0.003758770483143634}, {
-           0.48368952529595055`, -1.3289260487773495`}]}, {{
-          0.5976724774602397, -1.281712764111577}, 
-          Scaled[{0.0016904730469627979`, -0.0036252311481465996`}, {
-           0.5976724774602397, -1.281712764111577}]}, {{
-          0.8111595753452777, -1.1584559306791384`}, 
-          Scaled[{0.002294305745404184, -0.0032766081771559673`}, {
-           0.8111595753452777, -1.1584559306791384`}]}, {{
-          0.9090389553440873, -1.083350440839404}, 
-          Scaled[{0.002571150438746157, -0.0030641777724759126`}, {
-           0.9090389553440873, -1.083350440839404}]}, {{
-          1.083350440839404, -0.9090389553440873}, 
-          Scaled[{0.0030641777724759126`, -0.002571150438746157}, {
-           1.083350440839404, -0.9090389553440873}]}, {{
-          1.1584559306791384`, -0.8111595753452777}, 
-          Scaled[{0.0032766081771559673`, -0.002294305745404184}, {
-           1.1584559306791384`, -0.8111595753452777}]}, {{
-          1.281712764111577, -0.5976724774602397}, 
-          Scaled[{0.0036252311481465996`, -0.0016904730469627979`}, {
-           1.281712764111577, -0.5976724774602397}]}, {{
-          1.3289260487773495`, -0.48368952529595055`}, 
-          Scaled[{0.003758770483143634, -0.001368080573302675}, {
-           1.3289260487773495`, -0.48368952529595055`}]}, {{
-          1.392728480640038, -0.2455756079379457}, 
-          Scaled[{0.003939231012048832, -0.0006945927106677213}, {
-           1.392728480640038, -0.2455756079379457}]}, {{
-          1.4088320528055174`, -0.1232568334324387}, 
-          Scaled[{0.003984778792366982, -0.00034862297099063266`}, {
-           1.4088320528055174`, -0.1232568334324387}]}}]], {
-       InsetBox["0", NCache[
-        Offset[{8, 0}, {2^Rational[1, 2], 0}], 
-         Offset[{8, 0}, {1.4142135623730951`, 0}]], NCache[
+          0.001368080573302675}, {-2.6578519357905006`, 
+          0.9673789917145479}]}, {{-2.785456791749494, 0.4911511859830758}, 
+         Scaled[{-0.003939231012048832, 
+          0.0006945927106677213}, {-2.785456791749494, 
+          0.4911511859830758}]}, {{-2.8176639341202376`, 
+         0.24651365186137675`}, 
+         Scaled[{-0.003984778792366982, 
+          0.00034862297099063266`}, {-2.8176639341202376`, 
+          0.24651365186137675`}]}, {{-2.8176639341202376`, \
+-0.24651365186137675`}, 
+         Scaled[{-0.003984778792366982, -0.00034862297099063266`}, \
+{-2.8176639341202376`, -0.24651365186137675`}]}, {{-2.785456791749494, \
+-0.4911511859830758}, 
+         Scaled[{-0.003939231012048832, -0.0006945927106677213}, \
+{-2.785456791749494, -0.4911511859830758}]}, {{-2.6578519357905006`, \
+-0.9673789917145479}, 
+         Scaled[{-0.003758770483143634, -0.001368080573302675}, \
+{-2.6578519357905006`, -0.9673789917145479}]}, {{-2.563425372206017, \
+-1.1953448821684935`}, 
+         Scaled[{-0.0036252311481465996`, -0.0016904730469627979`}, \
+{-2.563425372206017, -1.1953448821684935`}]}, {{-2.3169117203446405`, \
+-1.622319051951744}, 
+         Scaled[{-0.0032766081771559673`, -0.002294305745404184}, \
+{-2.3169117203446405`, -1.622319051951744}]}, {{-2.166700749807425, \
+-1.818077800034946}, 
+         Scaled[{-0.0030641777724759126`, -0.002571150438746157}, \
+{-2.166700749807425, -1.818077800034946}]}, {{-1.818077800034946, \
+-2.166700749807425}, 
+         Scaled[{-0.002571150438746157, -0.0030641777724759126`}, \
+{-1.818077800034946, -2.166700749807425}]}, {{-1.622319051951744, \
+-2.3169117203446405`}, 
+         Scaled[{-0.002294305745404184, -0.0032766081771559673`}, \
+{-1.622319051951744, -2.3169117203446405`}]}, {{-1.1953448821684935`, \
+-2.563425372206017}, 
+         Scaled[{-0.0016904730469627979`, -0.0036252311481465996`}, \
+{-1.1953448821684935`, -2.563425372206017}]}, {{-0.9673789917145479, \
+-2.6578519357905006`}, 
+         Scaled[{-0.001368080573302675, -0.003758770483143634}, \
+{-0.9673789917145479, -2.6578519357905006`}]}, {{-0.4911511859830758, \
+-2.785456791749494}, 
+         Scaled[{-0.0006945927106677213, -0.003939231012048832}, \
+{-0.4911511859830758, -2.785456791749494}]}, {{-0.24651365186137675`, \
+-2.8176639341202376`}, 
+         Scaled[{-0.00034862297099063266`, -0.003984778792366982}, \
+{-0.24651365186137675`, -2.8176639341202376`}]}, {{
+         0.24651365186137675`, -2.8176639341202376`}, 
+         Scaled[{0.00034862297099063266`, -0.003984778792366982}, {
+          0.24651365186137675`, -2.8176639341202376`}]}, {{
+         0.4911511859830758, -2.785456791749494}, 
+         Scaled[{0.0006945927106677213, -0.003939231012048832}, {
+          0.4911511859830758, -2.785456791749494}]}, {{
+         0.9673789917145479, -2.6578519357905006`}, 
+         Scaled[{0.001368080573302675, -0.003758770483143634}, {
+          0.9673789917145479, -2.6578519357905006`}]}, {{
+         1.1953448821684935`, -2.563425372206017}, 
+         Scaled[{0.0016904730469627979`, -0.0036252311481465996`}, {
+          1.1953448821684935`, -2.563425372206017}]}, {{
+         1.622319051951744, -2.3169117203446405`}, 
+         Scaled[{0.002294305745404184, -0.0032766081771559673`}, {
+          1.622319051951744, -2.3169117203446405`}]}, {{
+         1.818077800034946, -2.166700749807425}, 
+         Scaled[{0.002571150438746157, -0.0030641777724759126`}, {
+          1.818077800034946, -2.166700749807425}]}, {{
+         2.166700749807425, -1.818077800034946}, 
+         Scaled[{0.0030641777724759126`, -0.002571150438746157}, {
+          2.166700749807425, -1.818077800034946}]}, {{
+         2.3169117203446405`, -1.622319051951744}, 
+         Scaled[{0.0032766081771559673`, -0.002294305745404184}, {
+          2.3169117203446405`, -1.622319051951744}]}, {{
+         2.563425372206017, -1.1953448821684935`}, 
+         Scaled[{0.0036252311481465996`, -0.0016904730469627979`}, {
+          2.563425372206017, -1.1953448821684935`}]}, {{
+         2.6578519357905006`, -0.9673789917145479}, 
+         Scaled[{0.003758770483143634, -0.001368080573302675}, {
+          2.6578519357905006`, -0.9673789917145479}]}, {{
+         2.785456791749494, -0.4911511859830758}, 
+         Scaled[{0.003939231012048832, -0.0006945927106677213}, {
+          2.785456791749494, -0.4911511859830758}]}, {{
+         2.8176639341202376`, -0.24651365186137675`}, 
+         Scaled[{0.003984778792366982, -0.00034862297099063266`}, {
+          2.8176639341202376`, -0.24651365186137675`}]}}], {
+       InsetBox["0", Offset[{8, 0}, {2.828426952600326, 0.}], NCache[
         ImageScaled[{0, Rational[1, 2]}], ImageScaled[{0, 0.5}]],
         Background->Automatic], InsetBox[
         RowBox[{"15", " ", "\[Degree]"}], NCache[
         Offset[{2 2^Rational[1, 2] (1 + 3^Rational[1, 2]), 2 
-           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
+           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {2.7320506412887413`, 
+          0.732050763014249}], 
          Offset[{7.7274066103125465`, 2.070552360820166}, {
-          1.3660254037844386`, 0.3660254037844386}]], NCache[
+          2.7320506412887413`, 0.732050763014249}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
@@ -2048,27 +2014,29 @@ Cell[BoxData[
          ImageScaled[{0.0170370868554659, 0.37059047744873963`}]],
         Background->Automatic], InsetBox[
         RowBox[{"30", " ", "\[Degree]"}], NCache[
-        Offset[{4 3^Rational[1, 2], 4}, {
-          Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}], 
-         Offset[{6.928203230275509, 4}, {1.224744871391589, 
-          0.7071067811865475}]], NCache[
+        Offset[{4 3^Rational[1, 2], 4}, {2.4494895937004864`, 
+          1.414213476300163}], 
+         Offset[{6.928203230275509, 4}, {2.4494895937004864`, 
+          1.414213476300163}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2]), Rational[
            1, 4]}], ImageScaled[{0.0669872981077807, 0.25}]],
         Background->Automatic], InsetBox[
         RowBox[{"45", " ", "\[Degree]"}], NCache[
-        Offset[{4 2^Rational[1, 2], 4 2^Rational[1, 2]}, {1, 1}], 
-         Offset[{5.656854249492381, 5.656854249492381}, {1, 1}]], NCache[
+        Offset[{4 2^Rational[1, 2], 4 2^Rational[1, 2]}, {1.999999878274492, 
+          1.999999878274492}], 
+         Offset[{5.656854249492381, 5.656854249492381}, {1.999999878274492, 
+          1.999999878274492}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 - 2^Rational[-1, 2]), 
            Rational[1, 2] (1 - 2^Rational[-1, 2])}], 
          ImageScaled[{0.14644660940672627`, 0.14644660940672627`}]],
         Background->Automatic], InsetBox[
         RowBox[{"60", " ", "\[Degree]"}], NCache[
-        Offset[{4, 4 3^Rational[1, 2]}, {
-          2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}], 
-         Offset[{4, 6.928203230275509}, {0.7071067811865475, 
-          1.224744871391589}]], NCache[
+        Offset[{4, 4 3^Rational[1, 2]}, {1.414213476300163, 
+          2.4494895937004864`}], 
+         Offset[{4, 6.928203230275509}, {1.414213476300163, 
+          2.4494895937004864`}]], NCache[
         ImageScaled[{
           Rational[1, 4], 
            Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2])}], 
@@ -2076,11 +2044,10 @@ Cell[BoxData[
         Background->Automatic], InsetBox[
         RowBox[{"75", " ", "\[Degree]"}], NCache[
         Offset[{2 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), 2 
-           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (1 + 3^Rational[1, 2])}], 
-         Offset[{2.070552360820166, 7.7274066103125465`}, {0.3660254037844386,
-           1.3660254037844386`}]], NCache[
+           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {0.732050763014249, 
+          2.7320506412887413`}], 
+         Offset[{2.070552360820166, 7.7274066103125465`}, {0.732050763014249, 
+          2.7320506412887413`}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
@@ -2088,18 +2055,16 @@ Cell[BoxData[
             Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2]))}], 
          ImageScaled[{0.37059047744873963`, 0.0170370868554659}]],
         Background->Automatic], InsetBox[
-        RowBox[{"90", " ", "\[Degree]"}], NCache[
-        Offset[{0, 8}, {0, 2^Rational[1, 2]}], 
-         Offset[{0, 8}, {0, 1.4142135623730951`}]], NCache[
+        RowBox[{"90", " ", "\[Degree]"}], 
+        Offset[{0, 8}, {0., 2.828426952600326}], NCache[
         ImageScaled[{Rational[1, 2], 0}], ImageScaled[{0.5, 0}]],
         Background->Automatic], InsetBox[
         RowBox[{"105", " ", "\[Degree]"}], NCache[
         Offset[{(-2) 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), 2 
-           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (1 + 3^Rational[1, 2])}], 
+           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {-0.732050763014249, 
+          2.7320506412887413`}], 
          Offset[{-2.070552360820166, 
-          7.7274066103125465`}, {-0.3660254037844386, 1.3660254037844386`}]], 
+          7.7274066103125465`}, {-0.732050763014249, 2.7320506412887413`}]], 
         NCache[ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
@@ -2108,39 +2073,40 @@ Cell[BoxData[
          ImageScaled[{0.6294095225512604, 0.0170370868554659}]],
         Background->Automatic], InsetBox[
         RowBox[{"120", " ", "\[Degree]"}], NCache[
-        Offset[{-4, 4 3^Rational[1, 2]}, {-2^Rational[-1, 2], Rational[3, 2]^
-           Rational[1, 2]}], 
-         Offset[{-4, 6.928203230275509}, {-0.7071067811865475, 
-          1.224744871391589}]], NCache[
+        Offset[{-4, 4 3^Rational[1, 2]}, {-1.414213476300163, 
+          2.4494895937004864`}], 
+         Offset[{-4, 6.928203230275509}, {-1.414213476300163, 
+          2.4494895937004864`}]], NCache[
         ImageScaled[{
           Rational[3, 4], 
            Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2])}], 
          ImageScaled[{0.75, 0.0669872981077807}]],
         Background->Automatic], InsetBox[
         RowBox[{"135", " ", "\[Degree]"}], NCache[
-        Offset[{(-4) 2^Rational[1, 2], 4 2^Rational[1, 2]}, {-1, 1}], 
-         Offset[{-5.656854249492381, 5.656854249492381}, {-1, 1}]], NCache[
+        Offset[{(-4) 2^Rational[1, 2], 4 
+           2^Rational[1, 2]}, {-1.999999878274492, 1.999999878274492}], 
+         Offset[{-5.656854249492381, 5.656854249492381}, {-1.999999878274492, 
+          1.999999878274492}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 2^Rational[-1, 2]), 
            Rational[1, 2] (1 - 2^Rational[-1, 2])}], 
          ImageScaled[{0.8535533905932737, 0.14644660940672627`}]],
         Background->Automatic], InsetBox[
         RowBox[{"150", " ", "\[Degree]"}], NCache[
-        Offset[{(-4) 3^Rational[1, 2], 4}, {-Rational[3, 2]^Rational[1, 2], 2^
-           Rational[-1, 2]}], 
-         Offset[{-6.928203230275509, 4}, {-1.224744871391589, 
-          0.7071067811865475}]], NCache[
+        Offset[{(-4) 3^Rational[1, 2], 4}, {-2.4494895937004864`, 
+          1.414213476300163}], 
+         Offset[{-6.928203230275509, 4}, {-2.4494895937004864`, 
+          1.414213476300163}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2]), Rational[
            1, 4]}], ImageScaled[{0.9330127018922193, 0.25}]],
         Background->Automatic], InsetBox[
         RowBox[{"165", " ", "\[Degree]"}], NCache[
         Offset[{(-2) 2^Rational[1, 2] (1 + 3^Rational[1, 2]), 2 
-           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
+           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {-2.7320506412887413`, 
+          0.732050763014249}], 
          Offset[{-7.7274066103125465`, 
-          2.070552360820166}, {-1.3660254037844386`, 0.3660254037844386}]], 
+          2.070552360820166}, {-2.7320506412887413`, 0.732050763014249}]], 
         NCache[ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
@@ -2148,18 +2114,16 @@ Cell[BoxData[
             Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2]))}], 
          ImageScaled[{0.9829629131445341, 0.37059047744873963`}]],
         Background->Automatic], InsetBox[
-        RowBox[{"180", " ", "\[Degree]"}], NCache[
-        Offset[{-8, 0}, {-2^Rational[1, 2], 0}], 
-         Offset[{-8, 0}, {-1.4142135623730951`, 0}]], NCache[
+        RowBox[{"180", " ", "\[Degree]"}], 
+        Offset[{-8, 0}, {-2.828426952600326, 0.}], NCache[
         ImageScaled[{1, Rational[1, 2]}], ImageScaled[{1, 0.5}]],
         Background->Automatic], InsetBox[
         RowBox[{"195", " ", "\[Degree]"}], NCache[
         Offset[{(-2) 2^Rational[1, 2] (1 + 3^Rational[1, 2]), (-2) 
-           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (1 - 3^Rational[1, 2])}], 
+           2^Rational[1, 2] (-1 + 
+            3^Rational[1, 2])}, {-2.7320506412887413`, -0.732050763014249}], 
          Offset[{-7.7274066103125465`, -2.070552360820166}, \
-{-1.3660254037844386`, -0.3660254037844386}]], NCache[
+{-2.7320506412887413`, -0.732050763014249}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
@@ -2168,27 +2132,29 @@ Cell[BoxData[
          ImageScaled[{0.9829629131445341, 0.6294095225512604}]],
         Background->Automatic], InsetBox[
         RowBox[{"210", " ", "\[Degree]"}], NCache[
-        Offset[{(-4) 3^Rational[1, 2], -4}, {-
-           Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}], 
-         Offset[{-6.928203230275509, -4}, {-1.224744871391589, \
--0.7071067811865475}]], NCache[
+        Offset[{(-4) 
+           3^Rational[1, 2], -4}, {-2.4494895937004864`, -1.414213476300163}],
+          Offset[{-6.928203230275509, -4}, {-2.4494895937004864`, \
+-1.414213476300163}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2]), Rational[
            3, 4]}], ImageScaled[{0.9330127018922193, 0.75}]],
         Background->Automatic], InsetBox[
         RowBox[{"225", " ", "\[Degree]"}], NCache[
-        Offset[{(-4) 2^Rational[1, 2], (-4) 2^Rational[1, 2]}, {-1, -1}], 
-         Offset[{-5.656854249492381, -5.656854249492381}, {-1, -1}]], NCache[
+        Offset[{(-4) 2^Rational[1, 2], (-4) 
+           2^Rational[1, 2]}, {-1.999999878274492, -1.999999878274492}], 
+         Offset[{-5.656854249492381, -5.656854249492381}, \
+{-1.999999878274492, -1.999999878274492}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 2^Rational[-1, 2]), 
            Rational[1, 2] (1 + 2^Rational[-1, 2])}], 
          ImageScaled[{0.8535533905932737, 0.8535533905932737}]],
         Background->Automatic], InsetBox[
         RowBox[{"240", " ", "\[Degree]"}], NCache[
-        Offset[{-4, (-4) 3^Rational[1, 2]}, {-2^Rational[-1, 2], -
-           Rational[3, 2]^Rational[1, 2]}], 
-         Offset[{-4, -6.928203230275509}, {-0.7071067811865475, \
--1.224744871391589}]], NCache[
+        Offset[{-4, (-4) 
+           3^Rational[1, 2]}, {-1.414213476300163, -2.4494895937004864`}], 
+         Offset[{-4, -6.928203230275509}, {-1.414213476300163, \
+-2.4494895937004864`}]], NCache[
         ImageScaled[{
           Rational[3, 4], 
            Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2])}], 
@@ -2196,11 +2162,10 @@ Cell[BoxData[
         Background->Automatic], InsetBox[
         RowBox[{"255", " ", "\[Degree]"}], NCache[
         Offset[{(-2) 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), (-2) 
-           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (1 - 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
+           2^Rational[1, 2] (1 + 
+            3^Rational[1, 2])}, {-0.732050763014249, -2.7320506412887413`}], 
          Offset[{-2.070552360820166, -7.7274066103125465`}, \
-{-0.3660254037844386, -1.3660254037844386`}]], NCache[
+{-0.732050763014249, -2.7320506412887413`}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
@@ -2208,18 +2173,16 @@ Cell[BoxData[
             Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2]))}], 
          ImageScaled[{0.6294095225512604, 0.9829629131445341}]],
         Background->Automatic], InsetBox[
-        RowBox[{"270", " ", "\[Degree]"}], NCache[
-        Offset[{0, -8}, {0, -2^Rational[1, 2]}], 
-         Offset[{0, -8}, {0, -1.4142135623730951`}]], NCache[
+        RowBox[{"270", " ", "\[Degree]"}], 
+        Offset[{0, -8}, {0., -2.828426952600326}], NCache[
         ImageScaled[{Rational[1, 2], 1}], ImageScaled[{0.5, 1}]],
         Background->Automatic], InsetBox[
         RowBox[{"285", " ", "\[Degree]"}], NCache[
         Offset[{2 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), (-2) 
            2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
+          0.732050763014249, -2.7320506412887413`}], 
          Offset[{2.070552360820166, -7.7274066103125465`}, {
-          0.3660254037844386, -1.3660254037844386`}]], NCache[
+          0.732050763014249, -2.7320506412887413`}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
@@ -2229,17 +2192,19 @@ Cell[BoxData[
         Background->Automatic], InsetBox[
         RowBox[{"300", " ", "\[Degree]"}], NCache[
         Offset[{4, (-4) 3^Rational[1, 2]}, {
-          2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}], 
+          1.414213476300163, -2.4494895937004864`}], 
          Offset[{4, -6.928203230275509}, {
-          0.7071067811865475, -1.224744871391589}]], NCache[
+          1.414213476300163, -2.4494895937004864`}]], NCache[
         ImageScaled[{
           Rational[1, 4], 
            Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2])}], 
          ImageScaled[{0.25, 0.9330127018922193}]],
         Background->Automatic], InsetBox[
         RowBox[{"315", " ", "\[Degree]"}], NCache[
-        Offset[{4 2^Rational[1, 2], (-4) 2^Rational[1, 2]}, {1, -1}], 
-         Offset[{5.656854249492381, -5.656854249492381}, {1, -1}]], NCache[
+        Offset[{4 2^Rational[1, 2], (-4) 2^Rational[1, 2]}, {
+          1.999999878274492, -1.999999878274492}], 
+         Offset[{5.656854249492381, -5.656854249492381}, {
+          1.999999878274492, -1.999999878274492}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 - 2^Rational[-1, 2]), 
            Rational[1, 2] (1 + 2^Rational[-1, 2])}], 
@@ -2247,9 +2212,9 @@ Cell[BoxData[
         Background->Automatic], InsetBox[
         RowBox[{"330", " ", "\[Degree]"}], NCache[
         Offset[{4 3^Rational[1, 2], -4}, {
-          Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}], 
+          2.4494895937004864`, -1.414213476300163}], 
          Offset[{6.928203230275509, -4}, {
-          1.224744871391589, -0.7071067811865475}]], NCache[
+          2.4494895937004864`, -1.414213476300163}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2]), Rational[
            3, 4]}], ImageScaled[{0.0669872981077807, 0.75}]],
@@ -2257,10 +2222,9 @@ Cell[BoxData[
         RowBox[{"345", " ", "\[Degree]"}], NCache[
         Offset[{2 2^Rational[1, 2] (1 + 3^Rational[1, 2]), (-2) 
            2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
-          Rational[1, 2] (1 + 3^Rational[1, 2]), 
-           Rational[1, 2] (1 - 3^Rational[1, 2])}], 
+          2.7320506412887413`, -0.732050763014249}], 
          Offset[{7.7274066103125465`, -2.070552360820166}, {
-          1.3660254037844386`, -0.3660254037844386}]], NCache[
+          2.7320506412887413`, -0.732050763014249}]], NCache[
         ImageScaled[{
           Rational[1, 2] (1 + 
             Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
@@ -2268,9 +2232,8 @@ Cell[BoxData[
             Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2]))}], 
          ImageScaled[{0.0170370868554659, 0.6294095225512604}]],
         Background->Automatic]}, 
-      CircleBox[{0, 0}, NCache[2^Rational[1, 2], 1.4142135623730951`], 
+      CircleBox[{0, 0}, 2.828426952600326, 
        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, {}}}, {}},
-  Axes->True,
   AxesOrigin->{0, 0},
   CoordinatesToolOptions:>{"DisplayFunction" -> ({
       Sqrt[Part[#, 1]^2 + Part[#, 2]^2], 
@@ -2350,16 +2313,17 @@ Cell[BoxData[
 \[Phi]]-Slice Inside the Event Horizon\"", TraditionalForm],
   PlotRange->{{-2, 2}, {-2, 2}},
   PlotRangeClipping->True,
-  PlotRangePadding->{{0.05, 0.05}, {0.05, 0.05}},
+  PlotRangePadding->{{1.25, 1.25}, {1.25, 1.25}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
   3.8851523901485443`*^9, 3.885152452079403*^9, {3.885152502960133*^9, 
    3.885152527172749*^9}, 3.8851525840041533`*^9, {3.8851529825217323`*^9, 
    3.8851530033978243`*^9}, 3.8851530958926573`*^9, {3.885153181287657*^9, 
    3.885153187602339*^9}, 3.8851540475819693`*^9, 3.885154383679809*^9, 
-   3.885154989828258*^9, 3.88515503457132*^9},
+   3.885154989828258*^9, 3.88515503457132*^9, {3.885159608581634*^9, 
+   3.885159697261644*^9}},
  CellLabel->
-  "Out[213]=",ExpressionUUID->"22da4adf-3939-4638-82ca-998400b2fffd"]
+  "Out[273]=",ExpressionUUID->"1a495918-6616-48ff-ab12-485dfdaa701a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -2402,29 +2366,29 @@ Cell[17625, 478, 3638, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5
 Cell[21266, 565, 2740, 57, 388, "Output",ExpressionUUID->"0b3f66e3-55ee-4212-a670-b49b9d0f0138"]
 }, Open  ]],
 Cell[24021, 625, 2286, 51, 195, "Text",ExpressionUUID->"8a5c68dc-0b00-4b75-8e2a-2a19758bc884"],
-Cell[26310, 678, 99, 1, 6, "PageBreak",ExpressionUUID->"f02a9724-6694-4c5b-a768-715618171465",
+Cell[26310, 678, 99, 1, 1, "PageBreak",ExpressionUUID->"f02a9724-6694-4c5b-a768-715618171465",
  PageBreakBelow->True],
 Cell[26412, 681, 3080, 67, 263, "Text",ExpressionUUID->"69ade72c-93e9-4c79-bed4-934c60ab461d"],
 Cell[CellGroupData[{
 Cell[29517, 752, 1367, 34, 61, "Input",ExpressionUUID->"2d33350a-1cda-4d14-a227-d30123e31651"],
 Cell[30887, 788, 1886, 47, 966, "Output",ExpressionUUID->"913f7820-ecc3-4196-9fb7-763ef94ad5a0"]
 }, Open  ]],
-Cell[32788, 838, 99, 1, 6, "PageBreak",ExpressionUUID->"2c43413e-debf-474b-bc76-59d4a1062192",
+Cell[32788, 838, 99, 1, 1, "PageBreak",ExpressionUUID->"2c43413e-debf-474b-bc76-59d4a1062192",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[32924, 844, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
 Cell[33453, 857, 8549, 232, 1111, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
 Cell[CellGroupData[{
-Cell[42027, 1093, 5479, 109, 117, "Input",ExpressionUUID->"36e8c678-4809-4121-b890-f75952137464"],
-Cell[47509, 1204, 4159, 84, 472, "Output",ExpressionUUID->"808ee58a-d67b-49e4-904f-2ab47e6987f1"]
+Cell[42027, 1093, 5529, 110, 117, "Input",ExpressionUUID->"36e8c678-4809-4121-b890-f75952137464"],
+Cell[47559, 1205, 3905, 80, 472, "Output",ExpressionUUID->"c9cf39ce-dd83-4d4e-89ae-1ebf0051e651"]
 }, Open  ]],
-Cell[51683, 1291, 99, 1, 6, "PageBreak",ExpressionUUID->"35ea8273-957a-4b75-8954-1e28a9170e9e",
+Cell[51479, 1288, 99, 1, 6, "PageBreak",ExpressionUUID->"35ea8273-957a-4b75-8954-1e28a9170e9e",
  PageBreakBelow->True],
-Cell[51785, 1294, 913, 23, 54, "Text",ExpressionUUID->"6c8f1d25-aea2-4ecd-aa1a-1d5790b7cffc"],
+Cell[51581, 1291, 998, 23, 89, "Text",ExpressionUUID->"6c8f1d25-aea2-4ecd-aa1a-1d5790b7cffc"],
 Cell[CellGroupData[{
-Cell[52723, 1321, 1354, 32, 88, "Input",ExpressionUUID->"e2361a97-5553-40e1-ad75-9e2892b6bd98"],
-Cell[54080, 1355, 53590, 1006, 965, "Output",ExpressionUUID->"22da4adf-3939-4638-82ca-998400b2fffd"]
+Cell[52604, 1318, 1413, 34, 88, "Input",ExpressionUUID->"e2361a97-5553-40e1-ad75-9e2892b6bd98"],
+Cell[54020, 1354, 51914, 971, 965, "Output",ExpressionUUID->"1a495918-6616-48ff-ab12-485dfdaa701a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
