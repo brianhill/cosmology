@@ -10,41 +10,2333 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1889,         61]
-NotebookOptionsPosition[      1361,         42]
-NotebookOutlinePosition[      1813,         60]
-CellTagsIndexPosition[      1770,         57]
+NotebookDataLength[    108546,       2393]
+NotebookOptionsPosition[    105607,       2333]
+NotebookOutlinePosition[    106090,       2352]
+CellTagsIndexPosition[    106047,       2349]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Cosmology \[LongDash] Assignment  6 \[LongDash] ???",
- FontSize->24]], "Section",
+Cell[TextData[StyleBox["Cosmology \[LongDash] Assignment  6 \[LongDash] \
+Finishing the Initial Exploration in Chapter 3",
+ FontSize->20,
+ FontWeight->"Regular"]], "Section",
  CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
   3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
   3.8831843177446947`*^9}, {3.884083059250205*^9, 3.8840830779491367`*^9}, {
-  3.884704110991439*^9, 
-  3.8847041219759398`*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
-77e0e173d37d"],
+  3.884704110991439*^9, 3.8847041219759398`*^9}, {3.885148589133045*^9, 
+  3.885148609021922*^9}, {3.8851548408437138`*^9, 3.8851548758529577`*^9}},
+ FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 
-Cell["\<\
-A problem that causes people to estimate the length corresponding to 1kg?
+Cell[CellGroupData[{
 
-A problem that causes people to estimate the standard acceleration \
-corresponding to one inverse-second.\
-\>", "Text",
- CellChangeTimes->{{3.884706753471058*^9, 
-  3.884706830444487*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
+Cell["Problem 1 \[LongDash] Whacky Units", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 
+  3.8851444594287252`*^9}},ExpressionUUID->"b36128b9-fc3d-4eeb-9732-\
+c7dec7f2662a"],
+
+Cell[TextData[{
+ "(a) What is the length in the nice, normal units of meters that corresponds \
+to a mass of 1kg in cosmologists\[CloseCurlyQuote] whacky units?\n\n(b) What \
+is the acceleration in the nice, normal units of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["m",
+     FontSlant->"Plain"], "/", 
+    SuperscriptBox[
+     StyleBox["s",
+      FontSlant->"Plain"], "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "78a27d27-fa0d-4687-8233-b74496b34a29"],
+ " that corresponds to 1/second in cosmologists\[CloseCurlyQuote] whacky \
+units?\n\n(c) What is the diameter of the Earth in seconds?\n\n(d) What is \
+the diameter of the Sun in seconds?\n\n(e) What is the mass of the Sun in \
+seconds?"
+}], "Text",
+ CellChangeTimes->{{3.884706753471058*^9, 3.884706830444487*^9}, {
+  3.885093545458621*^9, 3.8850936205930777`*^9}, {3.885144463432889*^9, 
+  3.885144555156467*^9}, {3.8851468462467613`*^9, 3.8851469022497997`*^9}, {
+  3.885147787013805*^9, 3.885147875147541*^9}, {3.885149270524356*^9, 
+  3.885149304319433*^9}, {3.8851547952494993`*^9, 
+  3.885154805541913*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
 8cae69d82780"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 2 \[LongDash] Astronaut Stretching", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+  3.885146916995963*^9, 
+  3.8851469479022408`*^9}},ExpressionUUID->"075b58c5-41eb-476f-be3d-\
+cb20bb5bcaad"],
+
+Cell[TextData[{
+ "On the last assignment, we did parts A, B, and C of TWB Chapter 3, Problem \
+5. Now we\[CloseCurlyQuote]re doing the rest.\n\nIn Newtonian mechanics, \
+energy conservation often allows you to solve problems quickly. The formula \
+for the total energy (which is kinetic energy plus potential energy) of a \
+falling astronaut in Newtonian mechanics is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{"K", "+", "U"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "124169cf-d5ec-480d-b3da-21311ea0a008"],
+ "\n\nwhere the kinetic energy of the astronaut is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"K", "=", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     SubscriptBox["m", "astronaut"], "\[VeryThinSpace]", 
+     SuperscriptBox["v", "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c9c9a42b-53a8-42c4-b822-673ff20d458f"],
+ "\n\nand the potential energy of the astronaut is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"U", "=", 
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"G", "\[VeryThinSpace]", 
+       SubscriptBox["m", "astronaut"], "M"}], "r"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "61833bde-b047-41fd-84d4-7c222e7d2da2"],
+ "\n\n(a) Put in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", "\[Infinity]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "533cc78b-a48a-4bee-85ca-4366f0a2d0fa"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1ed575e2-a8c4-45b7-891d-5db9380bfd0d"],
+ " into the these formula.\n\n(b) With those values, what is ",
+ Cell[BoxData[
+  FormBox["E", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "88d2f951-2847-480b-8e8b-beffb5d4ea02"],
+ "? This is the total energy of an astronaut falling from \[Infinity], \
+starting from rest.\n\n(c) Since the total energy does not change, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"0", "=", 
+    RowBox[{"K", "+", "U"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bece500e-fd9d-4788-b0c9-8f8852ab957a"],
+ " must be satisfied for all ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fa61be7a-67f7-4d99-b7c0-c89b8af04eb2"],
+ " and ",
+ Cell[BoxData[
+  FormBox["v", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "84b54771-1098-4114-8d2d-0d4a6141fc3c"],
+ ". Solve the equation in Part (b) for ",
+ Cell[BoxData[
+  FormBox["v", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "66cdf759-6d1c-4eb1-9036-f6d3ac869ff9"],
+ " to find ",
+ Cell[BoxData[
+  FormBox["v", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9ad80814-37e8-46d6-9a85-01c51c284135"],
+ " at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    SubscriptBox["r", "ouch"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "59d560ae-5383-4125-a61d-d4784f66a801"],
+ ".\n\n(d) TWB Chapter 3, Problem 5, p. 3-38, Part D.\n\n(e) TWB Chapter 3, \
+Problem 5, p. 3-38, Part E.\n\n(f) TWB Chapter 3, Problem 5, p. 3-38, Part \
+F."
+}], "Text",
+ CellChangeTimes->{{3.884706753471058*^9, 3.884706830444487*^9}, {
+  3.885093545458621*^9, 3.8850936205930777`*^9}, {3.885144463432889*^9, 
+  3.885144555156467*^9}, {3.8851468462467613`*^9, 3.8851469022497997`*^9}, {
+  3.885146957543622*^9, 3.8851469751157837`*^9}, {3.885147881132309*^9, 
+  3.8851483574542837`*^9}, {3.885148398573009*^9, 3.885148416754936*^9}, {
+  3.88514846432128*^9, 3.8851484921084337`*^9}, {3.885148524598938*^9, 
+  3.885148568394809*^9}, {3.885149112439418*^9, 3.885149234097088*^9}, {
+  3.885154167073344*^9, 3.885154222850547*^9}, {3.885154529840003*^9, 
+  3.885154569622217*^9}},ExpressionUUID->"79781452-73e3-40d6-9b50-\
+bc1c489364be"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Problem 3 \[LongDash] Embedding the [",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "1c9139ea-edcf-48a2-a702-5cd6cabbc9ff"],
+ ", \[Phi]]-Slice Outside the Event Horizon"
+}], "Subsection",
+ CellChangeTimes->{{3.885093676798587*^9, 3.885093789017518*^9}, {
+  3.885093854324265*^9, 3.885093854448881*^9}, {3.8850949556456127`*^9, 
+  3.8850949582545023`*^9}, {3.885095006638666*^9, 3.885095006908662*^9}, {
+  3.8851493821361303`*^9, 
+  3.8851493822936707`*^9}},ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-\
+15de27b319a0"],
+
+Cell[TextData[{
+ "For this problem we start with the metric in Eq. (6): ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], ")"}], 
+     "2"], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         RowBox[{"2", 
+          RowBox[{"M", "/", "r"}]}]}], ")"}]}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"]}], 
+     "+", 
+     StyleBox[
+      FractionBox[
+       RowBox[{" ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"]}], 
+       RowBox[{"1", "-", 
+        RowBox[{"2", 
+         RowBox[{"M", "/", "r"}]}]}]],
+      FontSize->18], 
+     StyleBox["+",
+      FontSize->18], 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox[
+        StyleBox["r",
+         FontSize->18], "2"], "(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], ")"}], 
+      "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "d4aa1964-91af-4445-a8a4-9a6f485655f8"],
+ ".\n\n(a) Rewrite the metric with the simplification ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], "=", "0"}], 
+   TraditionalForm]],ExpressionUUID->"221ee371-0c3f-4da8-8a02-b460a732f600"],
+ ". That is the simplification that puts us on an [",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "a8485890-8dac-4f78-b9de-68df179edbde"],
+ ", ",
+ Cell[BoxData[
+  FormBox["\[Phi]", TraditionalForm]],ExpressionUUID->
+  "198edec7-17f2-49ec-bc47-fd5e226cd2de"],
+ "] slice.\n\n(b) The whole situation is rotationally symmetric. What I mean \
+by that is that nothing depends on \[Phi]. Let\[CloseCurlyQuote]s analyze the \
+situation with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], "=", "0"}], 
+   TraditionalForm]],ExpressionUUID->"d6233c60-8608-4a1b-a44c-db52a376b664"],
+ " too. Later we can imagine bringing back ",
+ Cell[BoxData[
+  FormBox["\[Phi]", TraditionalForm]],ExpressionUUID->
+  "12092cd1-1881-4cbf-87c4-ff11b1bc4ec2"],
+ ". Make the further simplification of the metric ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], "=", "0"}], 
+   TraditionalForm]],ExpressionUUID->"43f4dd2f-12e7-4b39-89f2-f6d30cd80545"],
+ ".\n\n(c) Take the square root of both sides. Three points to remember:\n\n\
+(i) This problem is specifically exploring the metric ",
+ StyleBox["outside the event horizon",
+  FontSlant->"Italic"],
+ ". So ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", ">", 
+    RowBox[{"2", "M"}]}], TraditionalForm]],ExpressionUUID->
+  "b44b5b95-54d5-4bd6-91fe-2f10d8a352d2"],
+ ", and therefore ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "-", 
+    RowBox[{"2", 
+     RowBox[{"M", "/", "r"}]}]}], TraditionalForm]],ExpressionUUID->
+  "ccb5e45f-0318-4e15-afdc-53ad163cd825"],
+ " is a positive number,\n(ii)  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], 
+   TraditionalForm]],ExpressionUUID->"01eeaa07-3632-4db2-9f66-93257107d127"],
+ " is a distance, and distances are always positive, so you can use ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SqrtBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}], ")"}], 
+      "2"]], "=", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Sigma]"}]}], 
+   TraditionalForm]],ExpressionUUID->"463fe86c-ae95-4313-a1d6-f6ca876d7c2f"],
+ ", but \n(iii) ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"7a2f03fa-8fe0-4ccb-9b5e-d39be5ff2f8d"],
+ " is a coordinate difference, and coordinate differences can be positive or \
+negative, so be careful when simplifying ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"]], 
+   TraditionalForm]],ExpressionUUID->"9f7760e4-6245-4b0e-ba8a-56ecc4cf5e16"],
+ ".\n\n(d) We are going to be marching inward in the ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "7b209b85-8bc0-4a3f-b443-c50b707ec3ce"],
+ " coordinate. Take the correct sign in Part (c) so that negative ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  ExpressionUUID->"15ee05c8-6783-41d9-b182-584f79fb3e63"],
+ " results in positive ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+   "\[CapitalDelta]", "\[VeryThinSpace]\[VeryThinSpace]", "\[Sigma]"}], 
+   TraditionalForm]],ExpressionUUID->"2204a144-2802-456d-8e7a-53d923540861"],
+ ".\n\nDISCUSSION: Remember in class how I was having trouble keeping the \
+minus signs straight when marching inwards? Too many minus signs! Well, here, \
+together, we are going to take the time to do it carefully and get all the \
+signs right.\n\n(e) One last simplification. Let\[CloseCurlyQuote]s measure \
+everything in terms of ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],ExpressionUUID->
+  "86b3159f-8e22-4231-b3e1-840b2e22f9c0"],
+ ". So make a new distance measurement ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "s"}], "=", 
+    RowBox[{"\[CapitalDelta]\[Sigma]", "/", "M"}]}], TraditionalForm]],
+  ExpressionUUID->"3a7ef49e-004d-431f-a8e6-2ac180a17dbe"],
+ ", and a new radial coordinate ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"r", "/", "M"}]}], TraditionalForm]],ExpressionUUID->
+  "8e3fcf9b-36aa-4e61-bd75-22dbbcccb988"],
+ ". Of course ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"r", "/", "M"}]}], TraditionalForm]],ExpressionUUID->
+  "92b23aa9-415a-47bb-94e7-67566f81f311"],
+ " implies that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+     RowBox[{"r", "/", "M"}]}]}], TraditionalForm]],ExpressionUUID->
+  "3c14070e-0e5f-4e50-81cb-a1633ee807cd"],
+ ". Show that\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "s"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "\[CapitalDelta]"}], "\[VeryThinSpace]", "x"}], 
+      RowBox[{"1", "-", 
+       RowBox[{"2", "/", "x"}]}]],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "e7e4ff69-6f68-4620-8927-071cbd43a486"],
+ "\n\nDISCUSSION: To calculate a total distance, we need to do this on a lot \
+of small local patches, each with a small ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], TraditionalForm]],
+  ExpressionUUID->"56a1a93b-ea47-40fa-b606-d8ed9acce71d"],
+ ", and then sum up the corresponding little ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["s", "i"]}], TraditionalForm]],ExpressionUUID->
+  "26ae489a-1be7-42cb-a580-bd5973ae2358"],
+ " to get a total distance. In equations:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"total", " ", "distance"}], "=", 
+    RowBox[{
+     RowBox[{
+      UnderoverscriptBox["\[Sum]", 
+       RowBox[{"i", "=", "o"}], 
+       RowBox[{"n", "-", "1"}]], 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+       SubscriptBox["s", "i"]}]}], "=", 
+     RowBox[{
+      UnderoverscriptBox["\[Sum]", 
+       RowBox[{"i", "=", "0"}], 
+       RowBox[{"n", "-", "1"}]], 
+      StyleBox[
+       FractionBox[
+        RowBox[{
+         RowBox[{"-", "\[CapitalDelta]"}], "\[VeryThinSpace]", "x"}], 
+        RowBox[{"1", "-", 
+         RowBox[{"2", "/", "x"}]}]],
+       FontSize->18]}]}]}], TraditionalForm]],ExpressionUUID->
+  "2f6ba3df-0cd3-4338-84a3-7cd9a78d7cf3"],
+ ".\n\n(f) We will start at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "8.0"}], TraditionalForm]],ExpressionUUID->
+  "e3689c7c-131c-42bc-b90f-de76044c5cdd"],
+ " and finish at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "3.2"}], TraditionalForm]],ExpressionUUID->
+  "2fed3640-72c5-488c-829e-b167b4869ff6"],
+ ". We will do that in 12 steps of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
+    RowBox[{"-", "0.4"}]}], TraditionalForm]],ExpressionUUID->
+  "d0f219f9-6572-4b52-8991-fec93eb57585"],
+ " each. Fill in the rightmost two columns of the table table below using:\n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+     SubscriptBox["s", "i"]}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "\[CapitalDelta]"}], "\[VeryThinSpace]", "x"}], 
+      RowBox[{"1", "-", 
+       RowBox[{"2", "/", 
+        SubscriptBox["x", "i"]}]}]],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "ad8d1ab3-9341-4263-b8bd-eb8d84e31d09"],
+ "\n\nTwo-decimal-place accuracy is fine for the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["s", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8357fbc6-3839-4c48-8914-5150e59f832d"],
+ ". Round to nearest mm when computing ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"25", " ", "\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["s", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dd5f843f-536b-47f7-91d5-29618cfd9779"],
+ ". The conversion to mm is for the plot on the following page. Start your \
+gravity well in the far upper-right of the graph and work your way inwards."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwd0E0ow3EAxvG11rzmJZuTPzYhJIc1eS8WjUkzL81EUqwQipaDxMKSEjks
+s0LNAXHhMMlorR22KS1NE7VpiWYzSw7G5vf8D0+fnuuXNzghG2IyGAyKDLLY
+vXNV4fd6Y8WCDlZa7ncgJzPxCPr11AW0fYSv4N2sxgKtdiqnmlifXZpQQyye
+vqQgmzlVBjNNBSLI8XSaxMRg37IVeowiBzwVbNM6z6RuuLt08AD146pnyIyV
+v8IzsSFA/++4ILzZELKaicvspVTo2azkwrqVYwFUpPlrYYSX0wAP14sk0KJM
+b4W5a5w+uK/QjsJwfnQaFr4aVFDn5fqg0jjwAh3SDEkbke9z9sATqtHdTlx0
+DD/BR3VTAJ4nXoSga9IRoRUKolD7+SOTEWNXf7S25I5ZqHbvqWFJfywCZ5I0
+v5Cbdc3vQD++Nw8O2m9NXUT5l8YMXatbum7iW4qetiU8PyInhuLNY/Afx8ME
+iA==
+  "],ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"table", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", 
+       RowBox[{"8.0", " ", "-", " ", 
+        RowBox[{"0.4", "i"}]}], ",", 
+       RowBox[{"-", "0.4"}], ",", "\"\<    -10\>\"", ",", " ", 
+       RowBox[{"If", "[", 
+        RowBox[{"True", ",", "\"\<\>\"", ",", 
+         RowBox[{"Round", "[", 
+          RowBox[{
+           RowBox[{"0.4", "/", 
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              RowBox[{"2", "/", 
+               RowBox[{"(", 
+                RowBox[{"8", "-", 
+                 RowBox[{"0.4", "i"}]}], ")"}]}]}], ")"}]}], ",", "0.01"}], 
+          "]"}]}], "]"}], ",", " ", 
+       RowBox[{"If", "[", 
+        RowBox[{"True", ",", "\"\<\>\"", ",", 
+         RowBox[{"Round", "[", 
+          RowBox[{"25", " ", 
+           RowBox[{"0.4", "/", 
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              RowBox[{"2", "/", 
+               RowBox[{"(", 
+                RowBox[{"8", "-", 
+                 RowBox[{"0.4", "i"}]}], ")"}]}]}], ")"}]}]}], "]"}]}], 
+        "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", "0", ",", "11", ",", " ", "1"}], "}"}]}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"tableWithHeader", " ", "=", " ", 
+   RowBox[{"PrependTo", "[", 
+    RowBox[{"table", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<i\>\"", ",", "\"\<\!\(\*Cell[TextData[Cell[BoxData[FormBox[
+SubscriptBox[\"x\", \"i\"], \
+TraditionalForm]],ExpressionUUID->\"3398c929-c59f-43a3-8ca0-1130ba84f522\"]],\
+ExpressionUUID->\"fb535544-ef7d-4124-a95f-46cb8a931ee1\"]\)\>\"", ",", 
+       "\"\<\!\(\*Cell[TextData[{
+\" \[CapitalDelta]\[VeryThinSpace]\",
+Cell[BoxData[FormBox[
+SubscriptBox[\"x\", \"\[VeryThinSpace]\"], TraditionalForm]],ExpressionUUID->\
+\"2af34ad5-4c4f-4f5e-b1a2-d27362b569db\"]
+}],ExpressionUUID->\"4c733a46-7be4-492b-95a3-350bca9c63a4\"]\)\>\"", ",", 
+       "\"\<25*\!\(\*Cell[TextData[{
+\"\[CapitalDelta]\[VeryThinSpace]\",
+Cell[BoxData[FormBox[
+SubscriptBox[\"x\", \"\[VeryThinSpace]\"], TraditionalForm]],ExpressionUUID->\
+\"21ca7853-b872-40cc-97ea-ae127600aa19\"],
+\" (for mm)\"
+}],ExpressionUUID->\"accac479-cbf0-476a-9723-863bd772f3be\"]\)\>\"", " ", 
+       ",", "\"\<\!\(\*Cell[TextData[{
+Cell[BoxData[FormBox[RowBox[{\"     \", 
+SubscriptBox[\"\[CapitalDelta]s\", \"i\"]}], \
+TraditionalForm]],ExpressionUUID->\"87ab2359-9ead-4016-98e9-2143d7ce9bac\"],
+\"     \"
+}],ExpressionUUID->\"52936192-c64d-4ab9-a0e9-446cfef604a9\"]\)\>\"", ",", 
+       " ", "\"\<25*\!\(\*Cell[TextData[Cell[BoxData[FormBox[
+SubscriptBox[\"\[CapitalDelta]s\", \"i\"], TraditionalForm]],ExpressionUUID->\
+\"568be0b0-444e-4b3e-876d-2959a2612ba9\"]],ExpressionUUID->\"c5ce3d96-02a2-\
+46c1-bf53-93c434ed20c4\"]\) (for mm)\>\""}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"TableForm", "[", "tableWithHeader", "]"}]}], "Input",
+ CellChangeTimes->CompressedData["
+1:eJwdxU8oQ3EAB/DXDltmSYRaYpbaRQ+N21Kb5DlsMRb2rFeWw/yJ1JQMT2mT
+laYccJAmy5/8Cc2fqMXJafmbJAcxtGdFGsrM7/sOnz4Frd3mNglFUfkEFkZl
++boPQX/GqmnsjLxW4skZ1oYLt7V2fOztb8MSfsSJex5i4jfMsIshx442R7Fh
+fdeLdVs34qbP2DSeDXJzuHfvaxFr3LINfJIMxjHFGSU15PNHthwfOLrFXRd/
+Ruzz081YNb7Tib9LNT34tm/EhRXuukHcwVe7ce0TI16ykZ3Aqx6beO2cfb2O
+PF5cdIjTr4VL3PAevsJqg+MB+/XKKG4Pzb9j25vwgwPhCqmZrFS1yPEf/1mB
+p1MsVXglI2LCL9HZehyQS614jJ7ncJ7n144nGFkXvuTKnDit0zaAvzLZBI6r
+LUmcqwgtWsiM6X4Tf6fSQbzsX9jHh/rn00by0JI2jAdffOYm8t1aTj2eysmy
+YinvFf8Hx5oVTg==
+  "],
+ FontSize->8,
+ CellLabel->
+  "In[206]:=",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"i\"\>", \
+"\<\"\\!\\(\\*Cell[TextData[Cell[BoxData[FormBox[\\nSubscriptBox[\\\"x\\\", \
+\\\"i\\\"], TraditionalForm]]]]]\\)\"\>", \
+"\<\"\\!\\(\\*Cell[TextData[{\\n\\\" \
+\[CapitalDelta]\[VeryThinSpace]\\\",\\nCell[BoxData[FormBox[\\nSubscriptBox[\\\
+\"x\\\", \\\"\[VeryThinSpace]\\\"], TraditionalForm]]]\\n}]]\\)\"\>", \
+"\<\"25*\\!\\(\\*Cell[TextData[{\\n\\\"\[CapitalDelta]\[VeryThinSpace]\\\",\\\
+nCell[BoxData[FormBox[\\nSubscriptBox[\\\"x\\\", \\\"\[VeryThinSpace]\\\"], \
+TraditionalForm]]],\\n\\\" (for mm)\\\"\\n}]]\\)\"\>", \
+"\<\"\\!\\(\\*Cell[TextData[{\\nCell[BoxData[FormBox[\\n  RowBox[{\\\"     \\\
+\", \\nSubscriptBox[\\\"\[CapitalDelta]s\\\", \\\"i\\\"]}], \
+TraditionalForm]]],\\n\\\"     \\\"\\n}]]\\)\"\>", \
+"\<\"25*\\!\\(\\*Cell[TextData[Cell[BoxData[FormBox[\\nSubscriptBox[\\\"\
+\[CapitalDelta]s\\\", \\\"i\\\"], TraditionalForm]]]]]\\) (for mm)\"\>"},
+    {"0", "8.`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"1", "7.6`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"2", "7.2`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"3", "6.8`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"4", "6.4`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"5", "6.`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"6", "5.6`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"7", "5.199999999999999`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"8", "4.8`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"9", "4.4`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"10", "4.`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"11", "3.5999999999999996`", 
+     RowBox[{"-", "0.4`"}], "\<\"    -10\"\>", "\<\"\"\>", "\<\"\"\>"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.885153875398649*^9, 3.885153914500545*^9}, 
+   3.885154047392744*^9, 3.885154989643187*^9, {3.8851550302290583`*^9, 
+   3.885155034399056*^9}},
+ CellLabel->
+  "Out[208]//TableForm=",ExpressionUUID->"ef3371f2-7c7d-4b80-ac4f-\
+0363a502bf36"]
+}, Open  ]],
+
+Cell[TextData[{
+ "CROSS-CHECK AND DISCUSSION: You can check your work against mine by summing \
+all the little distances ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["s", "i"]}], TraditionalForm]],ExpressionUUID->
+  "18153710-7335-4f82-ac73-7291a1cbe6a9"],
+ " and checking that the total distance is about 7.8. To summarize, we \
+marched inwards a total ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c8b83210-c5ea-48c5-b3c4-1b6332246ada"],
+ "-coordinate change of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"12", "*", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "0.4"}], "M"}], ")"}]}], "=", 
+    RowBox[{
+     RowBox[{"-", "4.8"}], "M"}]}], TraditionalForm]],ExpressionUUID->
+  "f8c8afa6-59c2-4742-be6d-450143be02f5"],
+ ", but the physical distance corresponding to that coordinate change was ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"7.8", "M"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2a6f4bda-baf2-4270-823c-f7b7d1fc475a"],
+ ".\n\nUNITS: These statements and what follows are understood to be in units \
+of ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],ExpressionUUID->
+  "0725274b-c41b-4591-a1e7-23d389c87293"],
+ ", the black hole\[CloseCurlyQuote]s mass."
+}], "Text",
+ CellChangeTimes->{{3.885125437257185*^9, 3.885125528663597*^9}, {
+   3.885125559274667*^9, 3.8851257231069717`*^9}, {3.8851345985133657`*^9, 
+   3.885134640194659*^9}, {3.885135052282589*^9, 3.8851350531598682`*^9}, {
+   3.8851350876526737`*^9, 3.885135171554707*^9}, {3.885135303844645*^9, 
+   3.885135361928294*^9}, {3.885135426908833*^9, 3.885135558207506*^9}, {
+   3.885137819592677*^9, 3.88513796304037*^9}, {3.885137995125298*^9, 
+   3.885137998849614*^9}, {3.885138034758987*^9, 3.885138125354979*^9}, {
+   3.885138677572577*^9, 3.8851387472072563`*^9}, 3.885141497759054*^9, {
+   3.8851424180979023`*^9, 3.885142424216679*^9}, {3.885143084546823*^9, 
+   3.8851431027507877`*^9}, {3.8851494169439507`*^9, 
+   3.8851494273499813`*^9}, {3.885149738399193*^9, 3.885149772388197*^9}, {
+   3.885154634720923*^9, 
+   3.8851546387614117`*^9}},ExpressionUUID->"8a5c68dc-0b00-4b75-8e2a-\
+2a19758bc884"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"f02a9724-6694-4c5b-a768-715618171465"],
+
+Cell[TextData[{
+ "(g) Now it is time to make a beautiful embedding diagram. You will need a \
+ruler with a millimeter scale. For an embedding, we imagine an additional \
+coordinate that is entirely fictional. It is just to help us visualize curved \
+spacetime. We\[CloseCurlyQuote]ll will call this entirely fictional \
+coordinate ",
+ Cell[BoxData[
+  FormBox["z", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8eb4445a-4eae-4e24-9127-8bcabcaef338"],
+ ". On the horizontal axis we plot ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d9f91cf4-b916-41cf-9c69-3fe198819e14"],
+ ". A step of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+     SubscriptBox["x", "i"]}], "=", 
+    RowBox[{"-", "0.4"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3e9e997b-41fe-407f-8d88-a252bfba4c6e"],
+ " in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "878c1d29-b1f8-4328-9072-61cfd46f1739"],
+ " is just a step to the left. But we need to make that step have a physical \
+distance of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["s", "i"]}], TraditionalForm]],ExpressionUUID->
+  "c527e5dc-40be-4447-846f-abd15138ed47"],
+ ". So we go down along the fictional ",
+ Cell[BoxData[
+  FormBox["z", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ce2c5e0d-f24f-4813-9b18-7ade96df6e8e"],
+ "-direction however much it takes to make ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["s", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bb0272eb-4dd0-437f-890a-a0dd84196f06"],
+ " the right amount. That is what TWB are showing in Fig. 11 on p. 3-30. \
+Below is a graph for you to make a beautiful radial profile with the 10 steps \
+you calculated above. You have to multiply all the distances by 25 to do a \
+plot that is scaled in mm. That is why you did the final column in the \
+table."
+}], "Text",
+ CellChangeTimes->{{3.885125437257185*^9, 3.885125528663597*^9}, {
+  3.885125559274667*^9, 3.8851257231069717`*^9}, {3.8851345985133657`*^9, 
+  3.885134640194659*^9}, {3.885135052282589*^9, 3.8851350531598682`*^9}, {
+  3.8851350876526737`*^9, 3.885135171554707*^9}, {3.885135303844645*^9, 
+  3.885135361928294*^9}, {3.885135426908833*^9, 3.885135558207506*^9}, {
+  3.885137819592677*^9, 3.88513796304037*^9}, {3.885137995125298*^9, 
+  3.885137998849614*^9}, {3.885138034758987*^9, 3.885138125354979*^9}, {
+  3.885138677572577*^9, 3.8851387472072563`*^9}, {3.885141530652585*^9, 
+  3.885141637469152*^9}, {3.885143123545331*^9, 3.885143172128121*^9}, {
+  3.885143799865706*^9, 3.8851438006201878`*^9}, {3.8851499320599327`*^9, 
+  3.885149941971323*^9}, {3.885151453684495*^9, 
+  3.8851514537409163`*^9}},ExpressionUUID->"69ade72c-93e9-4c79-bed4-\
+934c60ab461d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "0", ",", " ", "8"}], "}"}], ",", " ", 
+   RowBox[{"PlotRange", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"2", ",", " ", "8"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "6"}], "}"}]}], "}"}]}], ",", " ", 
+   RowBox[{"AspectRatio", "->", "1"}], ",", " ", 
+   RowBox[{"GridLines", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Range", "[", 
+       RowBox[{"2", ",", "8", ",", "0.4"}], "]"}], ",", 
+      RowBox[{"Range", "[", 
+       RowBox[{"0", ",", "6", ",", "0.4"}], "]"}]}], "}"}]}], ",", " ", 
+   RowBox[{"Frame", "->", "True"}], ",", " ", 
+   RowBox[{
+   "PlotLabel", "->", 
+    "\"\<Radial Profile, Horizontal Axis is x, Vertical Axis is Fictional z\>\
+\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8851381314301033`*^9, 3.8851382288327827`*^9}, {
+  3.885138267860454*^9, 3.885138338148238*^9}, {3.8851384024299717`*^9, 
+  3.885138447892268*^9}, {3.88513849084439*^9, 3.885138529780787*^9}, {
+  3.885138569061727*^9, 3.88513867291273*^9}, {3.88513875832331*^9, 
+  3.885138765635132*^9}, {3.885143186270043*^9, 3.885143294121039*^9}},
+ FontSize->9,
+ CellLabel->
+  "In[209]:=",ExpressionUUID->"2d33350a-1cda-4d14-a227-d30123e31651"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}},
+  AspectRatio->1,
+  Axes->True,
+  AxesLabel->{None, None},
+  AxesOrigin->{2.0000000000000044`, 0},
+  DisplayFunction->Identity,
+  Frame->{{True, True}, {True, True}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{{2., 2.4, 2.8, 3.2, 3.6, 4., 4.4, 4.800000000000001, 5.2, 5.6, 
+   6., 6.4, 6.800000000000001, 7.2, 7.6000000000000005`, 8.}, {0., 0.4, 0.8, 
+   1.2000000000000002`, 1.6, 2., 2.4000000000000004`, 2.8000000000000003`, 
+   3.2, 3.6, 4., 4.4, 4.800000000000001, 5.2, 5.6000000000000005`, 6.}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  ImageSize->{600.6328938802066, Automatic},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotLabel->FormBox[
+   "\"Radial Profile, Horizontal Axis is x, Vertical Axis is Fictional z\"", 
+    TraditionalForm],
+  PlotRange->{{2., 8.}, {0., 6.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0, 0}, {0, 0}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.885138229195915*^9, {3.8851382684755297`*^9, 3.8851383086401033`*^9}, 
+   3.88513841636791*^9, 3.885138448835446*^9, {3.885138504903064*^9, 
+   3.885138532090695*^9}, {3.885138601586747*^9, 3.885138615085794*^9}, 
+   3.8851386488029423`*^9, {3.885138754913516*^9, 3.885138766772932*^9}, 
+   3.88514307922392*^9, {3.8851432446949377`*^9, 3.885143252080925*^9}, 
+   3.885143295015864*^9, 3.885154047461731*^9, 3.8851549897244463`*^9, 
+   3.885155034467863*^9},
+ CellLabel->
+  "Out[209]=",ExpressionUUID->"1462b030-f2ee-43b9-a7ff-6625c204e5c5"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"2c43413e-debf-474b-bc76-59d4a1062192"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Problem 4 \[LongDash] Exploring Light-Like Worldlines of the [",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],ExpressionUUID->
+  "09d3eade-89b1-45b9-a3a6-f713e85721c1"],
+ ", \[Phi]]-Slice Inside the Event Horizon"
+}], "Subsection",
+ CellChangeTimes->{{3.885093676798587*^9, 3.885093746942697*^9}, {
+  3.885093793631609*^9, 3.885093815129982*^9}, {3.8850938582392683`*^9, 
+  3.8850938583192787`*^9}, {3.885150510860937*^9, 
+  3.885150545578663*^9}},ExpressionUUID->"68bcc674-5b90-4b35-b8a3-\
+9f196b6c914b"],
+
+Cell[TextData[{
+ "We start with the metric in Eq. (6): ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], ")"}], "2"], 
+    "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        RowBox[{"2", 
+         RowBox[{"M", "/", "r"}]}]}], ")"}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"]}], 
+     "-", 
+     StyleBox[
+      FractionBox[
+       RowBox[{" ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"]}], 
+       RowBox[{"1", "-", 
+        RowBox[{"2", 
+         RowBox[{"M", "/", "r"}]}]}]],
+      FontSize->18], 
+     StyleBox["-",
+      FontSize->18], 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox[
+        StyleBox["r",
+         FontSize->18], "2"], "(", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], ")"}], 
+      "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "e5028ab5-6ed2-443b-9260-92dd8fc7cc75"],
+ ".\n\n(a) Inside the event horizon, 1-2M/r is negative. Rewrite the metric \
+to make it clearer that the coefficient of ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], ")"}], "2"], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "df30682c-478d-4c76-8c8d-4fdd60cedb18"],
+ " is negative and the coefficient of ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], ")"}], "2"], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "92f87828-2dbb-479b-a32e-57fe3613a5a8"],
+ " is positive. (Don\[CloseCurlyQuote]t overthink this. It is just \
+re-distributing some minus signs.)\n\n(b) So moving around in the global-",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ff2e7992-e353-441f-b9b4-a7d2195d4d02"],
+ " coordinate now adds to wristwatch time, whereas moving around in the \
+global-",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2cb2471b-4d64-4c38-abd7-50d833d68d86"],
+ " coordinate subtracts from wristwatch time. That means that the ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3dadbb89-e572-4ab9-bf3c-089137efca52"],
+ " coordinate behaves like a spatial coordinate in this region. We are going \
+to restrict ourselves to the [",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c2f5948f-ddd5-46e2-b0ec-2f303a9bd900"],
+ ", \[Phi]]-slice as we did in Problem 4. So set ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], "=", "0"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c071dd56-f306-4a2b-8739-c39f6bf883e5"],
+ " and simplify, but conceptually, keep in mind that in this region, what you \
+have done is get rid of a spatial coordinate!\n\n(c) We want to study the \
+behavior of light-like world-lines. For light, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], "=", "0"}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d786b7b3-9cc7-4ebd-9e1e-97562e4fe989"],
+ ". Make that simplification. Also, rearrange and then do a careful taking of \
+square roots.\n\n(d) We are going to focus on black holes, not white holes, \
+and we are going to simplify to light spiraling inward in the increasing \
+\[Phi] direction. That is the only case we are interested in present. \
+Simplify what you got in (d) so that increasing ",
+ Cell[BoxData[
+  FormBox["\[CapitalDelta]\[Phi]", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0dbe4f1e-dc12-45da-bcf2-2d2bbfa2b14f"],
+ " results in decreasing ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3f064c6b-b43f-49b8-9908-0216d4b9ffd2"],
+ ".\n\n(e) As in Problem 3, we are going to introduce a new dimensionless \
+global coordinate ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"r", "/", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f169f711-ebd6-4141-924e-d812046ee317"],
+ ", and of course it follows that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+     RowBox[{"r", "/", "M"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ae7db2c6-e3dd-47f5-bd91-511b8df7d927"],
+ ". Rewrite your equation with this new coordinate. Show that:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "\[CapitalDelta]"}], "\[VeryThinSpace]", "x"}], 
+      RowBox[{
+       RowBox[{"2", "/", "x"}], "-", "1"}]],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "f1a7bb79-6dfb-4556-a589-17dd5ac4cf19"],
+ "\n\n(f) We will start at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1.5"}], TraditionalForm]],ExpressionUUID->
+  "74f6906b-083d-4ada-8208-28a47d4f7c47"],
+ " and finish at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "0.0"}], TraditionalForm]],ExpressionUUID->
+  "ec684522-58ce-439c-9ef8-171e595c7876"],
+ ". We will do that in 15 steps of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
+    RowBox[{"-", "0.1"}]}], TraditionalForm]],ExpressionUUID->
+  "99e59b1a-59a8-4fc4-bb75-8c6718fb4557"],
+ " each. Fill in the final three columns of the table table below using:\n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+     SubscriptBox["\[Phi]", "i"]}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "\[CapitalDelta]"}], "\[VeryThinSpace]", "x"}], 
+      RowBox[{
+       RowBox[{"2", "/", 
+        SubscriptBox["x", "i"]}], "-", "1"}]],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "5a266212-f92e-4a59-b9d2-f8f1267aab4a"],
+ "\n\nTwo-decimal-place accuracy is fine for the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["\[Phi]", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e5287746-37d4-4a01-9dcb-8db7a1dbf1d7"],
+ ". Round to nearest tenth of a degree when computing ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["360", 
+     RowBox[{"2", "\[Pi]"}]], " ", "\[CapitalDelta]", "\[VeryThinSpace]", 
+    SubscriptBox["\[Phi]", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1de69223-e6e8-4cd5-8852-b109e3194aa2"],
+ ". Start your world-line at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1.5"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "20bda8ab-b8e4-44d1-80e2-3fc1ca3cf463"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Phi]", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d417e2dd-f987-492e-bdcd-c00dcb9b54e9"],
+ " and work your way inward. In the final column, put the running cumulative \
+change in ",
+ Cell[BoxData[
+  FormBox["\[Phi]", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3d84475c-d3c1-4ac1-9bc4-28139963b8e4"],
+ " (in degrees)."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwd0Vkow3EAB/C11uTIkc0LM5vcRA25a+SKHJtbhMKDHCFRUpYZD0RERq6I
+ERIPk8zR8sCUJJqoWdKEYSEZ5vf9P3z79H39fnkV9aJKOo1G8ySBDGZxR5Tp
+SaiM6JTDSPXlFGS52CzDxwnONjx6Me3C83aZGh4ec7jRRKF7kHUM0b95hwOZ
+9KZg6KLyToAsXY4qhWgs6T6EOmWCBm4IxinPNrO0cFqquIITdS16SLeEG+Bm
+ytwz1T+tjPBkMIyRSuxmSh2gbiiSDeN6VwSwyPExFpp53Hi4NOCXBtXVTunQ
+o59VAueLRmugyeuvGfoY5lqg/JZ9B6uVZfdQk+WclkHk350VwlVOojab2KWp
+uoHXkqRnuGWz/QovGjRmyjDBHxx9+xaJiJbdX8ojO3E7lGhnJDCg1GKGrbay
+H8h22+OLsR//1hNWHJ+qcokF77ID+KMwvEBm34drHvFruJYHFSflvnDQbjgQ
+6rkjjTB4Q9gGRZkPQ3As+XIKyqX6dWisc1vMJ86OTFKulS6sQfelHSXk2zNC
+CvD7fk8o/Ae+PzpS
+  "],ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"table2", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", 
+       RowBox[{"1.5", " ", "-", " ", 
+        RowBox[{"0.1", "i"}]}], ",", 
+       RowBox[{"-", "0.1"}], ",", " ", 
+       RowBox[{"If", "[", 
+        RowBox[{"True", ",", "\"\<\>\"", ",", 
+         RowBox[{"Round", "[", 
+          RowBox[{
+           RowBox[{"0.1", "/", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", "/", 
+               RowBox[{"(", 
+                RowBox[{"1.5", "-", 
+                 RowBox[{"0.1", "i"}]}], ")"}]}], "-", "1"}], ")"}]}], ",", 
+           "0.01"}], "]"}]}], "]"}], ",", " ", 
+       RowBox[{"If", "[", 
+        RowBox[{"True", ",", "\"\<\>\"", ",", 
+         RowBox[{"Round", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{"360", " ", "/", " ", "2"}], " ", "/", " ", "\[Pi]"}], 
+            " ", "*", 
+            RowBox[{"0.1", "/", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"2", "/", 
+                RowBox[{"(", 
+                 RowBox[{"1.5", "-", 
+                  RowBox[{"0.1", "i"}]}], ")"}]}], "-", "1"}], ")"}]}]}], ",",
+            "0.1"}], "]"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", " ", "0", ",", "14", ",", " ", "1"}], "}"}]}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"table2WithHeader", " ", "=", " ", 
+   RowBox[{"PrependTo", "[", 
+    RowBox[{"table2", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<i\>\"", ",", "\"\<\!\(\*Cell[TextData[Cell[BoxData[FormBox[
+SubscriptBox[\"x\", \"i\"], \
+TraditionalForm]],ExpressionUUID->\"ba72dafc-0863-4d73-be98-1b6725e81dc0\"]],\
+ExpressionUUID->\"bd6f2105-a5d3-4835-b63b-ff18159cee20\"]\)\>\"", ",", 
+       "\"\<\!\(\*Cell[TextData[{
+\" \[CapitalDelta]\[VeryThinSpace]\",
+Cell[BoxData[FormBox[
+SubscriptBox[\"x\", \"\[VeryThinSpace]\"], TraditionalForm]],ExpressionUUID->\
+\"47e6ab0f-0576-4fbc-a67d-32b78e4bcd2f\"]
+}],ExpressionUUID->\"9640d5fb-e53b-4f5c-a277-cf45081e6ee4\"]\)\>\"", " ", 
+       ",", "\"\<        \!\(\*Cell[TextData[Cell[BoxData[FormBox[
+SubscriptBox[\"\[CapitalDelta]\[Phi]\", \"i\"], \
+TraditionalForm]],ExpressionUUID->\"ed9021f9-a7cf-4cf5-a5ef-55c45065be8c\"]],\
+ExpressionUUID->\"1cfd5fbd-052b-46f2-b576-c85bc80f9b85\"]\)   \>\"", ",", 
+       " ", "\"\<\!\(\*FractionBox[\(360\), \(2  \
+\[Pi]\)]\)*\!\(\*Cell[TextData[Cell[BoxData[FormBox[
+SubscriptBox[\"\[CapitalDelta]\[Phi]\", \"i\"], \
+TraditionalForm]],ExpressionUUID->\"db338fcf-dec5-469b-9cb8-9849dee17499\"]],\
+ExpressionUUID->\"c923157f-e636-47de-b6e2-4136e9f65b75\"]\) (degrees)\>\"", 
+       ",", " ", "\"\<Cumulative change in \[Phi]\>\""}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"TableForm", "[", "table2WithHeader", "]"}]}], "Input",
+ CellChangeTimes->CompressedData["
+1:eJwdyVtIWgEAxnFxlMxijAk9RHQRwT0MtzUbEWZkk84YWTrdKnOH6XpoM4zA
+2MgxLWdREI29VA8SRsWMSlbYhVXO7WE35roiPfRgJYUnyYg0WZfznYePH3++
+PL1JVc9msVhCepCyc3IkR1TpspYvgubwfhn80K/VQcHUPQP0d7+ph2yrzQyb
+QlHGIPHOQtBGFzx2KJuY6YaSz0FGxXG0Dw54SSdsno0PQ6GDMwm/XXhPIIus
+YD+kXdnRFsD5BhOjZfW8Ava6RDUwt2vaCBN3hU1ws8VmgekO5Vv4ylrugFW7
+BOOdyYwzONahY6xyGiaUtF23b32B1zeoNaiOBdYhX9YQgq7SzAh86RuMQd0B
+dQpHAtJUFW1mbh0XnluPpbDvqkYO3TfCCrgXGXgMR7iptbBTNEjC7I7/BthD
+cBrhGik2w2tGXSuM87Rn8ISvuYBZ6b5hDS2h2PLARJrICz+5huZgcwnb84T2
+t0SwBLNb9eKntD+L+IVw6z1VDNu2yRKY4u98ACvbX8vhFXFACRedP9TwY8jo
+hje/q8Zh1tfRVaaFfzZhhvhvAoZ5R0mmHwULqvG7/92HyTFjNTxsLK6Bv17I
+n8Px/GeMl1jsW0Y=
+  "],
+ FontSize->8,
+ CellLabel->
+  "In[214]:=",ExpressionUUID->"36e8c678-4809-4121-b890-f75952137464"],
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {"\<\"i\"\>", \
+"\<\"\\!\\(\\*Cell[TextData[Cell[BoxData[FormBox[\\nSubscriptBox[\\\"x\\\", \
+\\\"i\\\"], TraditionalForm]]]]]\\)\"\>", \
+"\<\"\\!\\(\\*Cell[TextData[{\\n\\\" \
+\[CapitalDelta]\[VeryThinSpace]\\\",\\nCell[BoxData[FormBox[\\nSubscriptBox[\\\
+\"x\\\", \\\"\[VeryThinSpace]\\\"], TraditionalForm]]]\\n}]]\\)\"\>", "\<\"   \
+     \\!\\(\\*Cell[TextData[Cell[BoxData[FormBox[\\nSubscriptBox[\\\"\
+\[CapitalDelta]\[Phi]\\\", \\\"i\\\"], TraditionalForm]]]]]\\)   \"\>", "\<\"\
+\\!\\(\\*FractionBox[\\(360\\), \\(2  \
+\[Pi]\\)]\\)*\\!\\(\\*Cell[TextData[Cell[BoxData[FormBox[\\nSubscriptBox[\\\"\
+\[CapitalDelta]\[Phi]\\\", \\\"i\\\"], TraditionalForm]]]]]\\) \
+(degrees)\"\>", "\<\"Cumulative change in \[Phi]\"\>"},
+    {"0", "1.5`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"1", "1.4`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"2", "1.3`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"3", "1.2`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"4", "1.1`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"5", "1.`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"6", "0.8999999999999999`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"7", "0.7999999999999999`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"8", "0.7`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"9", "0.6`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"10", "0.5`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"11", "0.3999999999999999`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"12", "0.2999999999999998`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"13", "0.19999999999999996`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"},
+    {"14", "0.09999999999999987`", 
+     RowBox[{"-", "0.1`"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  TableForm[{{
+    "i", "\!\(\*Cell[TextData[Cell[BoxData[FormBox[\nSubscriptBox[\"x\", \
+\"i\"], TraditionalForm]]]]]\)", 
+     "\!\(\*Cell[TextData[{\n\" \[CapitalDelta]\[VeryThinSpace]\",\n\
+Cell[BoxData[FormBox[\nSubscriptBox[\"x\", \"\[VeryThinSpace]\"], \
+TraditionalForm]]]\n}]]\)", 
+     "        \!\(\*Cell[TextData[Cell[BoxData[FormBox[\nSubscriptBox[\"\
+\[CapitalDelta]\[Phi]\", \"i\"], TraditionalForm]]]]]\)   ", 
+     "\!\(\*FractionBox[\(360\), \(2  \
+\[Pi]\)]\)*\!\(\*Cell[TextData[Cell[BoxData[FormBox[\nSubscriptBox[\"\
+\[CapitalDelta]\[Phi]\", \"i\"], TraditionalForm]]]]]\) (degrees)", 
+     "Cumulative change in \[Phi]"}, {0, 1.5, -0.1, "", ""}, {
+    1, 1.4, -0.1, "", ""}, {2, 1.3, -0.1, "", ""}, {3, 1.2, -0.1, "", ""}, {
+    4, 1.1, -0.1, "", ""}, {5, 1., -0.1, "", ""}, {
+    6, 0.8999999999999999, -0.1, "", ""}, {
+    7, 0.7999999999999999, -0.1, "", ""}, {8, 0.7, -0.1, "", ""}, {
+    9, 0.6, -0.1, "", ""}, {10, 0.5, -0.1, "", ""}, {
+    11, 0.3999999999999999, -0.1, "", ""}, {
+    12, 0.2999999999999998, -0.1, "", ""}, {
+    13, 0.19999999999999996`, -0.1, "", ""}, {
+    14, 0.09999999999999987, -0.1, "", ""}}]]], "Output",
+ CellChangeTimes->{
+  3.8851496471793823`*^9, 3.885151747290112*^9, 3.885152719531259*^9, 
+   3.885152779855338*^9, 3.885152812609912*^9, {3.885152920538045*^9, 
+   3.885152935114523*^9}, 3.885153620145644*^9, 3.885153739543071*^9, {
+   3.8851539594505453`*^9, 3.8851539731342382`*^9}, 3.885154006813642*^9, 
+   3.885154047483585*^9, {3.885154250262556*^9, 3.885154264573411*^9}, 
+   3.885154742976419*^9, 3.885154989744911*^9, 3.885155034488587*^9, 
+   3.8851550838030777`*^9},
+ CellLabel->
+  "Out[216]//TableForm=",ExpressionUUID->"abd9957d-24b4-402c-99c4-\
+f6f5787c9ae9"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"35ea8273-957a-4b75-8954-1e28a9170e9e"],
+
+Cell[TextData[{
+ "(g) Finally, it is time to make a beautiful world line. Start at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1.5"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "48bd0aae-b5c3-4b58-a0b5-d5d5e01c4d08"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Phi]", "=", 
+    RowBox[{"0", "\[Degree]"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2f885921-774d-4059-b6a0-ea41fdaa4378"],
+ "."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQfcdqxXPPT28cDWxEP4NooVMvvoHogJxkbi8gXZd7
+IcEPSC+zYksD0T+4OmeC6CWyS8H0lkdf5oJozQOFK0B0KPvvHSB62hbbA2Bx
+0dgTIPrJ4mM3QLTZ96LP/kB6m1ciawCQLmRK4QTRXAa3wfR8zwg+EP03erUk
+iO4N2hQHom8sTEsH0b8ehhwOBNLezOsvgOio4sKuICA9UbJlAoi+u/n3PRA9
+5YbwfRD941Xj3VAgLSK6/x6ITnq+dXYYyH1bt4PpVTvCT4LoBzzKp0E0d7fv
+/XCQv/Y1gul638J/IDpqlxJjBJAGAIgKriE=
+  "],ExpressionUUID->"6c8f1d25-aea2-4ecd-aa1a-1d5790b7cffc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{
+   RowBox[{"{", "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "0", ",", " ", "1.5"}], "}"}], ",", " ", 
+   RowBox[{"PolarGridLines", "->", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", 
+      RowBox[{"Range", "[", 
+       RowBox[{"0", ",", "1.5", ",", " ", "0.1"}], "]"}]}], "}"}]}], ",", " ", 
+   RowBox[{
+   "PlotLabel", "->", 
+    "\"\<Worldline for a Light-Like Particle on an \
+[\!\(\*Cell[\"r\",ExpressionUUID->\"ac715546-214c-48e0-a8d1-a7a78be34778\"]\),\
+\[Phi]]-Slice Inside the Event Horizon\>\""}], ",", " ", 
+   RowBox[{"PolarAxes", "->", "Automatic"}], ",", " ", 
+   RowBox[{"PolarTicks", "->", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Degrees\>\"", ",", " ", "Automatic"}], "}"}]}], ",", " ", 
+   RowBox[{"PlotRange", "->", "2"}], ",", 
+   RowBox[{"PlotRangePadding", "->", "0.05"}]}], "]"}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQnXE4Vyrg0xtHjWWz1ED09Y5qbRAdt8/FBESHHPK1
+AdFlvX8cQbQda7Q7iDb9Y+EDolf/VAwE0WKmsnEgui/iVAaIZgjekgmiDZd4
+TAoC0r33D88H0UtcP5wOA9IRLcuvgehZs4Q/g+gjd179BtEJT6YxhANpy149
+dhCts6ySB0Q/U9kgAKLXPPsmDqKn7M6TANFLOCXkwOrmnlEE0Z3v7miA6Den
+X4Dpc3PmRYHouD7HWBB9Ny88EURLbMwA05/XHM0A0WXbnoLpJNaeYrB5f0JL
+QPQ/5hmsEUD6zLKdnCAaAKfjqAg=
+  "],
+ FontSize->9,
+ CellLabel->
+  "In[213]:=",ExpressionUUID->"e2361a97-5553-40e1-ad75-9e2892b6bd98"],
+
+Cell[BoxData[
+ GraphicsBox[{{{{
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {2^Rational[1, 2], 0}}, {{0, 0}, {
+          1.4142135623730951`, 0}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 + 3^Rational[1, 2])}}, {{0, 0}, {
+          1.3660254037844386`, 0.3660254037844386}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}}, {{0, 0}, {
+          1.224744871391589, 0.7071067811865475}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {1, 1}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}}, {{0, 0}, {
+          0.7071067811865475, 1.224744871391589}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (1 + 3^Rational[1, 2])}}, {{0, 0}, {
+          0.3660254037844386, 1.3660254037844386`}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {0, 2^Rational[1, 2]}}, {{0, 0}, {
+          0, 1.4142135623730951`}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (1 + 3^Rational[1, 2])}}, {{0, 
+          0}, {-0.3660254037844386, 1.3660254037844386`}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 
+          0}, {-2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}}, {{0, 
+          0}, {-0.7071067811865475, 1.224744871391589}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {-1, 1}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 
+          0}, {-Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {-1.224744871391589, 0.7071067811865475}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 + 3^Rational[1, 2])}}, {{0, 
+          0}, {-1.3660254037844386`, 0.3660254037844386}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[1, 2], 0}}, {{0, 
+          0}, {-1.4142135623730951`, 0}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (1 - 3^Rational[1, 2])}}, {{0, 
+          0}, {-1.3660254037844386`, -0.3660254037844386}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 
+          0}, {-Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}}, {{0, 
+          0}, {-1.224744871391589, -0.7071067811865475}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {-1, -1}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 
+          0}, {-2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}}, {{0, 
+          0}, {-0.7071067811865475, -1.224744871391589}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 - 3^Rational[1, 2])}}, {{0, 
+          0}, {-0.3660254037844386, -1.3660254037844386`}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {0, -2^Rational[1, 2]}}, {{0, 0}, {
+          0, -1.4142135623730951`}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 - 3^Rational[1, 2])}}, {{0, 0}, {
+          0.3660254037844386, -1.3660254037844386`}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}}, {{0, 0}, {
+          0.7071067811865475, -1.224744871391589}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], LineBox[{{0, 0}, {1, -1}}]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}}, {{0, 0}, {
+          1.224744871391589, -0.7071067811865475}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {
+          Rational[1, 2] (1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (1 - 3^Rational[1, 2])}}, {{0, 0}, {
+          1.3660254037844386`, -0.3660254037844386}}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       LineBox[NCache[{{0, 0}, {2^Rational[1, 2], 0}}, {{0, 0}, {
+          1.4142135623730951`, 0}}]]}}, {
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0., NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.1, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.2, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.30000000000000004, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.4, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.5, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.6000000000000001, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.7000000000000001, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.8, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 0.9, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1., NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.1, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.2000000000000002, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.3, NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, 
+      {GrayLevel[0.5], Opacity[0.4], 
+       CircleBox[{0, 0}, 1.4000000000000001, 
+        NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}}}, {}, {}, {}, {{{
+       LineBox[NCache[{
+         Scaled[{0, 0}, {2^Rational[1, 2], 0}], 
+          Scaled[{0.008, 0.}, {2^Rational[1, 2], 0}]}, {
+         Scaled[{0, 0}, {1.4142135623730951`, 0}], 
+          Scaled[{0.008, 0.}, {1.4142135623730951`, 0}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
+          Scaled[{0.007727406610312546, 0.0020705523608201657`}, {
+           Rational[1, 2] (1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 + 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {1.3660254037844386`, 0.3660254037844386}], 
+          Scaled[{0.007727406610312546, 0.0020705523608201657`}, {
+           1.3660254037844386`, 0.3660254037844386}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}], 
+          Scaled[{0.006928203230275509, 0.004}, {
+           Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}]}, {
+         Scaled[{0, 0}, {1.224744871391589, 0.7071067811865475}], 
+          Scaled[{0.006928203230275509, 0.004}, {1.224744871391589, 
+           0.7071067811865475}]}]], 
+       LineBox[{
+        Scaled[{0, 0}, {1, 1}], 
+         Scaled[{0.00565685424949238, 0.00565685424949238}, {1, 1}]}], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}], 
+          Scaled[{0.004, 0.006928203230275509}, {
+           2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}]}, {
+         Scaled[{0, 0}, {0.7071067811865475, 1.224744871391589}], 
+          Scaled[{0.004, 0.006928203230275509}, {0.7071067811865475, 
+           1.224744871391589}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (1 + 3^Rational[1, 2])}], 
+          Scaled[{0.0020705523608201657`, 0.007727406610312546}, {
+           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (1 + 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {0.3660254037844386, 1.3660254037844386`}], 
+          Scaled[{0.0020705523608201657`, 0.007727406610312546}, {
+           0.3660254037844386, 1.3660254037844386`}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {0, 2^Rational[1, 2]}], 
+          Scaled[{0., 0.008}, {0, 2^Rational[1, 2]}]}, {
+         Scaled[{0, 0}, {0, 1.4142135623730951`}], 
+          Scaled[{0., 0.008}, {0, 1.4142135623730951`}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (1 + 3^Rational[1, 2])}], 
+          Scaled[{-0.0020705523608201657`, 0.007727406610312546}, {
+           Rational[1, 2] (1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (1 + 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {-0.3660254037844386, 1.3660254037844386`}], 
+          Scaled[{-0.0020705523608201657`, 
+           0.007727406610312546}, {-0.3660254037844386, 
+           1.3660254037844386`}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {-2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}], 
+          Scaled[{-0.004, 
+           0.006928203230275509}, {-2^Rational[-1, 2], Rational[3, 2]^
+            Rational[1, 2]}]}, {
+         Scaled[{0, 0}, {-0.7071067811865475, 1.224744871391589}], 
+          Scaled[{-0.004, 0.006928203230275509}, {-0.7071067811865475, 
+           1.224744871391589}]}]], 
+       LineBox[{
+        Scaled[{0, 0}, {-1, 1}], 
+         Scaled[{-0.00565685424949238, 0.00565685424949238}, {-1, 1}]}], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {-Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}], 
+          Scaled[{-0.006928203230275509, 
+           0.004}, {-Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}]}, {
+         Scaled[{0, 0}, {-1.224744871391589, 0.7071067811865475}], 
+          Scaled[{-0.006928203230275509, 0.004}, {-1.224744871391589, 
+           0.7071067811865475}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
+          Scaled[{-0.007727406610312546, 0.0020705523608201657`}, {
+           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 + 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {-1.3660254037844386`, 0.3660254037844386}], 
+          Scaled[{-0.007727406610312546, 
+           0.0020705523608201657`}, {-1.3660254037844386`, 
+           0.3660254037844386}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {-2^Rational[1, 2], 0}], 
+          Scaled[{-0.008, 0.}, {-2^Rational[1, 2], 0}]}, {
+         Scaled[{0, 0}, {-1.4142135623730951`, 0}], 
+          Scaled[{-0.008, 0.}, {-1.4142135623730951`, 0}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (1 - 3^Rational[1, 2])}], 
+          Scaled[{-0.007727406610312546, -0.0020705523608201657`}, {
+           Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (1 - 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {-1.3660254037844386`, -0.3660254037844386}], 
+          Scaled[{-0.007727406610312546, -0.0020705523608201657`}, \
+{-1.3660254037844386`, -0.3660254037844386}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {-Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}],
+           Scaled[{-0.006928203230275509, -0.004}, {-
+            Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}]}, {
+         Scaled[{0, 0}, {-1.224744871391589, -0.7071067811865475}], 
+          Scaled[{-0.006928203230275509, -0.004}, {-1.224744871391589, \
+-0.7071067811865475}]}]], 
+       LineBox[{
+        Scaled[{0, 0}, {-1, -1}], 
+         Scaled[{-0.00565685424949238, -0.00565685424949238}, {-1, -1}]}], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {-2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}],
+           Scaled[{-0.004, -0.006928203230275509}, {-2^Rational[-1, 2], -
+            Rational[3, 2]^Rational[1, 2]}]}, {
+         Scaled[{0, 0}, {-0.7071067811865475, -1.224744871391589}], 
+          Scaled[{-0.004, -0.006928203230275509}, {-0.7071067811865475, \
+-1.224744871391589}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
+          Scaled[{-0.0020705523608201657`, -0.007727406610312546}, {
+           Rational[1, 2] (1 - 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 - 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {-0.3660254037844386, -1.3660254037844386`}], 
+          Scaled[{-0.0020705523608201657`, -0.007727406610312546}, \
+{-0.3660254037844386, -1.3660254037844386`}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {0, -2^Rational[1, 2]}], 
+          Scaled[{0., -0.008}, {0, -2^Rational[1, 2]}]}, {
+         Scaled[{0, 0}, {0, -1.4142135623730951`}], 
+          Scaled[{0., -0.008}, {0, -1.4142135623730951`}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
+          Scaled[{0.0020705523608201657`, -0.007727406610312546}, {
+           Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (-1 - 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {0.3660254037844386, -1.3660254037844386`}], 
+          Scaled[{0.0020705523608201657`, -0.007727406610312546}, {
+           0.3660254037844386, -1.3660254037844386`}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}], 
+          Scaled[{0.004, -0.006928203230275509}, {
+           2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}]}, {
+         Scaled[{0, 0}, {0.7071067811865475, -1.224744871391589}], 
+          Scaled[{0.004, -0.006928203230275509}, {
+           0.7071067811865475, -1.224744871391589}]}]], 
+       LineBox[{
+        Scaled[{0, 0}, {1, -1}], 
+         Scaled[{0.00565685424949238, -0.00565685424949238}, {1, -1}]}], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}], 
+          Scaled[{0.006928203230275509, -0.004}, {
+           Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}]}, {
+         Scaled[{0, 0}, {1.224744871391589, -0.7071067811865475}], 
+          Scaled[{0.006928203230275509, -0.004}, {
+           1.224744871391589, -0.7071067811865475}]}]], 
+       LineBox[NCache[{
+         Scaled[{0, 0}, {
+           Rational[1, 2] (1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (1 - 3^Rational[1, 2])}], 
+          Scaled[{0.007727406610312546, -0.0020705523608201657`}, {
+           Rational[1, 2] (1 + 3^Rational[1, 2]), 
+            Rational[1, 2] (1 - 3^Rational[1, 2])}]}, {
+         Scaled[{0, 0}, {1.3660254037844386`, -0.3660254037844386}], 
+          Scaled[{0.007727406610312546, -0.0020705523608201657`}, {
+           1.3660254037844386`, -0.3660254037844386}]}]]}, 
+      LineBox[NCache[{{{
+          2^Rational[1, 2] Cos[Rational[1, 36] Pi], 2^Rational[1, 2] 
+           Sin[Rational[1, 36] Pi]}, 
+          Scaled[{0.003984778792366982, 0.00034862297099063266`}, {
+           2^Rational[1, 2] Cos[Rational[1, 36] Pi], 2^Rational[1, 2] 
+            Sin[Rational[1, 36] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[1, 18] Pi], 2^Rational[1, 2] 
+           Sin[Rational[1, 18] Pi]}, 
+          Scaled[{0.003939231012048832, 0.0006945927106677213}, {
+           2^Rational[1, 2] Cos[Rational[1, 18] Pi], 2^Rational[1, 2] 
+            Sin[Rational[1, 18] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[1, 9] Pi], 2^Rational[1, 2] 
+           Sin[Rational[1, 9] Pi]}, 
+          Scaled[{0.003758770483143634, 0.001368080573302675}, {
+           2^Rational[1, 2] Cos[Rational[1, 9] Pi], 2^Rational[1, 2] 
+            Sin[Rational[1, 9] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[5, 36] Pi], 2^Rational[1, 2] 
+           Sin[Rational[5, 36] Pi]}, 
+          Scaled[{0.0036252311481465996`, 0.0016904730469627979`}, {
+           2^Rational[1, 2] Cos[Rational[5, 36] Pi], 2^Rational[1, 2] 
+            Sin[Rational[5, 36] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[7, 36] Pi], 2^Rational[1, 2] 
+           Sin[Rational[7, 36] Pi]}, 
+          Scaled[{0.0032766081771559673`, 0.002294305745404184}, {
+           2^Rational[1, 2] Cos[Rational[7, 36] Pi], 2^Rational[1, 2] 
+            Sin[Rational[7, 36] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[2, 9] Pi], 2^Rational[1, 2] 
+           Sin[Rational[2, 9] Pi]}, 
+          Scaled[{0.0030641777724759126`, 0.002571150438746157}, {
+           2^Rational[1, 2] Cos[Rational[2, 9] Pi], 2^Rational[1, 2] 
+            Sin[Rational[2, 9] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[2, 9] Pi], 2^Rational[1, 2] 
+           Cos[Rational[2, 9] Pi]}, 
+          Scaled[{0.002571150438746157, 0.0030641777724759126`}, {
+           2^Rational[1, 2] Sin[Rational[2, 9] Pi], 2^Rational[1, 2] 
+            Cos[Rational[2, 9] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[7, 36] Pi], 2^Rational[1, 2] 
+           Cos[Rational[7, 36] Pi]}, 
+          Scaled[{0.002294305745404184, 0.0032766081771559673`}, {
+           2^Rational[1, 2] Sin[Rational[7, 36] Pi], 2^Rational[1, 2] 
+            Cos[Rational[7, 36] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[5, 36] Pi], 2^Rational[1, 2] 
+           Cos[Rational[5, 36] Pi]}, 
+          Scaled[{0.0016904730469627979`, 0.0036252311481465996`}, {
+           2^Rational[1, 2] Sin[Rational[5, 36] Pi], 2^Rational[1, 2] 
+            Cos[Rational[5, 36] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[1, 9] Pi], 2^Rational[1, 2] 
+           Cos[Rational[1, 9] Pi]}, 
+          Scaled[{0.001368080573302675, 0.003758770483143634}, {
+           2^Rational[1, 2] Sin[Rational[1, 9] Pi], 2^Rational[1, 2] 
+            Cos[Rational[1, 9] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[1, 18] Pi], 2^Rational[1, 2] 
+           Cos[Rational[1, 18] Pi]}, 
+          Scaled[{0.0006945927106677213, 0.003939231012048832}, {
+           2^Rational[1, 2] Sin[Rational[1, 18] Pi], 2^Rational[1, 2] 
+            Cos[Rational[1, 18] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[1, 36] Pi], 2^Rational[1, 2] 
+           Cos[Rational[1, 36] Pi]}, 
+          Scaled[{0.00034862297099063266`, 0.003984778792366982}, {
+           2^Rational[1, 2] Sin[Rational[1, 36] Pi], 2^Rational[1, 2] 
+            Cos[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[1, 36] Pi], 2^Rational[1, 2] Cos[Rational[1, 36] Pi]},
+           Scaled[{-0.00034862297099063266`, 
+           0.003984778792366982}, {-2^Rational[1, 2] Sin[Rational[1, 36] Pi], 
+            2^Rational[1, 2] Cos[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[1, 18] Pi], 2^Rational[1, 2] Cos[Rational[1, 18] Pi]},
+           Scaled[{-0.0006945927106677213, 
+           0.003939231012048832}, {-2^Rational[1, 2] Sin[Rational[1, 18] Pi], 
+            2^Rational[1, 2] Cos[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[1, 9] Pi], 2^Rational[1, 2] Cos[Rational[1, 9] Pi]}, 
+          Scaled[{-0.001368080573302675, 
+           0.003758770483143634}, {-2^Rational[1, 2] Sin[Rational[1, 9] Pi], 
+            2^Rational[1, 2] Cos[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[5, 36] Pi], 2^Rational[1, 2] Cos[Rational[5, 36] Pi]},
+           Scaled[{-0.0016904730469627979`, 
+           0.0036252311481465996`}, {-2^Rational[1, 2] 
+            Sin[Rational[5, 36] Pi], 2^Rational[1, 2] 
+            Cos[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[7, 36] Pi], 2^Rational[1, 2] Cos[Rational[7, 36] Pi]},
+           Scaled[{-0.002294305745404184, 
+           0.0032766081771559673`}, {-2^Rational[1, 2] 
+            Sin[Rational[7, 36] Pi], 2^Rational[1, 2] 
+            Cos[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[2, 9] Pi], 2^Rational[1, 2] Cos[Rational[2, 9] Pi]}, 
+          Scaled[{-0.002571150438746157, 
+           0.0030641777724759126`}, {-2^Rational[1, 2] Sin[Rational[2, 9] Pi],
+             2^Rational[1, 2] Cos[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[2, 9] Pi], 2^Rational[1, 2] Sin[Rational[2, 9] Pi]}, 
+          Scaled[{-0.0030641777724759126`, 
+           0.002571150438746157}, {-2^Rational[1, 2] Cos[Rational[2, 9] Pi], 
+            2^Rational[1, 2] Sin[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[7, 36] Pi], 2^Rational[1, 2] Sin[Rational[7, 36] Pi]},
+           Scaled[{-0.0032766081771559673`, 
+           0.002294305745404184}, {-2^Rational[1, 2] Cos[Rational[7, 36] Pi], 
+            2^Rational[1, 2] Sin[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[5, 36] Pi], 2^Rational[1, 2] Sin[Rational[5, 36] Pi]},
+           Scaled[{-0.0036252311481465996`, 
+           0.0016904730469627979`}, {-2^Rational[1, 2] 
+            Cos[Rational[5, 36] Pi], 2^Rational[1, 2] 
+            Sin[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[1, 9] Pi], 2^Rational[1, 2] Sin[Rational[1, 9] Pi]}, 
+          Scaled[{-0.003758770483143634, 
+           0.001368080573302675}, {-2^Rational[1, 2] Cos[Rational[1, 9] Pi], 
+            2^Rational[1, 2] Sin[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[1, 18] Pi], 2^Rational[1, 2] Sin[Rational[1, 18] Pi]},
+           Scaled[{-0.003939231012048832, 
+           0.0006945927106677213}, {-2^Rational[1, 2] Cos[Rational[1, 18] Pi],
+             2^Rational[1, 2] Sin[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[1, 36] Pi], 2^Rational[1, 2] Sin[Rational[1, 36] Pi]},
+           Scaled[{-0.003984778792366982, 
+           0.00034862297099063266`}, {-2^Rational[1, 2] 
+            Cos[Rational[1, 36] Pi], 2^Rational[1, 2] 
+            Sin[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
+           Sin[Rational[1, 36] Pi]}, 
+          Scaled[{-0.003984778792366982, -0.00034862297099063266`}, {-2^
+             Rational[1, 2] Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
+            Sin[Rational[1, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
+           Sin[Rational[1, 18] Pi]}, 
+          Scaled[{-0.003939231012048832, -0.0006945927106677213}, {-2^
+             Rational[1, 2] Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
+            Sin[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[1, 9] Pi], -2^Rational[1, 2] Sin[Rational[1, 9] Pi]}, 
+          Scaled[{-0.003758770483143634, -0.001368080573302675}, {-2^
+             Rational[1, 2] Cos[Rational[1, 9] Pi], -2^Rational[1, 2] 
+            Sin[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
+           Sin[Rational[5, 36] Pi]}, 
+          Scaled[{-0.0036252311481465996`, -0.0016904730469627979`}, {-2^
+             Rational[1, 2] Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
+            Sin[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
+           Sin[Rational[7, 36] Pi]}, 
+          Scaled[{-0.0032766081771559673`, -0.002294305745404184}, {-2^
+             Rational[1, 2] Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
+            Sin[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Cos[Rational[2, 9] Pi], -2^Rational[1, 2] Sin[Rational[2, 9] Pi]}, 
+          Scaled[{-0.0030641777724759126`, -0.002571150438746157}, {-2^
+             Rational[1, 2] Cos[Rational[2, 9] Pi], -2^Rational[1, 2] 
+            Sin[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[2, 9] Pi], -2^Rational[1, 2] Cos[Rational[2, 9] Pi]}, 
+          Scaled[{-0.002571150438746157, -0.0030641777724759126`}, {-2^
+             Rational[1, 2] Sin[Rational[2, 9] Pi], -2^Rational[1, 2] 
+            Cos[Rational[2, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
+           Cos[Rational[7, 36] Pi]}, 
+          Scaled[{-0.002294305745404184, -0.0032766081771559673`}, {-2^
+             Rational[1, 2] Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
+            Cos[Rational[7, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
+           Cos[Rational[5, 36] Pi]}, 
+          Scaled[{-0.0016904730469627979`, -0.0036252311481465996`}, {-2^
+             Rational[1, 2] Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
+            Cos[Rational[5, 36] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[1, 9] Pi], -2^Rational[1, 2] Cos[Rational[1, 9] Pi]}, 
+          Scaled[{-0.001368080573302675, -0.003758770483143634}, {-2^
+             Rational[1, 2] Sin[Rational[1, 9] Pi], -2^Rational[1, 2] 
+            Cos[Rational[1, 9] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
+           Cos[Rational[1, 18] Pi]}, 
+          Scaled[{-0.0006945927106677213, -0.003939231012048832}, {-2^
+             Rational[1, 2] Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
+            Cos[Rational[1, 18] Pi]}]}, {{-2^Rational[1, 2] 
+           Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
+           Cos[Rational[1, 36] Pi]}, 
+          Scaled[{-0.00034862297099063266`, -0.003984778792366982}, {-2^
+             Rational[1, 2] Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
+            Cos[Rational[1, 36] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
+           Cos[Rational[1, 36] Pi]}, 
+          Scaled[{0.00034862297099063266`, -0.003984778792366982}, {
+           2^Rational[1, 2] Sin[Rational[1, 36] Pi], -2^Rational[1, 2] 
+            Cos[Rational[1, 36] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
+           Cos[Rational[1, 18] Pi]}, 
+          Scaled[{0.0006945927106677213, -0.003939231012048832}, {
+           2^Rational[1, 2] Sin[Rational[1, 18] Pi], -2^Rational[1, 2] 
+            Cos[Rational[1, 18] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[1, 9] Pi], -2^Rational[1, 2] 
+           Cos[Rational[1, 9] Pi]}, 
+          Scaled[{0.001368080573302675, -0.003758770483143634}, {
+           2^Rational[1, 2] Sin[Rational[1, 9] Pi], -2^Rational[1, 2] 
+            Cos[Rational[1, 9] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
+           Cos[Rational[5, 36] Pi]}, 
+          Scaled[{0.0016904730469627979`, -0.0036252311481465996`}, {
+           2^Rational[1, 2] Sin[Rational[5, 36] Pi], -2^Rational[1, 2] 
+            Cos[Rational[5, 36] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
+           Cos[Rational[7, 36] Pi]}, 
+          Scaled[{0.002294305745404184, -0.0032766081771559673`}, {
+           2^Rational[1, 2] Sin[Rational[7, 36] Pi], -2^Rational[1, 2] 
+            Cos[Rational[7, 36] Pi]}]}, {{
+          2^Rational[1, 2] Sin[Rational[2, 9] Pi], -2^Rational[1, 2] 
+           Cos[Rational[2, 9] Pi]}, 
+          Scaled[{0.002571150438746157, -0.0030641777724759126`}, {
+           2^Rational[1, 2] Sin[Rational[2, 9] Pi], -2^Rational[1, 2] 
+            Cos[Rational[2, 9] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[2, 9] Pi], -2^Rational[1, 2] 
+           Sin[Rational[2, 9] Pi]}, 
+          Scaled[{0.0030641777724759126`, -0.002571150438746157}, {
+           2^Rational[1, 2] Cos[Rational[2, 9] Pi], -2^Rational[1, 2] 
+            Sin[Rational[2, 9] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
+           Sin[Rational[7, 36] Pi]}, 
+          Scaled[{0.0032766081771559673`, -0.002294305745404184}, {
+           2^Rational[1, 2] Cos[Rational[7, 36] Pi], -2^Rational[1, 2] 
+            Sin[Rational[7, 36] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
+           Sin[Rational[5, 36] Pi]}, 
+          Scaled[{0.0036252311481465996`, -0.0016904730469627979`}, {
+           2^Rational[1, 2] Cos[Rational[5, 36] Pi], -2^Rational[1, 2] 
+            Sin[Rational[5, 36] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[1, 9] Pi], -2^Rational[1, 2] 
+           Sin[Rational[1, 9] Pi]}, 
+          Scaled[{0.003758770483143634, -0.001368080573302675}, {
+           2^Rational[1, 2] Cos[Rational[1, 9] Pi], -2^Rational[1, 2] 
+            Sin[Rational[1, 9] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
+           Sin[Rational[1, 18] Pi]}, 
+          Scaled[{0.003939231012048832, -0.0006945927106677213}, {
+           2^Rational[1, 2] Cos[Rational[1, 18] Pi], -2^Rational[1, 2] 
+            Sin[Rational[1, 18] Pi]}]}, {{
+          2^Rational[1, 2] Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
+           Sin[Rational[1, 36] Pi]}, 
+          Scaled[{0.003984778792366982, -0.00034862297099063266`}, {
+           2^Rational[1, 2] Cos[Rational[1, 36] Pi], -2^Rational[1, 2] 
+            Sin[Rational[1, 36] Pi]}]}}, {{{1.4088320528055174`, 
+          0.1232568334324387}, 
+          Scaled[{0.003984778792366982, 0.00034862297099063266`}, {
+           1.4088320528055174`, 0.1232568334324387}]}, {{1.392728480640038, 
+          0.2455756079379457}, 
+          Scaled[{0.003939231012048832, 0.0006945927106677213}, {
+           1.392728480640038, 0.2455756079379457}]}, {{1.3289260487773495`, 
+          0.48368952529595055`}, 
+          Scaled[{0.003758770483143634, 0.001368080573302675}, {
+           1.3289260487773495`, 0.48368952529595055`}]}, {{1.281712764111577, 
+          0.5976724774602397}, 
+          Scaled[{0.0036252311481465996`, 0.0016904730469627979`}, {
+           1.281712764111577, 0.5976724774602397}]}, {{1.1584559306791384`, 
+          0.8111595753452777}, 
+          Scaled[{0.0032766081771559673`, 0.002294305745404184}, {
+           1.1584559306791384`, 0.8111595753452777}]}, {{1.083350440839404, 
+          0.9090389553440873}, 
+          Scaled[{0.0030641777724759126`, 0.002571150438746157}, {
+           1.083350440839404, 0.9090389553440873}]}, {{0.9090389553440873, 
+          1.083350440839404}, 
+          Scaled[{0.002571150438746157, 0.0030641777724759126`}, {
+           0.9090389553440873, 1.083350440839404}]}, {{0.8111595753452777, 
+          1.1584559306791384`}, 
+          Scaled[{0.002294305745404184, 0.0032766081771559673`}, {
+           0.8111595753452777, 1.1584559306791384`}]}, {{0.5976724774602397, 
+          1.281712764111577}, 
+          Scaled[{0.0016904730469627979`, 0.0036252311481465996`}, {
+           0.5976724774602397, 1.281712764111577}]}, {{0.48368952529595055`, 
+          1.3289260487773495`}, 
+          Scaled[{0.001368080573302675, 0.003758770483143634}, {
+           0.48368952529595055`, 1.3289260487773495`}]}, {{0.2455756079379457,
+           1.392728480640038}, 
+          Scaled[{0.0006945927106677213, 0.003939231012048832}, {
+           0.2455756079379457, 1.392728480640038}]}, {{0.1232568334324387, 
+          1.4088320528055174`}, 
+          Scaled[{0.00034862297099063266`, 0.003984778792366982}, {
+           0.1232568334324387, 1.4088320528055174`}]}, {{-0.1232568334324387, 
+          1.4088320528055174`}, 
+          Scaled[{-0.00034862297099063266`, 
+           0.003984778792366982}, {-0.1232568334324387, 
+           1.4088320528055174`}]}, {{-0.2455756079379457, 1.392728480640038}, 
+          Scaled[{-0.0006945927106677213, 
+           0.003939231012048832}, {-0.2455756079379457, 
+           1.392728480640038}]}, {{-0.48368952529595055`, 
+          1.3289260487773495`}, 
+          Scaled[{-0.001368080573302675, 
+           0.003758770483143634}, {-0.48368952529595055`, 
+           1.3289260487773495`}]}, {{-0.5976724774602397, 1.281712764111577}, 
+          Scaled[{-0.0016904730469627979`, 
+           0.0036252311481465996`}, {-0.5976724774602397, 
+           1.281712764111577}]}, {{-0.8111595753452777, 1.1584559306791384`}, 
+          Scaled[{-0.002294305745404184, 
+           0.0032766081771559673`}, {-0.8111595753452777, 
+           1.1584559306791384`}]}, {{-0.9090389553440873, 1.083350440839404}, 
+          Scaled[{-0.002571150438746157, 
+           0.0030641777724759126`}, {-0.9090389553440873, 
+           1.083350440839404}]}, {{-1.083350440839404, 0.9090389553440873}, 
+          Scaled[{-0.0030641777724759126`, 
+           0.002571150438746157}, {-1.083350440839404, 
+           0.9090389553440873}]}, {{-1.1584559306791384`, 0.8111595753452777},
+           Scaled[{-0.0032766081771559673`, 
+           0.002294305745404184}, {-1.1584559306791384`, 
+           0.8111595753452777}]}, {{-1.281712764111577, 0.5976724774602397}, 
+          Scaled[{-0.0036252311481465996`, 
+           0.0016904730469627979`}, {-1.281712764111577, 
+           0.5976724774602397}]}, {{-1.3289260487773495`, 
+          0.48368952529595055`}, 
+          Scaled[{-0.003758770483143634, 
+           0.001368080573302675}, {-1.3289260487773495`, 
+           0.48368952529595055`}]}, {{-1.392728480640038, 0.2455756079379457},
+           Scaled[{-0.003939231012048832, 
+           0.0006945927106677213}, {-1.392728480640038, 
+           0.2455756079379457}]}, {{-1.4088320528055174`, 0.1232568334324387},
+           Scaled[{-0.003984778792366982, 
+           0.00034862297099063266`}, {-1.4088320528055174`, 
+           0.1232568334324387}]}, {{-1.4088320528055174`, \
+-0.1232568334324387}, 
+          Scaled[{-0.003984778792366982, -0.00034862297099063266`}, \
+{-1.4088320528055174`, -0.1232568334324387}]}, {{-1.392728480640038, \
+-0.2455756079379457}, 
+          Scaled[{-0.003939231012048832, -0.0006945927106677213}, \
+{-1.392728480640038, -0.2455756079379457}]}, {{-1.3289260487773495`, \
+-0.48368952529595055`}, 
+          Scaled[{-0.003758770483143634, -0.001368080573302675}, \
+{-1.3289260487773495`, -0.48368952529595055`}]}, {{-1.281712764111577, \
+-0.5976724774602397}, 
+          Scaled[{-0.0036252311481465996`, -0.0016904730469627979`}, \
+{-1.281712764111577, -0.5976724774602397}]}, {{-1.1584559306791384`, \
+-0.8111595753452777}, 
+          Scaled[{-0.0032766081771559673`, -0.002294305745404184}, \
+{-1.1584559306791384`, -0.8111595753452777}]}, {{-1.083350440839404, \
+-0.9090389553440873}, 
+          Scaled[{-0.0030641777724759126`, -0.002571150438746157}, \
+{-1.083350440839404, -0.9090389553440873}]}, {{-0.9090389553440873, \
+-1.083350440839404}, 
+          Scaled[{-0.002571150438746157, -0.0030641777724759126`}, \
+{-0.9090389553440873, -1.083350440839404}]}, {{-0.8111595753452777, \
+-1.1584559306791384`}, 
+          Scaled[{-0.002294305745404184, -0.0032766081771559673`}, \
+{-0.8111595753452777, -1.1584559306791384`}]}, {{-0.5976724774602397, \
+-1.281712764111577}, 
+          Scaled[{-0.0016904730469627979`, -0.0036252311481465996`}, \
+{-0.5976724774602397, -1.281712764111577}]}, {{-0.48368952529595055`, \
+-1.3289260487773495`}, 
+          Scaled[{-0.001368080573302675, -0.003758770483143634}, \
+{-0.48368952529595055`, -1.3289260487773495`}]}, {{-0.2455756079379457, \
+-1.392728480640038}, 
+          Scaled[{-0.0006945927106677213, -0.003939231012048832}, \
+{-0.2455756079379457, -1.392728480640038}]}, {{-0.1232568334324387, \
+-1.4088320528055174`}, 
+          Scaled[{-0.00034862297099063266`, -0.003984778792366982}, \
+{-0.1232568334324387, -1.4088320528055174`}]}, {{
+          0.1232568334324387, -1.4088320528055174`}, 
+          Scaled[{0.00034862297099063266`, -0.003984778792366982}, {
+           0.1232568334324387, -1.4088320528055174`}]}, {{
+          0.2455756079379457, -1.392728480640038}, 
+          Scaled[{0.0006945927106677213, -0.003939231012048832}, {
+           0.2455756079379457, -1.392728480640038}]}, {{
+          0.48368952529595055`, -1.3289260487773495`}, 
+          Scaled[{0.001368080573302675, -0.003758770483143634}, {
+           0.48368952529595055`, -1.3289260487773495`}]}, {{
+          0.5976724774602397, -1.281712764111577}, 
+          Scaled[{0.0016904730469627979`, -0.0036252311481465996`}, {
+           0.5976724774602397, -1.281712764111577}]}, {{
+          0.8111595753452777, -1.1584559306791384`}, 
+          Scaled[{0.002294305745404184, -0.0032766081771559673`}, {
+           0.8111595753452777, -1.1584559306791384`}]}, {{
+          0.9090389553440873, -1.083350440839404}, 
+          Scaled[{0.002571150438746157, -0.0030641777724759126`}, {
+           0.9090389553440873, -1.083350440839404}]}, {{
+          1.083350440839404, -0.9090389553440873}, 
+          Scaled[{0.0030641777724759126`, -0.002571150438746157}, {
+           1.083350440839404, -0.9090389553440873}]}, {{
+          1.1584559306791384`, -0.8111595753452777}, 
+          Scaled[{0.0032766081771559673`, -0.002294305745404184}, {
+           1.1584559306791384`, -0.8111595753452777}]}, {{
+          1.281712764111577, -0.5976724774602397}, 
+          Scaled[{0.0036252311481465996`, -0.0016904730469627979`}, {
+           1.281712764111577, -0.5976724774602397}]}, {{
+          1.3289260487773495`, -0.48368952529595055`}, 
+          Scaled[{0.003758770483143634, -0.001368080573302675}, {
+           1.3289260487773495`, -0.48368952529595055`}]}, {{
+          1.392728480640038, -0.2455756079379457}, 
+          Scaled[{0.003939231012048832, -0.0006945927106677213}, {
+           1.392728480640038, -0.2455756079379457}]}, {{
+          1.4088320528055174`, -0.1232568334324387}, 
+          Scaled[{0.003984778792366982, -0.00034862297099063266`}, {
+           1.4088320528055174`, -0.1232568334324387}]}}]], {
+       InsetBox["0", NCache[
+        Offset[{8, 0}, {2^Rational[1, 2], 0}], 
+         Offset[{8, 0}, {1.4142135623730951`, 0}]], NCache[
+        ImageScaled[{0, Rational[1, 2]}], ImageScaled[{0, 0.5}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"15", " ", "\[Degree]"}], NCache[
+        Offset[{2 2^Rational[1, 2] (1 + 3^Rational[1, 2]), 2 
+           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
+         Offset[{7.7274066103125465`, 2.070552360820166}, {
+          1.3660254037844386`, 0.3660254037844386}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.0170370868554659, 0.37059047744873963`}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"30", " ", "\[Degree]"}], NCache[
+        Offset[{4 3^Rational[1, 2], 4}, {
+          Rational[3, 2]^Rational[1, 2], 2^Rational[-1, 2]}], 
+         Offset[{6.928203230275509, 4}, {1.224744871391589, 
+          0.7071067811865475}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2]), Rational[
+           1, 4]}], ImageScaled[{0.0669872981077807, 0.25}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"45", " ", "\[Degree]"}], NCache[
+        Offset[{4 2^Rational[1, 2], 4 2^Rational[1, 2]}, {1, 1}], 
+         Offset[{5.656854249492381, 5.656854249492381}, {1, 1}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 - 2^Rational[-1, 2]), 
+           Rational[1, 2] (1 - 2^Rational[-1, 2])}], 
+         ImageScaled[{0.14644660940672627`, 0.14644660940672627`}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"60", " ", "\[Degree]"}], NCache[
+        Offset[{4, 4 3^Rational[1, 2]}, {
+          2^Rational[-1, 2], Rational[3, 2]^Rational[1, 2]}], 
+         Offset[{4, 6.928203230275509}, {0.7071067811865475, 
+          1.224744871391589}]], NCache[
+        ImageScaled[{
+          Rational[1, 4], 
+           Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2])}], 
+         ImageScaled[{0.25, 0.0669872981077807}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"75", " ", "\[Degree]"}], NCache[
+        Offset[{2 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), 2 
+           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (1 + 3^Rational[1, 2])}], 
+         Offset[{2.070552360820166, 7.7274066103125465`}, {0.3660254037844386,
+           1.3660254037844386`}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.37059047744873963`, 0.0170370868554659}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"90", " ", "\[Degree]"}], NCache[
+        Offset[{0, 8}, {0, 2^Rational[1, 2]}], 
+         Offset[{0, 8}, {0, 1.4142135623730951`}]], NCache[
+        ImageScaled[{Rational[1, 2], 0}], ImageScaled[{0.5, 0}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"105", " ", "\[Degree]"}], NCache[
+        Offset[{(-2) 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), 2 
+           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (1 + 3^Rational[1, 2])}], 
+         Offset[{-2.070552360820166, 
+          7.7274066103125465`}, {-0.3660254037844386, 1.3660254037844386`}]], 
+        NCache[ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.6294095225512604, 0.0170370868554659}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"120", " ", "\[Degree]"}], NCache[
+        Offset[{-4, 4 3^Rational[1, 2]}, {-2^Rational[-1, 2], Rational[3, 2]^
+           Rational[1, 2]}], 
+         Offset[{-4, 6.928203230275509}, {-0.7071067811865475, 
+          1.224744871391589}]], NCache[
+        ImageScaled[{
+          Rational[3, 4], 
+           Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2])}], 
+         ImageScaled[{0.75, 0.0669872981077807}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"135", " ", "\[Degree]"}], NCache[
+        Offset[{(-4) 2^Rational[1, 2], 4 2^Rational[1, 2]}, {-1, 1}], 
+         Offset[{-5.656854249492381, 5.656854249492381}, {-1, 1}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 2^Rational[-1, 2]), 
+           Rational[1, 2] (1 - 2^Rational[-1, 2])}], 
+         ImageScaled[{0.8535533905932737, 0.14644660940672627`}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"150", " ", "\[Degree]"}], NCache[
+        Offset[{(-4) 3^Rational[1, 2], 4}, {-Rational[3, 2]^Rational[1, 2], 2^
+           Rational[-1, 2]}], 
+         Offset[{-6.928203230275509, 4}, {-1.224744871391589, 
+          0.7071067811865475}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2]), Rational[
+           1, 4]}], ImageScaled[{0.9330127018922193, 0.25}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"165", " ", "\[Degree]"}], NCache[
+        Offset[{(-2) 2^Rational[1, 2] (1 + 3^Rational[1, 2]), 2 
+           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 + 3^Rational[1, 2])}], 
+         Offset[{-7.7274066103125465`, 
+          2.070552360820166}, {-1.3660254037844386`, 0.3660254037844386}]], 
+        NCache[ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.9829629131445341, 0.37059047744873963`}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"180", " ", "\[Degree]"}], NCache[
+        Offset[{-8, 0}, {-2^Rational[1, 2], 0}], 
+         Offset[{-8, 0}, {-1.4142135623730951`, 0}]], NCache[
+        ImageScaled[{1, Rational[1, 2]}], ImageScaled[{1, 0.5}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"195", " ", "\[Degree]"}], NCache[
+        Offset[{(-2) 2^Rational[1, 2] (1 + 3^Rational[1, 2]), (-2) 
+           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (-1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (1 - 3^Rational[1, 2])}], 
+         Offset[{-7.7274066103125465`, -2.070552360820166}, \
+{-1.3660254037844386`, -0.3660254037844386}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.9829629131445341, 0.6294095225512604}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"210", " ", "\[Degree]"}], NCache[
+        Offset[{(-4) 3^Rational[1, 2], -4}, {-
+           Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}], 
+         Offset[{-6.928203230275509, -4}, {-1.224744871391589, \
+-0.7071067811865475}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2]), Rational[
+           3, 4]}], ImageScaled[{0.9330127018922193, 0.75}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"225", " ", "\[Degree]"}], NCache[
+        Offset[{(-4) 2^Rational[1, 2], (-4) 2^Rational[1, 2]}, {-1, -1}], 
+         Offset[{-5.656854249492381, -5.656854249492381}, {-1, -1}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 2^Rational[-1, 2]), 
+           Rational[1, 2] (1 + 2^Rational[-1, 2])}], 
+         ImageScaled[{0.8535533905932737, 0.8535533905932737}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"240", " ", "\[Degree]"}], NCache[
+        Offset[{-4, (-4) 3^Rational[1, 2]}, {-2^Rational[-1, 2], -
+           Rational[3, 2]^Rational[1, 2]}], 
+         Offset[{-4, -6.928203230275509}, {-0.7071067811865475, \
+-1.224744871391589}]], NCache[
+        ImageScaled[{
+          Rational[3, 4], 
+           Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2])}], 
+         ImageScaled[{0.75, 0.9330127018922193}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"255", " ", "\[Degree]"}], NCache[
+        Offset[{(-2) 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), (-2) 
+           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (1 - 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
+         Offset[{-2.070552360820166, -7.7274066103125465`}, \
+{-0.3660254037844386, -1.3660254037844386`}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.6294095225512604, 0.9829629131445341}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"270", " ", "\[Degree]"}], NCache[
+        Offset[{0, -8}, {0, -2^Rational[1, 2]}], 
+         Offset[{0, -8}, {0, -1.4142135623730951`}]], NCache[
+        ImageScaled[{Rational[1, 2], 1}], ImageScaled[{0.5, 1}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"285", " ", "\[Degree]"}], NCache[
+        Offset[{2 2^Rational[1, 2] (-1 + 3^Rational[1, 2]), (-2) 
+           2^Rational[1, 2] (1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (-1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (-1 - 3^Rational[1, 2])}], 
+         Offset[{2.070552360820166, -7.7274066103125465`}, {
+          0.3660254037844386, -1.3660254037844386`}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.37059047744873963`, 0.9829629131445341}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"300", " ", "\[Degree]"}], NCache[
+        Offset[{4, (-4) 3^Rational[1, 2]}, {
+          2^Rational[-1, 2], -Rational[3, 2]^Rational[1, 2]}], 
+         Offset[{4, -6.928203230275509}, {
+          0.7071067811865475, -1.224744871391589}]], NCache[
+        ImageScaled[{
+          Rational[1, 4], 
+           Rational[1, 2] (1 + Rational[1, 2] 3^Rational[1, 2])}], 
+         ImageScaled[{0.25, 0.9330127018922193}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"315", " ", "\[Degree]"}], NCache[
+        Offset[{4 2^Rational[1, 2], (-4) 2^Rational[1, 2]}, {1, -1}], 
+         Offset[{5.656854249492381, -5.656854249492381}, {1, -1}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 - 2^Rational[-1, 2]), 
+           Rational[1, 2] (1 + 2^Rational[-1, 2])}], 
+         ImageScaled[{0.14644660940672627`, 0.8535533905932737}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"330", " ", "\[Degree]"}], NCache[
+        Offset[{4 3^Rational[1, 2], -4}, {
+          Rational[3, 2]^Rational[1, 2], -2^Rational[-1, 2]}], 
+         Offset[{6.928203230275509, -4}, {
+          1.224744871391589, -0.7071067811865475}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + Rational[-1, 2] 3^Rational[1, 2]), Rational[
+           3, 4]}], ImageScaled[{0.0669872981077807, 0.75}]],
+        Background->Automatic], InsetBox[
+        RowBox[{"345", " ", "\[Degree]"}], NCache[
+        Offset[{2 2^Rational[1, 2] (1 + 3^Rational[1, 2]), (-2) 
+           2^Rational[1, 2] (-1 + 3^Rational[1, 2])}, {
+          Rational[1, 2] (1 + 3^Rational[1, 2]), 
+           Rational[1, 2] (1 - 3^Rational[1, 2])}], 
+         Offset[{7.7274066103125465`, -2.070552360820166}, {
+          1.3660254037844386`, -0.3660254037844386}]], NCache[
+        ImageScaled[{
+          Rational[1, 2] (1 + 
+            Rational[-1, 2] 2^Rational[-1, 2] (1 + 3^Rational[1, 2])), 
+           Rational[1, 2] (1 + 
+            Rational[1, 2] 2^Rational[-1, 2] (-1 + 3^Rational[1, 2]))}], 
+         ImageScaled[{0.0170370868554659, 0.6294095225512604}]],
+        Background->Automatic]}, 
+      CircleBox[{0, 0}, NCache[2^Rational[1, 2], 1.4142135623730951`], 
+       NCache[{0, 2 Pi}, {0, 6.283185307179586}]]}, {}}}, {}},
+  Axes->True,
+  AxesOrigin->{0, 0},
+  CoordinatesToolOptions:>{"DisplayFunction" -> ({
+      Sqrt[Part[#, 1]^2 + Part[#, 2]^2], 
+      Mod[
+       ArcTan[
+        Part[#, 1], 
+        Part[#, 2]], 2 Pi]}& ), "CopiedValueFunction" -> ({
+      Sqrt[Part[#, 1]^2 + Part[#, 2]^2], 
+      Mod[
+       ArcTan[
+        Part[#, 1], 
+        Part[#, 2]], 2 Pi]}& )},
+  DisplayFunction->Identity,
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  ImageSize->{610.4462890624993, Automatic},
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[1.6]]}, "DomainPadding" -> Scaled[0.02], 
+    "RangePadding" -> Scaled[0.05]},
+  PlotLabel->FormBox[
+   "\"Worldline for a Light-Like Particle on an [\\!\\(\\*Cell[\\\"r\\\"]\\),\
+\[Phi]]-Slice Inside the Event Horizon\"", TraditionalForm],
+  PlotRange->{{-2, 2}, {-2, 2}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0.05, 0.05}, {0.05, 0.05}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.8851523901485443`*^9, 3.885152452079403*^9, {3.885152502960133*^9, 
+   3.885152527172749*^9}, 3.8851525840041533`*^9, {3.8851529825217323`*^9, 
+   3.8851530033978243`*^9}, 3.8851530958926573`*^9, {3.885153181287657*^9, 
+   3.885153187602339*^9}, 3.8851540475819693`*^9, 3.885154383679809*^9, 
+   3.885154989828258*^9, 3.88515503457132*^9},
+ CellLabel->
+  "Out[213]=",ExpressionUUID->"22da4adf-3939-4638-82ca-998400b2fffd"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
-WindowSize->{808, 911},
-WindowMargins->{{189, Automatic}, {Automatic, 63}},
+WindowSize->{1270, 1268},
+WindowMargins->{{Automatic, 187}, {30, Automatic}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
-FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
 ]
@@ -60,8 +2352,48 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 432, 7, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
-Cell[1015, 31, 330, 8, 81, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
+Cell[580, 22, 610, 9, 86, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1215, 35, 184, 3, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
+Cell[1402, 40, 1169, 25, 401, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2608, 70, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[2854, 76, 3845, 97, 954, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6736, 178, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
+Cell[7294, 192, 10195, 278, 1392, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
+Cell[CellGroupData[{
+Cell[17514, 474, 3582, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
+Cell[21099, 561, 2672, 56, 388, "Output",ExpressionUUID->"ef3371f2-7c7d-4b80-ac4f-0363a502bf36"]
+}, Open  ]],
+Cell[23786, 620, 2238, 51, 195, "Text",ExpressionUUID->"8a5c68dc-0b00-4b75-8e2a-2a19758bc884"],
+Cell[26027, 673, 99, 1, 1, "PageBreak",ExpressionUUID->"f02a9724-6694-4c5b-a768-715618171465",
+ PageBreakBelow->True],
+Cell[26129, 676, 3038, 67, 263, "Text",ExpressionUUID->"69ade72c-93e9-4c79-bed4-934c60ab461d"],
+Cell[CellGroupData[{
+Cell[29192, 747, 1316, 33, 61, "Input",ExpressionUUID->"2d33350a-1cda-4d14-a227-d30123e31651"],
+Cell[30511, 782, 2307, 53, 961, "Output",ExpressionUUID->"1462b030-f2ee-43b9-a7ff-6625c204e5c5"]
+}, Open  ]],
+Cell[32833, 838, 99, 1, 1, "PageBreak",ExpressionUUID->"2c43413e-debf-474b-bc76-59d4a1062192",
+ PageBreakBelow->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32969, 844, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
+Cell[33498, 857, 8245, 224, 1097, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
+Cell[CellGroupData[{
+Cell[41768, 1085, 3623, 84, 117, "Input",ExpressionUUID->"36e8c678-4809-4121-b890-f75952137464"],
+Cell[45394, 1171, 4171, 84, 472, "Output",ExpressionUUID->"abd9957d-24b4-402c-99c4-f6f5787c9ae9"]
+}, Open  ]],
+Cell[49580, 1258, 99, 1, 1, "PageBreak",ExpressionUUID->"35ea8273-957a-4b75-8954-1e28a9170e9e",
+ PageBreakBelow->True],
+Cell[49682, 1261, 913, 23, 54, "Text",ExpressionUUID->"6c8f1d25-aea2-4ecd-aa1a-1d5790b7cffc"],
+Cell[CellGroupData[{
+Cell[50620, 1288, 1354, 32, 88, "Input",ExpressionUUID->"e2361a97-5553-40e1-ad75-9e2892b6bd98"],
+Cell[51977, 1322, 53590, 1006, 965, "Output",ExpressionUUID->"22da4adf-3939-4638-82ca-998400b2fffd"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
