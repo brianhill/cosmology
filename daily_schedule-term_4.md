@@ -2,6 +2,8 @@
 
 Course [home page](./)
 
+See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
+
 ### Week 1 &mdash; Free-Float Frames &mdash; Time Dilation &mdash; Tidal Forces
 
 * Preparation for Monday, Jan. 9 &mdash; Read pp. 1-12 of Chapter 1 of [*Spacetime Physics, 2nd Edition*](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf) (the link is to a PDF of Chapters 1, 2, 3, and L) &mdash; If pp. 1-12 seem straightforward, then you haven't yet read it carefully enough! &mdash; It took humanity from Galileo "Dialogue Concerning the Two Chief World Systems" in 1632 to Einstein in 1905 to progress from Galilean Relativity to Special Relativity (more accurately, Special Relativity was developed by Poincar&eacute;, Lorentz, Einstein, and Minkowski between 1900 and 1907), so read pp. 1-12 until you are bewildered
@@ -49,10 +51,13 @@ Course [home page](./)
 
 * Preparation for Tuesday, Feb. 9 &mdash; Finish Studying Taylor, Wheeler, and Bertschinger Chapter 3 
 * Monday, Feb. 13 &mdash; Discuss Remainder of Chapter 3 &mdash; Discuss Next Problem Set &mdash; Plan Reading for Thursday
-* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Read all of TWB Chapter 5
-* Thursday, Feb. 16 &mdash; Do Selected Problems from Chapter 5 in Class &mdash; Look ahead to Chapter 6
+* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Read *all* of TWB Chapter 5 &mdash; Ben will prepare a time-line of when Einstein's equations were solved for various important matter distributions (black hole, uniformly expanding spacetime, rotating black hole, and the charged-and-rotating black hole), and by whom, starting with Schwarzschild solving the black hole in 1916 &mdash; Schwarzschild's 1916 paper has been [translated](https://arxiv.org/pdf/physics/9905030.pdf) into English &mdash; A quick look will explain why we are studying the solutions of Einstein's equations as manna from Heaven, not trying to get those solutions! &mdash; Max and Clara will present a pocket calculator solution to Problem 4 on Problem Set 6 which is a photon spiraling inward from *r*=1.5*M* to *r*=0
+* Thursday, Feb. 16 &mdash; Presentations from Ben and from Max and Clara &mdash; Do Selected Problems from Chapter 5 in class &mdash; Look ahead to Chapter 6
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
 
-* Monday, Feb. 20 &mdash; Midterm Exam Covering TW Chapters, 1, 2, 3, and L, and TWB, Chapters 2, 3, and 5
-* Thursday, Feb. 23 &mdash; No class (due to Shakespeare festival)
+* Monday, Feb. 20 &mdash; Midterm Exam Covering TW Chapters, 1, 2, 3, and L, and TWB, Chapters 2, 3, and 5 (open book but not open note, so I can re-assign, if I choose, some problems that you have already had, without you being able to just consult the solutions)
+* Thursday, Feb. 23 &mdash; No class due to Shakespeare Festival
+
+Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
+
