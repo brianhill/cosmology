@@ -49,10 +49,10 @@ Course [home page](./)
 
 * Preparation for Tuesday, Feb. 9 &mdash; Finish Studying Taylor, Wheeler, and Bertschinger Chapter 3 
 * Monday, Feb. 13 &mdash; Discuss Remainder of Chapter 3 &mdash; Discuss Next Problem Set &mdash; Plan Reading for Thursday
-* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Start Taylor, Wheeler, and Bertschinger Chapter 5 (we need to skip 4)
-* Thursday, Feb. 16
+* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Read all of TWB Chapter 5
+* Thursday, Feb. 16 &mdash; Do Selected Problems from Chapter 5 in Class &mdash; Look ahead to Chapter 6
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
 
-* Monday, Feb. 20 &mdash; Midterm Exam
+* Monday, Feb. 20 &mdash; Midterm Exam Covering TW Chapters, 1, 2, 3, and L, and TWB, Chapters 2, 3, and 5
 * Thursday, Feb. 23 &mdash; No class (due to Shakespeare festival)
