@@ -48,8 +48,8 @@ Course [home page](./)
 ### Week 6 &mdash; Finish our Initial Encounter with the Schwarzschild Metric &mdash; Start GPS (Chapter 4)
 
 * Preparation for Tuesday, Feb. 9 &mdash; Finish Studying Taylor, Wheeler, and Bertschinger Chapter 3 
-* Monday, Feb. 13
-* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Start Taylor, Wheeler, and Bertschinger Chapter 4 or 5 (we may decide to skip 4)
+* Monday, Feb. 13 &mdash; Discuss Remainder of Chapter 3 &mdash; Discuss Next Problem Set &mdash; Plan Reading for Thursday
+* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Start Taylor, Wheeler, and Bertschinger Chapter 5 (we need to skip 4)
 * Thursday, Feb. 16
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
