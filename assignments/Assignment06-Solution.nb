@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2272319,      37891]
-NotebookOptionsPosition[   2270137,      37844]
-NotebookOutlinePosition[   2270619,      37863]
-CellTagsIndexPosition[   2270576,      37860]
+NotebookDataLength[   2273184,      37917]
+NotebookOptionsPosition[   2271120,      37872]
+NotebookOutlinePosition[   2271602,      37891]
+CellTagsIndexPosition[   2271559,      37888]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -323,10 +323,7 @@ Cell[TextData[{
    3.885168876810315*^9, 3.885168956367323*^9}, 3.88516907475353*^9, {
    3.885315464182201*^9, 
    3.885315531642786*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
-8cae69d82780"],
-
-Cell["", "PageBreak",
- PageBreakBelow->True,ExpressionUUID->"e2aa4b38-cd99-4d32-ad0f-e549b4161562"]
+8cae69d82780"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -437,12 +434,26 @@ Cell[TextData[{
       RowBox[{"2", "G", "\[VeryThinSpace]", "M"}], 
       SubscriptBox["r", "ouch"]]]}], TraditionalForm]],ExpressionUUID->
   "50be3238-51dd-4506-89aa-fbb6e0481cb6"],
+ ". We are working in the whacky units where ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"G", "=", "1"}], TraditionalForm]],ExpressionUUID->
+  "a89f8841-798c-4dfc-8238-ed94e78160fc"],
+ ", so I guess I could just write ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["v", "ouch"], "=", 
+    SqrtBox[
+     FractionBox[
+      RowBox[{"2", "\[VeryThinSpace]", "M"}], 
+      SubscriptBox["r", "ouch"]]]}], TraditionalForm]],ExpressionUUID->
+  "2b4551c1-91bf-409c-bce9-0b90cddfd55c"],
  ".\n\n(d) TWB Chapter 3, Problem 5, p. 3-38, Part D. I called the speed we \
 found in Part (c), ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["v", "ouch"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["v", "ouch"], TraditionalForm]],ExpressionUUID->
   "d92aa6f2-c54d-4e4a-a741-db1d2dd285ec"],
  ". As a fraction of the speed of light,\n\n",
  Cell[BoxData[
@@ -455,10 +466,26 @@ found in Part (c), ",
       RowBox[{"2", "G", "\[VeryThinSpace]", 
        RowBox[{"M", "/", 
         SuperscriptBox["c", "2"]}]}], 
-      SubscriptBox["r", "ouch"]]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      SubscriptBox["r", "ouch"]]]}], TraditionalForm]],ExpressionUUID->
   "e167744a-8947-4523-9cb6-f92f968c27fb"],
- "\n\n(e) TWB Chapter 3, Problem 5, p. 3-38, Part E. Your period of trauma \
+ ",\n\nbut again, we are working in units where ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"G", "=", 
+    RowBox[{"c", "=", "1"}]}], TraditionalForm]],ExpressionUUID->
+  "096a5b45-96f5-4cda-9597-d509c3d8947b"],
+ ", so as a fraction of the speed of light, we could just as well have left \
+the answer as:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["v", "ouch"], "=", 
+    SqrtBox[
+     FractionBox[
+      RowBox[{"2", "M"}], 
+      SubscriptBox["r", "ouch"]]]}], TraditionalForm]],ExpressionUUID->
+  "782c175d-91b5-4de8-9806-18e8b3c5979e"],
+ ".\n\n(e) TWB Chapter 3, Problem 5, p. 3-38, Part E. Your period of trauma \
 would be at most,\n\n",
  Cell[BoxData[
   FormBox[
@@ -473,16 +500,15 @@ would be at most,\n\n",
        SubscriptBox["r", "ouch"], "/", 
        SqrtBox[
         FractionBox[
-         RowBox[{"2", "G", "\[VeryThinSpace]", "M"}], 
+         RowBox[{"2", "\[VeryThinSpace]", "M"}], 
          SubscriptBox["r", "ouch"]]]}], "=", 
       SqrtBox[
        FractionBox[
         SubsuperscriptBox["r", "ouch", "3"], 
-        RowBox[{"2", "G", "\[VeryThinSpace]", "M"}]]]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "5dfbe85e-52c2-4d09-acba-d77e82409029"],
- "\n\nIt\[CloseCurlyQuote]s time we substitute in what we learned in the \
-previous problem set, specifically, ",
+        RowBox[{"2", "\[VeryThinSpace]", "M"}]]]}]}]}], TraditionalForm]],
+  ExpressionUUID->"5dfbe85e-52c2-4d09-acba-d77e82409029"],
+ "\n\nIt\[CloseCurlyQuote]s time we substitute in what we learned in Problem \
+Set 5, Problem 5, specifically, ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -499,7 +525,7 @@ previous problem set, specifically, ",
        FontSize->18], ")"}], 
      RowBox[{"1", "/", "3"}]]}], TraditionalForm]],ExpressionUUID->
   "766b365e-1259-49f7-bdca-7084263d5cb8"],
- ". So,\n\n",
+ ".\n\nSo,\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -510,41 +536,51 @@ previous problem set, specifically, ",
        StyleBox[
         FractionBox[
          RowBox[{
-         "2", "M", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
-          "r"}], 
+         "2", "\[VeryThinSpace]", "M", "\[VeryThinSpace]", "\[CapitalDelta]", 
+          "\[VeryThinSpace]", "r"}], 
          RowBox[{"\[LeftBracketingBar]", 
           SubscriptBox["g", "E"], "\[RightBracketingBar]"}]],
         FontSize->18], 
-       RowBox[{"2", "G", "\[VeryThinSpace]", "M"}]]], "=", 
-     SqrtBox[
-      FractionBox[
        StyleBox[
-        FractionBox[
-         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
-         RowBox[{"\[LeftBracketingBar]", 
-          SubscriptBox["g", "E"], "\[RightBracketingBar]"}]],
-        FontSize->18], 
-       RowBox[{"G", "\[VeryThinSpace]"}]]]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+        RowBox[{"2", "\[VeryThinSpace]", "M"}],
+        FontSize->12]]], "=", 
+     SqrtBox[
+      StyleBox[
+       FractionBox[
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
+        RowBox[{"\[LeftBracketingBar]", 
+         SubscriptBox["g", "E"], "\[RightBracketingBar]"}]],
+       FontSize->18]]}]}], TraditionalForm]],ExpressionUUID->
   "52cda943-c754-4203-a0ef-ec95eda32685"],
- "\n\n(f) TWB Chapter 3, Problem 5, p. 3-38, Part F.\n\nWell, finally we will \
-plug in some numbers, and find out what ",
+ "\n\nHow fabulously simple! ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["T", "ouch"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["T", "ouch"], TraditionalForm]],ExpressionUUID->
+  "2d344d72-dc45-4697-9ba1-fcbe12579f1a"],
+ " does not depend on the mass of the black hole! Nor does it depend on ",
+ Cell[BoxData[
+  FormBox["G", TraditionalForm]],ExpressionUUID->
+  "de531341-1a74-41a3-93f4-22c73da07c76"],
+ " or ",
+ Cell[BoxData[
+  FormBox["c", TraditionalForm]],ExpressionUUID->
+  "41bdd1bb-d321-43a1-8760-86b76e8ce48f"],
+ ".\n\n(f) TWB Chapter 3, Problem 5, p. 3-38, Part F.\n\nWell, finally we \
+will plug in some numbers, and find out what ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["T", "ouch"], TraditionalForm]],ExpressionUUID->
   "9375ab2a-6a72-4761-b4c0-659d498c0a15"],
  " is in seconds:\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
-    SubscriptBox["T", "ouch"], "="}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SubscriptBox["T", "ouch"], "="}], TraditionalForm]],ExpressionUUID->
   "fb372d16-050a-4f17-ab75-a2e207578520"],
  Cell[BoxData[
   FormBox[
-   SqrtBox[
-    FractionBox[
+   RowBox[{
+    SqrtBox[
      StyleBox[
       FractionBox[
        RowBox[{"\[VeryThinSpace]", 
@@ -558,29 +594,21 @@ plug in some numbers, and find out what ",
          SuperscriptBox[
           StyleBox["s",
            FontSlant->"Plain"], "2"]}]}]],
-      FontSize->18], 
-     RowBox[{"6.67", " ", 
-      SuperscriptBox["10", 
-       RowBox[{"-", "11"}]], 
-      FractionBox[
-       RowBox[{" ", 
-        SuperscriptBox[
-         StyleBox["m",
-          FontSlant->"Plain"], "3"]}], 
-       RowBox[{"kg", " ", 
-        SuperscriptBox[
-         StyleBox["s",
-          FontSlant->"Plain"], "2"]}]], "\[VeryThinSpace]"}]]], 
-   TraditionalForm]],ExpressionUUID->"dd071c59-97b6-4e31-8d90-e6aee47e01a5"]
+      FontSize->18]], "=", 
+    RowBox[{"0.32", 
+     StyleBox["s",
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
+  "dd071c59-97b6-4e31-8d90-e6aee47e01a5"]
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQB2IQ/UJIv6L24xtHW8tzjSCaba1eqNWnN451vybFgWir
-W28Ng4H0ccZUWxBd8fR4dAiQjvl3PAlER6VuzATRDVseZ4PoB9Yqd0F0Xec6
-iVAgLR52SRZEF2hIKIDot+5caiDaq6JZE0Q3aE3WBdFui3iMQfQ2fr5yEB0h
-7dwGoq9FPHoXDqTXmd/+CqL9HlrJRABpk5fGiiDaRbUuIxJIs2lvAtPPV8ZY
-xAPpU/YquSC68FSQ+HIgfcZwqTKIvuM7RQdEhzinmIHoW7el3UD0BPugHBC9
-iEd00kogPe1w2nwQfcd242IQfT2zfRWIlss/sAlEl744vQ1EX51WvA9ET2Bg
-Pg+id7C4XgHRGw+VXQXRdTY3boPoktitd0A0AB1Dzp4=
+1:eJwdxUsow3EAB/Bh7SCPWslqyJj3qzV5jLXWbEpxmNfGjJbJQiPMLv5NihzU
+Go1c1CRNWU1eJ2nUakTJRtuISaY2hVwk+X13+PThaPRybTyNRmMTOMysME5/
+RMTC2ssZzNgpbxd8RsTUj0WNBf4or5XsjtMKsfHF3d1GVv25NbhL69Rh097z
+EH6s495jasHBaiend1xn4tFCVjaONibm4ybjbBE2FS+VYZktiY8PUlOmsIIt
+mcM+Rei9k+yoDnzjlidBhoJc+cbn4IY8alBJZpTsxn61q2p6yR4RdwSPeeTp
+W+QL3mYuDjYvl+I2SX8V9gfYMmwWyYexLSnNYidbTwfWcVDo3MC3uvltnKU/
+2cWT4fMD7LWOH2MzLeEKH9GlN9jpMngxVX8XwBM9+0HMfDCccb4i4r6Q2oeZ
+39IgXlWufOAQXfGLMxZdsSmlLjmHbDpcK8D/Wrnx0w==
   "],ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
 
 Cell["", "PageBreak",
@@ -37866,31 +37894,29 @@ Cell[CellGroupData[{
 Cell[580, 22, 621, 10, 86, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
 Cell[1226, 36, 184, 3, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
-Cell[1413, 41, 8370, 284, 728, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"],
-Cell[9786, 327, 99, 1, 6, "PageBreak",ExpressionUUID->"e2aa4b38-cd99-4d32-ad0f-e549b4161562",
+Cell[1413, 41, 8370, 284, 728, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9820, 330, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[10066, 336, 8903, 275, 1601, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
+Cell[18972, 613, 99, 1, 1, "PageBreak",ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9922, 333, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
-Cell[10168, 339, 7818, 244, 1248, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
-Cell[17989, 585, 99, 1, 6, "PageBreak",ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87",
+Cell[19108, 619, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
+Cell[19666, 633, 7876, 249, 735, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
+Cell[CellGroupData[{
+Cell[27567, 886, 3648, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
+Cell[31218, 973, 2489, 54, 312, "Output",ExpressionUUID->"f4a569a5-d887-4566-95ee-d6609ee66313"]
+}, Open  ]],
+Cell[33722, 1030, 222723, 3658, 1031, "Input",ExpressionUUID->"496c5121-fc2c-46f3-935e-3c007d5a3f6b"],
+Cell[256448, 4690, 99, 1, 1, "PageBreak",ExpressionUUID->"2aff872c-2aa5-4f8a-b299-9c21f44e87fb",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18125, 591, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
-Cell[18683, 605, 7876, 249, 735, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
-Cell[CellGroupData[{
-Cell[26584, 858, 3648, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
-Cell[30235, 945, 2489, 54, 312, "Output",ExpressionUUID->"f4a569a5-d887-4566-95ee-d6609ee66313"]
-}, Open  ]],
-Cell[32739, 1002, 222723, 3658, 1031, "Input",ExpressionUUID->"496c5121-fc2c-46f3-935e-3c007d5a3f6b"],
-Cell[255465, 4662, 99, 1, 1, "PageBreak",ExpressionUUID->"2aff872c-2aa5-4f8a-b299-9c21f44e87fb",
- PageBreakBelow->True]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[255601, 4668, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
-Cell[256130, 4681, 10280, 303, 664, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
-Cell[266413, 4986, 2003696, 32854, 1359, "Input",ExpressionUUID->"d9dc41ef-a1ae-44cb-80a9-c9e648b8a5d7"]
+Cell[256584, 4696, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
+Cell[257113, 4709, 10280, 303, 664, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
+Cell[267396, 5014, 2003696, 32854, 1359, "Input",ExpressionUUID->"d9dc41ef-a1ae-44cb-80a9-c9e648b8a5d7"]
 }, Open  ]]
 }, Open  ]]
 }

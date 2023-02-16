@@ -51,8 +51,8 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 * Preparation for Tuesday, Feb. 9 &mdash; Finish Studying Taylor, Wheeler, and Bertschinger Chapter 3 
 * Monday, Feb. 13 &mdash; Discuss Remainder of Chapter 3 &mdash; Discuss Next Problem Set &mdash; Plan Reading for Thursday
-* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; Read *all* of TWB Chapter 5 &mdash; Ben will prepare a time-line of when Einstein's equations were solved for various important matter distributions (black hole, uniformly expanding spacetime, rotating black hole, and the charged-and-rotating black hole), and by whom, starting with Schwarzschild solving the black hole in 1916 &mdash; Schwarzschild's 1916 paper has been [translated](https://arxiv.org/pdf/physics/9905030.pdf) into English &mdash; A quick look will explain why we are studying the solutions of Einstein's equations as manna from Heaven, not trying to get those solutions! &mdash; Max and Clara will present a pocket calculator solution to Problem 4 on Problem Set 6 which is a photon spiraling inward from *r*=1.5*M* to *r*=0
-* Thursday, Feb. 16 &mdash; Presentation from Max and Clara &mdash; My Calculator Solution for [Photon Inside the Event Horizon](./resources/PhotonInsideTheEventHorizon-HP25Solution.pdf) &mdash; We spent 2/3 of the class trying to understand Eqs. 7 to 11 on p. 5-15 &mdash; These equations are how local coordinate patches are used! &mdash; Most of the discussion in Chapter 5 leading up to these equations is just to help you understand them (and other equations you will encounter that are like them) &mdash; Look ahead to Chapter 6 and a reminder of how to read Equations such as Eq. 23 on p. 6-11 &mdash; *e.g., &Delta;&tau;\_raindrop=-&Delta;r/sqrt(*2*M/r)*
+* Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6 due at beginning of class](./assignments/Assignment06.pdf) &mdash; [Problem Set 6 Solution](./assignments/Assignment06-Solution.pdf) &mdash; Read *all* of TWB Chapter 5 &mdash; Max and Clara will present a pocket calculator solution to Problem 4 on Problem Set 6 which is a photon spiraling inward from *r*=1.5*M* to *r*=0
+* Thursday, Feb. 16 &mdash; Presentation from Max and Clara &mdash; My Calculator Solution for [Photon Inside the Event Horizon](./resources/PhotonInsideTheEventHorizon-HP25Solution.pdf) &mdash; We spent 2/3 of the class trying to understand Eqs. 7 to 11 on p. 5-15 &mdash; These equations are how local coordinate patches are used! &mdash; Most of the discussion in Chapter 5 leading up to these equations is just to help you understand them (and other equations you will encounter that are like them) &mdash; Finally, we looked ahead to Chapter 6 and I reminded you of how to read Equations such as Eq. 23 on p. 6-11: *&Delta;&tau;\_raindrop=-&Delta;r/sqrt(*2*M/r)*
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
 
@@ -60,4 +60,3 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Thursday, Feb. 23 &mdash; No class due to Shakespeare Festival
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
-
