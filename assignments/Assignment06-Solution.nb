@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2268698,      37771]
-NotebookOptionsPosition[   2266633,      37726]
-NotebookOutlinePosition[   2267117,      37745]
-CellTagsIndexPosition[   2267074,      37742]
+NotebookDataLength[   2272319,      37891]
+NotebookOptionsPosition[   2270137,      37844]
+NotebookOutlinePosition[   2270619,      37863]
+CellTagsIndexPosition[   2270576,      37860]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -44,8 +44,7 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"G", "=", 
-    RowBox[{"c", "=", "1"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"c", "=", "1"}]}], TraditionalForm]],ExpressionUUID->
   "72a60d11-ec0f-46a2-a1c6-d66dbb4a4b75"],
  ". In conventional SI units, ",
  Cell[BoxData[
@@ -61,8 +60,7 @@ Cell[TextData[{
        SuperscriptBox[
         StyleBox["m",
          FontSlant->"Plain"], "2"]}], 
-      SuperscriptBox["kg", "2"]]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      SuperscriptBox["kg", "2"]]}]}], TraditionalForm]],ExpressionUUID->
   "919429cd-ec25-44ad-94ab-ffdb964ea9bb"],
  " and ",
  Cell[BoxData[
@@ -81,8 +79,7 @@ Cell[TextData[{
        StyleBox["m",
         FontSlant->"Plain"], 
        StyleBox["s",
-        FontSlant->"Plain"]]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+        FontSlant->"Plain"]]}]}]}], TraditionalForm]],ExpressionUUID->
   "54365802-4262-4d56-996f-7c9b68e64ce2"],
  ". But the Newton, N, is a derived unit, ",
  Cell[BoxData[
@@ -97,8 +94,7 @@ Cell[TextData[{
        FontSlant->"Plain"]}], 
      SuperscriptBox[
       StyleBox["s",
-       FontSlant->"Plain"], "2"]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"], "2"]]}], TraditionalForm]],ExpressionUUID->
   "b5055c66-7f50-450b-b3b8-72de502ad0c7"],
  ", so ",
  Cell[BoxData[
@@ -122,8 +118,7 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"G", "=", 
-    RowBox[{"c", "=", "1"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"c", "=", "1"}]}], TraditionalForm]],ExpressionUUID->
   "b5a67ac8-03f1-4d6f-898f-9e09d16d130b"],
  " then ",
  Cell[BoxData[
@@ -170,8 +165,7 @@ Cell[TextData[{
         FractionBox[
          StyleBox["m",
           FontSlant->"Plain"], "kg"]}]}]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "b0b7fb9d-ea8a-4aab-99a0-27d483a02b36"],
+  ExpressionUUID->"b0b7fb9d-ea8a-4aab-99a0-27d483a02b36"],
  "\n\nSo apparently ",
  Cell[BoxData[
   FormBox[
@@ -181,8 +175,7 @@ Cell[TextData[{
      SuperscriptBox["10", 
       RowBox[{"-", "28"}]], 
      StyleBox["m",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "7a2a10f6-2e50-4324-a46b-c8613a84230a"],
  ".\n\n(b) ",
  Cell[BoxData[
@@ -208,17 +201,26 @@ Cell[TextData[{
            FontSlant->"Plain"], "2"]}]}], 
        RowBox[{"1", "/", 
         StyleBox["s",
-         FontSlant->"Plain"]}]]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+         FontSlant->"Plain"]}]]}]}]}], TraditionalForm]],ExpressionUUID->
   "741ebb56-c450-49f4-bd2d-1d64580fb01b"],
- "\n\n(c) The diameter of the Earth is ",
+ " so the frequence of 1Hz corresponds to an acceleration of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3", " ", 
+    SuperscriptBox["10", "8"], 
+    FractionBox[
+     StyleBox["m",
+      FontSlant->"Plain"], 
+     StyleBox["s",
+      FontSlant->"Plain"]]}], TraditionalForm]],ExpressionUUID->
+  "6f034955-cbf0-4844-bdfc-71b7fb605e79"],
+ ".\n\n(c) The diameter of the Earth is ",
  Cell[BoxData[
   FormBox[
    RowBox[{"12.74", " ", 
     SuperscriptBox["10", "6"], 
     StyleBox["m",
-     FontSlant->"Plain"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     FontSlant->"Plain"]}], TraditionalForm]],ExpressionUUID->
   "39fae53a-c951-4fc4-8de7-b8b8eb1e0a55"],
  ". Divide this by ",
  Cell[BoxData[
@@ -230,53 +232,47 @@ Cell[TextData[{
       StyleBox["m",
        FontSlant->"Plain"], "/", 
       StyleBox["s",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
   "5501ba03-065e-4261-abac-ec577f37c25b"],
  ", and get ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"0.0425", "s"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"0.0425", "s"}], TraditionalForm]],ExpressionUUID->
   "0888dccd-60da-46b6-aae8-dc13be2b4261"],
- ". Wow, light goes the diameter of the Earth in 1/25 of a second.\n\n(d) The \
-diameter of the Sun is ",
+ ".\n\n(d) The diameter of the Sun is ",
  Cell[BoxData[
   FormBox[
    RowBox[{"1.393", " ", 
     SuperscriptBox["10", "9"], 
     StyleBox["m",
-     FontSlant->"Plain"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     FontSlant->"Plain"]}], TraditionalForm]],ExpressionUUID->
   "ba9e18b2-d411-4c9b-9650-e9fbc17035f0"],
- ". (Notice that is not a lot more than 100x that of the Earth.) Divide this \
-by ",
+ ". Divide this by ",
  Cell[BoxData[
   FormBox[
    RowBox[{"c", "=", 
     RowBox[{"3", 
      SuperscriptBox["x10", "8"], 
-     RowBox[{
-      StyleBox["m",
-       FontSlant->"Plain"], "/", 
-      StyleBox["s",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     StyleBox[
+      FractionBox[
+       StyleBox["m",
+        FontSlant->"Plain"], 
+       StyleBox["s",
+        FontSlant->"Plain"]],
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "b36f94b2-bc48-4b47-9b47-c9471cc50f2c"],
  ", and get ",
  Cell[BoxData[
   FormBox[
    RowBox[{"4.64", 
-    StyleBox["mass",
-     FontSlant->"Plain"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    StyleBox["s",
+     FontSlant->"Plain"]}], TraditionalForm]],ExpressionUUID->
   "b7d6c14e-3317-4382-988c-15cfed9d2900"],
  ".\n\n(e) The mass of the Sun is ",
  Cell[BoxData[
   FormBox[
    RowBox[{"1.989", " ", 
-    SuperscriptBox["10", "30"], "kg"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SuperscriptBox["10", "30"], "kg"}], TraditionalForm]],ExpressionUUID->
   "e19a2a71-3384-4a9f-80f4-f2d87d8378dc"],
  ". But ",
  Cell[BoxData[
@@ -304,8 +300,7 @@ by ",
       RowBox[{"1", "kg"}]]}], "=", 
     RowBox[{"1474", " ", 
      StyleBox["m",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "d3a3bff7-44e9-4286-ac25-28671079bced"],
  ".\n\nIf the Sun were a black hole, its event horizon would be at ",
  Cell[BoxData[
@@ -314,8 +309,7 @@ by ",
     RowBox[{"2", "M"}], "=", 
     RowBox[{"2878", 
      StyleBox["m",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "7fd61c3b-5360-4dbc-b549-8d59d198a22f"],
  "."
 }], "Text",
@@ -326,9 +320,13 @@ by ",
    3.885149304319433*^9}, {3.8851547952494993`*^9, 3.885154805541913*^9}, {
    3.8851670403348*^9, 3.885167218487864*^9}, {3.8851673731285877`*^9, 
    3.885168649389949*^9}, {3.8851686871818743`*^9, 3.8851688147789583`*^9}, {
-   3.885168876810315*^9, 3.885168956367323*^9}, 
-   3.88516907475353*^9},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
-8cae69d82780"]
+   3.885168876810315*^9, 3.885168956367323*^9}, 3.88516907475353*^9, {
+   3.885315464182201*^9, 
+   3.885315531642786*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
+8cae69d82780"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"e2aa4b38-cd99-4d32-ad0f-e549b4161562"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -372,14 +370,12 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"K", "=", 
-    RowBox[{"U", "=", "0"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"U", "=", "0"}]}], TraditionalForm]],ExpressionUUID->
   "0ed257ef-eb36-40c2-adbf-45276c002040"],
  ".\n\n(b) ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"E", "=", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"E", "=", "0"}], TraditionalForm]],ExpressionUUID->
   "6c139237-27b8-43cb-904e-4658540a0dd1"],
  ".\n\n(c)  ",
  Cell[BoxData[
@@ -393,13 +389,11 @@ Cell[TextData[{
      FractionBox[
       RowBox[{"G", "\[VeryThinSpace]", 
        SubscriptBox["m", "astronaut"], "M"}], "r"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "ba2ce044-da2d-4b4a-b999-2820b3b5bae4"],
+  ExpressionUUID->"ba2ce044-da2d-4b4a-b999-2820b3b5bae4"],
  "\n\nWell, we can cancel ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["m", "astronaut"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["m", "astronaut"], TraditionalForm]],ExpressionUUID->
   "76696ca3-3872-45f5-af32-bb0869d31ad1"],
  " out and rearrange a little, giving\n\n",
  Cell[BoxData[
@@ -410,8 +404,7 @@ Cell[TextData[{
      SuperscriptBox["v", "2"]}], "=", 
     FractionBox[
      RowBox[{"G", "\[VeryThinSpace]", "M"}], "r"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "f07cd9ca-df30-4469-8c69-b471d2634ef8"],
+  ExpressionUUID->"f07cd9ca-df30-4469-8c69-b471d2634ef8"],
  "   or   ",
  Cell[BoxData[
   FormBox[
@@ -419,8 +412,7 @@ Cell[TextData[{
     SuperscriptBox["v", "2"], "=", 
     FractionBox[
      RowBox[{"2", "G", "\[VeryThinSpace]", "M"}], "r"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "72812845-cfe0-4249-8373-4855e0be6463"],
+  ExpressionUUID->"72812845-cfe0-4249-8373-4855e0be6463"],
  "    or    ",
  Cell[BoxData[
   FormBox[
@@ -428,42 +420,168 @@ Cell[TextData[{
     SqrtBox[
      FractionBox[
       RowBox[{"2", "G", "\[VeryThinSpace]", "M"}], "r"]]}], TraditionalForm]],
-  
-  FormatType->TraditionalForm,ExpressionUUID->
-  "fc59b004-a0a6-48c5-8b6e-5309479073be"],
+  ExpressionUUID->"fc59b004-a0a6-48c5-8b6e-5309479073be"],
  ". So at ",
  Cell[BoxData[
   FormBox[
    RowBox[{
-    SubscriptBox["r", "ouch"], ","}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SubscriptBox["r", "ouch"], ","}], TraditionalForm]],ExpressionUUID->
   "981da698-f325-4c2c-9c57-edb807d7cfcd"],
  " ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"v", "=", 
+   RowBox[{
+    SubscriptBox["v", "ouch"], "=", 
     SqrtBox[
      FractionBox[
       RowBox[{"2", "G", "\[VeryThinSpace]", "M"}], 
+      SubscriptBox["r", "ouch"]]]}], TraditionalForm]],ExpressionUUID->
+  "50be3238-51dd-4506-89aa-fbb6e0481cb6"],
+ ".\n\n(d) TWB Chapter 3, Problem 5, p. 3-38, Part D. I called the speed we \
+found in Part (c), ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "ouch"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d92aa6f2-c54d-4e4a-a741-db1d2dd285ec"],
+ ". As a fraction of the speed of light,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SubscriptBox["v", "ouch"], "c"], "=", 
+    SqrtBox[
+     FractionBox[
+      RowBox[{"2", "G", "\[VeryThinSpace]", 
+       RowBox[{"M", "/", 
+        SuperscriptBox["c", "2"]}]}], 
       SubscriptBox["r", "ouch"]]]}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
-  "50be3238-51dd-4506-89aa-fbb6e0481cb6"],
- ".\n\n(d) TWB Chapter 3, Problem 5, p. 3-38, Part D.\n\n(e) TWB Chapter 3, \
-Problem 5, p. 3-38, Part E.\n\n(f) TWB Chapter 3, Problem 5, p. 3-38, Part \
-F."
+  "e167744a-8947-4523-9cb6-f92f968c27fb"],
+ "\n\n(e) TWB Chapter 3, Problem 5, p. 3-38, Part E. Your period of trauma \
+would be at most,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["T", "ouch"], "=", 
+    RowBox[{
+     FractionBox[
+      SubscriptBox["r", "ouch"], 
+      SubscriptBox["v", "ouch"]], "=", 
+     RowBox[{
+      RowBox[{
+       SubscriptBox["r", "ouch"], "/", 
+       SqrtBox[
+        FractionBox[
+         RowBox[{"2", "G", "\[VeryThinSpace]", "M"}], 
+         SubscriptBox["r", "ouch"]]]}], "=", 
+      SqrtBox[
+       FractionBox[
+        SubsuperscriptBox["r", "ouch", "3"], 
+        RowBox[{"2", "G", "\[VeryThinSpace]", "M"}]]]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5dfbe85e-52c2-4d09-acba-d77e82409029"],
+ "\n\nIt\[CloseCurlyQuote]s time we substitute in what we learned in the \
+previous problem set, specifically, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "ouch"], "=", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      StyleBox[
+       FractionBox[
+        RowBox[{
+        "2", "M", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
+         "r"}], 
+        RowBox[{"\[LeftBracketingBar]", 
+         SubscriptBox["g", "E"], "\[RightBracketingBar]"}]],
+       FontSize->18], ")"}], 
+     RowBox[{"1", "/", "3"}]]}], TraditionalForm]],ExpressionUUID->
+  "766b365e-1259-49f7-bdca-7084263d5cb8"],
+ ". So,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["T", "ouch"], "=", 
+    RowBox[{
+     SqrtBox[
+      FractionBox[
+       StyleBox[
+        FractionBox[
+         RowBox[{
+         "2", "M", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
+          "r"}], 
+         RowBox[{"\[LeftBracketingBar]", 
+          SubscriptBox["g", "E"], "\[RightBracketingBar]"}]],
+        FontSize->18], 
+       RowBox[{"2", "G", "\[VeryThinSpace]", "M"}]]], "=", 
+     SqrtBox[
+      FractionBox[
+       StyleBox[
+        FractionBox[
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], 
+         RowBox[{"\[LeftBracketingBar]", 
+          SubscriptBox["g", "E"], "\[RightBracketingBar]"}]],
+        FontSize->18], 
+       RowBox[{"G", "\[VeryThinSpace]"}]]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "52cda943-c754-4203-a0ef-ec95eda32685"],
+ "\n\n(f) TWB Chapter 3, Problem 5, p. 3-38, Part F.\n\nWell, finally we will \
+plug in some numbers, and find out what ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["T", "ouch"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9375ab2a-6a72-4761-b4c0-659d498c0a15"],
+ " is in seconds:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["T", "ouch"], "="}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fb372d16-050a-4f17-ab75-a2e207578520"],
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    FractionBox[
+     StyleBox[
+      FractionBox[
+       RowBox[{"\[VeryThinSpace]", 
+        RowBox[{"1", 
+         StyleBox["m",
+          FontSlant->"Plain"]}]}], 
+       RowBox[{"9.8", 
+        RowBox[{
+         StyleBox["m",
+          FontSlant->"Plain"], "/", 
+         SuperscriptBox[
+          StyleBox["s",
+           FontSlant->"Plain"], "2"]}]}]],
+      FontSize->18], 
+     RowBox[{"6.67", " ", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "11"}]], 
+      FractionBox[
+       RowBox[{" ", 
+        SuperscriptBox[
+         StyleBox["m",
+          FontSlant->"Plain"], "3"]}], 
+       RowBox[{"kg", " ", 
+        SuperscriptBox[
+         StyleBox["s",
+          FontSlant->"Plain"], "2"]}]], "\[VeryThinSpace]"}]]], 
+   TraditionalForm]],ExpressionUUID->"dd071c59-97b6-4e31-8d90-e6aee47e01a5"]
 }], "Text",
- CellChangeTimes->{{3.884706753471058*^9, 3.884706830444487*^9}, {
-  3.885093545458621*^9, 3.8850936205930777`*^9}, {3.885144463432889*^9, 
-  3.885144555156467*^9}, {3.8851468462467613`*^9, 3.8851469022497997`*^9}, {
-  3.885146957543622*^9, 3.8851469751157837`*^9}, {3.885147881132309*^9, 
-  3.8851483574542837`*^9}, {3.885148398573009*^9, 3.885148416754936*^9}, {
-  3.88514846432128*^9, 3.8851484921084337`*^9}, {3.885148524598938*^9, 
-  3.885148568394809*^9}, {3.885149112439418*^9, 3.885149234097088*^9}, {
-  3.885154167073344*^9, 3.885154222850547*^9}, {3.885154529840003*^9, 
-  3.885154569622217*^9}, {3.885157187942049*^9, 3.885157189567752*^9}, {
-  3.88516909089574*^9, 
-  3.8851695131327868`*^9}},ExpressionUUID->"79781452-73e3-40d6-9b50-\
-bc1c489364be"],
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQB2IQ/UJIv6L24xtHW8tzjSCaba1eqNWnN451vybFgWir
+W28Ng4H0ccZUWxBd8fR4dAiQjvl3PAlER6VuzATRDVseZ4PoB9Yqd0F0Xec6
+iVAgLR52SRZEF2hIKIDot+5caiDaq6JZE0Q3aE3WBdFui3iMQfQ2fr5yEB0h
+7dwGoq9FPHoXDqTXmd/+CqL9HlrJRABpk5fGiiDaRbUuIxJIs2lvAtPPV8ZY
+xAPpU/YquSC68FSQ+HIgfcZwqTKIvuM7RQdEhzinmIHoW7el3UD0BPugHBC9
+iEd00kogPe1w2nwQfcd242IQfT2zfRWIlss/sAlEl744vQ1EX51WvA9ET2Bg
+Pg+id7C4XgHRGw+VXQXRdTY3boPoktitd0A0AB1Dzp4=
+  "],ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
 
 Cell["", "PageBreak",
  PageBreakBelow->True,ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87"]
@@ -37725,7 +37843,7 @@ c9e648b8a5d7"]
 }, Open  ]]
 },
 WindowSize->{1270, 1268},
-WindowMargins->{{-1697, Automatic}, {Automatic, 0}},
+WindowMargins->{{455, Automatic}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 Magnification:>1.5 Inherited,
@@ -37748,29 +37866,31 @@ Cell[CellGroupData[{
 Cell[580, 22, 621, 10, 86, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
 Cell[1226, 36, 184, 3, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
-Cell[1413, 41, 8597, 289, 792, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[10047, 335, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
-Cell[10293, 341, 4189, 124, 582, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
-Cell[14485, 467, 99, 1, 1, "PageBreak",ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87",
+Cell[1413, 41, 8370, 284, 728, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"],
+Cell[9786, 327, 99, 1, 6, "PageBreak",ExpressionUUID->"e2aa4b38-cd99-4d32-ad0f-e549b4161562",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14621, 473, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
-Cell[15179, 487, 7876, 249, 735, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
-Cell[CellGroupData[{
-Cell[23080, 740, 3648, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
-Cell[26731, 827, 2489, 54, 312, "Output",ExpressionUUID->"f4a569a5-d887-4566-95ee-d6609ee66313"]
-}, Open  ]],
-Cell[29235, 884, 222723, 3658, 1031, "Input",ExpressionUUID->"496c5121-fc2c-46f3-935e-3c007d5a3f6b"],
-Cell[251961, 4544, 99, 1, 1, "PageBreak",ExpressionUUID->"2aff872c-2aa5-4f8a-b299-9c21f44e87fb",
+Cell[9922, 333, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[10168, 339, 7818, 244, 1248, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
+Cell[17989, 585, 99, 1, 6, "PageBreak",ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[252097, 4550, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
-Cell[252626, 4563, 10280, 303, 664, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
-Cell[262909, 4868, 2003696, 32854, 1359, "Input",ExpressionUUID->"d9dc41ef-a1ae-44cb-80a9-c9e648b8a5d7"]
+Cell[18125, 591, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
+Cell[18683, 605, 7876, 249, 735, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
+Cell[CellGroupData[{
+Cell[26584, 858, 3648, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
+Cell[30235, 945, 2489, 54, 312, "Output",ExpressionUUID->"f4a569a5-d887-4566-95ee-d6609ee66313"]
+}, Open  ]],
+Cell[32739, 1002, 222723, 3658, 1031, "Input",ExpressionUUID->"496c5121-fc2c-46f3-935e-3c007d5a3f6b"],
+Cell[255465, 4662, 99, 1, 1, "PageBreak",ExpressionUUID->"2aff872c-2aa5-4f8a-b299-9c21f44e87fb",
+ PageBreakBelow->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[255601, 4668, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
+Cell[256130, 4681, 10280, 303, 664, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
+Cell[266413, 4986, 2003696, 32854, 1359, "Input",ExpressionUUID->"d9dc41ef-a1ae-44cb-80a9-c9e648b8a5d7"]
 }, Open  ]]
 }, Open  ]]
 }
