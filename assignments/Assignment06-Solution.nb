@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2273184,      37917]
-NotebookOptionsPosition[   2271120,      37872]
-NotebookOutlinePosition[   2271602,      37891]
-CellTagsIndexPosition[   2271559,      37888]
+NotebookDataLength[   2273543,      37926]
+NotebookOptionsPosition[   2271479,      37881]
+NotebookOutlinePosition[   2271961,      37900]
+CellTagsIndexPosition[   2271918,      37897]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -22,7 +22,6 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[TextData[StyleBox["Cosmology \[LongDash] Assignment  6 \[LongDash] \
 Solution",
- FontSize->20,
  FontWeight->"Regular"]], "Section",
  CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
   3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
@@ -30,7 +29,7 @@ Solution",
   3.884704110991439*^9, 3.8847041219759398`*^9}, {3.885148589133045*^9, 
   3.885148609021922*^9}, {3.8851548408437138`*^9, 3.8851548758529577`*^9}, {
   3.885167033203311*^9, 3.885167037128221*^9}},
- FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+ FontSize->24,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 
 Cell[CellGroupData[{
 
@@ -285,7 +284,7 @@ Cell[TextData[{
      StyleBox["m",
       FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "0892db95-8de8-47e0-8686-6d4b41ec83dd"],
- " by part (a). So The mass of the Sun is\n\n",
+ " by part (a). So The mass of the Sun in meters is\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -302,15 +301,30 @@ Cell[TextData[{
      StyleBox["m",
       FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "d3a3bff7-44e9-4286-ac25-28671079bced"],
- ".\n\nIf the Sun were a black hole, its event horizon would be at ",
+ ", and the mass of the Sun in seconds is ",
  Cell[BoxData[
   FormBox[
    RowBox[{
-    RowBox[{"2", "M"}], "=", 
-    RowBox[{"2878", 
-     StyleBox["m",
-      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
-  "7fd61c3b-5360-4dbc-b549-8d59d198a22f"],
+    FractionBox[
+     RowBox[{"1474", 
+      StyleBox["m",
+       FontSlant->"Plain"]}], 
+     RowBox[{"3", " ", 
+      SuperscriptBox["10", "8"], 
+      RowBox[{
+       StyleBox["m",
+        FontSlant->"Plain"], "/", 
+       StyleBox["s",
+        FontSlant->"Plain"]}]}]], "=", 
+    RowBox[{
+     RowBox[{"491", " ", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "8"}]], 
+      StyleBox["s",
+       FontSlant->"Plain"]}], "=", 
+     RowBox[{"4.91", "\[Mu]", "\[VeryThinSpace]", "s"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "eba6f846-70f5-4e2b-9857-dbfb4d3566e8"],
  "."
 }], "Text",
  CellChangeTimes->{{3.884706753471058*^9, 3.884706830444487*^9}, {
@@ -321,8 +335,9 @@ Cell[TextData[{
    3.8851670403348*^9, 3.885167218487864*^9}, {3.8851673731285877`*^9, 
    3.885168649389949*^9}, {3.8851686871818743`*^9, 3.8851688147789583`*^9}, {
    3.885168876810315*^9, 3.885168956367323*^9}, 3.88516907475353*^9, {
-   3.885315464182201*^9, 
-   3.885315531642786*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
+   3.885315464182201*^9, 3.885315531642786*^9}, {3.885726455614737*^9, 
+   3.885726541530924*^9}, {3.885726573029634*^9, 
+   3.885726607496714*^9}},ExpressionUUID->"15cb17a0-f6ea-4278-a989-\
 8cae69d82780"]
 }, Open  ]],
 
@@ -676,9 +691,7 @@ Cell[TextData[{
   FormBox[
    RowBox[{
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], "=", "0"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "8724a6cd-1a75-4ecd-bffe-dde7fc3a20b7"],
+   TraditionalForm]],ExpressionUUID->"8724a6cd-1a75-4ecd-bffe-dde7fc3a20b7"],
  ", and get:\n\n",
  Cell[BoxData[
   FormBox[
@@ -4751,8 +4764,7 @@ Cell[TextData[{
   FormBox[
    RowBox[{"1", "-", 
     RowBox[{"2", 
-     RowBox[{"M", "/", "R"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"M", "/", "R"}]}]}], TraditionalForm]],ExpressionUUID->
   "2bbaaa07-b518-4a55-9393-2c92bda42ddb"],
  " is always negative in the region we are interested in for this problem \
 (inside the event horizon), it is probably clearer to write:\n\n",
@@ -4901,15 +4913,12 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "17300f69-8aa5-4587-b711-7c41952ed32c"],
+  ExpressionUUID->"17300f69-8aa5-4587-b711-7c41952ed32c"],
  " to result in increasing ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "d5ed8d3f-6a0c-4cf4-8748-c7a4610ac8b3"],
+   TraditionalForm]],ExpressionUUID->"d5ed8d3f-6a0c-4cf4-8748-c7a4610ac8b3"],
  ", then we need: ",
  Cell[BoxData[
   FormBox[
@@ -37891,35 +37900,37 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 621, 10, 86, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[580, 22, 606, 9, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
-Cell[1226, 36, 184, 3, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
-Cell[1413, 41, 8370, 284, 728, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
+Cell[1211, 35, 184, 3, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
+Cell[1398, 40, 8874, 300, 659, "Text",ExpressionUUID->"15cb17a0-f6ea-4278-a989-8cae69d82780"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9820, 330, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
-Cell[10066, 336, 8903, 275, 1601, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
-Cell[18972, 613, 99, 1, 1, "PageBreak",ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87",
+Cell[10309, 345, 243, 4, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[10555, 351, 8903, 275, 1601, "Text",ExpressionUUID->"79781452-73e3-40d6-9b50-bc1c489364be"],
+Cell[19461, 628, 99, 1, 1, "PageBreak",ExpressionUUID->"9f935a78-d251-4ee9-8597-94fa5bd20e87",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19108, 619, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
-Cell[19666, 633, 7876, 249, 735, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
+Cell[19597, 634, 555, 12, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
+Cell[20155, 648, 7842, 247, 735, "Text",ExpressionUUID->"ff97c61f-b797-41f9-b4a7-b9262edf6d6b"],
 Cell[CellGroupData[{
-Cell[27567, 886, 3648, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
-Cell[31218, 973, 2489, 54, 312, "Output",ExpressionUUID->"f4a569a5-d887-4566-95ee-d6609ee66313"]
+Cell[28022, 899, 3648, 85, 100, "Input",ExpressionUUID->"2dd10cf8-7557-458d-9da5-c560b91c5def"],
+Cell[31673, 986, 2489, 54, 312, "Output",ExpressionUUID->"f4a569a5-d887-4566-95ee-d6609ee66313"]
 }, Open  ]],
-Cell[33722, 1030, 222723, 3658, 1031, "Input",ExpressionUUID->"496c5121-fc2c-46f3-935e-3c007d5a3f6b"],
-Cell[256448, 4690, 99, 1, 1, "PageBreak",ExpressionUUID->"2aff872c-2aa5-4f8a-b299-9c21f44e87fb",
+Cell[34177, 1043, 222723, 3658, 1031, "Input",ExpressionUUID->"496c5121-fc2c-46f3-935e-3c007d5a3f6b"],
+Cell[256903, 4703, 99, 1, 1, "PageBreak",ExpressionUUID->"2aff872c-2aa5-4f8a-b299-9c21f44e87fb",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[256584, 4696, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
-Cell[257113, 4709, 10280, 303, 664, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
-Cell[267396, 5014, 2003696, 32854, 1359, "Input",ExpressionUUID->"d9dc41ef-a1ae-44cb-80a9-c9e648b8a5d7"]
+Cell[257039, 4709, 526, 11, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
+Cell[257568, 4722, 10184, 299, 664, "Text",ExpressionUUID->"c3a8d393-8af6-4c43-bc9e-1f4486986470"],
+Cell[267755, 5023, 2003696, 32854, 1359, "Input",ExpressionUUID->"d9dc41ef-a1ae-44cb-80a9-c9e648b8a5d7"]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
+
+(* End of internal cache information *)
 
