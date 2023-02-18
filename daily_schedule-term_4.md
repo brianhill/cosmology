@@ -60,3 +60,5 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Thursday, Feb. 23 &mdash; No class due to Shakespeare Festival
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
+
+<img src="./resources/JohnWheelerAtTheBlackboard.png" width=500></img>
