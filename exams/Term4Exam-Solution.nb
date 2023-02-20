@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    304641,       5573]
-NotebookOptionsPosition[    301679,       5517]
-NotebookOutlinePosition[    302129,       5535]
-CellTagsIndexPosition[    302086,       5532]
+NotebookDataLength[    301874,       5496]
+NotebookOptionsPosition[    298912,       5440]
+NotebookOutlinePosition[    299362,       5458]
+CellTagsIndexPosition[    299319,       5455]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,33 +46,7 @@ Cell["1. John Tries to Graffiti Mary\[CloseCurlyQuote]s Ship", "Section",
  FontSize->24,ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
 
 Cell[TextData[{
- "(a) John was naive. He forgot about length contraction. He thought that \
-paint bomb 1, that goes off at coordinates  ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"GF", "=", 
-    RowBox[{"(", 
-     RowBox[{"0", ",", 
-      FractionBox["L", "2"]}], ")"}]}], TraditionalForm]],ExpressionUUID->
-  "6a1e6e9b-3ed8-460e-b643-02c77036d901"],
- ", would graffiti the front of Mary\[CloseCurlyQuote]s ship, and paint bomb \
-2, that goes off at coordinates  ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"GB", "=", 
-    RowBox[{"(", 
-     RowBox[{"0", ",", 
-      RowBox[{"-", 
-       FractionBox["L", "2"]}]}], ")"}]}], TraditionalForm]],ExpressionUUID->
-  "412a82d0-7753-47f8-b673-c117005a7d74"],
- ", would graffiti the back of Mary\[CloseCurlyQuote]s ship. What are the \
-correct values, in John\[CloseCurlyQuote]s coordinates, of MF (the front) and \
-MB (the back) of Mary\[CloseCurlyQuote]s ship at ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"t", "=", "0"}], TraditionalForm]],ExpressionUUID->
-  "ddb9d8e3-8b2d-45ac-a103-9931511673fa"],
- "?\n\nLength contraction by ",
+ "(a) Length contraction by ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[Gamma]", "\[Congruent]", 
@@ -80,8 +54,7 @@ MB (the back) of Mary\[CloseCurlyQuote]s ship at ",
      SqrtBox[
       RowBox[{"1", "-", 
        SubsuperscriptBox["v", "rel", "2"]}]]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "6f66ebe0-73c6-428e-a68f-b2cb18bb7944"],
+  ExpressionUUID->"6f66ebe0-73c6-428e-a68f-b2cb18bb7944"],
  "says that Mary\[CloseCurlyQuote]s ship is shortened by a factor of \
 \[Gamma]. Therefore,\n\n",
  Cell[BoxData[
@@ -105,27 +78,26 @@ MB (the back) of Mary\[CloseCurlyQuote]s ship at ",
  "\n\n(b) Plugging in the coordinates of GF, which are  ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"t", "=", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"t", "=", "0"}], TraditionalForm]],ExpressionUUID->
   "311af910-e722-4116-9d87-b39c36aa1824"],
  " and ",
  Cell[BoxData[
   FormBox[
    RowBox[{"x", "=", 
-    FractionBox["L", "2"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FractionBox["L", "2"]}], TraditionalForm]],ExpressionUUID->
   "40296fd7-3c35-49c1-b582-ae61ecda15dd"],
  ", into"
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJwdyksowwEAx/GhjShuymSIaZaSTXMwmgNtoWzNmtz+8zhQQ0mbRyFaIZLa
-sGXz2MqjPGaxJVY7jAmbVkqbcNEs1hSKxv+3w7fP5ZtPKCXtiRQKJYcMRmim
-osWPcA1LpKqHmUzDH1S/EtQl0oEqeRqUDn7QYZ1Pmws3vWI+lHfMC6D+PRr3
-d5YhhJrKBxVc+yImYHdS2TTk6LlzsLghugy5Q71bUCs7SVgmvWyMUOHTgbIU
-ilud5QbSNxOvAo7xb4Wwa/RHBMO2AimUKGTNcPI0XQmlzPUeyI5xVNAaGVdD
-Da/bvkJ6Jwk6YWTK7IGebX/cPkmeD7qMS7ew0J//CJN9tXHp2eEzIz56yAXt
-jsA5/M1i+KEw0BKE+23BFyjzdvg3SHkC3T1cvf7cMZMSoYtdGGPPWKHRrXPA
-K1vTiIU09bgzrmXvxgoXDlPcUEjLuIes/pIAfB6ujsIjBfcb/gPs6ho5
+1:eJwdylsoQ3EAx/GhIYo3ZWrIJZaSTfPgEg90hGLNafJ25vJgNVPS3ArRCpEU
+NsvcNtdymcWWWHmYSy7TSmkTXjSLtRWK8P+dh2+fl28yo5Q0hnI4HD4J+sPn
+02eCvpKMcnUFjEvT/8HOV4arJXYUyqKhtCvIg2XOqUS4dlNTAGVNE8Vw9j3A
++jPGp6Am/0ENFz+ZQagIyxmBwlnROMysDOigqFu1DqfowxAd8aLKz4VPu8ps
+WFNvz9UT3+bFebC/4JaCLX3f5dBnSZFCiZyuhUNHMUooTVtqhYJfoRqa/QOd
+UCNWWOeIdxKPHfqHjefwfMPF2iZJcsITg/YWprqSH2GEs5SVl+A7NuDjeU+g
+1eY+hT/xfBek3HUeuNPgeYH0TZNrmSgunr6HC1cfm0Yi4z3bgr+CUTM0OKZt
+8NJS3WsiRh00s5q2r81wci/SAanw2HuY0Z7lhs89RQG4Lxd9wbYlenWFqNrU
+sv4D5RUkQA==
   "],ExpressionUUID->"1d926ceb-b112-4f57-813a-d3ad0771d530"],
 
 Cell[BoxData[
@@ -4373,53 +4345,8 @@ Cell[TextData[{
  FontSize->24,ExpressionUUID->"00f2139e-d1b6-459c-b529-089ab6aa0167"],
 
 Cell[TextData[{
- Cell[BoxData[
-  FormBox[Cell[TextData[Cell[BoxData[
-    FormBox[
-     RowBox[{"E", "=", 
-      RowBox[{"m", "\[VeryThinSpace]", 
-       SuperscriptBox["c", "2"]}]}], TraditionalForm]],ExpressionUUID->
-    "619f05bf-502c-44eb-883b-a29c3b34cc4b"]],ExpressionUUID->
-    "4beea991-7539-47d4-8719-9f9eb96b9daa"], TraditionalForm]],ExpressionUUID->
-  "8039834c-1d9a-449b-ac20-77fe89fbe0de"],
- " is probably the most famous equation in physics. However, the equation is \
-only correct for a particle at rest!\n\nInstead of ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"E", "=", 
-    RowBox[{"m", "\[VeryThinSpace]", 
-     SuperscriptBox["c", "2"]}]}], TraditionalForm]],ExpressionUUID->
-  "098a3888-6ce1-42ea-9150-af45cc13fb42"],
- ", the correct formula, when a particle is not at rest, is:\n\n",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"E", "=", 
-    RowBox[{"m", "\[VeryThinSpace]", 
-     SuperscriptBox["c", "2"], 
-     StyleBox[
-      FractionBox[
-       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
-       "\[CapitalDelta]\[Tau]"],
-      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
-  "12944c1b-d211-4bdb-a4fb-7c901e25dc57"],
- "\n\nIn this class, we usually set ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"c", "=", "1"}], TraditionalForm]],ExpressionUUID->
-  "3b45260a-acff-4d19-a62b-68325dfb28e5"],
- ". In that case, the formula is just:\n\n",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"E", "=", 
-    RowBox[{"m", 
-     StyleBox[
-      FractionBox[
-       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
-       "\[CapitalDelta]\[Tau]"],
-      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
-  "05c90b48-1eb3-49a0-9ab8-0cf707f2ea41"],
- "\n\n(a) Because wristwatch time and coordinate time are the same for a \
-particle at rest in a coordinate system, in that system ",
+ "(a) Because wristwatch time and coordinate time are the same for a particle \
+at rest in a coordinate system, in that system ",
  Cell[BoxData[
   FormBox[
    RowBox[{"E", "=", 
@@ -4433,8 +4360,7 @@ particle at rest in a coordinate system, in that system ",
      StyleBox["=",
       FontSize->18], 
      StyleBox["m",
-      FontSize->16]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->16]}]}], TraditionalForm]],ExpressionUUID->
   "c6194178-c152-4b34-a711-e03207983945"],
  ".\n\n(b) ",
  Cell[BoxData[
@@ -4443,9 +4369,7 @@ particle at rest in a coordinate system, in that system ",
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
     RowBox[{
     "v", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "683f1ba8-5155-4525-b713-a6350c53cd92"],
+   TraditionalForm]],ExpressionUUID->"683f1ba8-5155-4525-b713-a6350c53cd92"],
  "\n\n(c) ",
  Cell[BoxData[
   FormBox[
@@ -4499,7 +4423,7 @@ particle at rest in a coordinate system, in that system ",
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
         RowBox[{"t", "/", "\[Gamma]"}]}]}]}]}]}], TraditionalForm]],
   ExpressionUUID->"738368a5-be2a-408e-ace5-7c09dddca553"],
- ".\n\nSo,\n\n",
+ ". So, ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -4508,18 +4432,16 @@ particle at rest in a coordinate system, in that system ",
       RowBox[{
       "\[CapitalDelta]", "\[VeryThinSpace]", "t", "\[VeryThinSpace]"}], 
       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}]]}], "=", 
-    "m\[Gamma]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    "m\[Gamma]"}], TraditionalForm]],ExpressionUUID->
   "e16f1abd-4a6e-4585-8112-989f3e332811"],
- "\n\n(e) ",
+ ".\n\n(e) ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     FractionBox[
      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t", "\[VeryThinSpace]"}], 
      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}]], "=", 
-    "\[Gamma]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    "\[Gamma]"}], TraditionalForm]],ExpressionUUID->
   "a5ecb5bd-8e88-4196-b4dc-af87aabdd6a7"],
  "\n\n(f) ",
  Cell[BoxData[
@@ -4627,8 +4549,9 @@ particle at rest in a coordinate system, in that system ",
    3.8858331408110657`*^9, 3.885833159238426*^9}, {3.8858387293293343`*^9, 
    3.885838770908939*^9}, {3.8858398894208403`*^9, 3.885839899635168*^9}, {
    3.885839936240582*^9, 3.8858400597557497`*^9}, {3.8858400938117447`*^9, 
-   3.885840097825742*^9}, {3.885842852120516*^9, 
-   3.8858433643352213`*^9}},ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-\
+   3.885840097825742*^9}, {3.885842852120516*^9, 3.8858433643352213`*^9}, {
+   3.885843702628211*^9, 3.885843704651579*^9}, {3.8858438313604183`*^9, 
+   3.88584383850322*^9}},ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-\
 977604cc4908"]
 }, Open  ]],
 
@@ -4742,7 +4665,7 @@ Cell[TextData[{
          RowBox[{"M", "/", "r"}]}]}]],
       FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
   "273fdfe1-9e9a-4470-aca5-d19b446538b4"],
- "\n\n",
+ " or ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -4767,7 +4690,7 @@ Cell[TextData[{
         RowBox[{"M", "/", "r"}]}]}]],
      FontSize->18]}], TraditionalForm]],ExpressionUUID->
   "6b1024cb-1a5d-484b-93e3-df845044ddce"],
- "\n\n",
+ " or ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -4789,7 +4712,7 @@ Cell[TextData[{
           RowBox[{"M", "/", "r"}]}]}], ")"}], "2"]],
      FontSize->18]}], TraditionalForm]],ExpressionUUID->
   "9da5b4c8-f8fe-48a2-81b8-d92f65449a4f"],
- "\n\n",
+ ".\n\nSo, ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -4806,7 +4729,7 @@ Cell[TextData[{
         RowBox[{"M", "/", "r"}]}]}]],
      FontSize->18]}], TraditionalForm]],ExpressionUUID->
   "8cdf1169-c2c2-492e-aa09-3a1c7962a3b3"],
- "\n\n(c) ",
+ ".\n\n(c) ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -4835,21 +4758,21 @@ Cell[TextData[{
   "dcad893f-3254-4c35-a447-6c3441878b87"]
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJwl0X8s1HEcBvCbXWeOKeK0cne5Ip0am7QOtd2ZEobuJC5ULFpyFXarzWzd
-uKutjJjfI+cqP1ZmtM5wossfnCYzXNOc61bys4RVLtfn+fbHe689z5/P2yvt
-pviqHY1GE5CDdMbFguC1JaH2xL0aKNBPNUA3FrMNLtaxe+Dw6lo/nMhX6eHQ
-CJsbQhRyjjqEEvl5fWzIsMv1hyydTxh0M8XrIogrKcohaNKGGWBnYC3leFec
-ET4pavkI62RyM7SzHZ+HXRGaZSpv2q/A0dIg+lmiklG0E5rKBO7w1IMXgVC6
-a/Ek3PLiimBryeEoqM90iYb7i91S4FNpZRZc897Og4fmNXJYM+dugZnay1+g
-IW53VAyRZxlPgi/Z4cZzxEJDxic4ozi9DLuZPd/h5C3DFmVQ4Das/PFHLCba
-+v9SDjtJ8qHC2KiAfqm2LXjHUWWF7p5veBLsx5s7ANNGxnTniYnrqkFobZlf
-hYxHG/sSiL/Ks71gy+gVX1jqVH4EmrkVOdC/U3gXimO/lcHqM1MNsKbI3AFX
-ZJ7NF4jqinrK9tTn7ZDT2qeFPGd6QCL+PnD/GAx6talOIjJruRro7cqkS4my
-DZU99AgxsmCSD4cLTQ3TAmh7Hx0KM3LVQsoqugjy42mR0OrgKoatWscsyDIG
-UxZ4iArgdFcypTlA+rCaKP+QTMlaUHIafy4JB6uWhXCH6Ea2mnhd8VoGnQ35
-uZA/26SEe8Lf9sLoqv/+HjYNwMczOXq47u04ASOLF6bh51l6QhNR8673Epws
-9M2AvIPO12BMt84ENxTKOZgu8Yt4RhyzesRAy3qsBC4ZpZTpvm0W6MIv+Qpv
-u3TIm9HvbS+F/wDvxQNC
+1:eJwl0X0s1HEcB3Cz68wxRZxW7i4n0qmxSctDbXemhKE7iQsVi5Zchd1qM1s3
+7morI+Z5ybnKw0qidYYTLn9wmsxwTTnXreSxhFUu1/f964/PXnu//3x/3FOv
+CS9ZW1lZBZGDNPq5/KDVRb766O1qGKidrIPOTEYLXKhldcGhldVeOJ6n0MLB
+YRYnmMhnH7INIfJye1iQbp3jC5kar1DobIjThBOXk+WD0KAO1cF2/xrKsY5Y
+PXxU2PQB1kqkRmhtOTIHO8JVS1TesFmGIyUBtFNEOb1wOzSUBrrA43ef+UPx
+joVjcNOdI4DNxQcioTbDMQruLXJOho/FFZlw1XMrF+6fU0lh9ayLCWaoL3yB
+utidkdFErmksET5nhelPEwt06R/htOzEEuxkdH2HE9d1m5QB/luw4scfoZBo
+6f1LOWQvyoMyfb0M+qRYNuFNO4UZuri94YqwH3fWA6YOj2rOEBPWFP3Q3DS3
+Aun31/fEE3+VZbnDppGL3rDEvuwgNHLKs6FvO/8WFMZ8K4VVJyfrYHWhsQ0u
+S9wazxKV5Q8pW1OetkJ2c48ach1ofgn4e9+dwzDg1YYykcio4aigpxODJiZK
+1hU20DVYz4SJXmwONNRNBULLu6gQmJ6j5FNW0gSQF2cVAc22TkLYrLbLhEx9
+EGW+qyAfTnUkURr9xPeqiNL3SZTMeTm7/uciv79yiQ+3Ca5mKYlXZK8l0EGX
+lwN5Mw1yuCtsoBtGVf7395ChDz6YztbCNU+7cRhRND8FP8/Q4huIqrfd5+FE
+gXc65O5zuAyjOzUGuC6Tz8I0kU/4E+Ko2TUamtZiRHBRL6ZM824xQUde8Vd4
+w7FN2oh+d2sJtPcYeAE/TWtfwn94bQ2l
   "],ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
 
 Cell["", "PageBreak",
@@ -5537,43 +5460,43 @@ Notebook[{
 Cell[558, 20, 585, 10, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
 Cell[1168, 34, 850, 11, 48, "Section",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
-Cell[2021, 47, 2982, 81, 333, "Text",ExpressionUUID->"1d926ceb-b112-4f57-813a-d3ad0771d530"],
-Cell[5006, 130, 248340, 4077, 100, "Input",ExpressionUUID->"ddb5753c-e311-443e-bdae-d06877b7c716"],
-Cell[253349, 4209, 4485, 143, 474, "Text",ExpressionUUID->"11d43b4f-caef-483b-b7a9-113c2af28f10"]
+Cell[2021, 47, 1886, 53, 206, "Text",ExpressionUUID->"1d926ceb-b112-4f57-813a-d3ad0771d530"],
+Cell[3910, 102, 248340, 4077, 100, "Input",ExpressionUUID->"ddb5753c-e311-443e-bdae-d06877b7c716"],
+Cell[252253, 4181, 4485, 143, 474, "Text",ExpressionUUID->"11d43b4f-caef-483b-b7a9-113c2af28f10"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[257871, 4357, 737, 15, 62, "Section",ExpressionUUID->"00f2139e-d1b6-459c-b529-089ab6aa0167"],
-Cell[258611, 4374, 9130, 257, 784, "Text",ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-977604cc4908"]
+Cell[256775, 4329, 737, 15, 62, "Section",ExpressionUUID->"00f2139e-d1b6-459c-b529-089ab6aa0167"],
+Cell[257515, 4346, 7441, 208, 433, "Text",ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-977604cc4908"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[267778, 4636, 684, 13, 106, "Section",ExpressionUUID->"a879dc56-6ce6-4a9e-9168-567ef6b0d26c"],
-Cell[268465, 4651, 6257, 201, 456, "Text",ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
-Cell[274725, 4854, 99, 1, 4, "PageBreak",ExpressionUUID->"0b66c62c-9d81-44ae-b5c3-69be5c1fa6be",
+Cell[264993, 4559, 684, 13, 106, "Section",ExpressionUUID->"a879dc56-6ce6-4a9e-9168-567ef6b0d26c"],
+Cell[265680, 4574, 6275, 201, 343, "Text",ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
+Cell[271958, 4777, 99, 1, 4, "PageBreak",ExpressionUUID->"0b66c62c-9d81-44ae-b5c3-69be5c1fa6be",
  PageBreakBelow->True],
-Cell[274827, 4857, 1574, 36, 58, "Text",ExpressionUUID->"9c604d0a-1565-45c3-a170-f50999ca413a"],
+Cell[272060, 4780, 1574, 36, 58, "Text",ExpressionUUID->"9c604d0a-1565-45c3-a170-f50999ca413a"],
 Cell[CellGroupData[{
-Cell[276426, 4897, 4973, 88, 129, "Input",ExpressionUUID->"ce99492a-d18c-49f6-b95e-722127e522f5"],
-Cell[281402, 4987, 2634, 48, 225, "Output",ExpressionUUID->"40531ea0-18c8-4195-bfdb-cf4c1adadee7"]
+Cell[273659, 4820, 4973, 88, 129, "Input",ExpressionUUID->"ce99492a-d18c-49f6-b95e-722127e522f5"],
+Cell[278635, 4910, 2634, 48, 225, "Output",ExpressionUUID->"40531ea0-18c8-4195-bfdb-cf4c1adadee7"]
 }, Open  ]],
-Cell[284051, 5038, 283, 6, 58, "Text",ExpressionUUID->"9655baf6-cbb1-4e07-b28f-847f75216b91"],
+Cell[281284, 4961, 283, 6, 58, "Text",ExpressionUUID->"9655baf6-cbb1-4e07-b28f-847f75216b91"],
 Cell[CellGroupData[{
-Cell[284359, 5048, 1570, 39, 94, "Input",ExpressionUUID->"3a961278-cc1f-4dca-9861-1680e380dfed"],
-Cell[285932, 5089, 1242, 29, 183, "Output",ExpressionUUID->"dfb1b817-81c9-45e2-9204-84909d598940"]
+Cell[281592, 4971, 1570, 39, 94, "Input",ExpressionUUID->"3a961278-cc1f-4dca-9861-1680e380dfed"],
+Cell[283165, 5012, 1242, 29, 183, "Output",ExpressionUUID->"dfb1b817-81c9-45e2-9204-84909d598940"]
 }, Open  ]],
-Cell[287189, 5121, 99, 1, 4, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9360-8434a1c6d4d8",
+Cell[284422, 5044, 99, 1, 4, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9360-8434a1c6d4d8",
  PageBreakBelow->True],
-Cell[287291, 5124, 2045, 53, 58, "Text",ExpressionUUID->"5954921c-02fb-417c-ad32-f0d96ffe7bb5"],
+Cell[284524, 5047, 2045, 53, 58, "Text",ExpressionUUID->"5954921c-02fb-417c-ad32-f0d96ffe7bb5"],
 Cell[CellGroupData[{
-Cell[289361, 5181, 1517, 35, 41, "Input",ExpressionUUID->"29ca602c-c78c-4ced-823c-2cff06ac3f1c"],
-Cell[290881, 5218, 1805, 47, 607, "Output",ExpressionUUID->"c076102a-8829-418e-8ce6-b8fbeac1cbe2"]
+Cell[286594, 5104, 1517, 35, 41, "Input",ExpressionUUID->"29ca602c-c78c-4ced-823c-2cff06ac3f1c"],
+Cell[288114, 5141, 1805, 47, 607, "Output",ExpressionUUID->"c076102a-8829-418e-8ce6-b8fbeac1cbe2"]
 }, Open  ]],
-Cell[292701, 5268, 99, 1, 1, "PageBreak",ExpressionUUID->"eccea821-23f2-48b6-bd51-5280a6438b99",
+Cell[289934, 5191, 99, 1, 1, "PageBreak",ExpressionUUID->"eccea821-23f2-48b6-bd51-5280a6438b99",
  PageBreakBelow->True]
 }, Open  ]],
-Cell[292815, 5272, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"],
+Cell[290048, 5195, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"],
 Cell[CellGroupData[{
-Cell[293393, 5284, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
-Cell[293657, 5293, 8006, 221, 630, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
+Cell[290626, 5207, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
+Cell[290890, 5216, 8006, 221, 630, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
 }, Open  ]]
 }
 ]
