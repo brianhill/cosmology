@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1464294,      24470]
-NotebookOptionsPosition[   1462098,      24427]
-NotebookOutlinePosition[   1462548,      24445]
-CellTagsIndexPosition[   1462505,      24442]
+NotebookDataLength[   1464467,      24471]
+NotebookOptionsPosition[   1462271,      24428]
+NotebookOutlinePosition[   1462721,      24446]
+CellTagsIndexPosition[   1462678,      24443]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -56,7 +56,7 @@ Cell[TextData[{
        SubsuperscriptBox["v", "rel", "2"]}]]]}], TraditionalForm]],
   ExpressionUUID->"6f66ebe0-73c6-428e-a68f-b2cb18bb7944"],
  "says that Mary\[CloseCurlyQuote]s ship is shortened by a factor of \
-\[Gamma]. Therefore,\n\n",
+\[Gamma]. So,\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{"MF", "=", 
@@ -89,15 +89,15 @@ Cell[TextData[{
  ", into"
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJwdylsoQ3EAx/GhIYo3ZWrIJZaSTfPgEg90hGLNafJ25vJgNVPS3ArRCpEU
-NsvcNtdymcWWWHmYSy7TSmkTXjSLtRWK8P+dh2+fl28yo5Q0hnI4HD4J+sPn
-02eCvpKMcnUFjEvT/8HOV4arJXYUyqKhtCvIg2XOqUS4dlNTAGVNE8Vw9j3A
-+jPGp6Am/0ENFz+ZQagIyxmBwlnROMysDOigqFu1DqfowxAd8aLKz4VPu8ps
-WFNvz9UT3+bFebC/4JaCLX3f5dBnSZFCiZyuhUNHMUooTVtqhYJfoRqa/QOd
-UCNWWOeIdxKPHfqHjefwfMPF2iZJcsITg/YWprqSH2GEs5SVl+A7NuDjeU+g
-1eY+hT/xfBek3HUeuNPgeYH0TZNrmSgunr6HC1cfm0Yi4z3bgr+CUTM0OKZt
-8NJS3WsiRh00s5q2r81wci/SAanw2HuY0Z7lhs89RQG4Lxd9wbYlenWFqNrU
-sv4D5RUkQA==
+1:eJwdymkog3EAx/GhjSjeKVOOmGYpxzQvjHhBE8rWrMm7x/WCGitprkK0QiSF
+uTb3tXLMciRWS2NyTCulTXjDLNYUijb/3/Pi2+fNN55SSGoCGQxGLAl6WLqk
+iU93PrdIVQwjOdN+2PpGMTXElhx5GJS2fbJhoW0sFq7diIVQXjuSB6c+vLR/
+QzEiqM5+UMH5b6oXNgSlD8CMKf4wTC7xTkJ+e9M6HJMdBUwSL0o9TPi0o0iF
+4kpT5jTxXSfIgt3CWxGs7/otgm5jghRKqmTlsO84XAGlnIVGyPNlqKDB09MK
+1YKGg1nincRpgp7+JSu0bthplZI4GzRrNbcw0R7/CINtBbTsaPeJFh/bZYYH
+h44z+BcVY4ciR4UTblc7X6Dspta+SBTkjd/Duasv/RKRcp1vQh9v0AC1lvFD
+eGks61wmhu7X0S5vXRvg6G6IBYpYEfeQ25zigM8duV64V8X/gcoF2eoKsUmv
+oU37fp05Jfa4/LT/jEkvxQ==
   "],ExpressionUUID->"1d926ceb-b112-4f57-813a-d3ad0771d530"],
 
 Cell[BoxData[
@@ -4174,7 +4174,7 @@ AfiHTPXxf6n7nxpMRLUH/9T/ApH0EZo=
     MetaInformation -> <|"XMP" -> <||>|>],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
-  ImageSize->{331.53862304687505`, Automatic},
+  ImageSize->{367.1760131835938, Automatic},
   ImageSizeRaw->{829., 218.},
   PlotRange->{{0, 829.}, {0, 218.}}]], "Input",ExpressionUUID->"ddb5753c-e311-\
 443e-bdae-d06877b7c716"],
@@ -4211,15 +4211,16 @@ the Relativity of Simultaneity. (ii) The paint bomb ahead of her ship went \
 off ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"\[Gamma]", 
+   RowBox[{
+    SubscriptBox["v", "rel"], "\[Gamma]", 
     FractionBox["L", "2"]}], TraditionalForm]],ExpressionUUID->
   "40dba408-d20c-446f-ba40-324cec2ab364"],
  " too early, and the paint bomb at the back of her ship went off ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"\[Gamma]", 
-    FractionBox["L", "2"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{
+    SubscriptBox["v", "rel"], "\[Gamma]", 
+    FractionBox["L", "2"]}], TraditionalForm]],ExpressionUUID->
   "15c4659b-4ef9-4a9a-8b7a-c4c887241d75"],
  " too late.\n\n(e) ",
  Cell[BoxData[
@@ -4228,8 +4229,7 @@ off ",
     FractionBox["L", "2"], "=", 
     RowBox[{"20", 
      StyleBox["m",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "70858d3f-1213-4298-8fea-48c2f861e733"],
  ", ",
  Cell[BoxData[
@@ -4242,8 +4242,7 @@ off ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[Gamma]", "=", 
-    FractionBox["5", "4"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FractionBox["5", "4"]}], TraditionalForm]],ExpressionUUID->
   "e0ffcf57-c213-42b9-b470-a09db601de90"],
  ", so ",
  Cell[BoxData[
@@ -4269,8 +4268,7 @@ off ",
         RowBox[{"16", 
          StyleBox["m",
           FontSlant->"Plain"]}]}], ")"}]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "69422cc9-7db4-4fb5-b477-291a9b28ab73"],
+  ExpressionUUID->"69422cc9-7db4-4fb5-b477-291a9b28ab73"],
  " and ",
  Cell[BoxData[
   FormBox[
@@ -4313,15 +4311,15 @@ off ",
  " in Mary\[CloseCurlyQuote]s coordinates."
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJwdymkog3EAx/EHjUK8cJQpLEdMOTbmhal5QZujWLMm7x7XC6s5koYUIkIk
-5c7jlvtYiiXEC0yOaeVoj3ilWTxRvHD+f3vx7fPmK6B1ymJniqJCSJBzHY8Y
-fLenRir0mdA/fPQP1j7TvCFiTYrGA6rq3vkw3dwfDOcvc6VQU9IrgyOvbw6/
-u4PksC35Xg8nP+kWqHWJ74SiEXEPjMp6G4bi+ooF2K/ecRomnmZzPPi4oYuF
-uQX7CaPEl3FJEmySXslhWeOXAto3Q1VQWajOg627XjqoCp8qh8JfkR4auOZa
-2CbRbo8Rr5XsPuQ6ZkzQtGhxWKkMMcNDZugKhlkED9DNnOaQH2jfY/DxbYdw
-22g9ht8BQRYot+azcL2IfYLqyxLLNFEiG7iDE+cfSzNE2nayCn+FXQbIHA0Y
-4dlmTsMs0X2r1OHs2oUBnvtmH0Df6sQzSGsebqBk2YOFVc23r/C0nfqCP0wO
-NUdc7dN6Qc/oDCH08faLgSuG+jj4D5d9NLc=
+1:eJwdymkog3EAx/EHjUK8cJQpLEdMuc0LFC9orpo1a/LuwbywmiNpSCEiRFLY
+jDkn97FWtoRIroZp5cg0r8RibcUL5/+3F98+b74sWsqvdKUoikWCNvepqDGH
+NTs6T1YAAyOVf7DplWbIiY2ZIi8oaHYwYa5xJBQuXhVnQJF4KAuOv9udfg+E
+cGF3+qMMznzSnVDiltgHk8aTB2FMoV0Bk1tql+CIcMdFQTwvsjHg05Y0HhaX
+7acoiW9TnDTYnnHNhdVtX3nQqg0XQH65sAR27fpIoSBytgayf5NkUGPraILd
+HIluknjDN+9DW+/8GTxbNjmt44cZ4aFKfg0jTCwL9DDmOGUGW/dU+Jgvh1Cn
+fziB30EhJsh9KDXDzQrzMxReiU1zRE7W6D2cvvhYmSfSL6fr8Jfdr4Gq41E9
+NGh5rWqi53aVU/XGpQZe+BcdQP+GVAOkRZZbyFn1MsP6jrt3eN5DfcEfFY9a
+IK4PS3ygd2w+G/r5BsTBNU1LAtROqpVHxNob3gT8B0C3P1Q=
   "],ExpressionUUID->"11d43b4f-caef-483b-b7a9-113c2af28f10"]
 }, Open  ]],
 
@@ -24277,7 +24275,7 @@ equation:\n\n",
       "\[VeryThinSpace]", 
       SubscriptBox["t", "L"]}]}]}], TraditionalForm]],ExpressionUUID->
   "c0aea4bf-ae72-4783-93c7-2a20908ac3a9"],
- " or ",
+ "\n\nor\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -24306,7 +24304,7 @@ equation:\n\n",
       "\[VeryThinSpace]", 
       SubscriptBox["t", "H"]}]}]}], TraditionalForm]],ExpressionUUID->
   "3be3e96b-bc22-46de-913e-febb167c28dd"],
- " or ",
+ "\n\nor\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -24408,7 +24406,9 @@ person at ",
    RowBox[{
     SubscriptBox["r", "H"], "=", "\[Infinity]"}], TraditionalForm]],
   ExpressionUUID->"cf3fadef-152c-4436-a35f-8d5d29e59819"],
- "!"
+ "!\n\n(\[OpenCurlyDoubleQuote]This little maneuver is going to cost us 63  \
+years.\[CloseCurlyDoubleQuote] Apologies to Cooper. It was 51 years in the \
+movie.)"
 }], "Text",
  CellChangeTimes->{{3.8858340108659153`*^9, 3.885834342959148*^9}, {
   3.8858345492712107`*^9, 3.8858346422749653`*^9}, {3.885834717062736*^9, 
@@ -24420,8 +24420,9 @@ person at ",
   3.8858405689589577`*^9, 3.8858405947665453`*^9}, {3.885841499875691*^9, 
   3.885841584924796*^9}, {3.885841616932363*^9, 3.8858416798634863`*^9}, {
   3.885844785820114*^9, 3.885845337048332*^9}, {3.885846203654542*^9, 
-  3.885846213531982*^9}, {3.885903141848854*^9, 
-  3.885903300110697*^9}},ExpressionUUID->"c1881358-abf2-469e-b40c-\
+  3.885846213531982*^9}, {3.885903141848854*^9, 3.885903300110697*^9}, {
+  3.885905219234034*^9, 
+  3.885905300871496*^9}},ExpressionUUID->"c1881358-abf2-469e-b40c-\
 59da8f48fa74"]
 }, Open  ]]
 },
@@ -24447,30 +24448,30 @@ Notebook[{
 Cell[558, 20, 619, 10, 72, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
 Cell[1202, 34, 850, 11, 48, "Section",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
-Cell[2055, 47, 1886, 53, 206, "Text",ExpressionUUID->"1d926ceb-b112-4f57-813a-d3ad0771d530"],
-Cell[3944, 102, 248340, 4077, 100, "Input",ExpressionUUID->"ddb5753c-e311-443e-bdae-d06877b7c716"],
-Cell[252287, 4181, 4485, 143, 474, "Text",ExpressionUUID->"11d43b4f-caef-483b-b7a9-113c2af28f10"]
+Cell[2055, 47, 1891, 53, 206, "Text",ExpressionUUID->"1d926ceb-b112-4f57-813a-d3ad0771d530"],
+Cell[3949, 102, 248338, 4077, 110, "Input",ExpressionUUID->"ddb5753c-e311-443e-bdae-d06877b7c716"],
+Cell[252290, 4181, 4435, 141, 474, "Text",ExpressionUUID->"11d43b4f-caef-483b-b7a9-113c2af28f10"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[256809, 4329, 737, 15, 62, "Section",ExpressionUUID->"00f2139e-d1b6-459c-b529-089ab6aa0167"],
-Cell[257549, 4346, 7441, 208, 433, "Text",ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-977604cc4908"]
+Cell[256762, 4327, 737, 15, 62, "Section",ExpressionUUID->"00f2139e-d1b6-459c-b529-089ab6aa0167"],
+Cell[257502, 4344, 7441, 208, 433, "Text",ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-977604cc4908"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[265027, 4559, 684, 13, 106, "Section",ExpressionUUID->"a879dc56-6ce6-4a9e-9168-567ef6b0d26c"],
-Cell[265714, 4574, 6275, 201, 343, "Text",ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
-Cell[271992, 4777, 99, 1, 4, "PageBreak",ExpressionUUID->"0c01d2ee-1732-4dff-93f7-cb21da87b6ac",
+Cell[264980, 4557, 684, 13, 106, "Section",ExpressionUUID->"a879dc56-6ce6-4a9e-9168-567ef6b0d26c"],
+Cell[265667, 4572, 6275, 201, 343, "Text",ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
+Cell[271945, 4775, 99, 1, 1, "PageBreak",ExpressionUUID->"0c01d2ee-1732-4dff-93f7-cb21da87b6ac",
  PageBreakBelow->True],
-Cell[272094, 4780, 518142, 8501, 760, "Input",ExpressionUUID->"0de11d1d-f112-4389-87aa-5dc4354448b3"],
-Cell[790239, 13283, 99, 1, 4, "PageBreak",ExpressionUUID->"0b66c62c-9d81-44ae-b5c3-69be5c1fa6be",
+Cell[272047, 4778, 518142, 8501, 760, "Input",ExpressionUUID->"0de11d1d-f112-4389-87aa-5dc4354448b3"],
+Cell[790192, 13281, 99, 1, 1, "PageBreak",ExpressionUUID->"0b66c62c-9d81-44ae-b5c3-69be5c1fa6be",
  PageBreakBelow->True],
-Cell[790341, 13286, 662903, 10873, 760, "Input",ExpressionUUID->"627886ea-b33f-49af-ae24-2e196345d4d6"],
-Cell[1453247, 24161, 99, 1, 4, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9360-8434a1c6d4d8",
+Cell[790294, 13284, 662903, 10873, 760, "Input",ExpressionUUID->"627886ea-b33f-49af-ae24-2e196345d4d6"],
+Cell[1453200, 24159, 99, 1, 1, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9360-8434a1c6d4d8",
  PageBreakBelow->True]
 }, Open  ]],
-Cell[1453361, 24165, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"],
+Cell[1453314, 24163, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"],
 Cell[CellGroupData[{
-Cell[1453939, 24177, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
-Cell[1454203, 24186, 7879, 238, 607, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
+Cell[1453892, 24175, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
+Cell[1454156, 24184, 8099, 241, 839, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
 }, Open  ]]
 }
 ]
