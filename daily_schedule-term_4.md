@@ -54,9 +54,9 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Preparation for Thursday, Feb. 16 &mdash; [Problem Set 6](./assignments/Assignment06.pdf) due &mdash; [Problem Set 6 Solution](./assignments/Assignment06-Solution.pdf) &mdash; Read *all* of TWB Chapter 5 &mdash; Max and Clara will present a pocket calculator solution to Problem 4 on Problem Set 6 which is a photon spiraling inward from *r*=1.5*M* to *r*=0
 * Thursday, Feb. 16 &mdash; Presentation from Max and Clara &mdash; My Calculator Solution for [Photon Inside the Event Horizon](./resources/PhotonInsideTheEventHorizon-HP25Solution.pdf) &mdash; We spent 2/3 of the class trying to understand Eqs. 7 to 11 on p. 5-15 &mdash; These equations are how local coordinate patches are used! &mdash; Most of the discussion in Chapter 5 leading up to these equations is just to help you understand them (and other equations you will encounter that are like them) &mdash; Finally, we looked ahead to Chapter 6 and I reminded you of how to read Equations such as Eq. 23 on p. 6-11: *&Delta;&tau;\_raindrop=-&Delta;r/sqrt(*2*M/r)*
 
-### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
+### Week 7 &mdash; Term 4 Exam &mdash; Shakespeare Festival
 
-* Monday, Feb. 20 &mdash; Midterm Exam Covering TW Chapters, 1, 2, 3, and L, and TWB, Chapters 2 and 3 (open book but not open note, so I can re-assign, if I choose, some problems that you had on Problem Sets 1 to 6, without you being able to just consult the solutions!)
+* Monday, Feb. 20 &mdash; [Term 4 Exam](./exams/Term4Exam.pdf) Covering TW Chapters, 1, 2, 3, and L, and TWB, Chapters 2 and 3 (open book but not open note, so I can re-assign, if I choose, some problems that you had on Problem Sets 1 to 6, without you being able to just consult the solutions!) &mdash; [Term 4 Exam Solution](./exams/Term4Exam-Solution.pdf)
 * Thursday, Feb. 23 &mdash; No class due to Shakespeare Festival
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)

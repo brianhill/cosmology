@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1464756,      24486]
-NotebookOptionsPosition[   1462560,      24443]
-NotebookOutlinePosition[   1463010,      24461]
-CellTagsIndexPosition[   1462967,      24458]
+NotebookDataLength[   1464294,      24470]
+NotebookOptionsPosition[   1462098,      24427]
+NotebookOutlinePosition[   1462548,      24445]
+CellTagsIndexPosition[   1462505,      24442]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24230,9 +24230,7 @@ Cell[TextData[{
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "r"}], "=", 
     RowBox[{
      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], "=", "0"}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "d523dbfb-7cdc-4378-bb82-83730cde1e72"],
+   TraditionalForm]],ExpressionUUID->"d523dbfb-7cdc-4378-bb82-83730cde1e72"],
  " to get:\n\n",
  Cell[BoxData[
   FormBox[
@@ -24262,25 +24260,8 @@ Cell[TextData[{
         RowBox[{"M", "/", "r"}]}]}]], "\[CapitalDelta]", "\[VeryThinSpace]", 
      "t"}]}], TraditionalForm]],ExpressionUUID->
   "9c640224-daf1-4089-90c8-4ab3ed85df8b"],
- "\n\n(c) Imagine two people who possess two identical clocks each of which \
-ticks with interval ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"\[CapitalDelta]\[Tau]", "=", "T"}], TraditionalForm]],
-  ExpressionUUID->"e5a059b1-64de-493f-9cd1-f76cc6e02326"],
- ". One clock is closer to Gargantuan, at ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"r", "=", 
-    SubscriptBox["r", "L"]}], TraditionalForm]],ExpressionUUID->
-  "de424d2e-ea70-4369-9caa-3a767f132662"],
- ", and the other is farther from Gargantuan, at ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"r", "=", 
-    SubscriptBox["r", "H"]}], TraditionalForm]],ExpressionUUID->
-  "bd021fc5-befd-488a-a94e-3b30d6d3aeb7"],
- ".\n\n",
+ "\n\n(c) For the clocks at either of the two positions, we use the Part (b) \
+equation:\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{"T", "=", 
@@ -24344,7 +24325,14 @@ ticks with interval ",
    RowBox[{
     SubscriptBox["r", "H"], "=", "\[Infinity]"}], TraditionalForm]],
   ExpressionUUID->"bc130559-b4ca-4570-94b7-7fb23f817950"],
- " , ",
+ " ,  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]\[VeryThinSpace]", 
+     SubscriptBox["t", "H"]}], "=", "T"}], TraditionalForm]],ExpressionUUID->
+  "04047caa-b166-47b2-ac16-e2daac42047e"],
+ ", and  ",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -24362,16 +24350,12 @@ ticks with interval ",
   FormBox[
    SubscriptBox["\[CapitalDelta]t", "H"], TraditionalForm]],ExpressionUUID->
   "46ef55bf-3cbb-4e07-a092-392d10bb5c0c"],
- " (which has simplified to ",
- Cell[BoxData[
-  FormBox["T", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "f90d6af7-8bfd-4e11-8708-d3c5f89df2e4"],
- ").\n\n(e) For a given amount of coordinate time, the person at ",
+ ", because it has a number less than 1 in the square root of the \
+denominator.\n\n(e) Per part (d), for a given amount of coordinate time, the \
+person at ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["r", "L"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["r", "L"], TraditionalForm]],ExpressionUUID->
   "23e86dcf-da21-4c94-8205-a187a8da327a"],
  " is aging less. Put in ",
  Cell[BoxData[
@@ -24415,8 +24399,7 @@ ticks with interval ",
  " years of wristwatch time at ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["r", "L"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["r", "L"], TraditionalForm]],ExpressionUUID->
   "2fd88265-f506-4e81-84db-e1a5d8c0a21e"],
  ", 70 years of coordinate time and proper time will have elapsed for the \
 person at ",
@@ -24437,7 +24420,8 @@ person at ",
   3.8858405689589577`*^9, 3.8858405947665453`*^9}, {3.885841499875691*^9, 
   3.885841584924796*^9}, {3.885841616932363*^9, 3.8858416798634863`*^9}, {
   3.885844785820114*^9, 3.885845337048332*^9}, {3.885846203654542*^9, 
-  3.885846213531982*^9}},ExpressionUUID->"c1881358-abf2-469e-b40c-\
+  3.885846213531982*^9}, {3.885903141848854*^9, 
+  3.885903300110697*^9}},ExpressionUUID->"c1881358-abf2-469e-b40c-\
 59da8f48fa74"]
 }, Open  ]]
 },
@@ -24486,7 +24470,7 @@ Cell[1453247, 24161, 99, 1, 4, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9
 Cell[1453361, 24165, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"],
 Cell[CellGroupData[{
 Cell[1453939, 24177, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
-Cell[1454203, 24186, 8341, 254, 607, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
+Cell[1454203, 24186, 7879, 238, 607, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
 }, Open  ]]
 }
 ]

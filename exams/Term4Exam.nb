@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    306597,       5548]
-NotebookOptionsPosition[    303471,       5487]
-NotebookOutlinePosition[    303921,       5505]
-CellTagsIndexPosition[    303878,       5502]
+NotebookDataLength[    305658,       5515]
+NotebookOptionsPosition[    302538,       5454]
+NotebookOutlinePosition[    302983,       5472]
+CellTagsIndexPosition[    302940,       5469]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4356,11 +4356,9 @@ Cell[TextData[{
     FormBox[
      RowBox[{"E", "=", 
       RowBox[{"m", "\[VeryThinSpace]", 
-       SuperscriptBox["c", "2"]}]}], TraditionalForm]],
-    FormatType->TraditionalForm,ExpressionUUID->
+       SuperscriptBox["c", "2"]}]}], TraditionalForm]],ExpressionUUID->
     "619f05bf-502c-44eb-883b-a29c3b34cc4b"]],ExpressionUUID->
-    "4beea991-7539-47d4-8719-9f9eb96b9daa"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    "4beea991-7539-47d4-8719-9f9eb96b9daa"], TraditionalForm]],ExpressionUUID->
   "8039834c-1d9a-449b-ac20-77fe89fbe0de"],
  " is probably the most famous equation in physics. However, the equation is \
 only correct for a particle at rest!\n\nInstead of ",
@@ -4368,8 +4366,7 @@ only correct for a particle at rest!\n\nInstead of ",
   FormBox[
    RowBox[{"E", "=", 
     RowBox[{"m", "\[VeryThinSpace]", 
-     SuperscriptBox["c", "2"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     SuperscriptBox["c", "2"]}]}], TraditionalForm]],ExpressionUUID->
   "098a3888-6ce1-42ea-9150-af45cc13fb42"],
  ", the correct formula, when a particle is not at rest, is:\n\n",
  Cell[BoxData[
@@ -4381,14 +4378,12 @@ only correct for a particle at rest!\n\nInstead of ",
       FractionBox[
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
        "\[CapitalDelta]\[Tau]"],
-      FontSize->18]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
   "12944c1b-d211-4bdb-a4fb-7c901e25dc57"],
  "\n\nIn this class, we usually set ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"c", "=", "1"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"c", "=", "1"}], TraditionalForm]],ExpressionUUID->
   "3b45260a-acff-4d19-a62b-68325dfb28e5"],
  ". In that case, the formula is just:\n\n",
  Cell[BoxData[
@@ -4399,8 +4394,7 @@ only correct for a particle at rest!\n\nInstead of ",
       FractionBox[
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
        "\[CapitalDelta]\[Tau]"],
-      FontSize->18]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
   "05c90b48-1eb3-49a0-9ab8-0cf707f2ea41"],
  "\n\n(a) In a short sentence, why does ",
  Cell[BoxData[
@@ -4411,56 +4405,47 @@ only correct for a particle at rest!\n\nInstead of ",
       FractionBox[
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
        "\[CapitalDelta]\[Tau]"],
-      FontSize->18]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
   "ebdfba37-0217-4e22-9189-3c7376b30254"],
  " simplify to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"E", "=", "m"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"E", "=", "m"}], TraditionalForm]],ExpressionUUID->
   "251e2382-35ea-4014-9f8e-26f0be7d8247"],
  " if a particle is at rest?\n\n(b) In a time ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "b589fdf9-1b9b-4ba9-a6e2-2b113ce7be77"],
+  ExpressionUUID->"b589fdf9-1b9b-4ba9-a6e2-2b113ce7be77"],
  " how far, ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "55e0c482-554d-4678-a14b-bdf24b9d274c"],
+  ExpressionUUID->"55e0c482-554d-4678-a14b-bdf24b9d274c"],
  ", does a particle moving at speed ",
  Cell[BoxData[
-  FormBox["v", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["v", TraditionalForm]],ExpressionUUID->
   "e3dea3c2-8c46-4c61-9e7e-f0a7f7ef6f8f"],
  " in the ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"+", "x"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"+", "x"}], TraditionalForm]],ExpressionUUID->
   "1b7b74cf-c9af-4785-b33a-82c0bded62c6"],
  "-direction go? (This is super-simple. Don\[CloseCurlyQuote]t overthink it. \
 Just write down the equation for ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "3856249a-7fb7-40e6-ac8f-8bda47910269"],
+  ExpressionUUID->"3856249a-7fb7-40e6-ac8f-8bda47910269"],
  " in terms of ",
  Cell[BoxData[
-  FormBox["v", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["v", TraditionalForm]],ExpressionUUID->
   "c3c79822-9c80-4553-bb8d-930eee9c6a4e"],
  " and ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "c9387a29-f7ad-4aa7-90d5-b0bc568d65cd"],
+  ExpressionUUID->"c9387a29-f7ad-4aa7-90d5-b0bc568d65cd"],
  ".)\n\n(c) Take the square root of the Lorentz metric, ",
  Cell[BoxData[
   FormBox[
@@ -4476,16 +4461,12 @@ Just write down the equation for ",
      SuperscriptBox[
       RowBox[{"(", 
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], ")"}], "2"]}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "7862f00e-5199-4c12-aea2-20bbe6a9014e"],
+   TraditionalForm]],ExpressionUUID->"7862f00e-5199-4c12-aea2-20bbe6a9014e"],
  " to solve for ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "7c1f8c92-00dd-4e39-a762-28a9a2bc808d"],
+   TraditionalForm]],ExpressionUUID->"7c1f8c92-00dd-4e39-a762-28a9a2bc808d"],
  ". You can be fast and loose with the minus sign when taking the square \
 root, and assume that  ",
  Cell[BoxData[
@@ -4498,18 +4479,15 @@ root, and assume that  ",
      SuperscriptBox[
       RowBox[{"(", 
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], ")"}], "2"]}], 
-    ">", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    ">", "0"}], TraditionalForm]],ExpressionUUID->
   "7f7033f2-e220-47c5-95d8-eb95ac0d6d99"],
  ", and that ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Tau]"}], ">", "0"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "6786ff86-220b-4057-840e-b6a3a97a5e24"],
- ". (This is also super-simple. Don\[CloseCurlyQuote]t overthink it.)\n\n(c) \
+   TraditionalForm]],ExpressionUUID->"6786ff86-220b-4057-840e-b6a3a97a5e24"],
+ ". (This is also super-simple. Don\[CloseCurlyQuote]t overthink it.)\n\n(d) \
 Substitute your answer for Part (b) into your answer for Part (c). Simplify, \
 including using ",
  Cell[BoxData[
@@ -4519,12 +4497,10 @@ including using ",
      SqrtBox[
       RowBox[{"1", "-", 
        SubsuperscriptBox["v", "rel", "2"]}]]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "54a16f07-da7d-4f41-8097-a226230eed56"],
+  ExpressionUUID->"54a16f07-da7d-4f41-8097-a226230eed56"],
  " to make your answer tidier.\n\n(e) Alternatively, we could have left ",
  Cell[BoxData[
-  FormBox["m", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["m", TraditionalForm]],ExpressionUUID->
   "f76b28cb-3fce-49cc-b3d5-4c5c943310c5"],
  " out of this and just computed a nice equation for ",
  Cell[BoxData[
@@ -4554,13 +4530,11 @@ for ",
       FractionBox[
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], 
        "\[CapitalDelta]\[Tau]"],
-      FontSize->18]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
   "7faffa07-416a-45a6-b1f4-5cc344a54d77"],
  " to get the correct answer for ",
  Cell[BoxData[
-  FormBox["p", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["p", TraditionalForm]],ExpressionUUID->
   "33ef4397-682b-41e4-957c-06c29f48ccfc"],
  ", the relativistic momentum. HINT: For Part (f), instead of repeating a \
 bunch of work, how about using  ",
@@ -4586,8 +4560,7 @@ bunch of work, how about using  ",
        FractionBox[
         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], 
         "\[CapitalDelta]t"],
-       FontSize->18]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSize->18]}]}]}], TraditionalForm]],ExpressionUUID->
   "c8d77f55-4787-4d24-9df9-0d3c9973108b"],
  " and the nice simple expression you found for ",
  Cell[BoxData[
@@ -4602,51 +4575,44 @@ bunch of work, how about using  ",
 ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"v", "=", "0.99"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"v", "=", "0.99"}], TraditionalForm]],ExpressionUUID->
   "eda0c954-1a6c-4298-98fb-def81c6350be"],
  "5 into your equation. So that you don\[CloseCurlyQuote]t have to use a \
 calculator, I\[CloseCurlyQuote]ll tell you that ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox[
-    RowBox[{"(", "0.995", ")"}], "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"(", "0.995", ")"}], "2"], TraditionalForm]],ExpressionUUID->
   "2bef40b6-0462-4d06-a041-fbbfe84bb7d6"],
  " is very close to 0.99. What is ",
  Cell[BoxData[
-  FormBox["E", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["E", TraditionalForm]],ExpressionUUID->
   "81ce3050-828d-46fa-a911-caba1186da01"],
  "?\n\n(h) Put in ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"v", "=", "0.9999"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"v", "=", "0.9999"}], TraditionalForm]],ExpressionUUID->
   "72468b30-fb8d-456c-aa7e-6dbdde70082a"],
  "5 into your equation. Again, so that you don\[CloseCurlyQuote]t have to use \
 a calculator, I\[CloseCurlyQuote]ll tell you that ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox[
-    RowBox[{"(", "0.99995", ")"}], "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"(", "0.99995", ")"}], "2"], TraditionalForm]],ExpressionUUID->
   "7b22f985-58c9-434a-a665-99f70dceac55"],
  " is very close to 0.9999. What is ",
  Cell[BoxData[
-  FormBox["E", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["E", TraditionalForm]],ExpressionUUID->
   "629a2c3b-2bab-49e9-9346-ffe397f29504"],
  " now?\n\nDISCUSSION: The speed only increased by 0.00495 going from (g) to \
 (h), but the energy increased by ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"90", "m"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"90", "m"}], TraditionalForm]],ExpressionUUID->
   "177e0396-79c9-454a-82fb-1feffe5ca3d5"],
  " (if you did (g) and (h) right). Perhaps it is already becoming obvious \
-that a finite amount of energy can ever bring a massive particle to the speed \
-of light."
+that a finite amount of energy can never bring a massive particle to the \
+speed of light."
 }], "Text",
  CellChangeTimes->{{3.885812021032097*^9, 3.88581231579018*^9}, {
    3.885813756910777*^9, 3.8858138030912447`*^9}, {3.885813850757503*^9, 
@@ -4671,7 +4637,8 @@ of light."
    3.8858331408110657`*^9, 3.885833159238426*^9}, {3.8858387293293343`*^9, 
    3.885838770908939*^9}, {3.8858398894208403`*^9, 3.885839899635168*^9}, {
    3.885839936240582*^9, 3.8858400597557497`*^9}, {3.8858400938117447`*^9, 
-   3.885840097825742*^9}},ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-\
+   3.885840097825742*^9}, 3.885902677113455*^9, {3.8859029011757717`*^9, 
+   3.885902901262006*^9}},ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-\
 977604cc4908"]
 }, Open  ]],
 
@@ -4738,8 +4705,7 @@ restrict ourselves to the [",
   "81871d4d-5013-4455-a802-d59dcf366df6"],
  ", ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "ffaf2763-0db7-497b-af14-be03bd2566fb"],
  "]-slice.\n\nSo set ",
  Cell[BoxData[
@@ -4758,7 +4724,7 @@ world-lines. For light, ",
  StyleBox["careful",
   FontSlant->"Italic"],
  " taking of square roots.\n\n(c) We are going to focus on inward-going \
-photons, not outward going ones.\n\nSo simplify what you got in Part (b) \
+photons, not outward-going ones.\n\nSo simplify what you got in Part (b) \
 under the assumption that  ",
  Cell[BoxData[
   FormBox[
@@ -4789,8 +4755,7 @@ under the assumption that  ",
  Cell[BoxData[
   FormBox[
    RowBox[{"t", "=", 
-    RowBox[{"y", "/", "M"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"y", "/", "M"}]}], TraditionalForm]],ExpressionUUID->
   "7b74294e-b75d-4152-aea3-2d717725dfeb"],
  ", and ",
  Cell[BoxData[
@@ -4798,27 +4763,26 @@ under the assumption that  ",
    RowBox[{
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], "=", 
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", 
-     RowBox[{"y", "/", "M"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"y", "/", "M"}]}]}], TraditionalForm]],ExpressionUUID->
   "5143638e-fe11-4948-8e5a-7d30e594b2db"],
  ".\n\nRewrite what you got in (c) using these new coordinates and simplify."
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJwl0X0s1HEABvCbXWeOKeK05e5yRTo1NmnearszJQzdSVyoWLTkapjVZrZu
-3NVWRsz7knO9YGXNtc5wossfnCYzXNOc61bijpKzyuX6Pr/+ePbZ8+/z+OVc
-F112otFo4SSQzjhfHrluEWjCbzfDCN1sG/RiMbvhSiu7H46trQ/B6TKFDo6O
-s7lRRAHniEs0kV8yyIYMp+JgyNIGxEAvY6o2jriaJR+FRk2MHvaGtlBOqVMM
-8FFl50fYKi01QSfHsSWojlNZqb7pvAonasLop4lyRuVOaKyN8IYn7j4PhZJd
-K8fhlh9XCLuqDyVAXb5HItxX5ZUFH0saCuC6/3YJPLikKoXNi95mmK+5+AXq
-U3YnJBF55qkM+IIdazhDrNDnfYLzspNW2Mfs/w5nbui3KMNCt2HDjz8iEdEx
-9JdyzE1cBmWGdhkMynZswZuuCjv09n3DE2M/3uJ+mDM+qT1LTN9QjEB759Ia
-ZNy37U0j/qor9IOdE5cCYY1b3WFo4tYXweBewS0oSv5WC5tOzbbB5krTS7gq
-9X12jqisf0jZk/20B3K6BjWQ504PScfvw3eOwrBXm8oMIrOFq4L+nky6hCi1
-KZyhT5SBBTMCOFxobJuLgI73idEwr1gpoGykCyE/lRYP7S6eItilcS2ALEMk
-ZbmPsBzOqTMpTSGSe03E0g+ZlKxlOaf9p0Uw0mgVwB3Ca4VK4lXZayl015cV
-Q/5ChxzuiX07ABMb//t7zDgMH8wX6eCGv+s0jK9anoOfF+hpHUTVu4ELcKYi
-MA/yDrhfgUl9WiO0yeSLMFccFPeEOGn3SYLmjWQxtBgklLmB3Wbowa/+Cv8B
-/6H6PA==
+1:eJwl0X0s1HEABvCbXWeOKeK05e5yRToZm1iH2u5MCUN3EhcqFi25GiZtZuvm
+7morI+a95FwvWFmjdYYTHX9wmsxwTXOuW8lrCasc+j6//nj22fPv83ik3RBf
+saHRaAISSGdcKApeXRRqj9+phQL9ZAN0YTFb4UI9uwsOraz2wvFClR4ODrO5
+IUQhx9culMjP62FDhk2uH2TpvMKgiyleF0FcTlEOQpM2zADbA+ooxzrijPCJ
+ovkTrJflm6HNTtAc7IjQLFF9w3YZjpQF0s8QlQzFbmgqF7jCk/deBkDpnoUT
+cNODK4ItpUeioD7TKRoeKHFJgU+lVVlw1XM7Dx6e0+TD2llXC8zUXvoKDXF7
+o2KIPMtYEnzFDjeeJRYbMj7DafmpJdjJ7PoBJ24aNikDA7Zh1c+/YjFxp3eL
+cshBUgjlxkY59End2YQF9iordHV/x5NgP97sQZg2PKo7R0xcU/VDa/PcCmQ8
+WN+fQPxdke0Bm0cue8Myh4qj0MytzIF+7cLbUBz7vRzWnJ5sgLUK82u4LHN/
+cZ6ornxM2Zb6vA1yWnq0kOdI90/E7313j8HANxvqJCKzjquBns5MupQoW1fZ
+QrcQIwsmeXG40NQwJYA7H6JDYUauWkhZTRdBfjwtElrtnMWwRWufBVnGYMoi
+N1ERnOpIpjT7S+/XEPM/JlOy5pWcxl+Lwv7qJSHcJbqerSZek7+VQUdDYS7k
+zzQp4b7w990wuvq/f4ZMffDhdI4ernnaj8PIkvkp+GWGntBE1Ax0X4QTxd4Z
+kHfI8SqM6dSZ4LpcOQvTJT4Rz4ijVrcYaFmLlcBFo5Qy3bvVAp34pd9gwSPf
+WwPELUUQ5T/3cwP+
   "],ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
 
 Cell["", "PageBreak",
@@ -4951,7 +4915,7 @@ SubscriptBox[\"\[CapitalDelta]y\", \"i\"], TraditionalForm]],ExpressionUUID->\
    3.8858320086692667`*^9}, {3.8858320675392637`*^9, 3.885832067539365*^9}, {
    3.885835777412097*^9, 3.885835777782819*^9}, {3.885838981147122*^9, 
    3.8858389851398697`*^9}, {3.885841231792323*^9, 3.885841258802505*^9}},
- FontSize->12,
+ FontSize->4,
  CellLabel->"In[66]:=",ExpressionUUID->"ce99492a-d18c-49f6-b95e-722127e522f5"],
 
 Cell[BoxData[
@@ -5005,10 +4969,13 @@ TraditionalForm]]]\n}]]\)",
 cf4c1adadee7"]
 }, Open  ]],
 
-Cell["\<\
-In the spirit of continuing to not need a calculator, below is a table of \
-miscellaneous combinations, some of which are relevant.\
-\>", "Text",
+Cell[TextData[{
+ "In the spirit of continuing to not need a calculator, below is a table of \
+miscellaneous combinations, ",
+ StyleBox["some",
+  FontSlant->"Italic"],
+ " of which are relevant."
+}], "Text",
  CellChangeTimes->{{3.885841278994443*^9, 
   3.8858413226307583`*^9}},ExpressionUUID->"9655baf6-cbb1-4e07-b28f-\
 847f75216b91"],
@@ -5486,9 +5453,9 @@ proper time will have elapsed for the person at ",
 }, Open  ]]
 },
 WindowSize->{808, 911},
-WindowMargins->{{278, Automatic}, {Automatic, 4}},
+WindowMargins->{{452, Automatic}, {-263, Automatic}},
 PrintingCopies->1,
-PrintingPageRange->{1, Automatic},
+PrintingPageRange->{4, 5},
 FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
@@ -5517,38 +5484,38 @@ Cell[9793, 252, 248338, 4077, 167, "Input",ExpressionUUID->"ba8741f0-31f6-4458-a
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[258180, 4335, 737, 15, 62, "Section",ExpressionUUID->"00f2139e-d1b6-459c-b529-089ab6aa0167"],
-Cell[258920, 4352, 12079, 322, 988, "Text",ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-977604cc4908"]
+Cell[258920, 4352, 11182, 289, 988, "Text",ExpressionUUID->"ebd4ed58-ca1d-4ca5-b145-977604cc4908"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[271036, 4679, 684, 13, 106, "Section",ExpressionUUID->"a879dc56-6ce6-4a9e-9168-567ef6b0d26c"],
-Cell[271723, 4694, 4779, 127, 441, "Text",ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
-Cell[276505, 4823, 99, 1, 4, "PageBreak",ExpressionUUID->"0b66c62c-9d81-44ae-b5c3-69be5c1fa6be",
+Cell[270139, 4646, 684, 13, 106, "Section",ExpressionUUID->"a879dc56-6ce6-4a9e-9168-567ef6b0d26c"],
+Cell[270826, 4661, 4694, 124, 441, "Text",ExpressionUUID->"3fe5e97b-2be6-4a1f-a686-cc5996a35ce5"],
+Cell[275523, 4787, 99, 1, 4, "PageBreak",ExpressionUUID->"0b66c62c-9d81-44ae-b5c3-69be5c1fa6be",
  PageBreakBelow->True],
-Cell[276607, 4826, 1574, 36, 58, "Text",ExpressionUUID->"9c604d0a-1565-45c3-a170-f50999ca413a"],
+Cell[275625, 4790, 1574, 36, 58, "Text",ExpressionUUID->"9c604d0a-1565-45c3-a170-f50999ca413a"],
 Cell[CellGroupData[{
-Cell[278206, 4866, 4973, 88, 129, "Input",ExpressionUUID->"ce99492a-d18c-49f6-b95e-722127e522f5"],
-Cell[283182, 4956, 2634, 48, 225, "Output",ExpressionUUID->"40531ea0-18c8-4195-bfdb-cf4c1adadee7"]
+Cell[277224, 4830, 4972, 88, 45, "Input",ExpressionUUID->"ce99492a-d18c-49f6-b95e-722127e522f5"],
+Cell[282199, 4920, 2634, 48, 225, "Output",ExpressionUUID->"40531ea0-18c8-4195-bfdb-cf4c1adadee7"]
 }, Open  ]],
-Cell[285831, 5007, 283, 6, 58, "Text",ExpressionUUID->"9655baf6-cbb1-4e07-b28f-847f75216b91"],
+Cell[284848, 4971, 333, 9, 58, "Text",ExpressionUUID->"9655baf6-cbb1-4e07-b28f-847f75216b91"],
 Cell[CellGroupData[{
-Cell[286139, 5017, 1570, 39, 94, "Input",ExpressionUUID->"3a961278-cc1f-4dca-9861-1680e380dfed"],
-Cell[287712, 5058, 1242, 29, 183, "Output",ExpressionUUID->"dfb1b817-81c9-45e2-9204-84909d598940"]
+Cell[285206, 4984, 1570, 39, 94, "Input",ExpressionUUID->"3a961278-cc1f-4dca-9861-1680e380dfed"],
+Cell[286779, 5025, 1242, 29, 183, "Output",ExpressionUUID->"dfb1b817-81c9-45e2-9204-84909d598940"]
 }, Open  ]],
-Cell[288969, 5090, 99, 1, 4, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9360-8434a1c6d4d8",
+Cell[288036, 5057, 99, 1, 4, "PageBreak",ExpressionUUID->"cda66956-f185-45df-9360-8434a1c6d4d8",
  PageBreakBelow->True],
-Cell[289071, 5093, 2045, 53, 58, "Text",ExpressionUUID->"5954921c-02fb-417c-ad32-f0d96ffe7bb5"],
+Cell[288138, 5060, 2045, 53, 58, "Text",ExpressionUUID->"5954921c-02fb-417c-ad32-f0d96ffe7bb5"],
 Cell[CellGroupData[{
-Cell[291141, 5150, 1517, 35, 41, "Input",ExpressionUUID->"29ca602c-c78c-4ced-823c-2cff06ac3f1c"],
-Cell[292661, 5187, 1805, 47, 607, "Output",ExpressionUUID->"c076102a-8829-418e-8ce6-b8fbeac1cbe2"]
+Cell[290208, 5117, 1517, 35, 41, "Input",ExpressionUUID->"29ca602c-c78c-4ced-823c-2cff06ac3f1c"],
+Cell[291728, 5154, 1805, 47, 607, "Output",ExpressionUUID->"c076102a-8829-418e-8ce6-b8fbeac1cbe2"]
 }, Open  ]],
-Cell[294481, 5237, 99, 1, 4, "PageBreak",ExpressionUUID->"eccea821-23f2-48b6-bd51-5280a6438b99",
+Cell[293548, 5204, 99, 1, 4, "PageBreak",ExpressionUUID->"eccea821-23f2-48b6-bd51-5280a6438b99",
  PageBreakBelow->True]
 }, Open  ]],
-Cell[294595, 5241, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"]
+Cell[293662, 5208, 553, 8, 67, "Section",ExpressionUUID->"41293a65-c812-4bf5-a00b-fd21e2a2fe1b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[295185, 5254, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
-Cell[295449, 5263, 8006, 221, 630, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
+Cell[294252, 5221, 261, 7, 45, "Subtitle",ExpressionUUID->"e7b36e86-f0bd-445e-982c-a65a76be0ec5"],
+Cell[294516, 5230, 8006, 221, 630, "Text",ExpressionUUID->"c1881358-abf2-469e-b40c-59da8f48fa74"]
 }, Open  ]]
 }
 ]
