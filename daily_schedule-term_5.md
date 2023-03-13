@@ -4,7 +4,7 @@ Course [home page](./)
 
 Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
-### Week 8 &mdash; Plunging Toward the Black Hole
+### Week 8 &mdash; Energy Conservation
 
 * Preparation for Monday, Mar. 12 &mdash; Study TWB Chapter 6 through Section 6.4, which is [pp. 6-1 to 6-12](./resources/TWB-First12PagesOfChapter6.pdf) &mdash; Don't attempt to understand Eqs. 3 to 7; understand Eq. 2 then jump to Eq. 8 and understand it &mdash; Reminder: as always, understand equations such as Eq. 23 on p. 6-11 as *&Delta;&tau;\_*raindrop*=-&Delta;r/sqrt(*2*M/r)* &mdash; Ben will prepare a time-line of when Einstein's equations were solved for various important matter distributions (black hole, uniformly expanding spacetime, rotating black hole, and the charged-and-rotating black hole), and by whom, starting with Schwarzschild solving the black hole in 1916 &mdash; Schwarzschild's 1916 paper has been [translated](https://arxiv.org/pdf/physics/9905030.pdf) into English &mdash; A quick look at the translation will explain why we are studying the solutions of Einstein's equations as manna from Heaven, not trying to get those solutions!
 * Monday, Mar. 12 &mdash; Ben's presentation &mdash; Detailed deconstruction of Eqs. 3 to 7 of Chapter 6 (these equations are the derivation of energy conservation for an orbiting object)
