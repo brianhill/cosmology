@@ -15,6 +15,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 * Preparation for Monday, Mar. 19 &mdash; Continue TWB Chapter 6 through Section 6.6 (through p. 6-19)
 * Monday, Mar. 19 &mdash; The detailed deconstruction of Eqs. 3 to 8 of Chapter 6 &mdash; These equations are the derivation of the [Conservation of Map Energy](./resources/ConservationOfMapEnergy.pdf) for an orbiting or a plunging object
+* Preparation for Thursday, Mar. 22 &mdash; Problem Set 8 consisting of TWB Problem 6-2, 6-4, 6-7, and 6-8 due at the beginning of class.
 
 ### Week 10 (Mar. 26-Apr. 1)
 
