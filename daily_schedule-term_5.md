@@ -14,7 +14,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 9 &mdash; Diving Toward the Black Hole &mdash; Rain and Stones
 
 * Preparation for Monday, Mar. 19 &mdash; Continue TWB Chapter 6 through Section 6.6 (through p. 6-19)
-* Monday, Mar. 19 &mdash; Now that we have conservation of map energy, what does it tell us about the [Shell Energy](./resources/ShellEnergyFromMapEnergy.pdf) of a stone &mdash; What extra relationships can we derive for the special case of [Rain](./resources/RainFromStones.pdf)?
+* Monday, Mar. 19 &mdash; Now that we have conservation of map energy, what does it tell us about the [Shell Energy](./resources/ShellEnergyFromMapEnergy.pdf) of a stone &mdash; What extra relationships can we derive for the special case of [Rain](./resources/RainFromStones.pdf)? &mdash; BOTH OF THESE DERIVATIONS NEED CLEANING UP BEFORE THEY ARE READY TO DISTRIBUTE &mdash; How [Feynman studies](./resources/Feynman-HowToStudy.pdf)
 * Preparation for Thursday, Mar. 22 &mdash; [Problem Set 8](./assignments/Assignment08.pdf) due at the beginning of class &mdash; Also, a very modest amount of cosmology reading (just Section 14.1 of TWB) &mdash; Here is the final installment of [TWB Chapters 14-16](./resources/TaylorWheelerBertschinger-ExploringBlackHoles-2ndEdition-Chapters14-16.pdf) on cosmology and gravitational waves
 
 ### Week 10 (Mar. 26-Apr. 1)
