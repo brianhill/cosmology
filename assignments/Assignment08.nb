@@ -1,0 +1,96 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3539,         88]
+NotebookOptionsPosition[      2683,         65]
+NotebookOutlinePosition[      3165,         84]
+CellTagsIndexPosition[      3122,         81]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set  8 \[LongDash] \
+Finishing our Exploration of Black Holes",
+ FontSize->24,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.884083059250205*^9, 3.8840830779491367`*^9}, {
+  3.884704110991439*^9, 3.8847041219759398`*^9}, {3.885148589133045*^9, 
+  3.885148609021922*^9}, {3.8851548408437138`*^9, 3.8851548758529577`*^9}, {
+  3.8883325231387463`*^9, 3.888332541309655*^9}, {3.888332711040833*^9, 
+  3.888332713257153*^9}},
+ FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+
+Cell["Problem 1 \[LongDash] TWB Problem 6-2", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+  3.8883325455628033`*^9, 
+  3.888332564608962*^9}},ExpressionUUID->"b36128b9-fc3d-4eeb-9732-\
+c7dec7f2662a"],
+
+Cell["Problem 2 \[LongDash] TWB Problem 6-4", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+   3.885146916995963*^9, 3.8851469479022408`*^9}, {3.888332571674241*^9, 
+   3.8883325803590727`*^9}, 
+   3.888332654969893*^9},ExpressionUUID->"075b58c5-41eb-476f-be3d-\
+cb20bb5bcaad"],
+
+Cell["Problem 3 \[LongDash] TWB Problem 6-7", "Subsection",
+ CellChangeTimes->{{3.885093676798587*^9, 3.885093789017518*^9}, {
+  3.885093854324265*^9, 3.885093854448881*^9}, {3.8850949556456127`*^9, 
+  3.8850949582545023`*^9}, {3.885095006638666*^9, 3.885095006908662*^9}, {
+  3.8851493821361303`*^9, 3.8851493822936707`*^9}, {3.888332586808323*^9, 
+  3.8883325995195303`*^9}},ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-\
+15de27b319a0"],
+
+Cell["Problem 4 \[LongDash] TWB Problem 6-8", "Subsection",
+ CellChangeTimes->{{3.885093676798587*^9, 3.885093746942697*^9}, {
+  3.885093793631609*^9, 3.885093815129982*^9}, {3.8850938582392683`*^9, 
+  3.8850938583192787`*^9}, {3.885150510860937*^9, 3.885150545578663*^9}, {
+  3.888332609894805*^9, 
+  3.8883326167645397`*^9}},ExpressionUUID->"68bcc674-5b90-4b35-b8a3-\
+9f196b6c914b"]
+}, Open  ]]
+},
+WindowSize->{1270, 1268},
+WindowMargins->{{Automatic, 360}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 705, 11, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[1288, 35, 238, 4, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
+Cell[1529, 41, 314, 5, 55, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[1846, 48, 434, 6, 55, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
+Cell[2283, 56, 384, 6, 55, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"]
+}, Open  ]]
+}
+]
+*)
+
