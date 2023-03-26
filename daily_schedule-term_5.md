@@ -19,6 +19,8 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 10 (Mar. 26-Apr. 1)
 
+* Preparation for Monday, Mar. 26 &mdash; Continue TWB Chapter 14 by studying Sections 14.2 and 14.3 &mdash; Changes of variables suddenly become very important &mdash; What are the authors doing going from equation 7 to equation 8? &mdash; How about calculating *&Delta;r=(sin(&chi; + &Delta;&chi;)-sin(&chi;))/K<sup>&half;</sup>*? &sup; &mdash; You will need the formula for *sin(A+B)* with *A=&chi;* and *B=&Delta;&chi;* &mdash; You will need to make the approximation that *B=&Delta;&chi;* is small and use it judiciously &mdash; If you do this well, you will gain much insight into equation 8 &mdash; Equation 17 is exciting: the Friedman-Robertson-Walker metric first appears
+
 ### Week 11 (Apr. 2-8)
 
 ### Week 12 (Apr. 9-15)
