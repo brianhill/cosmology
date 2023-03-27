@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3643,         89]
-NotebookOptionsPosition[      2785,         66]
-NotebookOutlinePosition[      3268,         85]
-CellTagsIndexPosition[      3225,         82]
+NotebookDataLength[      8472,        207]
+NotebookOptionsPosition[      7016,        171]
+NotebookOutlinePosition[      7499,        190]
+CellTagsIndexPosition[      7456,        187]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,7 +21,7 @@ Notebook[{
 
 Cell[CellGroupData[{
 Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set  8 \[LongDash] \
-Exploring Black Holes with Stones and Raindrops",
+Stones and Raindrops",
  FontSize->24,
  FontWeight->"Regular"]], "Section",
  CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
@@ -31,8 +31,38 @@ Exploring Black Holes with Stones and Raindrops",
   3.885148609021922*^9}, {3.8851548408437138`*^9, 3.8851548758529577`*^9}, {
   3.8883325231387463`*^9, 3.888332541309655*^9}, {3.888332711040833*^9, 
   3.888332713257153*^9}, {3.888501403016037*^9, 3.888501437242241*^9}, {
-  3.888540854733602*^9, 3.888540855290041*^9}},
+  3.888540854733602*^9, 3.888540855290041*^9}, {3.888910204310857*^9, 
+  3.888910205052356*^9}},
  FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+
+Cell[TextData[{
+ "All four problems on this problem set emphasize that map speed \
+\[LeftBracketingBar]d\[VeryThinSpace]r/d\[VeryThinSpace]t\[RightBracketingBar]\
+ is very different from the speed that any observer sees. That is one of the \
+largest points the authors are making in Chapter 6. Map speed does converge \
+with observed speed at \[Infinity].\n\nSimilarly, map energy is not \
+observable. However, late in the chapter the authors argue that there is an \
+important use of map energy. They argue that when a spherical shall having \
+map energy ",
+ Cell[BoxData[
+  FormBox["E", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6a4041ae-f785-4b70-b99d-c4dd1b19ed79"],
+ " falls into a black hole, the resulting black hole ends up with mass ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "+", "E"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a3919821-6aa0-43ba-b60e-f3f4bddf73a7"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+  3.8889093146891117`*^9, 3.8889093353560877`*^9}, {3.888909773798872*^9, 
+  3.888909827228272*^9}, {3.8889098683204947`*^9, 
+  3.8889101611000433`*^9}},ExpressionUUID->"e460d074-5a8d-4781-81aa-\
+68173248f65d"],
+
+Cell[CellGroupData[{
 
 Cell["Problem 1 \[LongDash] TWB Problem 6-2", "Subsection",
  CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
@@ -40,12 +70,38 @@ Cell["Problem 1 \[LongDash] TWB Problem 6-2", "Subsection",
   3.888332564608962*^9}},ExpressionUUID->"b36128b9-fc3d-4eeb-9732-\
 c7dec7f2662a"],
 
+Cell["\<\
+This is a comfort problem wherein you just have to plug in values to formulae.\
+\>", "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+  3.8889093146891117`*^9, 3.8889093353560877`*^9}, {3.888909773798872*^9, 
+  3.888909827228272*^9}, {3.8889098683204947`*^9, 3.8889099639562817`*^9}, {
+  3.88891003856572*^9, 
+  3.8889100394208517`*^9}},ExpressionUUID->"2856187f-c956-4116-9dcf-\
+7985ee1cc01b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
 Cell["Problem 2 \[LongDash] TWB Problem 6-4", "Subsection",
  CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
    3.885146916995963*^9, 3.8851469479022408`*^9}, {3.888332571674241*^9, 
    3.8883325803590727`*^9}, 
    3.888332654969893*^9},ExpressionUUID->"075b58c5-41eb-476f-be3d-\
 cb20bb5bcaad"],
+
+Cell["\<\
+I overlooked that this problem had a Parts D and E. I did not mean to assign \
+those (at least not without explaining some of the physics ideas of a gas of \
+hot electrons that the authors are utilizing!).\
+\>", "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+  3.8889093146891117`*^9, 
+  3.8889093353560877`*^9}},ExpressionUUID->"e18b811d-24ed-4b6d-b9c1-\
+b942112ed8e7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell["Problem 3 \[LongDash] TWB Problem 6-7", "Subsection",
  CellChangeTimes->{{3.885093676798587*^9, 3.885093789017518*^9}, {
@@ -55,13 +111,62 @@ Cell["Problem 3 \[LongDash] TWB Problem 6-7", "Subsection",
   3.8883325995195303`*^9}},ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-\
 15de27b319a0"],
 
+Cell[TextData[{
+ "On both this problem and the next problem the part of the problem where you \
+find the maximum of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[LeftBracketingBar]", 
+    RowBox[{"d", "\[VeryThinSpace]", 
+     RowBox[{"r", "/", "d"}], "\[VeryThinSpace]", "t"}], 
+    "\[RightBracketingBar]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a369f9e2-ead1-4d75-983b-f2ad672b53c0"],
+ "was not particularly instructive given the amount of algebra involved. I \
+told some people they should skip that if pressed for time. If you correctly \
+found the maximum, I will make that extra credit."
+}], "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+  3.8889093146891117`*^9, 3.888909468397979*^9}, {3.888909833738461*^9, 
+  3.888909857691527*^9}},ExpressionUUID->"4967a87c-788a-455b-ab68-\
+765337858fcc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
 Cell["Problem 4 \[LongDash] TWB Problem 6-8", "Subsection",
  CellChangeTimes->{{3.885093676798587*^9, 3.885093746942697*^9}, {
   3.885093793631609*^9, 3.885093815129982*^9}, {3.8850938582392683`*^9, 
   3.8850938583192787`*^9}, {3.885150510860937*^9, 3.885150545578663*^9}, {
   3.888332609894805*^9, 
   3.8883326167645397`*^9}},ExpressionUUID->"68bcc674-5b90-4b35-b8a3-\
-9f196b6c914b"]
+9f196b6c914b"],
+
+Cell["\<\
+Can you approach this problem by utilizing a lot of the work you did for \
+previous problem?
+
+Having done problems 3 and 4, and the raindrop case that is done in the text, \
+all of the three most important cases of a falling stone have now been \
+covered. The three cases are:
+
+(a) It can fall from infinity starting from rest.
+(b) It can fall from less than infinity starting from rest. It will not be \
+falling as fast as in case (a) at any given radius.
+(c) It can fall from infinity starting with some inward velocity. It will be \
+falling faster than in case (a) at any given radius.
+
+Newtonian mechanics has exactly these three cases as well. If you fire a \
+stone outward, case (a) is the case that determines \
+\[OpenCurlyDoubleQuote]escape velocity.\[CloseCurlyDoubleQuote] Case (b) is \
+less velocity than escape velocity. Case (c) is more velocity than escape \
+velocity.\
+\>", "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+  3.8889093146891117`*^9, 3.888909754201663*^9}, {3.8889102481630697`*^9, 
+  3.8889102497947273`*^9}},ExpressionUUID->"80a15095-e7b3-4894-bf2d-\
+432ba0e3d8f1"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1270, 1268},
@@ -85,11 +190,24 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 807, 12, 142, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
-Cell[1390, 36, 238, 4, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
-Cell[1631, 42, 314, 5, 55, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
-Cell[1948, 49, 434, 6, 55, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
-Cell[2385, 57, 384, 6, 55, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"]
+Cell[580, 22, 829, 13, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[1412, 37, 1229, 25, 262, "Text",ExpressionUUID->"e460d074-5a8d-4781-81aa-68173248f65d"],
+Cell[CellGroupData[{
+Cell[2666, 66, 238, 4, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
+Cell[2907, 72, 430, 8, 53, "Text",ExpressionUUID->"2856187f-c956-4116-9dcf-7985ee1cc01b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3374, 85, 314, 5, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[3691, 92, 408, 8, 88, "Text",ExpressionUUID->"e18b811d-24ed-4b6d-b9c1-b942112ed8e7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4136, 105, 434, 6, 81, "Subsection",ExpressionUUID->"b4b9e4c3-dd4a-4a09-ba18-15de27b319a0"],
+Cell[4573, 113, 858, 18, 123, "Text",ExpressionUUID->"4967a87c-788a-455b-ab68-765337858fcc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5468, 136, 384, 6, 81, "Subsection",ExpressionUUID->"68bcc674-5b90-4b35-b8a3-9f196b6c914b"],
+Cell[5855, 144, 1133, 23, 433, "Text",ExpressionUUID->"80a15095-e7b3-4894-bf2d-432ba0e3d8f1"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
