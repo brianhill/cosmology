@@ -10,18 +10,18 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     24596,        631]
-NotebookOptionsPosition[     23002,        593]
-NotebookOutlinePosition[     23485,        612]
-CellTagsIndexPosition[     23442,        609]
+NotebookDataLength[     24648,        614]
+NotebookOptionsPosition[     23077,        577]
+NotebookOutlinePosition[     23560,        596]
+CellTagsIndexPosition[     23517,        593]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set  8 \[LongDash] \
-Coordinate Transformations",
+Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set  9 \[LongDash] \
+Coordinate Transformations and Hubble\[CloseCurlyQuote]s 1929 Discovery",
  FontSize->24,
  FontWeight->"Regular"]], "Section",
  CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
@@ -33,7 +33,8 @@ Coordinate Transformations",
   3.888332713257153*^9}, {3.888501403016037*^9, 3.888501437242241*^9}, {
   3.888540854733602*^9, 3.888540855290041*^9}, {3.888910204310857*^9, 
   3.888910205052356*^9}, {3.889088894686882*^9, 3.889088909880278*^9}, {
-  3.889090027863949*^9, 3.889090030068448*^9}},
+  3.889090027863949*^9, 3.889090030068448*^9}, {3.8891085918121758`*^9, 
+  3.8891086200369043`*^9}},
  FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 
 Cell[TextData[{
@@ -66,13 +67,11 @@ Cell[TextData[{
  "The Farm Manager has gridded a field into 40 equal parts in each direction. \
 Mathematically, we have an ",
  Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["x", TraditionalForm]],ExpressionUUID->
   "25e319ca-89b3-4e92-ae2d-6f80bcfbcfe4"],
  "-coordinate that runs from 0 to 40, and a ",
  Cell[BoxData[
-  FormBox["y", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["y", TraditionalForm]],ExpressionUUID->
   "3f93ddd3-834a-424c-a198-bbe90e9f4f91"],
  "-coordinate that runs from 0 to 40. Let\[CloseCurlyQuote]s say the field in \
 physical units is 200 feet by 200 feet. Here is the metric for the field\n\n\
@@ -94,8 +93,7 @@ physical units is 200 feet by 200 feet. Here is the metric for the field\n\n\
       SuperscriptBox[
        RowBox[{"(", 
         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], ")"}], "2"]}], 
-     "]"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     "]"}]}], TraditionalForm]],ExpressionUUID->
   "6bbe734e-6b78-4867-948d-fe6c446c6dc4"],
  "\n\nwhere ",
  Cell[BoxData[
@@ -107,20 +105,17 @@ physical units is 200 feet by 200 feet. Here is the metric for the field\n\n\
  Cell[BoxData[
   FormBox[
    RowBox[{"L", "=", 
-    RowBox[{"200", " ", "feet"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"200", " ", "feet"}]}], TraditionalForm]],ExpressionUUID->
   "84c3b8a7-0bf3-41ff-80c5-95e86d8c8724"],
  ", and ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"N", "=", "40"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"N", "=", "40"}], TraditionalForm]],ExpressionUUID->
   "2818470f-1c68-48a4-bd82-5c97f6aae7c4"],
  ". ",
  Cell[BoxData[
   FormBox[
-   FractionBox["L", "N"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   FractionBox["L", "N"], TraditionalForm]],ExpressionUUID->
   "ad837ca9-e9db-444c-a2b9-a2fe0c2c72d5"],
  " can be thought of a scale factor. It relates the total size of the field \
 (the universe) to whatever measuring device the Farm Manager used when \
@@ -134,11 +129,9 @@ help you visualize the situation. Use the variables ",
    "x", ",", " ", "y", ",", " ", "L", ",", " ", "N", ",", " ", "\[Phi]", ",", 
     " ", 
     RowBox[{"and", " ", Cell[TextData[Cell[BoxData[
-      FormBox["\[Psi]", TraditionalForm]],
-      FormatType->TraditionalForm,ExpressionUUID->
+      FormBox["\[Psi]", TraditionalForm]],ExpressionUUID->
       "247cc07c-5bf4-49e0-b6db-2c2b1966cf99"]],ExpressionUUID->
       "65d70348-927a-4b46-8b86-07e543d65d21"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSlant->"Italic",ExpressionUUID->
   "65d3d2e1-8c51-4323-9610-3d846b8604b0"],
  StyleBox[" in what follows.\n",
@@ -148,42 +141,33 @@ everything in radians, whether or not that makes sense in any given \
 situation. The very mathematical student grids off the field in terms of new \
 variables ",
  Cell[BoxData[
-  FormBox["\[Phi]", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["\[Phi]", TraditionalForm]],ExpressionUUID->
   "b563d3f7-cabc-4994-9a3d-a55bbee2e399"],
  " and ",
  Cell[BoxData[
-  FormBox["\[Psi]", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["\[Psi]", TraditionalForm]],ExpressionUUID->
   "22896960-3b4a-44cc-8813-bb03df7f8f00"],
  " according the following formulae:\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{"x", "=", 
     RowBox[{"N", "\[VeryThinSpace]", "sin", " ", "\[Phi]"}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "5f7f6b3c-1df2-41dc-8922-5410053a4a96"],
+   TraditionalForm]],ExpressionUUID->"5f7f6b3c-1df2-41dc-8922-5410053a4a96"],
  "\n",
  Cell[BoxData[
   FormBox[
    RowBox[{"y", "=", 
     RowBox[{"N", "\[VeryThinSpace]", "sin", "\[VeryThinSpace]", "\[Psi]"}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "c95bfde0-72ed-467c-8bf7-e1208981673f"],
+   TraditionalForm]],ExpressionUUID->"c95bfde0-72ed-467c-8bf7-e1208981673f"],
  "\n\nThe variables ",
  Cell[BoxData[
   FormBox[
   Cell["\[Phi]",ExpressionUUID->"271a379b-cb36-4e8f-acc9-e6bf7dc1ddcb"], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "126a02d5-cf62-4551-ba48-a727a90cc6f4"],
+   TraditionalForm]],ExpressionUUID->"126a02d5-cf62-4551-ba48-a727a90cc6f4"],
  " and \[Psi] each go from 0 to ",
  Cell[BoxData[
   FormBox[
-   FractionBox["\[Pi]", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   FractionBox["\[Pi]", "2"], TraditionalForm]],ExpressionUUID->
   "ca1cc226-ce81-4547-b493-ea0b2eb7ae7c"],
  ".\n\nUsing all the tricks we used in class (e.g., ",
  Cell[BoxData[
@@ -198,18 +182,14 @@ variables ",
      RowBox[{
      "cos", "\[VeryThinSpace]", "A", "\[VeryThinSpace]\[VeryThinSpace]", 
       "sin", "\[VeryThinSpace]", "B", "\[VeryThinSpace]"}]}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "dc9bee2e-3596-44df-8974-2f80a54efe23"],
+   TraditionalForm]],ExpressionUUID->"dc9bee2e-3596-44df-8974-2f80a54efe23"],
  ", approximations, etc.), use the above equations for ",
  Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["x", TraditionalForm]],ExpressionUUID->
   "0ad456d2-4c67-48e9-b5fd-dff79b3532de"],
  " and ",
  Cell[BoxData[
-  FormBox["y", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["y", TraditionalForm]],ExpressionUUID->
   "1d6b4ae2-0932-4953-adfd-5baa78ea4a64"],
  " along with these equations,\n\n",
  Cell[BoxData[
@@ -221,8 +201,7 @@ variables ",
      RowBox[{"sin", "(", 
       RowBox[{"\[Phi]", "+", 
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}]}], ")"}]}]}],
-    TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    TraditionalForm]],ExpressionUUID->
   "32bb7767-106a-4a28-a04e-3942bcaca58f"],
  "\n",
  Cell[BoxData[
@@ -234,8 +213,7 @@ variables ",
      RowBox[{"sin", "(", "\[VeryThinSpace]", 
       RowBox[{"\[Psi]", "+", 
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}]}], ")"}]}]}],
-    TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    TraditionalForm]],ExpressionUUID->
   "f1e0fcfb-3f5b-4d95-91a3-38a0a33bb56b"],
  "\n\nto find relationships valid to first order between \[CapitalDelta]\
 \[VeryThinSpace]x and \[CapitalDelta]\[VeryThinSpace]\[Phi], and between ",
@@ -244,9 +222,25 @@ variables ",
    RowBox[{
    "\[CapitalDelta]", "\[VeryThinSpace]", "y", " ", "and", " ", 
     "\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "5ea183da-94b4-41b5-b7b1-11787d10beeb"],
- ".\n\n(b) Another of the tricks we used in class was to write\n\n",
+  ExpressionUUID->"5ea183da-94b4-41b5-b7b1-11787d10beeb"],
+ ".\n\n"
+}], "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+   3.8889093146891117`*^9, 3.8889093353560877`*^9}, {3.888909773798872*^9, 
+   3.888909827228272*^9}, {3.8889098683204947`*^9, 3.8889099639562817`*^9}, {
+   3.88891003856572*^9, 3.8889100394208517`*^9}, {3.88908893754259*^9, 
+   3.889089455820096*^9}, {3.889089491098811*^9, 3.889089597173732*^9}, {
+   3.889089636116996*^9, 3.889090024087964*^9}, {3.889090061006312*^9, 
+   3.8890903663556643`*^9}, {3.889090406361511*^9, 3.889090501847569*^9}, {
+   3.889090549580779*^9, 3.889090669613401*^9}, {3.889090753335114*^9, 
+   3.889090779830731*^9}, {3.889090956443366*^9, 3.889090996570498*^9}, {
+   3.889091027249181*^9, 3.889091235471531*^9}, 3.889108653683511*^9, {
+   3.8891086849494247`*^9, 
+   3.889108696131798*^9}},ExpressionUUID->"2856187f-c956-4116-9dcf-\
+7985ee1cc01b"],
+
+Cell[TextData[{
+ "(b) Another of the tricks we used in class was to write\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -264,9 +258,8 @@ variables ",
       SuperscriptBox[
        RowBox[{"(", 
         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], ")"}], "2"]}], 
-     "]"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "91dbc502-8e84-444b-add2-e9c1358d810c"],
+     "]"}]}], TraditionalForm]],ExpressionUUID->
+  "61129c90-244b-401d-a2a0-082d481dc4f3"],
  "\n\nas \n\n",
  Cell[BoxData[
   FormBox[
@@ -297,9 +290,7 @@ variables ",
         "2"], 
        SuperscriptBox[
         RowBox[{"(", "\[CapitalDelta]\[Psi]", ")"}], "2"]}]}], "]"}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "2d663c88-2084-4ed8-b6ff-51d02d8c3c1d"],
+   TraditionalForm]],ExpressionUUID->"20b22947-f893-4d7e-b960-2e090d935e09"],
  "\n\nThen use what you found in Part (a) to replace ",
  Cell[BoxData[
   FormBox[
@@ -314,9 +305,8 @@ variables ",
       FractionBox[
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], 
        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}]], ")"}], 
-     "2"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "7c167308-746f-45a7-b4b4-a9323309b359"],
+     "2"]}], TraditionalForm]],ExpressionUUID->
+  "6754ff34-7fb6-4a0e-8365-8adbb5ac0ad1"],
  ". \n\nDiscussion: In these new coordinates, it is no longer obvious that \
 the field is a flat surface embedded in ordinary three-dimensional Euclidean \
 space, that the Pythagorean theorem holds on the field, and that the \
@@ -328,13 +318,10 @@ usual ",
      FormBox[
       RowBox[{"C", "=", 
        RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", "r"}]}], TraditionalForm]],
-     FormatType->TraditionalForm,ExpressionUUID->
-     "fd93ae7c-07bc-480f-ae9c-852bacf15a19"],
+     ExpressionUUID->"aa4391ab-f87b-4276-aee9-3a57bfea5689"],
     "."
-   }],ExpressionUUID->"0113c104-dafd-49ef-8836-0669ca646031"], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "37db3727-24b9-4e9c-8c21-85cdc95db50f"],
+   }],ExpressionUUID->"9e27a331-7892-4b0e-bb0e-6b8e02e8081a"], 
+   TraditionalForm]],ExpressionUUID->"95d82451-6504-435b-aca5-96eb9a13e0fe"],
  " Hence we are not likely to use these coordinates. They have obscured the \
 simple nature of the field. This is therefore a contrived coordinate \
 transformation and a contrived problem. However, coordinate changes often \
@@ -350,8 +337,8 @@ reveal properties of a space, and this is a good warmup problem."
   3.889090549580779*^9, 3.889090669613401*^9}, {3.889090753335114*^9, 
   3.889090779830731*^9}, {3.889090956443366*^9, 3.889090996570498*^9}, {
   3.889091027249181*^9, 
-  3.889091235471531*^9}},ExpressionUUID->"2856187f-c956-4116-9dcf-\
-7985ee1cc01b"]
+  3.889091235471531*^9}},ExpressionUUID->"f082f9d7-c2a2-44c4-85f1-\
+fccaa25db7e9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -505,10 +492,7 @@ final answer."
   3.889091950644478*^9}, {3.8890919812664127`*^9, 3.889092126040551*^9}, {
   3.8890921599924793`*^9, 
   3.889092554526469*^9}},ExpressionUUID->"3885b448-d408-4fb7-86f0-\
-b74b8d87b6be"],
-
-Cell["", "PageBreak",
- PageBreakBelow->True,ExpressionUUID->"d0cb3208-894f-40f1-a3b1-4d6120c20d5a"]
+b74b8d87b6be"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -612,25 +596,24 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 930, 14, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
-Cell[1513, 38, 700, 16, 123, "Text",ExpressionUUID->"ce197980-4d34-4d97-a217-01f96168564b"],
+Cell[580, 22, 1028, 15, 142, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[1611, 39, 700, 16, 123, "Text",ExpressionUUID->"ce197980-4d34-4d97-a217-01f96168564b"],
 Cell[CellGroupData[{
-Cell[2238, 58, 234, 4, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
-Cell[2475, 64, 10656, 289, 1558, "Text",ExpressionUUID->"2856187f-c956-4116-9dcf-7985ee1cc01b"]
+Cell[2336, 59, 234, 4, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
+Cell[2573, 65, 6763, 174, 1055, "Text",ExpressionUUID->"2856187f-c956-4116-9dcf-7985ee1cc01b"],
+Cell[9339, 241, 3969, 99, 556, "Text",ExpressionUUID->"f082f9d7-c2a2-44c4-85f1-fccaa25db7e9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13168, 358, 629, 14, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
-Cell[13800, 374, 1048, 23, 193, "Text",ExpressionUUID->"e18b811d-24ed-4b6d-b9c1-b942112ed8e7"]
+Cell[13345, 345, 629, 14, 81, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[13977, 361, 1048, 23, 193, "Text",ExpressionUUID->"e18b811d-24ed-4b6d-b9c1-b942112ed8e7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14885, 402, 727, 15, 81, "Subsection",ExpressionUUID->"39656111-a118-475d-ad3c-f96ec38dfe02"],
-Cell[15615, 419, 3345, 88, 502, "Text",ExpressionUUID->"3885b448-d408-4fb7-86f0-b74b8d87b6be"],
-Cell[18963, 509, 99, 1, 6, "PageBreak",ExpressionUUID->"d0cb3208-894f-40f1-a3b1-4d6120c20d5a",
- PageBreakBelow->True]
+Cell[15062, 389, 727, 15, 81, "Subsection",ExpressionUUID->"39656111-a118-475d-ad3c-f96ec38dfe02"],
+Cell[15792, 406, 3345, 88, 502, "Text",ExpressionUUID->"3885b448-d408-4fb7-86f0-b74b8d87b6be"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19099, 515, 558, 8, 81, "Subsection",ExpressionUUID->"60b19669-35e8-4328-90db-1e581277c5c7"],
-Cell[19660, 525, 3314, 64, 782, "Text",ExpressionUUID->"262155aa-e967-40e5-bf16-12337ff40645"]
+Cell[19174, 499, 558, 8, 81, "Subsection",ExpressionUUID->"60b19669-35e8-4328-90db-1e581277c5c7"],
+Cell[19735, 509, 3314, 64, 782, "Text",ExpressionUUID->"262155aa-e967-40e5-bf16-12337ff40645"]
 }, Open  ]]
 }, Open  ]]
 }
