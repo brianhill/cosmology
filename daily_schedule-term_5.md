@@ -27,6 +27,8 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 11 (Apr. 2-8)
 
+* Preparation for Monday, Mar. 26 &mdash; Go back and study everything you have in both of the textbooks we are using and my [handout](./resources/ConservationOfMapEnergy.pdf) on the Principle of Least Action &mdash; There is a small but significant mistake in Box 4 on TWB p. 14-13 &mdash; Find it and then understand the rest of the statements in the box &mdash; Use everything you've learned to understand the rest of Section 14.5 (through p. 14-16) &mdash; The stones are now galaxies! &mdash; TWB are trying to find things that are true about the motion of galaxies through a uniform universe described by the FRW metric
+
 ### Week 12 (Apr. 9-15)
 
 ### Week 13 (Apr. 16-22)
