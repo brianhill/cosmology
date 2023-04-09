@@ -32,6 +32,8 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 12 (Apr. 9-15)
 
+* Preparation for Monday, Apr. 10 &mdash; Finish studying Chapter 14 of TWB
+
 ### Week 13 (Apr. 16-22)
 
 ### Week 14 (Apr. 23-29)
