@@ -1,0 +1,558 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20380,        550]
+NotebookOptionsPosition[     19132,        518]
+NotebookOutlinePosition[     19615,        537]
+CellTagsIndexPosition[     19572,        534]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set  9 \[LongDash] \
+Solution",
+ FontSize->24,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.884083059250205*^9, 3.8840830779491367`*^9}, {
+  3.884704110991439*^9, 3.8847041219759398`*^9}, {3.885148589133045*^9, 
+  3.885148609021922*^9}, {3.8851548408437138`*^9, 3.8851548758529577`*^9}, {
+  3.8883325231387463`*^9, 3.888332541309655*^9}, {3.888332711040833*^9, 
+  3.888332713257153*^9}, {3.888501403016037*^9, 3.888501437242241*^9}, {
+  3.888540854733602*^9, 3.888540855290041*^9}, {3.888910204310857*^9, 
+  3.888910205052356*^9}, {3.889088894686882*^9, 3.889088909880278*^9}, {
+  3.889090027863949*^9, 3.889090030068448*^9}, {3.8891085918121758`*^9, 
+  3.8891086200369043`*^9}, {3.890124836396516*^9, 3.8901248372626467`*^9}},
+ FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell["Problem 1", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+   3.8883325455628033`*^9, 3.888332564608962*^9}, 
+   3.889088927304385*^9},ExpressionUUID->"b36128b9-fc3d-4eeb-9732-\
+c7dec7f2662a"],
+
+Cell[TextData[{
+ "(a) We want to discover what the metric ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "s"}], ")"}], "2"], "=", 
+    
+    RowBox[{
+     SuperscriptBox[
+      FractionBox["L", "N"], "2"], "[", 
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], ")"}], "2"], 
+      "+", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], ")"}], "2"]}], 
+     "]"}]}], TraditionalForm]],ExpressionUUID->
+  "6bbe734e-6b78-4867-948d-fe6c446c6dc4"],
+ " looks like in these coordinates:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"N", "\[VeryThinSpace]", "sin", " ", "\[Phi]"}]}], 
+   TraditionalForm]],ExpressionUUID->"5f7f6b3c-1df2-41dc-8922-5410053a4a96"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    RowBox[{"N", "\[VeryThinSpace]", "sin", "\[VeryThinSpace]", "\[Psi]"}]}], 
+   TraditionalForm]],ExpressionUUID->"c95bfde0-72ed-467c-8bf7-e1208981673f"],
+ "\n\nwhere ",
+ Cell[BoxData[
+  FormBox[
+  Cell["\[Phi]",ExpressionUUID->"271a379b-cb36-4e8f-acc9-e6bf7dc1ddcb"], 
+   TraditionalForm]],ExpressionUUID->"126a02d5-cf62-4551-ba48-a727a90cc6f4"],
+ " and \[Psi] each go from 0 to ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["\[Pi]", "2"], TraditionalForm]],ExpressionUUID->
+  "ca1cc226-ce81-4547-b493-ea0b2eb7ae7c"],
+ ". To get ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ef1de755-aa4f-498d-9a74-359066542f02"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cf455aaf-eedd-425c-b713-e865a07cf9e8"],
+ " in terms of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}], 
+   TraditionalForm]],ExpressionUUID->"99c95478-aceb-4035-b1cc-f7d678a0f614"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}], 
+   TraditionalForm]],ExpressionUUID->"6c16d677-f028-4b3f-9995-c091f1c78bf6"],
+ ", subtract equations:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
+    RowBox[{
+     RowBox[{"x", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], " ", "-", " ", 
+      "x"}], "=", 
+     RowBox[{
+      RowBox[{"N", "\[VeryThinSpace]", 
+       RowBox[{"sin", "(", 
+        RowBox[{"\[Phi]", "+", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}]}], ")"}]}],
+       "-", 
+      RowBox[{"N", "\[VeryThinSpace]", "sin", " ", "\[Phi]"}]}]}]}], 
+   TraditionalForm]],ExpressionUUID->"32bb7767-106a-4a28-a04e-3942bcaca58f"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], "=", 
+    RowBox[{
+     RowBox[{"y", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], "-", "y"}], " ", 
+     "=", 
+     RowBox[{
+      RowBox[{"N", "\[VeryThinSpace]", 
+       RowBox[{"sin", "(", "\[VeryThinSpace]", 
+        RowBox[{"\[Psi]", "+", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}]}], ")"}]}],
+       "-", 
+      RowBox[{
+      "N", "\[VeryThinSpace]", "sin", "\[VeryThinSpace]", "\[Psi]"}]}]}]}], 
+   TraditionalForm]],ExpressionUUID->"f1e0fcfb-3f5b-4d95-91a3-38a0a33bb56b"],
+ "\n\nUse\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"sin", "(", 
+     RowBox[{"\[Phi]", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{
+     "sin\[Phi]", " ", "cos", " ", "\[CapitalDelta]", "\[VeryThinSpace]", 
+      "\[Phi]"}], "+", 
+     RowBox[{
+     "cos", "\[VeryThinSpace]", "\[Phi]", " ", "sin\[CapitalDelta]", 
+      "\[VeryThinSpace]", "\[Phi]"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "afaca763-7383-4a5b-996c-80fa5642dfbb"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"sin", "(", 
+     RowBox[{"\[Psi]", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{
+     "sin", "\[VeryThinSpace]", "\[Psi]", " ", "cos", " ", "\[CapitalDelta]", 
+      "\[VeryThinSpace]", "\[Psi]"}], "+", 
+     RowBox[{
+     "cos", "\[VeryThinSpace]", "\[Psi]", " ", "sin\[CapitalDelta]", 
+      "\[VeryThinSpace]", "\[Psi]"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "52e4e3b1-70af-4ae1-8ef9-2ee6fd0c3772"],
+ "\n\nMake approximations valid only to first order in the small quantities:\n\
+\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"sin", "(", 
+     RowBox[{"\[Phi]", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Phi]"}]}], ")"}], "=", 
+    RowBox[{"sin\[Phi]", " ", "+", 
+     RowBox[{"cos", "\[VeryThinSpace]", 
+      RowBox[{"\[Phi]", " ", "\[CenterDot]", "\[CapitalDelta]"}], 
+      "\[VeryThinSpace]", "\[Phi]"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7433dfc3-3186-4929-a103-8508e17c035f"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"sin", "(", 
+     RowBox[{"\[Psi]", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"sin", "\[VeryThinSpace]", "\[Psi]"}], "+", 
+     RowBox[{"cos", "\[VeryThinSpace]", 
+      RowBox[{"\[Psi]", "\[CenterDot]", " ", "\[CapitalDelta]"}], 
+      "\[VeryThinSpace]", "\[Psi]"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2247e9bc-6aab-4dba-b7fd-cdf01c9fb975"],
+ "\n\nSimplify:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], "=", 
+    RowBox[{"N", "\[VeryThinSpace]", "cos", "\[VeryThinSpace]", 
+     RowBox[{"\[Phi]", " ", "\[CenterDot]", "\[CapitalDelta]"}], 
+     "\[VeryThinSpace]", "\[Phi]"}]}], TraditionalForm]],ExpressionUUID->
+  "32497d98-10fb-4818-92b2-0e31a7be69ca"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], "=", 
+    RowBox[{"N", "\[VeryThinSpace]", "cos", "\[VeryThinSpace]", 
+     RowBox[{"\[Psi]", "\[CenterDot]", " ", "\[CapitalDelta]"}], 
+     "\[VeryThinSpace]", "\[Psi]"}]}], TraditionalForm]],ExpressionUUID->
+  "0d4c6634-16e5-4046-b5dc-6a253ce2b334"]
+}], "Text",
+ CellChangeTimes->{{3.888909234815494*^9, 3.888909282909382*^9}, {
+   3.8889093146891117`*^9, 3.8889093353560877`*^9}, {3.888909773798872*^9, 
+   3.888909827228272*^9}, {3.8889098683204947`*^9, 3.8889099639562817`*^9}, {
+   3.88891003856572*^9, 3.8889100394208517`*^9}, {3.88908893754259*^9, 
+   3.889089455820096*^9}, {3.889089491098811*^9, 3.889089597173732*^9}, {
+   3.889089636116996*^9, 3.889090024087964*^9}, {3.889090061006312*^9, 
+   3.8890903663556643`*^9}, {3.889090406361511*^9, 3.889090501847569*^9}, {
+   3.889090549580779*^9, 3.889090669613401*^9}, {3.889090753335114*^9, 
+   3.889090779830731*^9}, {3.889090956443366*^9, 3.889090996570498*^9}, {
+   3.889091027249181*^9, 3.889091235471531*^9}, 3.889108653683511*^9, {
+   3.8891086849494247`*^9, 3.889108696131798*^9}, {3.890124877329216*^9, 
+   3.890124881171348*^9}, {3.8901249203592377`*^9, 3.890125456300253*^9}, {
+   3.890125533807176*^9, 3.890125576899066*^9}, {3.890125656700658*^9, 
+   3.890125680708959*^9}},ExpressionUUID->"2856187f-c956-4116-9dcf-\
+7985ee1cc01b"],
+
+Cell[TextData[{
+ "(b) From Part (a) we have ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], 
+     "\[CapitalDelta]\[Phi]"], "=", 
+    RowBox[{"N", "\[VeryThinSpace]", "cos", "\[VeryThinSpace]", "\[Phi]"}]}], 
+   TraditionalForm]],ExpressionUUID->"d057b785-8c71-45e3-95c1-8039a8aa944a"],
+ " and  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], 
+     "\[CapitalDelta]\[Phi]"], "=", 
+    RowBox[{"N", "\[VeryThinSpace]", "cos", "\[VeryThinSpace]", "\[Psi]"}]}], 
+   TraditionalForm]],ExpressionUUID->"e253a4ab-0727-4edf-91ef-e23ca258483b"],
+ ".\n\nPut that into the expression for ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "s"}], ")"}], "2"], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "34d54814-768f-477c-91ec-24fa1d7dd2e0"],
+ ":\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "s"}], ")"}], "2"], "=", 
+    
+    RowBox[{
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox["L", "N"], ")"}], "2"], "[", 
+      RowBox[{
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          FractionBox[
+           RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "x"}], 
+           "\[CapitalDelta]\[Phi]"], ")"}], "2"], 
+        SuperscriptBox[
+         RowBox[{"(", "\[CapitalDelta]\[Phi]", ")"}], "2"]}], "+", 
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          FractionBox[
+           RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "y"}], 
+           RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Psi]"}]], ")"}], 
+         "2"], 
+        SuperscriptBox[
+         RowBox[{"(", "\[CapitalDelta]\[Psi]", ")"}], "2"]}]}], "]"}], "=", 
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox["L", "N"], ")"}], "2"], "[", 
+      RowBox[{
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+          "N", "\[VeryThinSpace]", "cos", "\[VeryThinSpace]", "\[Phi]"}], 
+          ")"}], "2"], 
+        SuperscriptBox[
+         RowBox[{"(", "\[CapitalDelta]\[Phi]", ")"}], "2"]}], "+", 
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+          "N", "\[VeryThinSpace]", "cos", "\[VeryThinSpace]", "\[Psi]"}], 
+          ")"}], "2"], 
+        SuperscriptBox[
+         RowBox[{"(", "\[CapitalDelta]\[Psi]", ")"}], "2"]}]}], "]"}]}]}], 
+   TraditionalForm]],ExpressionUUID->"20b22947-f893-4d7e-b960-2e090d935e09"],
+ "\n\nSimplify:\n\n ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "s"}], ")"}], "2"], "=", 
+    
+    RowBox[{
+     SuperscriptBox["L", "2"], "[", 
+     RowBox[{
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"cos", "\[VeryThinSpace]"}], "2"], 
+       RowBox[{"\[Phi]", "\[CenterDot]", 
+        SuperscriptBox[
+         RowBox[{"(", "\[CapitalDelta]\[Phi]", ")"}], "2"]}]}], "+", 
+      "\[VeryThinSpace]", 
+      RowBox[{
+       SuperscriptBox["cos", "2"], "\[VeryThinSpace]", 
+       RowBox[{"\[Psi]", "\[CenterDot]", 
+        SuperscriptBox[
+         RowBox[{"(", "\[CapitalDelta]\[Psi]", ")"}], "2"]}]}]}], "]"}]}], 
+   TraditionalForm]],ExpressionUUID->"cbc3b1c2-0b34-4d36-ab2e-12ca05edffb0"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQAWIQ3S4RVdb4843jCsnYGhBtwhvWAKKFUl83geiYCTt3
+gmhGv/QDILrOsesoiL4zs+4iiE6UunQLRM8rfwumn8UYmt4E0lZ2v0pBdJlm
+chWINutf2g6i8/Y194DoWReY9oLorcYLDoL5iaefg+iGiaffgGhP+d0/QPS+
+qZv+gejfCzbz3gLSjju1JEB05NQqaRDNZ9BnCKJbHSeZgWivn+lWIPqEWH4I
+iK7jz4+8/PuN447FeVEgWm/fykQQ/UG6OwtEn5/YmAei/VasLAbRL/ZPLAfR
+q6waWkD0q2W+BleB9KUV3IYg+oTvCgsQ/fThLhsQDQDdCcX2
+  "],ExpressionUUID->"f082f9d7-c2a2-44c4-85f1-fccaa25db7e9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Problems 2 and 3 \[LongDash] FRW Coordinate Transformations for the Cases of \
+the Flat and Open Universe\
+\>", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+   3.885146916995963*^9, 3.8851469479022408`*^9}, {3.888332571674241*^9, 
+   3.8883325803590727`*^9}, 3.888332654969893*^9, {3.889089756095023*^9, 
+   3.889089756892778*^9}, {3.8890912422203693`*^9, 3.889091265170438*^9}, {
+   3.890127643137576*^9, 3.890127690387635*^9}, {3.890129157524704*^9, 
+   3.8901292182652397`*^9}},ExpressionUUID->"075b58c5-41eb-476f-be3d-\
+cb20bb5bcaad"],
+
+Cell["See attachment.", "Text",
+ CellChangeTimes->{
+  3.890129172200259*^9, {3.890129222483982*^9, 
+   3.890129230921444*^9}},ExpressionUUID->"d813070e-2ef0-48ae-87aa-\
+db978d9f0f70"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 4 \[LongDash] The Hubble Plot", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+   3.885146916995963*^9, 3.8851469479022408`*^9}, {3.888332571674241*^9, 
+   3.8883325803590727`*^9}, 3.888332654969893*^9, {3.889089756095023*^9, 
+   3.889089756892778*^9}, {3.8890912422203693`*^9, 3.889091265170438*^9}, {
+   3.889091711100524*^9, 3.889091719461637*^9}, {3.889091872267177*^9, 
+   3.889091872942164*^9}, {3.889092598389512*^9, 
+   3.889092620743018*^9}},ExpressionUUID->"60b19669-35e8-4328-90db-\
+1e581277c5c7"],
+
+Cell[TextData[{
+ "(a) The correct units for the vertical axis are km/sec. The units of the \
+horizontal axis are Mpc (abbreviation for Megaparsecs). The slope is \
+therefore\n\nkm/sec/Mpc\n\nYou can measure it off the plot as about slope:\n\n\
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"500", " ", 
+    RowBox[{
+     RowBox[{"km", "/", "sec"}], "/", "Mpc"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2c860fcc-09b2-4460-871f-b0578cf14876"],
+ "\n\n(b) If the vertical axis were in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"meters", "/", "second"}], TraditionalForm]],ExpressionUUID->
+  "f21e682a-d089-4857-95dc-35c92009eec0"],
+ " and the horizontal axis were in meters, the units of the slope would be \
+1/sec. The inverse of this would be seconds?\n\nTo convert from seconds to \
+billions of years, we use\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"1", " ", "year"}], "=", 
+    RowBox[{"365.25", "*", "24", "*", "60", "*", "60", "seconds"}]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3fbd6e61-9785-4082-aec4-e76252c4bc64"],
+ "\n\nSo 1 billion years is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["10", "9"], "\[CenterDot]", "365.25"}], "*", "24", "*", 
+     "60", "*", "60", "seconds"}], "=", 
+    RowBox[{
+     RowBox[{"31557600", " ", 
+      SuperscriptBox["10", "9"], "seconds"}], "=", 
+     RowBox[{"3.15576", " ", 
+      SuperscriptBox["10", "16"], "seconds"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e47d3261-f8a6-4010-a6a1-932a5de516e1"],
+ "\n\n(c) The currently accepted value is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["H", "0"], "=", 
+    RowBox[{"67", " ", 
+     RowBox[{
+      RowBox[{"km", "/", 
+       StyleBox["s",
+        FontSlant->"Plain"]}], " ", "/", " ", 
+      RowBox[{"Mpc", "."}]}]}]}], TraditionalForm]],ExpressionUUID->
+  "5f2eef56-301e-4384-ba4a-ebd0dfc849e2"],
+ " \n\nFind Hubble\[CloseCurlyQuote]s estimate in his 1929 paper. You should \
+find that it is shockingly different. In the text, Hubble says:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["H", "0"], "=", 
+    RowBox[{"530", " ", 
+     RowBox[{
+      RowBox[{"km", "/", "sec"}], "/", "Mpc"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c2a2325e-15d8-4dc7-bca4-8266db93fca1"],
+ "\n\n(d) The parsec is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3.086", " ", 
+    SuperscriptBox["10", "13"], "km"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7d759b70-41b8-44ff-a378-9dda1f2fd16a"],
+ ". I probably should have had you calculate that too, but it is easy to look \
+up. We use that and the conversion factor from seconds to billions of years:\n\
+\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     SubscriptBox["H", "0"], 
+     RowBox[{"-", "1"}]], "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"67", " ", 
+        RowBox[{
+         RowBox[{"km", "/", 
+          StyleBox["sec",
+           FontSlant->"Plain"]}], " ", "/", " ", "Mpc"}]}], ")"}], 
+      RowBox[{"-", "1"}]], "=", 
+     RowBox[{
+      RowBox[{
+       FractionBox[
+        RowBox[{"1", "Mpc"}], 
+        RowBox[{"67", "km"}]], "sec"}], "=", 
+      RowBox[{
+       RowBox[{
+        FractionBox[
+         RowBox[{
+          SuperscriptBox["10", "6"], "3.086", " ", 
+          SuperscriptBox["10", "13"], "km"}], 
+         RowBox[{"67", "km"}]], 
+        FractionBox[
+         RowBox[{"1", " ", "billion", " ", "years"}], 
+         RowBox[{"3.15576", " ", 
+          SuperscriptBox["10", "16"], "seconds"}]]}], "=", 
+       RowBox[{
+        FractionBox["1000", "67"], 
+        FractionBox["3.086", "3.15576"], "billion", " ", "years"}]}]}]}]}], 
+   TraditionalForm]],ExpressionUUID->"bc216ea4-dd4a-4088-8871-4aad0550f7ae"],
+ "\n\nThat\[CloseCurlyQuote]s 14.6 billion years. If the universe\
+\[CloseCurlyQuote]s expansion rate has not changed, then this is the age of \
+the universe."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQAWIQ3S4RVdb4843jCsnYGhBtwhvWAKKFUl83gehHV3dF
+3ALSIoEfYkD0kXTzRBB9tX1ZL4h+tXnHRBDtcdZ6Moh+se/CahA9Yf6VtSC6
+pG3FRhBt5HPwMIhOOfT/OIi+diPgJ4jWeuTDdBtIbzRmFAHRXbJ2yiC64/pJ
+bRB94NcRfRBt/VjUHUSf6dgVBaJnXJKdAaJfbb2YeeX3G8eQU77FINppSVgH
+iBa1cO8C0bO4hFeC6GPpP3aD6I76vftB9LNp/UdB9DrNiSdBtN26b39BdEbb
+ZearQHqOi7E8iM7bVqEFor9dqgPTCXJ3WkH0m4XxnSAaAL9Wy+Y=
+  "],ExpressionUUID->"262155aa-e967-40e5-bf16-12337ff40645"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1270, 1268},
+WindowMargins->{{Automatic, 331}, {29, Automatic}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1013, 15, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1618, 41, 234, 4, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
+Cell[1855, 47, 7432, 194, 817, "Text",ExpressionUUID->"2856187f-c956-4116-9dcf-7985ee1cc01b"],
+Cell[9290, 243, 3924, 113, 351, "Text",ExpressionUUID->"f082f9d7-c2a2-44c4-85f1-fccaa25db7e9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13251, 361, 586, 10, 122, "Subsection",ExpressionUUID->"075b58c5-41eb-476f-be3d-cb20bb5bcaad"],
+Cell[13840, 373, 183, 4, 53, "Text",ExpressionUUID->"d813070e-2ef0-48ae-87aa-db978d9f0f70"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14060, 382, 558, 8, 81, "Subsection",ExpressionUUID->"60b19669-35e8-4328-90db-1e581277c5c7"],
+Cell[14621, 392, 4483, 122, 1152, "Text",ExpressionUUID->"262155aa-e967-40e5-bf16-12337ff40645"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
