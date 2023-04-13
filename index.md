@@ -26,17 +26,17 @@ II. Minkowski Space: Lorentz Metric, Lorentz Transformations, Special Relativity
 
 III. Polar Coordinates in Flat and Curved Spacetime in 2+1 and 3+1 Dimensions
 
-IV. The Lifecycle of Stars, The Schwarzschild Metric, Stellar-Mass Black Holes, Supermassive Black Holes
+IV. Properties of the Schwarzschild Metric
 
-### Term 5 &mdash; The Big Bang, The Metric for the Universe, Gravitational Waves
+### Term 5 &mdash; The Big Bang, The Metric for the Universe
 
-V. Homogeneity, Isotropy, and the Historical Evidence for the Big Bang
+IV. Conservation of Map-Energy in the Schwarzschild Metric, Infalling Light, Infalling Stones, Rain
 
-VI. Friedman-Lema&icirc;tre-Robertson-Walker Metric
+V. Homogeneity, Isotropy, Hubble Plots, the Cosmic Microwave Background
 
-VII. Evidence for Dark Matter and Dark Energy
+VI. The Friedman-Robertson-Walker (FRW) Metric
 
-VIII. Gravitational Waves, Black Hole Mergers
+VII. Matter, Radiation, Dark Matter, and Dark Energy in FRW Cosmology
 
 ## Daily Schedules
 
@@ -55,9 +55,8 @@ We will use:
 Additionally, we will draw from:
 
 * [*Black Holes and Time Warps*](https://www.amazon.com/dp/0393312763), by Kip Thorne &larr; a great survey, but at a mathematical level that is below where we want to be &mdash; I will be reading this for insights
-* Selected historical papers that established Big Bang cosmology &larr; Mostly by Hubble
+* Selected historical papers that established Big Bang cosmology
 * Selected modern papers containing the evidence for dark matter and dark energy &larr; Including some by the High-*z* Supernova Search Team and the Supernova Cosmology Project (whose leaders won the 2011 Nobel Prize)
-* Selected modern papers on gravitational wave detection and black hole mergers &larr; Including some by LIGO (whose leaders won the 2017 Nobel Prize)
 
 ## Einstein's Exposition
 
