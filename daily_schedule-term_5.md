@@ -28,14 +28,17 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 11 &mdash; Black-Body Radiation &mdash; Conservation of Momentum in the FRW Metric &mdash; Luminosity and The Magnitude System
 
 * Preparation for Monday, Apr. 3 &mdash; Go back and study everything you have in both of the textbooks we are using on the Principle of Maximal Aging and my handout where I derived the [Conservation of Map Energy](./resources/ConservationOfMapEnergy.pdf) from the Principle of Maximal Aging &mdash; There is a small but significant mistake in Box 4 on TWB p. 14-13 &mdash; Find it and then understand the rest of the formulae in the box &mdash; Use everything you've learned to understand the rest of Section 14.5 (through p. 14-16) &mdash; The stones are now galaxies! &mdash; TWB are trying to find things that are true about the motion of galaxies through a uniform universe described by the FRW metric
-* Preparation for Thursday, Apr. 6 &mdash; Study TWB Section 14.6 &mdash; Study the [Leavitt-Pickering Period-Luminosity](./resources/LeavittPickering25Variables.pdf) paper and [Hubble's 1929 paper](./resources/Hubbles1929Paper.pdf) &mdash; Do [Problem Set 10](./assignments/Assignment10.pdf)
+* Preparation for Thursday, Apr. 6 &mdash; Study TWB Section 14.6 &mdash; Study the [Leavitt-Pickering Period-Luminosity paper](./resources/LeavittPickering25Variables.pdf) and [Hubble's 1929 paper](./resources/Hubbles1929Paper.pdf) &mdash; Do [Problem Set 10](./assignments/Assignment10.pdf)
 
-### Week 12 (Apr. 9-15)
+### Week 12 &mdash; Relationship of Hubble's Law to the FRW Metric &mdash; Luminosity Distance &mdash; Friedman Equation
 
 * Preparation for Monday, Apr. 10 &mdash; Finish studying Chapter 14 of TWB
 * Monday, Apr. 10 &mdash; We re-derived the redshift formula from Special Relativity, which TWB have as Eq. 47 on p. 14-21 &mdash; I derived Eq. 60 on p. 14-24 which relates [Hubble's Law and the FRW Metric](./resources/HubblesLawAndTheFRWMetric.pdf) &mdash; In short, H = dR/dt / R
 * Preparation for Thursday, Apr. 13 &mdash; Complete your study of pp. 14-22 and 14-23 (especially Box 6 on the luminosity distance) &mdash; Study TWB Sections 15.1 and 15.2
+* Thursday, Apr. 13 &mdash; Photons and Luminosity Distance (Box 6 on p. 14-22) &mdash; TWB Section 15.3 &mdash; [Problem Set 11](./assignments/Assignment11.pdf) due Sunday, April 16, 6pm
 
-### Week 13 (Apr. 16-22)
+### Week 13 &mdash; Solving the Friedman Equation
+
+* Preparation for Monday, Apr. 17 &mdash; Study TWB Sections 15.4 to 15.6
 
 ### Week 14 (Apr. 23-29)
