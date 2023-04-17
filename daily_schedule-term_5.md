@@ -29,7 +29,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 * Preparation for Monday, Apr. 3 &mdash; Go back and study everything you have in both of the textbooks we are using on the Principle of Maximal Aging and my handout where I derived the [Conservation of Map Energy](./resources/ConservationOfMapEnergy.pdf) from the Principle of Maximal Aging &mdash; There is a small but significant mistake in Box 4 on TWB p. 14-13 &mdash; Find it and then understand the rest of the formulae in the box &mdash; Use everything you've learned to understand the rest of Section 14.5 (through p. 14-16) &mdash; The stones are now galaxies! &mdash; TWB are trying to find things that are true about the motion of galaxies through a uniform universe described by the FRW metric
 * Monday, Apr. 3 &mdash; [Conservation of Radial Momentum](./resources/ConservationOfRadialMomentum.pdf) in the FRW Metric
-* Preparation for Thursday, Apr. 6 &mdash; Study TWB Section 14.6 &mdash; Study the [Leavitt-Pickering Period-Luminosity paper](./resources/LeavittPickering25Variables.pdf) and [Hubble's 1929 paper](./resources/Hubbles1929Paper.pdf) &mdash; Do [Problem Set 10](./assignments/Assignment10.pdf)
+* Preparation for Thursday, Apr. 6 &mdash; Study TWB Section 14.6 &mdash; Study the [Leavitt-Pickering Period-Luminosity paper](./resources/LeavittPickering25Variables.pdf) and [Hubble's 1929 paper](./resources/Hubbles1929Paper.pdf) &mdash; Do [Problem Set 10](./assignments/Assignment10.pdf) &mdash; [Problem Set 10 Solution](./assignments/Assignment10-Solution.pdf)
 * Thursday, Apr. 6 &mdash; Luminosity, Luminosity Distance, The Magnitude System
 
 ### Week 12 &mdash; Relationship of Hubble's Law to the FRW Metric &mdash; Luminosity Distance &mdash; Friedman Equation

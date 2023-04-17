@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     37310,        988]
-NotebookOptionsPosition[     36126,        956]
-NotebookOutlinePosition[     36610,        975]
-CellTagsIndexPosition[     36567,        972]
+NotebookDataLength[     36312,        950]
+NotebookOptionsPosition[     35128,        918]
+NotebookOutlinePosition[     35612,        937]
+CellTagsIndexPosition[     35569,        934]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -53,17 +53,14 @@ interest.\n\nThe first and most important thing is to remember what the \
 formula represents: if you have a filter that allows a narrow range of light \
 from ",
  Cell[BoxData[
-  FormBox["\[Omega]", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["\[Omega]", TraditionalForm]],ExpressionUUID->
   "d2a7d8d1-5ecd-405d-a202-a077aa55c721"],
  " to ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[Omega]", "+", 
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Omega]"}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "49f678a7-22cd-46e2-9d6d-0814ab29bb61"],
+   TraditionalForm]],ExpressionUUID->"49f678a7-22cd-46e2-9d6d-0814ab29bb61"],
  " to pass through it, then the intensity of the light coming from the \
 surface of the black body and passing through the filter will be:\n\n",
  Cell[BoxData[
@@ -82,69 +79,58 @@ surface of the black body and passing through the filter will be:\n\n",
          "\[HBar]\[Omega]", "\[VeryThinSpace]", "/", "\[VeryThinSpace]", 
           "k"}], "\[VeryThinSpace]", "T"}]], "-", "1"}], ")"}]}]], 
    TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->18,ExpressionUUID->"4639c349-2b28-4f6b-98a9-7e8c2cec65d3"],
  "\n\nIn this formula \[HBar] is ",
  Cell[BoxData[
   FormBox[
    FractionBox["h", 
-    RowBox[{"2", "\[Pi]"}]], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"2", "\[Pi]"}]], TraditionalForm]],ExpressionUUID->
   "9f891016-eaf6-4c3a-8138-2c1e83dc4fbc"],
  " and ",
  Cell[BoxData[
-  FormBox["h", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["h", TraditionalForm]],ExpressionUUID->
   "bec12b9f-2835-4c9d-8465-1764a3228c4d"],
  " is Planck\[CloseCurlyQuote]s constant. It is a fundamental constant of \
 nature. ",
  Cell[BoxData[
-  FormBox["k", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["k", TraditionalForm]],ExpressionUUID->
   "abca1e1a-8544-48b5-8243-137415b078b7"],
  " is Boltzmann\[CloseCurlyQuote]s constant. We now understand it as the \
 conversion factor between ",
  Cell[BoxData[
-  FormBox["T", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["T", TraditionalForm]],ExpressionUUID->
   "5eeb1d34-745c-486e-bf11-59e5b84368ef"],
  " (the temperature) and energy. ",
  Cell[BoxData[
-  FormBox["T", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["T", TraditionalForm]],ExpressionUUID->
   "e232f366-a30d-462b-8e94-7d3fd3fcf05f"],
  " is measured in Kelvin. Kelvin is abbreviated K. Don\[CloseCurlyQuote]t \
 confuse ",
  Cell[BoxData[
-  FormBox["k", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["k", TraditionalForm]],ExpressionUUID->
   "a70099b1-f71a-4708-a0d9-d7d5af138c4a"],
  " with K.\n\nIn an ideal gas at temperature ",
  Cell[BoxData[
-  FormBox["T", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["T", TraditionalForm]],ExpressionUUID->
   "c3ce5d49-ae67-4e22-b65c-04b7cee43f4e"],
  ", the kinetic energy of each atom in the gas is ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     FractionBox["3", "2"], "k", "\[VeryThinSpace]", "T"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "b2059315-cdad-49f0-be58-0765af827d8a"],
+  ExpressionUUID->"b2059315-cdad-49f0-be58-0765af827d8a"],
  ". In an ideal gas, ",
  StyleBox["the only energy",
   FontSlant->"Italic"],
  " is kinetic energy. So we now understand that temperature is just measuring \
 energy and ",
  Cell[BoxData[
-  FormBox["k", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["k", TraditionalForm]],ExpressionUUID->
   "5393102b-5f53-44b3-8b49-c633894ef662"],
  " (and a factor of ",
  Cell[BoxData[
   FormBox[
-   FractionBox["3", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   FractionBox["3", "2"], TraditionalForm]],ExpressionUUID->
   "c2b0a1a2-2e62-4e13-9cc7-438a30a2c74c"],
  ") is the conversion factor that tells how much energy, but when they were \
 defining the temperature scale, they didn\[CloseCurlyQuote]t know that. The \
@@ -153,15 +139,27 @@ approximate values of these constants are:\n\n",
   FormBox[
    RowBox[{"h", "=", 
     RowBox[{"6.626", " ", 
-     SuperscriptBox["10", "34"], 
+     SuperscriptBox["10", 
+      RowBox[{"-", "34"}]], 
      RowBox[{
       StyleBox["J",
        FontSlant->"Plain"], "\[CenterDot]", 
       StyleBox["s",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
   "313e1c9f-93fc-4b3e-b9cc-d1b16e03204e"],
- "\n\n",
+ "  (there was a typo here \[LongDash] I had ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"6.626", " ", 
+    SuperscriptBox["10", "34"], 
+    RowBox[{
+     StyleBox["J",
+      FontSlant->"Plain"], "\[CenterDot]", 
+     StyleBox["s",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d6685938-6245-478a-80f1-5e090cde78e3"],
+ " \[LongDash] acck!)\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{"k", "=", 
@@ -172,8 +170,7 @@ approximate values of these constants are:\n\n",
       StyleBox["J",
        FontSlant->"Plain"], "/", 
       StyleBox["K",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
   "0fee9bf8-c36e-4a9c-bb05-915eb695ed98"],
  "\n\nThe first formula above is usually written:\n\n",
  Cell[BoxData[
@@ -181,7 +178,6 @@ approximate values of these constants are:\n\n",
    RowBox[{
     SubscriptBox["I", "\[Omega]"], "\[CapitalDelta]\[Omega]"}], 
    TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->18,ExpressionUUID->"d6446fd1-3ff4-4aba-85f3-6448015e6609"],
  "  where ",
  Cell[BoxData[
@@ -203,32 +199,25 @@ approximate values of these constants are:\n\n",
            "\[HBar]\[Omega]", "\[VeryThinSpace]", "/", "\[VeryThinSpace]", 
             "k"}], "\[VeryThinSpace]", "T"}]], "-", "1"}], ")"}]}]]}]}], 
    TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->18,ExpressionUUID->"e2248671-ef7f-4d6a-9b50-40d3fd2c4887"],
  "\n\n(a) What are the units of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[HBar]", "\[VeryThinSpace]", "\[Omega]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "ed4c3d7b-a685-47f7-84da-9e2009c70eb5"],
+  ExpressionUUID->"ed4c3d7b-a685-47f7-84da-9e2009c70eb5"],
  ", ",
  Cell[BoxData[
   FormBox[
   Cell["\[Omega]",ExpressionUUID->"971478e2-a1ce-4dde-a555-5788a6ab6edc"], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "753cb401-c924-48d7-b5a3-ea52d6dab92d"],
+   TraditionalForm]],ExpressionUUID->"753cb401-c924-48d7-b5a3-ea52d6dab92d"],
  ", ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "\[Omega]"}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "e73fecc2-9d23-4ea8-8bf8-48df7c01bfbb"],
+   TraditionalForm]],ExpressionUUID->"e73fecc2-9d23-4ea8-8bf8-48df7c01bfbb"],
  ", and ",
  Cell[BoxData[
-  FormBox["c", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["c", TraditionalForm]],ExpressionUUID->
   "cbff4fcc-9bca-433c-bcbe-6994487e1d2b"],
  "? Acceptable choices in the SI system are combinations of Joules (J), \
 meters (m) and seconds (s).\n\n(b) Using your answer from part (a), what are \
@@ -238,13 +227,11 @@ the units of ",
    RowBox[{
     SubscriptBox["I", "\[Omega]"], "\[CapitalDelta]\[Omega]"}], 
    TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->18,ExpressionUUID->"c1d7dc8d-8500-435f-87df-4e9775f75d50"],
  "?\n\n(c) To get the luminosity, ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["L", "\[Omega]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["L", "\[Omega]"], TraditionalForm]],ExpressionUUID->
   "6a6643f9-a377-4c66-ad41-66c8b2040f49"],
  ", of a black body in the range \[Omega] to ",
  Cell[BoxData[
@@ -261,28 +248,24 @@ units of ",
   FontSize->18,ExpressionUUID->"8abeb990-1ecc-46f1-a367-067bde6eb196"],
  " where ",
  Cell[BoxData[
-  FormBox["A", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["A", TraditionalForm]],ExpressionUUID->
   "47347ce5-eda3-47c6-97fc-dd240b37717b"],
  " is the surface area of the black body (typically a star). The surface area \
 of a star is of course enormous.\n\nDISCUSSION: If you want to the total \
 intensity or luminosity at all frequencies, you have to integrate ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "\[Omega]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "\[Omega]"], TraditionalForm]],ExpressionUUID->
   "13e6fb9c-16ce-4037-a734-9ec08804bf1c"],
  " from ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"\[Omega]", "=", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"\[Omega]", "=", "0"}], TraditionalForm]],ExpressionUUID->
   "ed8aedfb-3d7f-4ba5-b98d-913ee0ffd8c6"],
  " to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"\[Omega]", "=", "\[Infinity]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"\[Omega]", "=", "\[Infinity]"}], TraditionalForm]],ExpressionUUID->
   "56c927e8-8da1-422f-9829-79a5f7cf1e27"],
  ". I\[CloseCurlyQuote]m not going to derive that, because it requires some \
 integration tricks, which people would forget almost as fast as I showed \
@@ -298,33 +281,28 @@ class. \n\n(d) The wavelength of orange light is 600nm. Divide this by ",
      StyleBox["m",
       FontSlant->"Plain"], "/", 
      StyleBox["s",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "3cb2081d-d70c-45e1-bda4-c8da81f7b868"],
  " to get the period and take the reciprocal to get the frequency. Finally, \
 multiply by ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"2", "\[Pi]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"2", "\[Pi]"}], TraditionalForm]],ExpressionUUID->
   "c30c35da-0319-4159-89e1-3ed12b94cd1b"],
  " to get \[Omega]. What is \[Omega] for orange light?\n\n(e) Use a graphing \
 tool to graph ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "\[Omega]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "\[Omega]"], TraditionalForm]],ExpressionUUID->
   "65a0f6fb-c67f-4aa9-ba7e-184c756430e5"],
  " from ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"\[Omega]", "=", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"\[Omega]", "=", "0"}], TraditionalForm]],ExpressionUUID->
   "47453966-9c03-4858-b85c-00f2888c1b6a"],
  " to ",
  Cell[BoxData[
-  FormBox["\[Omega]", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["\[Omega]", TraditionalForm]],ExpressionUUID->
   "cc604a14-20f8-48e9-9ee2-f0a2ee50ec3a"],
  " equal to 3x whatever you got in Part d for our Sun, which has ",
  Cell[BoxData[
@@ -332,8 +310,7 @@ tool to graph ",
    RowBox[{"T", "=", 
     RowBox[{"5777", 
      StyleBox["K",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "1e91b472-47ec-4af9-9191-9654c2fdb6cd"],
  ". By hand, mark the position of orange light on the horizontal axis of the \
 plot.\n\n(f) Repeat (e) for a star of 10000K.\n\n(g) Repeat (e) for a star of \
@@ -364,8 +341,9 @@ plot.\n\n(f) Repeat (e) for a star of 10000K.\n\n(g) Repeat (e) for a star of \
    3.88967189903999*^9, 3.8896719192297897`*^9}, {3.889671978585668*^9, 
    3.889672013854959*^9}, {3.889672046021727*^9, 3.889672098212755*^9}, {
    3.889672137900712*^9, 3.8896722763123837`*^9}, {3.889672334910194*^9, 
-   3.88967234123034*^9}, {3.889672374000045*^9, 
-   3.8896724104432583`*^9}},ExpressionUUID->"2856187f-c956-4116-9dcf-\
+   3.88967234123034*^9}, {3.889672374000045*^9, 3.8896724104432583`*^9}, {
+   3.890723593426578*^9, 
+   3.89072365049886*^9}},ExpressionUUID->"2856187f-c956-4116-9dcf-\
 7985ee1cc01b"]
 }, Open  ]],
 
@@ -615,38 +593,32 @@ flux densities if they are at different distances. If I call the luminosities \
 ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["L", "1"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["L", "1"], TraditionalForm]],ExpressionUUID->
   "0d4fa1c7-85d0-4cae-ac4e-9730399d6b76"],
  " and ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["L", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["L", "2"], TraditionalForm]],ExpressionUUID->
   "f1359de3-5bb9-4d89-aeb1-27df5b43bae0"],
  ", the flux densities, ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "1"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "1"], TraditionalForm]],ExpressionUUID->
   "0b8bec3b-fa20-4332-a1c2-0ea0c03a7f72"],
  " and ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "2"], TraditionalForm]],ExpressionUUID->
   "923a94a6-0a96-47e7-8780-a7e7b0352b36"],
  " and the distances ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "1"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "1"], TraditionalForm]],ExpressionUUID->
   "40037779-91cf-4940-b23c-5390fe2bdb49"],
  " and ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "2"], TraditionalForm]],ExpressionUUID->
   "9c6a1c18-e164-4119-8910-6cfdc2ce7463"],
  ", then the formula relating them all is\n\n",
  Cell[BoxData[
@@ -659,8 +631,7 @@ flux densities if they are at different distances. If I call the luminosities \
       RowBox[{"4", "\[Pi]", "\[VeryThinSpace]", 
        SuperscriptBox[
         SubscriptBox["d", "1"], "2"]}], ")"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "8cc7a724-330d-41a7-80a7-8b418b11b0f5"],
+  ExpressionUUID->"8cc7a724-330d-41a7-80a7-8b418b11b0f5"],
  " and ",
  Cell[BoxData[
   FormBox[
@@ -672,40 +643,34 @@ flux densities if they are at different distances. If I call the luminosities \
       RowBox[{"4", "\[Pi]", "\[VeryThinSpace]", 
        SuperscriptBox[
         SubscriptBox["d", "2"], "2"]}], ")"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "4e0f0d1a-6e4b-48bd-9c07-5d6387884c01"],
- "\n\nThese are nice simple formulae. The light is escaping and therefore is \
+  ExpressionUUID->"4e0f0d1a-6e4b-48bd-9c07-5d6387884c01"],
+ " \n\nThese are nice simple formulae. The light is escaping and therefore is \
 spread out over the surface of a sphere of radius ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "1"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "1"], TraditionalForm]],ExpressionUUID->
   "60f1417f-6ce0-484f-a7fa-58bf5ad7157d"],
  " (and ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "2"], TraditionalForm]],ExpressionUUID->
   "fd8ed505-c71b-4057-b787-6d8af970bc66"],
  ") respectively. These formula have to be modified in curved, expanding \
 spacetime, but let\[CloseCurlyQuote]s leave that aside for a moment.\n\nIn \
 the above formulae, if you take the ratio of ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "1"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "1"], TraditionalForm]],ExpressionUUID->
   "c69ac3b3-301a-4716-b792-33bfec401a47"],
  " to ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "2"], TraditionalForm]],ExpressionUUID->
   "2f49386b-0c71-4313-91e4-97487b67a86a"],
  " you can of course cancel the factors of ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"4", "\[Pi]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"4", "\[Pi]"}], TraditionalForm]],ExpressionUUID->
   "e93333f1-dc09-4982-a5c2-7c83e5da877c"],
  ". It is common to take the ratio of the two formula and take log base 100 \
 and multiply by 5.\n\n",
@@ -727,14 +692,12 @@ and multiply by 5.\n\n",
       RowBox[{
        SubscriptBox["L", "2"], "/", "\[VeryThinSpace]", 
        SuperscriptBox[
-        SubscriptBox["d", "2"], "2"]}]]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+        SubscriptBox["d", "2"], "2"]}]]}]}], TraditionalForm]],ExpressionUUID->
   "5a6ee848-a04e-4598-827a-abb0f7f5d918"],
  "\n\nThen you take ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["I", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["I", "2"], TraditionalForm]],ExpressionUUID->
   "5aea6a5f-f5a3-4944-ad77-54ef8098a09f"],
  " to be the flux density of a standard star, Vega, and you define:\n\n",
  Cell[BoxData[
@@ -771,14 +734,12 @@ equations is:\n\n",
  "\n\nThe modification for curved expanding spacetime is that you have to \
 replace ",
  Cell[BoxData[
-  FormBox["d", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["d", TraditionalForm]],ExpressionUUID->
   "d1882eca-865d-46f5-9228-44ec0260e3b1"],
  " by \[OpenCurlyDoubleQuote]luminosity distance\[CloseCurlyDoubleQuote] ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "L"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "L"], TraditionalForm]],ExpressionUUID->
   "81db7dda-34d4-4c01-ae7d-1aff33e855b6"],
  ". So you have\n\n",
  Cell[BoxData[
@@ -798,13 +759,11 @@ replace ",
  "\n\n(a) Just to make sure you are paying attention to the formula, suppose \
 a star has four times the luminosity, ",
  Cell[BoxData[
-  FormBox["L", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["L", TraditionalForm]],ExpressionUUID->
   "10cd9629-8f9e-468f-89be-0f8423b170b1"],
  ", as Vega and it is twice as far away. What will its ",
  Cell[BoxData[
-  FormBox["m", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["m", TraditionalForm]],ExpressionUUID->
   "e96348ed-9af8-4722-baea-1a0337db9fd0"],
  " be? Suppose a star has ",
  Cell[BoxData[
@@ -815,23 +774,36 @@ a star has four times the luminosity, ",
       RowBox[{"4", "\[Pi]", " ", 
        SuperscriptBox[
         SubscriptBox["d", "L"], "2"]}], ")"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "4c2a2fe5-eccf-42c3-9761-0c41bbd5c465"],
+  ExpressionUUID->"4c2a2fe5-eccf-42c3-9761-0c41bbd5c465"],
  " that is ",
  Cell[BoxData[
   FormBox[
    RowBox[{"3.4", 
-    SubscriptBox["I", "Vega"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SubscriptBox["I", "Vega"]}], TraditionalForm]],ExpressionUUID->
   "ae6ecf62-287a-4c8c-a41c-ef4ab30e95d3"],
  ". What is its magnitude?\n\n(b) IMAGINE, the star is at ",
  Cell[BoxData[
   FormBox[
    RowBox[{"d", "=", 
-    RowBox[{"10", "pc"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"10", "pc"}]}], TraditionalForm]],ExpressionUUID->
   "947c8092-2527-4939-bbf2-b585d8dca20f"],
  " instead of its actual distance. Then define\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{
+     RowBox[{"-", "5"}], " ", 
+     SubscriptBox["log", "100"], 
+     FractionBox[
+      RowBox[{"L", "/", 
+       RowBox[{"(", 
+        RowBox[{"4", 
+         SuperscriptBox[
+          RowBox[{"\[Pi]", "(", "\[VeryThinSpace]", 
+           RowBox[{"10", "pc"}], ")"}], "2"]}], ")"}]}], 
+      SubscriptBox["I", "Vega"]]}]}], TraditionalForm]],ExpressionUUID->
+  "e6def2b5-9ce0-4816-a43d-8af434754be9"],
+ "  (there was another typo here \[LongDash] I had ",
  Cell[BoxData[
   FormBox[
    RowBox[{"M", "=", 
@@ -843,60 +815,52 @@ a star has four times the luminosity, ",
        SuperscriptBox[
         RowBox[{"(", "\[VeryThinSpace]", 
          RowBox[{"10", "pc"}], ")"}], "2"]}], 
-      SubscriptBox["I", "Vega"]]}]}], TraditionalForm]],ExpressionUUID->
-  "e6def2b5-9ce0-4816-a43d-8af434754be9"],
- "\n\nDerive Eq. 42 for ",
+      SubscriptBox["I", "Vega"]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "427afdaf-5839-448c-9cf5-ff45d626a0ca"],
+ ")\n\nDerive Eq. 42 for ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"m", "-", "M"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"m", "-", "M"}], TraditionalForm]],ExpressionUUID->
   "1a97f893-21f4-4b0d-abbf-894177a4e136"],
  " using the above definitions for ",
  Cell[BoxData[
-  FormBox["m", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["m", TraditionalForm]],ExpressionUUID->
   "61091dec-b9d1-4092-b956-8cd513655df5"],
  " and ",
  Cell[BoxData[
-  FormBox["M", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["M", TraditionalForm]],ExpressionUUID->
   "782da914-380d-4bec-a62d-7aa00c9e36ca"],
  " and miscellaneous properties of the logarithm.\n\nNB: The formula TWB gave \
 has ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["log", "10"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["log", "10"], TraditionalForm]],ExpressionUUID->
   "45962651-b137-4f8a-8dbd-3df607873138"],
  " in it, not ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["log", "100"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["log", "100"], TraditionalForm]],ExpressionUUID->
   "8726e3c4-6444-4a4a-9862-94e5370a4d99"],
  ". That is not a typo.\n\n(c) It is common to use the equation you just \
 derived the other way. You have ",
  Cell[BoxData[
-  FormBox["m", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["m", TraditionalForm]],ExpressionUUID->
   "5782f73f-90aa-4d90-91e2-bf6f4aa25590"],
  " and ",
  Cell[BoxData[
-  FormBox["M", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["M", TraditionalForm]],ExpressionUUID->
   "5ff68b21-fa7c-4ebb-a206-79e410bba6cd"],
  ", and you want to know ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "L"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "L"], TraditionalForm]],ExpressionUUID->
   "88342231-c2b3-4427-8e0d-12af6a98900a"],
  ".\n\nSolve the equation in part (b) for ",
  Cell[BoxData[
   FormBox[
    SubscriptBox["d", 
-    RowBox[{"L", "."}]], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"L", "."}]], TraditionalForm]],ExpressionUUID->
   "539b1477-3249-483d-a172-71dcc28a8c59"],
  "\n\n(d) This is a good time to recollect the definition of the parsec. It \
 is ",
@@ -908,8 +872,7 @@ is ",
      RowBox[{
       FractionBox["360", 
        RowBox[{"2", "\[Pi]"}]], "\[CenterDot]", "60", "\[CenterDot]", 
-      "60"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      "60"}]}]}], TraditionalForm]],ExpressionUUID->
   "f2c5e877-1130-4b21-b003-e64082d0d1ee"],
  ". The AU is the distance from the Earth to the Sun. Of course the Earth \
 traces an ellipse, so \[OpenCurlyDoubleQuote]the distance from the Earth to \
@@ -918,8 +881,7 @@ the Sun\[CloseCurlyDoubleQuote] needs defining,  and astronomers chose\n\n",
   FormBox[
    RowBox[{
     RowBox[{"1", " ", "AU"}], "=", 
-    RowBox[{"149597870.7", " ", "km"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"149597870.7", " ", "km"}]}], TraditionalForm]],ExpressionUUID->
   "10231f8a-d47c-4bc6-8983-1eeab2685611"],
  " \n\nSo using these expressions, how much is a parsec?\n\n(e) Convert this \
 to light-years. You will need the speed of light, which is exactly \
@@ -948,14 +910,14 @@ conversion factor between parsecs and light-years."
    3.889672782440508*^9, {3.88967303161456*^9, 3.889673067992023*^9}, {
    3.889673098842567*^9, 3.889673205320756*^9}, {3.889673278202024*^9, 
    3.889673282767592*^9}, {3.8896734887551813`*^9, 3.889673658154608*^9}, {
-   3.8896737102171183`*^9, 
-   3.88967382928358*^9}},ExpressionUUID->"5ec77c28-2653-40fd-b7b0-\
+   3.8896737102171183`*^9, 3.88967382928358*^9}, {3.890723665629904*^9, 
+   3.8907237497300873`*^9}},ExpressionUUID->"5ec77c28-2653-40fd-b7b0-\
 7b14d8f1ef6a"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1270, 1012},
-WindowMargins->{{206, Automatic}, {Automatic, 198}},
+WindowMargins->{{513, Automatic}, {Automatic, 156}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 Magnification:>1.5 Inherited,
@@ -978,16 +940,16 @@ Cell[CellGroupData[{
 Cell[580, 22, 989, 14, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
 Cell[1594, 40, 317, 5, 81, "Subsection",ExpressionUUID->"b36128b9-fc3d-4eeb-9732-c7dec7f2662a"],
-Cell[1914, 47, 12561, 321, 1827, "Text",ExpressionUUID->"2856187f-c956-4116-9dcf-7985ee1cc01b",
+Cell[1914, 47, 11987, 299, 1833, "Text",ExpressionUUID->"2856187f-c956-4116-9dcf-7985ee1cc01b",
  InitializationCell->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14512, 373, 385, 6, 81, "Subsection",ExpressionUUID->"7b269a9c-6c3a-4c7e-9547-084f717e41a7"],
-Cell[14900, 381, 7676, 214, 887, "Text",ExpressionUUID->"94bd0a3b-991f-4ed4-a5aa-1ec16d79c254"]
+Cell[13938, 351, 385, 6, 81, "Subsection",ExpressionUUID->"7b269a9c-6c3a-4c7e-9547-084f717e41a7"],
+Cell[14326, 359, 7676, 214, 887, "Text",ExpressionUUID->"94bd0a3b-991f-4ed4-a5aa-1ec16d79c254"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22613, 600, 439, 7, 81, "Subsection",ExpressionUUID->"76866964-6289-4f17-8d37-d898f4694c91"],
-Cell[23055, 609, 13043, 343, 2370, "Text",ExpressionUUID->"5ec77c28-2653-40fd-b7b0-7b14d8f1ef6a"]
+Cell[22039, 578, 439, 7, 81, "Subsection",ExpressionUUID->"76866964-6289-4f17-8d37-d898f4694c91"],
+Cell[22481, 587, 12619, 327, 2375, "Text",ExpressionUUID->"5ec77c28-2653-40fd-b7b0-7b14d8f1ef6a"]
 }, Open  ]]
 }, Open  ]]
 }
