@@ -15,7 +15,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 * Preparation for Monday, Mar. 19 &mdash; Continue TWB Chapter 6 through Section 6.6 (through p. 6-19)
 * Monday, Mar. 19 &mdash; Now that we have conservation of map energy, what does it tell us about the [Shell Energy](./resources/ShellEnergyFromMapEnergy.pdf) of a stone &mdash; What extra relationships can we derive for the special case of [Rain](./resources/RainFromStones.pdf)? &mdash; How [Feynman studies](./resources/Feynman-HowToStudy.pdf)
-* Preparation for Thursday, Mar. 22 &mdash; [Problem Set 8](./assignments/Assignment08.pdf) due at the beginning of class &mdash; [Problem Set 8 Solution](./assignments/Assignment08-Solution.pdf) &mdash; Also, a very modest amount of cosmology reading (just Section 14.1 of TWB) &mdash; Here is the final installment of [TWB Chapters 14-16](./resources/TaylorWheelerBertschinger-ExploringBlackHoles-2ndEdition-Chapters14-16.pdf) on cosmology and gravitational waves
+* Preparation for Thursday, Mar. 22 &mdash; [Problem Set 8](./assignments/Assignment08.pdf) due at the beginning of class &mdash; [Problem Set 8 Solution](./assignments/Assignment08-Solution.pdf) &mdash; Also, a very modest amount of cosmology reading (just Section 14.1 of TWB) &mdash; Here is the final installment of [TWB Chapters 14-16](./resources/TaylorWheelerBertschinger-ExploringBlackHoles-2ndEdition-Chapters14-16.pdf) on cosmology and gravitational waves (we will only get as far as Section 15.8)
 * Thursday, Mar. 22 &mdash; A simple worksheet that helps to understand the expanding universe
 
 ### Week 10 &mdash; Metric for a Uniform Expanding Universe &mdash; The Cosmological Redshift &mdash; The Cosmic Microwave Background Radiation
@@ -42,5 +42,9 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 13 &mdash; Solving the Friedman Equation
 
 * Preparation for Monday, Apr. 17 &mdash; Study TWB Sections 15.4 to 15.6
+* Preparation for Thursday, Apr. 20 &mdash; Study TWB Sections 15.6 to 15.7
 
-### Week 14 (Apr. 23-29)
+### Week 14 &mdash; Final Exam &mdash; Dark Matter and Dark Energy
+
+* Monday, Apr. 24 &mdash; Term 5 Exam
+* Thursday, Apr. 27 &mdash; TWB Section 15.8 &mdash; The observed contents of the universe and the evidence for dark matter and dark energy
