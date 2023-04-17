@@ -39,12 +39,13 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Preparation for Thursday, Apr. 13 &mdash; Complete your study of pp. 14-22 and 14-23 (especially Box 6 on the luminosity distance) &mdash; Study TWB Sections 15.1 and 15.2
 * Thursday, Apr. 13 &mdash; Photons and Luminosity Distance (Box 6 on p. 14-22) &mdash; TWB Section 15.3 &mdash; [Problem Set 11](./assignments/Assignment11.pdf) due Sunday, April 16, 6pm
 
-### Week 13 &mdash; Solving the Friedman Equation
+### Week 13 &mdash; Solving the Friedman Equation in the Presence of Matter, Energy, and Dark Energy
 
-* Preparation for Monday, Apr. 17 &mdash; Study TWB Sections 15.4 to 15.6
-* Preparation for Thursday, Apr. 20 &mdash; Study TWB Sections 15.6 to 15.7
+* Preparation for Monday, Apr. 17 &mdash; Study TWB Sections 15.4 and 15.5
+* Monday, Apr. 17 &mdash; We only got as far as Eq. 26 at the beginning of 15.5 &mdash; A simplifying surprise is that the sum of the densities of all types of matter today is (within experimental error) equal to the critical density, which says that to the best we can observe it, *K=0.* That was important to deriving Eq. 26 at the beginning of Section 15.5 from Eq. 22 in Section 15.4
+* Preparation for Thursday, Apr. 20 &mdash; Study TWB Sections 15.6 and 15.7 &mdash; However, much of the discussion in 15.7 is trying for another way of motivating the fact that &Omega;<sub>&Lambda;</sub> can cause accelerating expansion and that isn't really necessary if you accept that the dark energy is vacuum energy and is the energy of the vacuum (empty space) and therefore does not spread out as more vacuum (empty space) is created &mdash; The goal of the current reading is to understand how a matter-dominated, a radiation-dominated, and a dark-energy-dominated universe evolves &mdash; Because of the different powers of *a(t)* in the Friedman equation, our universe goes or will go through all three phases
 
-### Week 14 &mdash; Final Exam &mdash; Dark Matter and Dark Energy
+### Week 14 &mdash; Final Exam &mdash; The Principle Evidence for Dark Matter and Dark Energy
 
 * Monday, Apr. 24 &mdash; Term 5 Exam
 * Thursday, Apr. 27 &mdash; TWB Section 15.8 &mdash; The observed contents of the universe and the evidence for dark matter and dark energy
