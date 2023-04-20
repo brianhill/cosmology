@@ -1,0 +1,156 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6728,        148]
+NotebookOptionsPosition[      5717,        120]
+NotebookOutlinePosition[      6201,        139]
+CellTagsIndexPosition[      6158,        136]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Cosmology \[LongDash] Problem Set  12 \[LongDash] The \
+Time Evolution of the Universe",
+ FontSize->24,
+ FontWeight->"Regular"]], "Section",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQAWIQrdV9uFzt3RvHGREna0F0G0v1oSlAetNjjyMgeo1V
+vPg0IN11ZTuYXseY8c7nwxvHkPh9H0D0vZ33dWs+vnF8ZmWvD6JfOC4xDf30
+xnHaZgULEL3lv5RzBJDO8652B9FzClLupv8Amv9i5X0Q3ej38AuInmml8RVE
+JzQnBO8C0gUHloeD6NWV16edBdIsHi/BdNenzveNP4H2rVkIpj/8uqp/E0jb
+au8xBNEVS6v3guhdBofAdMTfn2cfAekgvcaLIFrlw/vlr369cZxr5bUaRLMk
+r/kS9OeN4y2Pq2C64NWUjGAgraR9JxNEz9qW4VTz942j16JcMG0QaZwBotWk
+XoJpANdJwk8=
+  "],
+ FontSize->18,ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell["Due Thursday, April 27, beginning of class", "Subtitle",
+ CellChangeTimes->{{3.890387759008576*^9, 3.890387769910334*^9}, {
+  3.89099573669271*^9, 3.890995745050705*^9}},
+ FontSize->16,ExpressionUUID->"caac954a-2697-4c4b-8732-63a34403dc8e"],
+
+Cell[CellGroupData[{
+
+Cell["Problem 1 \[LongDash] TWB Chapter 15, Query 6, Parts A-C only", \
+"Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+   3.8883325455628033`*^9, 3.888332564608962*^9}, 3.889088927304385*^9, {
+   3.889648989631295*^9, 3.889649007626012*^9}, {3.889667114484643*^9, 
+   3.889667138020102*^9}, {3.8896686876848583`*^9, 3.889668707079245*^9}, {
+   3.890386871216259*^9, 3.890386874556416*^9}, {3.890387045173815*^9, 
+   3.8903870611560793`*^9}, {3.890995781422215*^9, 
+   3.8909957883299227`*^9}},ExpressionUUID->"76866964-6289-4f17-8d37-\
+d898f4694c91"],
+
+Cell["\<\
+Do Parts A through C only of Query 6 on p. 15-17. We did Part A in class, but \
+these are important special cases, so I am having you A again as well as \
+Parts B and C (but not Part D).\
+\>", "Text",
+ CellChangeTimes->{{3.889668733633285*^9, 3.889668739734318*^9}, {
+   3.889668833651658*^9, 3.889668834380234*^9}, {3.889668887084087*^9, 
+   3.889668891168931*^9}, {3.889668957659808*^9, 3.8896693927178097`*^9}, {
+   3.889669450376639*^9, 3.889669975612358*^9}, {3.889670026043859*^9, 
+   3.889670127999434*^9}, {3.889670161237794*^9, 3.889670164732724*^9}, {
+   3.889670200188327*^9, 3.889670204858488*^9}, {3.889670265725018*^9, 
+   3.8896705482246017`*^9}, {3.889670686505077*^9, 3.889670747365012*^9}, {
+   3.8896708120709248`*^9, 3.8896708535998487`*^9}, {3.889670885066131*^9, 
+   3.8896709656549387`*^9}, {3.88967100235497*^9, 3.8896712553503103`*^9}, {
+   3.889671290498933*^9, 3.8896715756477413`*^9}, {3.8896726634200478`*^9, 
+   3.889672683081892*^9}, {3.8896727130927763`*^9, 3.889672725866445*^9}, 
+   3.889672782440508*^9, {3.88967303161456*^9, 3.889673067992023*^9}, {
+   3.889673098842567*^9, 3.889673205320756*^9}, {3.889673278202024*^9, 
+   3.889673282767592*^9}, {3.8896734887551813`*^9, 3.889673658154608*^9}, {
+   3.8896737102171183`*^9, 3.88967382928358*^9}, {3.8903870718034563`*^9, 
+   3.8903870952550592`*^9}, {3.890995801762271*^9, 3.890995809885563*^9}, {
+   3.890995925996855*^9, 
+   3.890996017549529*^9}},ExpressionUUID->"5ec77c28-2653-40fd-b7b0-\
+7b14d8f1ef6a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 2 \[LongDash] TWB Chapter 15, Query 7", "Subsection",
+ CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
+   3.8883325455628033`*^9, 3.888332564608962*^9}, 3.889088927304385*^9, {
+   3.889648989631295*^9, 3.889649007626012*^9}, {3.889667114484643*^9, 
+   3.889667138020102*^9}, {3.8896686876848583`*^9, 3.889668707079245*^9}, {
+   3.890386871216259*^9, 3.890386874556416*^9}, {3.890387045173815*^9, 
+   3.8903870611560793`*^9}, {3.890387103906374*^9, 3.890387127576458*^9}, {
+   3.8909958213601723`*^9, 
+   3.890995821618566*^9}},ExpressionUUID->"dcd1c836-52ef-436f-b850-\
+fce3fd858b3a"],
+
+Cell["\<\
+Do Query 7 on p. 15-19. We did this in class, but it is a critical result and \
+so I am having you write it out.\
+\>", "Text",
+ CellChangeTimes->{{3.889668733633285*^9, 3.889668739734318*^9}, {
+   3.889668833651658*^9, 3.889668834380234*^9}, {3.889668887084087*^9, 
+   3.889668891168931*^9}, {3.889668957659808*^9, 3.8896693927178097`*^9}, {
+   3.889669450376639*^9, 3.889669975612358*^9}, {3.889670026043859*^9, 
+   3.889670127999434*^9}, {3.889670161237794*^9, 3.889670164732724*^9}, {
+   3.889670200188327*^9, 3.889670204858488*^9}, {3.889670265725018*^9, 
+   3.8896705482246017`*^9}, {3.889670686505077*^9, 3.889670747365012*^9}, {
+   3.8896708120709248`*^9, 3.8896708535998487`*^9}, {3.889670885066131*^9, 
+   3.8896709656549387`*^9}, {3.88967100235497*^9, 3.8896712553503103`*^9}, {
+   3.889671290498933*^9, 3.8896715756477413`*^9}, {3.8896726634200478`*^9, 
+   3.889672683081892*^9}, {3.8896727130927763`*^9, 3.889672725866445*^9}, 
+   3.889672782440508*^9, {3.88967303161456*^9, 3.889673067992023*^9}, {
+   3.889673098842567*^9, 3.889673205320756*^9}, {3.889673278202024*^9, 
+   3.889673282767592*^9}, {3.8896734887551813`*^9, 3.889673658154608*^9}, {
+   3.8896737102171183`*^9, 3.88967382928358*^9}, {3.8903870718034563`*^9, 
+   3.890387135698928*^9}, {3.890995827221085*^9, 3.890995833949216*^9}, {
+   3.890995955279974*^9, 
+   3.890995974158443*^9}},ExpressionUUID->"85f36ce1-3814-48e5-8250-\
+ae0873bbf390"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1270, 1012},
+WindowMargins->{{535, Automatic}, {Automatic, 126}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 656, 13, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1239, 37, 246, 3, 64, "Subtitle",ExpressionUUID->"caac954a-2697-4c4b-8732-63a34403dc8e"],
+Cell[CellGroupData[{
+Cell[1510, 44, 586, 9, 81, "Subsection",ExpressionUUID->"76866964-6289-4f17-8d37-d898f4694c91"],
+Cell[2099, 55, 1504, 23, 88, "Text",ExpressionUUID->"5ec77c28-2653-40fd-b7b0-7b14d8f1ef6a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3640, 83, 618, 9, 81, "Subsection",ExpressionUUID->"dcd1c836-52ef-436f-b850-fce3fd858b3a"],
+Cell[4261, 94, 1428, 22, 53, "Text",ExpressionUUID->"85f36ce1-3814-48e5-8250-ae0873bbf390"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
