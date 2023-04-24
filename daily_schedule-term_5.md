@@ -47,6 +47,6 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 14 &mdash; Term 5 Exam &mdash; The Principle Evidence for Dark Matter and Dark Energy
 
-* Monday, Apr. 24 &mdash; Term 5 exam covering the same material as this term's Problem Sets 7 to 11
+* Monday, Apr. 24 &mdash; [Term 5 Exam](./exams/Term5Exam.pdf) covering the same material as this term's Problem Sets 7 to 11 &mdash; [Term 5 Exam Solution](./exams/Term5Exam-Solution.pdf)
 * Preparation for Thursday, Apr. 27 &mdash; [Problem Set 12](./assignments/Assignment12.pdf) &mdash; I will cover the critical parts of TWB sections 15.8, 15.9 and 15.10 in the last class 
 * Thursday, Apr. 27 &mdash; The observed contents of the universe and the evidence for dark matter and dark energy
