@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     41878,       1090]
-NotebookOptionsPosition[     40068,       1048]
-NotebookOutlinePosition[     40541,       1067]
-CellTagsIndexPosition[     40498,       1064]
+NotebookDataLength[     41614,       1080]
+NotebookOptionsPosition[     39804,       1038]
+NotebookOutlinePosition[     40277,       1057]
+CellTagsIndexPosition[     40234,       1054]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -878,8 +878,7 @@ two contributions to the expression for ",
      SubscriptBox["\[Rho]", "total"], "(", "t", ")"}], 
     RowBox[{
      SubscriptBox["\[Rho]", "critical"], "(", "t", ")"}]], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "f234f79a-1ed7-4919-a2c6-62e20e9266fb"],
+  ExpressionUUID->"f234f79a-1ed7-4919-a2c6-62e20e9266fb"],
  ", instead of three:\n\n",
  Cell[BoxData[
   FormBox[
@@ -901,16 +900,14 @@ two contributions to the expression for ",
      StyleBox[
       SubscriptBox["\[CapitalOmega]", 
        RowBox[{"\[CapitalLambda]", ",", "0"}]],
-      FontSize->14]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->14]}]}], TraditionalForm]],ExpressionUUID->
   "7b40b1c8-935e-46bc-944f-09e5286d6b98"],
  ".\n\n",
  StyleBox["Don\[CloseCurlyQuote]t plug in any values until part (c).",
   FontSlant->"Italic"],
  "\n\n(a) At what value of ",
  Cell[BoxData[
-  FormBox["a", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["a", TraditionalForm]],ExpressionUUID->
   "8d30e8be-518e-478c-ac04-8ca9915a09ea"],
  ", are the two contributions equal?\n\n(b) What is ",
  Cell[BoxData[
@@ -923,8 +920,7 @@ two contributions to the expression for ",
   "3321537e-83f6-46d4-bf92-ae0357077a78"],
  " at this value of ",
  Cell[BoxData[
-  FormBox["a", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["a", TraditionalForm]],ExpressionUUID->
   "cb466ff3-5bd9-49ff-9b03-a25125ef68ce"],
  "?\n\n(c) Now plug in to (b) using the actual values of ",
  Cell[BoxData[
@@ -932,8 +928,7 @@ two contributions to the expression for ",
    StyleBox[
     SubscriptBox["\[CapitalOmega]", 
      RowBox[{"rad", ",", "0"}]],
-    FontSize->16], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FontSize->16], TraditionalForm]],ExpressionUUID->
   "f9903998-a566-480b-a5e0-1b35ac6180c6"],
  " and ",
  Cell[BoxData[
@@ -941,7 +936,7 @@ two contributions to the expression for ",
    SubscriptBox["\[CapitalOmega]", 
     RowBox[{"\[CapitalLambda]", ",", "0"}]], TraditionalForm]],ExpressionUUID->
   "52cb65e9-fba0-4503-8614-5b68583e4610"],
- " in Eqs. 16 and 18 on p. 15-11 of TWB.\n\nEXTRA CREDIT (1 pt): Assuming the \
+ " in Eqs. 17 and 18 on p. 15-11 of TWB.\n\nEXTRA CREDIT (1 pt): Assuming the \
 temperature of radiation today is 2.725K, and assuming Eq. 11 on TWB p. 15-9, \
 what was the temperature when the transition from a radiation-dominated to a \
 dark-energy-dominated universe occurred?\n\nMORE EXTRA CREDIT (2 pts): \
@@ -949,8 +944,7 @@ Assuming that the average energy of a photon is ",
  Cell[BoxData[
   FormBox[
    RowBox[{
-    SubscriptBox["k", "B"], "T"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SubscriptBox["k", "B"], "T"}], TraditionalForm]],ExpressionUUID->
   "290ad9d9-ae05-440e-b400-98500b7a728a"],
  " and assuming Eq. 12 on TWB p. 15-9 how many photons per cubic meter are \
 there in the universe when the transition from a radiation-dominated to a \
@@ -968,8 +962,7 @@ dark-energy-dominated universe occurred. ",
       StyleBox["J",
        FontSlant->"Plain"], "/", " ", 
       StyleBox["K",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
   "519f76da-92a3-43ce-8b9e-0d09c84f784d"],
  ", ",
  Cell[BoxData[
@@ -982,16 +975,14 @@ dark-energy-dominated universe occurred. ",
       StyleBox["J",
        FontSlant->"Plain"], "\[CenterDot]", 
       StyleBox["s",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
   "1813f87e-bdc1-48bd-a9dc-bd63cbbc060b"],
  ", ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[HBar]", "=", 
     FractionBox["h", 
-     RowBox[{"2", "\[Pi]"}]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"2", "\[Pi]"}]]}], TraditionalForm]],ExpressionUUID->
   "6e8f3b42-6975-427b-9462-c93360d9d33d"],
  ", and ",
  Cell[BoxData[
@@ -1003,8 +994,7 @@ dark-energy-dominated universe occurred. ",
       StyleBox["m",
        FontSlant->"Plain"], "/", 
       StyleBox["s",
-       FontSlant->"Plain"]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
   "86194d64-600f-4e33-bece-6b8dfdb4390b"],
  "."
 }], "Text",
@@ -1040,8 +1030,8 @@ dark-energy-dominated universe occurred. ",
    3.8913383517360983`*^9}, {3.891338386150599*^9, 3.89133894117556*^9}, {
    3.891338987953384*^9, 3.891339182783525*^9}, {3.8913392150693693`*^9, 
    3.8913394418920307`*^9}, {3.891339639510306*^9, 3.89133983162674*^9}, {
-   3.891339909858575*^9, 
-   3.89133991028622*^9}},ExpressionUUID->"66e292cd-9d26-4543-a794-\
+   3.891339909858575*^9, 3.89133991028622*^9}, {3.891346895405048*^9, 
+   3.891346896357284*^9}},ExpressionUUID->"66e292cd-9d26-4543-a794-\
 c1a2b2be7380"]
 }, Open  ]]
 }, Open  ]]
@@ -1089,7 +1079,7 @@ Cell[24475, 648, 7848, 202, 655, "Text",ExpressionUUID->"96395424-c0ea-4d44-a550
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[32360, 855, 625, 13, 120, "Section",ExpressionUUID->"c47b3a51-d2eb-4bd5-ad2e-8c20fa4cb492"],
-Cell[32988, 870, 7052, 174, 722, "Text",ExpressionUUID->"66e292cd-9d26-4543-a794-c1a2b2be7380"]
+Cell[32988, 870, 6788, 164, 722, "Text",ExpressionUUID->"66e292cd-9d26-4543-a794-c1a2b2be7380"]
 }, Open  ]]
 }, Open  ]]
 }
