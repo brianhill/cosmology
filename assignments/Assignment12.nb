@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6728,        148]
-NotebookOptionsPosition[      5717,        120]
-NotebookOutlinePosition[      6201,        139]
-CellTagsIndexPosition[      6158,        136]
+NotebookDataLength[      8160,        179]
+NotebookOptionsPosition[      7143,        151]
+NotebookOutlinePosition[      7627,        170]
+CellTagsIndexPosition[      7584,        167]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -35,9 +35,39 @@ XoJpANdJwk8=
 
 Cell[CellGroupData[{
 
-Cell["Due Thursday, April 27, beginning of class", "Subtitle",
+Cell[TextData[{
+ "Due Thursday, April 27, beginning of class\n\nYou will want to consult the \
+notes on \[OpenCurlyDoubleQuote]Various Universes.\[CloseCurlyDoubleQuote] We \
+only live in one universe, but it behaves differently depending on the values \
+for ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", 
+    RowBox[{"matter", ",", "0"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "22425e9d-cbc0-467c-a833-59a1c367c5be"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", 
+    RowBox[{"rad", ",", "0"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b4c727f4-a723-407d-84c8-3019c23ee387"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalOmega]", "\[CapitalLambda]"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "889f1588-a0e4-43d8-8bd9-c8f3114cadc8"],
+ ". The theory in the notes allows you to make sense of Problem 1. In Problem \
+1, you explore the time evolution of a matter-dominated universe, the time \
+evolution of a radiation-dominated universe, and the time evolution of a \
+dark-energy dominated universe.\n\nEach of these involves doing an integral, \
+but you are welcome to look the integrals up, or have Wolfram Alpha do them."
+}], "Subtitle",
  CellChangeTimes->{{3.890387759008576*^9, 3.890387769910334*^9}, {
-  3.89099573669271*^9, 3.890995745050705*^9}},
+  3.89099573669271*^9, 3.890995745050705*^9}, {3.8914647953759193`*^9, 
+  3.891465016899395*^9}, {3.891466065724882*^9, 3.891466078250839*^9}},
  FontSize->16,ExpressionUUID->"caac954a-2697-4c4b-8732-63a34403dc8e"],
 
 Cell[CellGroupData[{
@@ -81,20 +111,21 @@ Parts B and C (but not Part D).\
 
 Cell[CellGroupData[{
 
-Cell["Problem 2 \[LongDash] TWB Chapter 15, Query 7", "Subsection",
+Cell["Problem 2 \[LongDash] TWB Chapter 15, Query 7, Part A only", \
+"Subsection",
  CellChangeTimes->{{3.885144452094453*^9, 3.8851444594287252`*^9}, {
    3.8883325455628033`*^9, 3.888332564608962*^9}, 3.889088927304385*^9, {
    3.889648989631295*^9, 3.889649007626012*^9}, {3.889667114484643*^9, 
    3.889667138020102*^9}, {3.8896686876848583`*^9, 3.889668707079245*^9}, {
    3.890386871216259*^9, 3.890386874556416*^9}, {3.890387045173815*^9, 
    3.8903870611560793`*^9}, {3.890387103906374*^9, 3.890387127576458*^9}, {
-   3.8909958213601723`*^9, 
-   3.890995821618566*^9}},ExpressionUUID->"dcd1c836-52ef-436f-b850-\
+   3.8909958213601723`*^9, 3.890995821618566*^9}, {3.891464768129444*^9, 
+   3.89146477031116*^9}},ExpressionUUID->"dcd1c836-52ef-436f-b850-\
 fce3fd858b3a"],
 
 Cell["\<\
-Do Query 7 on p. 15-19. We did this in class, but it is a critical result and \
-so I am having you write it out.\
+Do Query 7 on p. 15-19. I did Part A in class, but it is a critical result \
+and so I am having you write it out.\
 \>", "Text",
  CellChangeTimes->{{3.889668733633285*^9, 3.889668739734318*^9}, {
    3.889668833651658*^9, 3.889668834380234*^9}, {3.889668887084087*^9, 
@@ -112,14 +143,14 @@ so I am having you write it out.\
    3.889673282767592*^9}, {3.8896734887551813`*^9, 3.889673658154608*^9}, {
    3.8896737102171183`*^9, 3.88967382928358*^9}, {3.8903870718034563`*^9, 
    3.890387135698928*^9}, {3.890995827221085*^9, 3.890995833949216*^9}, {
-   3.890995955279974*^9, 
-   3.890995974158443*^9}},ExpressionUUID->"85f36ce1-3814-48e5-8250-\
+   3.890995955279974*^9, 3.890995974158443*^9}, {3.891464777342226*^9, 
+   3.891464779412332*^9}},ExpressionUUID->"85f36ce1-3814-48e5-8250-\
 ae0873bbf390"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1270, 1012},
-WindowMargins->{{535, Automatic}, {Automatic, 126}},
+WindowMargins->{{534, Automatic}, {Automatic, 125}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 Magnification:>1.5 Inherited,
@@ -140,14 +171,14 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 656, 13, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
-Cell[1239, 37, 246, 3, 64, "Subtitle",ExpressionUUID->"caac954a-2697-4c4b-8732-63a34403dc8e"],
+Cell[1239, 37, 1565, 33, 295, "Subtitle",ExpressionUUID->"caac954a-2697-4c4b-8732-63a34403dc8e"],
 Cell[CellGroupData[{
-Cell[1510, 44, 586, 9, 81, "Subsection",ExpressionUUID->"76866964-6289-4f17-8d37-d898f4694c91"],
-Cell[2099, 55, 1504, 23, 88, "Text",ExpressionUUID->"5ec77c28-2653-40fd-b7b0-7b14d8f1ef6a"]
+Cell[2829, 74, 586, 9, 81, "Subsection",ExpressionUUID->"76866964-6289-4f17-8d37-d898f4694c91"],
+Cell[3418, 85, 1504, 23, 88, "Text",ExpressionUUID->"5ec77c28-2653-40fd-b7b0-7b14d8f1ef6a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3640, 83, 618, 9, 81, "Subsection",ExpressionUUID->"dcd1c836-52ef-436f-b850-fce3fd858b3a"],
-Cell[4261, 94, 1428, 22, 53, "Text",ExpressionUUID->"85f36ce1-3814-48e5-8250-ae0873bbf390"]
+Cell[4959, 113, 678, 10, 81, "Subsection",ExpressionUUID->"dcd1c836-52ef-436f-b850-fce3fd858b3a"],
+Cell[5640, 125, 1475, 22, 53, "Text",ExpressionUUID->"85f36ce1-3814-48e5-8250-ae0873bbf390"]
 }, Open  ]]
 }, Open  ]]
 }
