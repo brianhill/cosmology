@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     41614,       1080]
-NotebookOptionsPosition[     39804,       1038]
-NotebookOutlinePosition[     40277,       1057]
-CellTagsIndexPosition[     40234,       1054]
+NotebookDataLength[     41686,       1082]
+NotebookOptionsPosition[     39877,       1040]
+NotebookOutlinePosition[     40349,       1059]
+CellTagsIndexPosition[     40306,       1056]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -957,7 +957,8 @@ dark-energy-dominated universe occurred. ",
    RowBox[{
     SubscriptBox["k", "B"], "=", 
     RowBox[{"1.38", " ", 
-     SuperscriptBox["10", "23"], " ", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "23"}]], " ", 
      RowBox[{
       StyleBox["J",
        FontSlant->"Plain"], "/", " ", 
@@ -1031,13 +1032,14 @@ dark-energy-dominated universe occurred. ",
    3.891338987953384*^9, 3.891339182783525*^9}, {3.8913392150693693`*^9, 
    3.8913394418920307`*^9}, {3.891339639510306*^9, 3.89133983162674*^9}, {
    3.891339909858575*^9, 3.89133991028622*^9}, {3.891346895405048*^9, 
-   3.891346896357284*^9}},ExpressionUUID->"66e292cd-9d26-4543-a794-\
+   3.891346896357284*^9}, {3.89159971531668*^9, 
+   3.8915997153169928`*^9}},ExpressionUUID->"66e292cd-9d26-4543-a794-\
 c1a2b2be7380"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 911},
-WindowMargins->{{110, Automatic}, {Automatic, 104}},
+WindowMargins->{{329, Automatic}, {Automatic, 52}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 Magnification->1.25,
@@ -1079,7 +1081,7 @@ Cell[24475, 648, 7848, 202, 655, "Text",ExpressionUUID->"96395424-c0ea-4d44-a550
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[32360, 855, 625, 13, 120, "Section",ExpressionUUID->"c47b3a51-d2eb-4bd5-ad2e-8c20fa4cb492"],
-Cell[32988, 870, 6788, 164, 722, "Text",ExpressionUUID->"66e292cd-9d26-4543-a794-c1a2b2be7380"]
+Cell[32988, 870, 6861, 166, 722, "Text",ExpressionUUID->"66e292cd-9d26-4543-a794-c1a2b2be7380"]
 }, Open  ]]
 }, Open  ]]
 }
