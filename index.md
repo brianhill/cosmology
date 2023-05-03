@@ -58,14 +58,6 @@ Additionally, we will draw from:
 * Selected historical papers that established Big Bang cosmology
 * Selected modern papers containing the evidence for dark matter and dark energy &larr; Including some by the High-*z* Supernova Search Team and the Supernova Cosmology Project (whose leaders won the 2011 Nobel Prize)
 
-## Einstein's Exposition
-
-There may be a desire to read Einstein directly, despite Wheeler and his colleagues being the more modern and masterful pedagogues. Einstein has written a monograph that is both precise and accessible and has been reprinted many times and for which there are many free editions. Therefore, for about 1/2 of our course we could draw from:
-
-* [*Relativity: The Special and the General Theory*](./resources/Einstein-Relativity-1916-ElegantBooks.pdf), by Albert Einstein, translated by Robert W. Lawson, Elegant Books edition
-
-However, to get into modern topics such as supermassive black holes, dark matter, dark energy, and gravitational waves, we definitely need something that is much more recent than what Einstein gave us in 1916. To get us going while we are making decisions, we will start with [Chapters 1, 2, 3, and L](./resources/TaylorWheeler-SpacetimePhysics-2ndEdition-Chapters123L.pdf) of Taylor and Wheeler.
-
 ## Grading and Miscellaneous Policies
 
 * 45% homework, 20% for midterm (near the end of term 4), 25% for final (near the end of term 5), 10% active preparation and participation in discussions
